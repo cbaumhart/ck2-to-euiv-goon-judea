@@ -3,7 +3,6 @@ Fixes
 	1. Fix rebel flags
 	2. Add trade good to Barnaul, Pegaya Orda
 	3. Flag for Volga Bulgaria, Cumania, Turkestan
-
 General
 	1. Create triggered modifier for owning Jerusalem
 	1a. have it take effect only after conversion
@@ -15,7 +14,9 @@ General
 	7. Add Hawaiian nation, ideas
 	8. Add Maori nation, ideas
 	9. Add minor religion rebels (Nestorian, Messalian)
-	11. Get customized province / region names
+	11. Get customized province / region names, add to Judea.txt in common/province_names
+	12. ?Should trade be changed? maybe just st. lawrence heading to cheseapeake, cheseapeake to Caribbean?
+	13. revealed map - who knows what? should some "known" provinces be terra incognita to CK2?  Should Aztecs know all Europe? Fix aztec to know route from NA/SA to Europe.
 Byzantium
 	1. Change Byz ideas from Carolingian to Roman
 	2. Add base manpower to Crete to 5
@@ -44,21 +45,22 @@ Lyddid
 	4. add historical enemey to JUD
 Judea
 	1. Create national ideas for Judea
-	x - add below in Religion 2. Set holy sites for Judaism in Sinai (Ar Tur), Jerusalem (Jerusalem), Damascus(Glitterhoof), Hamadan(Hamadan)) & Dhofar (Salalah) to be +.25 Prestige/Year Each
 	3. Create triggered modifier "Fuck Europe" for aggressor in war against country with capital in europe, +unrest, -Manpower recovery, -Morale
 	4. Create tech group for Judea at Western rates.
 	9. Add core for Venice: Venice 
 	10. Add Khazar as accepted culture
 	11. Add missions to for IDE nations where you get a claim on all provinces
 	z12. Add core for Fars: Bushehr
-	13. Reveal TI from: the Persian Gulf and Arabian Sea and Red Sea
+	13. Reveal Terra Incognita from: the Persian Gulf and Arabian Sea and Red Sea
 	x14. Add disaster for ignoring certain laws (cuz i want us to turn into a theocracy)
 	15. Set Korasan and Qara Qoyunlu areas in persia to JUD owned
 Aztec
 	1. Add cores on rest of Scandanvia
 	2. Fix government
 	
-Religion - add triggered modifier for each
+Religion - add triggered modifier for each, dont show triggered modifier unless all provinces are known to ROOT
+	Judiasm
+		Add Religious Site for Sinai (Ar Tur), Jerusalem (Jerusalem), Damascus(Glitterhoof), Hamadan(Hamadan)) & Dhofar (Salalah)
 	Shia
 		Add Religious Site for Mecca, Medina, Jerusalem, Damascus, Hillah (Nadjaf)
 	Catholic
@@ -96,7 +98,7 @@ Religion - add triggered modifier for each
 
 The Laws 
 	#NA = Not applicable, no ingame effect 
-	#MOD = put something into place in the mod to "enforce"/suggest compliance with law, but don't make too harsh to prevent railroading - change later to type of effect used
+	#MOD = put something into place in the mod to "enforce"/suggest compliance with law, but don't make too harsh to prevent railroading - change later to type of effect used, and comment out rest of line
 	#DECISION = created as Decision
 	#EVENT = created as Event or modified in way to use existing event system
 	NA #The Flow of Time - No savescumming (as is)

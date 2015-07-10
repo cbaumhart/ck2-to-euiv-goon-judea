@@ -79,7 +79,6 @@ replace_path = "common/technology.txt"
 #Release 0.1
 #	Bookmarks
 #		Added bookmark for 1453 1 1 with Judea as only interesting nation
-
 #	Countries
 #		Added Perm
 #		Added Crimea
@@ -87,33 +86,25 @@ replace_path = "common/technology.txt"
 #		Added Volga Bulgaria
 #		Added Cumania
 #		Added Turkestan
-
 #	Decisions
 #		Added decision to release Crimea as vassal
 #		Added decision to release Perm as vassal
 #		Added decision to release Volga Bulgaria as vassal
 #		Added decision to release Cumania as vassal
 #		Added decision to release Turkestan as vassal
-
 #	Disasters
 #		Added Ignoring The Laws
-
 #	Events	
 #		Added events for disaster Ignoring The Laws
-
 #	Event Modifiers
 #		Added Affirmed Tradition modifier
 #		Added Overturned Tradition modifier
-
 #	Rebels
 #		Added ability for Jewish rebels to turn JUD into theocracy
-
 #	History / Provinces
 #		Rebalanced base tax, production and manpower globally - generally more manpower, similar tax/production
 #		Added colonial regions for Europe
-
 #	Defines
 #		Changed some stuff. Don't remember what.
-
 #	Technology
 #		Added Trade Companies for High American, Eastern & Western technology
