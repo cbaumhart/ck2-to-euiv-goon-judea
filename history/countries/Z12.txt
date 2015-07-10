@@ -1,0 +1,33 @@
+# Cordoba
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = western
+primary_culture = italian
+religion = catholic
+capital = 225
+1390.1.29 = {
+	monarch = {
+		name = "Ercole"
+		dynasty = "di Conti"
+		adm = 2
+		dip = 6
+		mil = 3
+	}
+}
+1415.9.14 = {
+	heir = {
+		name = "Benvenuto"
+		monarch_name = "Benvenuto III"
+		dynasty = "di Conti"
+		birth_date = 1415.9.14
+		death_date = 1495.9.14
+		adm = 2
+		dip = 5
+		mil = 5
+	}
+}
+1444.11.11 = {
+	add_treasury = 9
+	add_prestige = 227
+}

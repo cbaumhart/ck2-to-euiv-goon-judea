@@ -1,0 +1,170 @@
+# Portucale
+graphical_culture = westerngfx
+color = { 182 108 45 }
+historical_idea_groups = {
+
+	exploration_ideas
+
+	trade_ideas
+
+	religious_ideas
+
+	expansion_ideas
+
+	naval_ideas
+
+	economic_ideas
+
+	innovativeness_ideas
+
+	offensive_ideas
+
+}
+
+historical_units = {
+
+	western_medieval_infantry
+
+	western_medieval_knights
+
+	western_men_at_arms
+
+	spanish_tercio
+
+	austrian_tercio
+
+	austrian_grenzer
+
+	austrian_hussar
+
+	austrian_white_coat
+
+	austrian_jaeger
+
+	mixed_order_infantry
+
+	open_order_cavalry
+
+	napoleonic_square
+
+	napoleonic_lancers
+
+}
+
+
+
+leader_names = {
+
+	"Obeko" "Luis" "Manrike" "Herramel" "Aldontza" "Bermudo" "Munia" "Gilen" "Blanka" "Ximeno" 
+	"Gontzal" "Gartzia" "Maria" "Eneko" "Fortun" "Estefania" "Diego" "Ramiro" "Mentzia" "Belasko" 
+	"Maior" "Antso" "Oneka" "Belaskita" "Martín" "Ximena" "Oria" "Teresa" "Plazentzia" "Nuña" 
+	"Toda" "Konstantzia" "Berengaria" "Eliza" "Antsa" "Urraka" "Andregoto" "Simon" "Donato" "Erramun" 
+	"Galindo" "Nuño" "Vímara" "Lucídio" "Onega" "Muño" "Guina" "Heitor" "Tiago" "Mendo" 
+	"Gregório" "Pelaio" "Étienne" "Cathèrine" "Ebbon" "Piarres" "Alfontso" "Alvar" "Aznar" "Bernart" 
+	"Egidio" "Fernando" "Joanes" "Ladron" "Lope" "Munio" "Ordoño" "Rodrigo" "Vela" "Zentulo" }
+monarch_names = {
+	"Obeko #0" = 24
+	"Luis #0" = 8
+	"Manrike #0" = 8
+	"Herramel #0" = 24
+	"Aldontza #0" = -17
+	"Bermudo #0" = 16
+	"Munia #0" = -17
+	"Gilen #0" = 16
+	"Blanka #0" = -25
+	"Ximeno #0" = 8
+	"Gontzal #3" = 40
+	"Gartzia #3" = 56
+	"Maria #1" = -9
+	"Eneko #2" = 32
+	"Fortun #0" = 24
+	"Estefania #0" = -41
+	"Diego #3" = 24
+	"Ramiro #0" = 16
+	"Mentzia #0" = -17
+	"Belasko #0" = 8
+	"Maior #0" = -9
+	"Antso #0" = 8
+	"Oneka #0" = -17
+	"Belaskita #0" = -9
+	"Martín #0" = 8
+	"Ximena #0" = -17
+	"Oria #0" = -9
+	"Teresa #0" = -17
+	"Plazentzia #0" = -9
+	"Nuña #0" = -9
+	"Toda #0" = -17
+	"Konstantzia #0" = -9
+	"Berengaria #0" = -17
+	"Eliza #0" = -9
+	"Antsa #0" = -25
+	"Urraka #0" = -9
+	"Andregoto #0" = -9
+	"Simon #0" = 8
+	"Donato #0" = 16
+	"Erramun #0" = 8
+	"Galindo #0" = 8
+	"Nuño #0" = 8
+	"Vímara #1" = 0
+	"Lucídio #1" = 0
+	"Onega #1" = -1
+	"Muño #1" = 0
+	"Guina #1" = -1
+	"Heitor #1" = 0
+	"Tiago #3" = 0
+	"Mendo #1" = 0
+	"Gregório #2" = 0
+	"Pelaio #1" = 0
+	"Étienne #1" = 0
+	"Cathèrine #1" = -1
+	"Ebbon #1" = 0
+	"Piarres #1" = 0
+	"Alfontso #1" = 0
+	"Alvar #0" = 0
+	"Aznar #0" = 0
+	"Bernart #0" = 0
+	"Egidio #0" = 0
+	"Fernando #0" = 0
+	"Joanes #0" = 0
+	"Ladron #0" = 0
+	"Lope #0" = 0
+	"Munio #0" = 0
+	"Ordoño #0" = 0
+	"Rodrigo #0" = 0
+	"Vela #0" = 0
+	"Zentulo #0" = 0
+}
+ship_names = {
+
+	Anunciada
+
+	Bérrio "Boa Viagem" "Bom Jesus" "Bom Jesus do Carmo" "Bom Jesus de Marzagão" "Bom Jesus da Vidigueira" Bretão
+
+	Cambaia Chagas "Correio d'Ásia"
+
+	El-Rei Enxobregas "Espírito Santo" Estrela
+
+	"Flor do Mar"
+
+	Garça
+
+	"Imaculada Conceição"
+
+	Jóia
+
+	"Monte Carvalho"
+
+	"Nazaré" "Nossa Senhora" "N. Sra. da Aparecida" "N. Sra. da Atalaia" "N. Sra. da Batalha" "N. Sra. da Boa Hora" "N. Sra. da Boa Memória" "N. Sra. da Boa Viagem" "N. Sra. da Candalaria" "N. Sra. da Caridade" "N.Sra. da Conceição" "N. Sra. da Consolação" "N. Sra. da Esperança" "N. Sra. da Glória" "N. Sra. da Graça" "N. Sra. da Guia" "N. Sra. d'Ajuda Lusitana" "N. Sra. da Luz" "N. Sra. da Nazaré" "N. Sra. da Oliveira" "N. Sra. da Palma" "N. Sra. da Penha de França" "N. Sra. da Quietação" "N. Sra. da Salvação" "N. Sra. da Saúde" "N. Sra. da Visitação" "N. Sra. da Vitória" "N. Sra. das Ondas" "N. Sra. das Portas do Céu" "N. Sra. das Relíquias" "N. Sra. de Belém" "N. Sra. de Guadalupe" "N. Sra. do Castelo" "N. Sra. do Livramento" "N. Sra. do Loreto" "N. Sra do Paraíso" "N. Sra. do Pilar" "N. Sra. do Rosário" "N. Sra. dos Prazeres" "N. Sra. dos Ramos"
+
+	"Princesa do Céu"
+
+	Raínha "Reis Magos"
+
+	"Sacramento" "Santa Ana" "Santa Catarina" "Santa Cruz" "Santa Fé" "Santa Helena" "Santa Joana" "Santa Madre de Deus" "S. Maria de Sabóia" "Santo Milagre" "Santiago Maior" "Santíssima Trindade" "Santíssimo Sacramento" "Santo Alberto" "Santo António" "Santo Espírito" "Santo Inácio" "São Bartolomeu" "São Bento" "São Bernardo" "São Carlos" "São Cristovão" "São Domingos" "São Filipe" "São Francisco" "São Francisco de Borja" "São Gabriel" "São Gonçalo" "São João" "São João de Deus" "São Jorge" "S. José" "São Julião" "São Lourenço" "São Lucas" "São Luís" "São Mateus" "São Paulo" "São Pedro" "São Rafael" "São Roque" "São Salvador" "São Tomé" "São Valentim" "S. António de Lisboa" "S. Catarina de Ribamar" "S. Francisco de Assis" "S. Francisco Xavier" "S. João Baptista" "S. João Evangelista" "S. Pedro de Rates" "S. Pedro da Ribeira" "S. Salvador do Mundo" "S. Teresa de Jesus" "S. Tomé da Cantuária"
+
+	Taforeia Trindade
+
+	Visitação
+
+}
+

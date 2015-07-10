@@ -1,0 +1,33 @@
+# Kalinga Ganga
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = oriya
+religion = hinduism
+capital = 552
+1424.11.8 = {
+	monarch = {
+		name = "Lakshmikaradeva"
+		dynasty = "Kalinga Ganga"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+1445.6.17 = {
+	heir = {
+		name = "Ranabhita"
+		monarch_name = "Ranabhita"
+		dynasty = "Kalinga Ganga"
+		birth_date = 1445.6.17
+		death_date = 1525.6.17
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+1444.11.11 = {
+	add_treasury = 4
+	add_prestige = 295
+}

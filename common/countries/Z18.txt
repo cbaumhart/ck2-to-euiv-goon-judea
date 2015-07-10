@@ -1,0 +1,326 @@
+# Rashtrakuta
+graphical_culture = indiangfx
+color = { 190 20 50 }
+
+
+
+
+leader_names = {
+
+	"Hoysaladevi" "Lakshmi" "Lasthiyavva" "Jagadhekamalla" "Chellava" "Thimma" "Adikavi" "Dantidurga" "Kamaladevi" "Ranojirao" 
+	"Shantaladevi" "Thirumalambike" "Jagaraya" "Obayamma" "Jijibai" "Durgasimha" "Chandrabbalabbe" "Bijjabbe" "Ayanna" "Indradatta" 
+	"Srivikrama" "Polavira" "Mallikarjuna" "Ahavamalla" "Bhavanaga" "Shahuji" "Chandaladevi" "Akkadevi" "Kundakadevi" "Virupaksha" 
+	"Sumati" "Ahilyabai" "Narasimha" "Anuradha" "Tulojirao" "Radhabai" "Neetimarga" "Mahadevi" "Tirumalaraya" "Nripakama" 
+	"Krishnadevaraya" "Gangambika" "Bhuvikrama" "Anandibai" "Vishnuvardhana" "Karka" "Kirtiraja" "Vijamba" "Shivaji" "Venkatadri" 
+	"Amoghavarsha" "Chavundaraya" "Jogama" "Kiriyasaga" "Pertal" "Sudha" "Laxmibai" "Ramachandra" "Tailapa" "Sripadaraya" 
+	"Vijayaditya" "Marasimha" "Venkatapathi" "Singhana" "Jayajirao" "Dashavarman" "Jagattunga" "Shevanti" "Puppadevi" "Ramaswami" 
+	"Madhura" "Bukka" "Viraballala" "Chinnambike" "Sharva" "Sagunabai" "Goggiraja" "Marulaganga" "Sankama" "Gangabai" 
+	"Jatiga" "Naivarman" "Sanaphulla" "Bhuvan-Singh" "Harivarman" "Dhruva" "Radhika" "Viravijaya" "Jayasimha" "Mangalesi" 
+	"Mogubai" "Kamadevi" "Ereyanga" "Vendakadri" "Sayeebai" "Vikramaditya" "Revakanimmadi" "Ranubai" "Tundaka" "Durvinita" 
+	"Sadashivrao" "Ramadeva" "Vishnugopa" "Shivamara" "Dattadevi" "Krishna" "Kundaladevi" "Balaji" "Mailaladevi" "Madhava" 
+	"Devanayaka" "Yachama" "Khottiga" "Soddhala" "Durgabai" "Ramchandrapant" "Bhiubai" "Permanadi" "Permadi" "Shrimitradevi" 
+	"Guhala" "Satyasraya" "Khanderao" "Mastani" "Sovideva" "Sunita" "Rajkunvarbai" "Saibai" "Vappuvanna" "Achyutadeva" 
+	"Purandaradasa" "Mushkara" "Kakanvati" "Mahadik" "Sujanbai" "Achugi" "Skandavarman" "Sadashiva" "Harirao" "Praudharaya" 
+	"Bodhideva" "Harihara" "Indra" "Madhavrao" "Hambirao" "Govinda" "Akalavarsha" "Dantivarman" "Butuga" "Tribhuvana" 
+	"Narasanayaka" "Padmadevi" "Gangaraja" "Kambarasa" "Vimaladitya" "Srimahadevi" "Vinayaditya" "Yachamanedu" "Merada" "Rudramba" 
+	"Ramaraya" "Konganivarman" "Ayyapayya" "Mallugi" "Jankibai" "Anekonda" "Urmil" "Viravarmadeva" "Tukojirao" "Anitalli" 
+	"Pulakesi" "Ayyana" "Ereganga" "Asaga" "Kirtivarman" "Kannama" "Anavema" "Janakappa" "Nagipoti" "Kesarbai" 
+	"Hariharamba" "Pammava" "Shudhamati" "Ambikabai" "Sripurusha" "Kalayandevi" "Niravadyadhavala" "Bhima" "Moropant" "Martandrao" 
+	"Chamekamba" "Nanasaheb" "Râcatêviyâr" "Rudramadevi" "Mahadeva" "Pandaranga" "Ekoji" "Hakka" "Allada" "Sovidevi" 
+	"Yuddhamalla" "Soyarabai" "Maya" "Tejahkantha" "Marsimha" "Anjanibai" "Uchita" "Tarabai" "Ramabai" "Mallapa" 
+	"Daulatrao" "Saktivarman" "Tukkoji" "Bhoja" "Yesubai" "Dhruvadevi" "Manaladevi" "Dhanaji" "Tryambakrao" "Dattaji" 
+	"Gamakamba" "Keshideva" "Bijjama" "Gajankusha" "Bijjala" "Pratapsinh" "Raghunathrao" "Indrabhattaraka" "Gobburi" "Aiyaparaja" 
+	"Amutrao" "Chandena" "Avinita" "Gunvantibai" "Guhalladeva" "Rachamalla" "Gandaraditya" "Ramshastri" "Daharasena" "Narendra" 
+	"Putalabai" "Durga" "Bahadur" "Gonka" "Avasara" "Kashibai" "Subhatavarman" "Malharrao" "Nagarjuna" "Kamlabai" 
+	"Yashwantrao" "Kishori" "Mahendra" "Venkatrao" "Shashthadeva" "Keeratdeva" "Shivachitta" "Pullashakti" "Kamadeva" "Anantadeva" 
+	"Anubai" "Nagavarma" "Mummuniraja" "Sakavaarbai" "Aparaditya" "Serfoji" "Someshvara" "Deepabai" "Malerao" "Rajasbai" 
+	"Chandraditya" "Chhadvaideva" "Dhammayira" "Haripaladeva" "Sriranga" "Viranarasimha" "Bhavadatta" "Dhondu" "Suketuvarman" "Murarirao" 
+	"Bahiroji" "Rattaraja" "Fatehsinh" "Arthapathi" "Somesvara" }
+monarch_names = {
+	"Hoysaladevi #0" = -1476
+	"Lakshmi #0" = -1387
+	"Lasthiyavva #0" = -355
+	"Jagadhekamalla #0" = 147
+	"Chellava #0" = -60
+	"Thimma #0" = 29
+	"Adikavi #0" = 295
+	"Dantidurga #0" = 236
+	"Kamaladevi #0" = -266
+	"Ranojirao #0" = 767
+	"Shantaladevi #0" = -1446
+	"Thirumalambike #0" = -1181
+	"Jagaraya #0" = 147
+	"Obayamma #0" = -1623
+	"Jijibai #0" = -148
+	"Durgasimha #0" = 383
+	"Chandrabbalabbe #0" = -1269
+	"Bijjabbe #0" = -1033
+	"Ayanna #0" = 354
+	"Indradatta #0" = 29
+	"Srivikrama #1" = 531
+	"Polavira #0" = 295
+	"Mallikarjuna #0" = 413
+	"Ahavamalla #0" = 796
+	"Bhavanaga #0" = -1269
+	"Shahuji #0" = 59
+	"Chandaladevi #0" = -1358
+	"Akkadevi #0" = -1476
+	"Kundakadevi #0" = -1299
+	"Virupaksha #0" = 531
+	"Sumati #0" = -237
+	"Ahilyabai #0" = -178
+	"Narasimha #0" = 265
+	"Anuradha #0" = -178
+	"Tulojirao #0" = 59
+	"Radhabai #0" = -148
+	"Neetimarga #0" = 236
+	"Mahadevi #0" = -1535
+	"Tirumalaraya #0" = 1150
+	"Nripakama #0" = 147
+	"Krishnadevaraya #0" = 265
+	"Gangambika #0" = -1210
+	"Bhuvikrama #0" = 88
+	"Anandibai #0" = -207
+	"Vishnuvardhana #0" = 295
+	"Karka #0" = 265
+	"Kirtiraja #0" = 1268
+	"Vijamba #0" = -1210
+	"Shivaji #0" = 59
+	"Venkatadri #0" = 295
+	"Amoghavarsha #0" = 295
+	"Chavundaraya #0" = 206
+	"Jogama #0" = 442
+	"Kiriyasaga #0" = 88
+	"Pertal #0" = -1476
+	"Sudha #0" = -178
+	"Laxmibai #0" = -207
+	"Ramachandra #0" = 147
+	"Tailapa #0" = 383
+	"Sripadaraya #0" = 147
+	"Vijayaditya #0" = 88
+	"Marasimha #0" = 88
+	"Venkatapathi #1" = 324
+	"Singhana #0" = 59
+	"Jayajirao #0" = 147
+	"Dashavarman #0" = 501
+	"Jagattunga #0" = 531
+	"Shevanti #0" = -178
+	"Puppadevi #0" = -30
+	"Ramaswami #0" = 118
+	"Madhura #0" = 324
+	"Bukka #1" = 678
+	"Viraballala #0" = 59
+	"Chinnambike #0" = -1505
+	"Sharva #0" = 501
+	"Sagunabai #0" = -178
+	"Goggiraja #0" = 59
+	"Marulaganga #0" = 737
+	"Sankama #0" = 206
+	"Gangabai #0" = -178
+	"Jatiga #0" = 295
+	"Naivarman #0" = 59
+	"Sanaphulla #0" = 29
+	"Bhuvan-Singh #0" = 29
+	"Harivarman #0" = 383
+	"Dhruva #0" = 678
+	"Radhika #0" = -237
+	"Viravijaya #0" = 147
+	"Jayasimha #0" = 324
+	"Mangalesi #0" = 295
+	"Mogubai #0" = -60
+	"Kamadevi #0" = -148
+	"Ereyanga #0" = 265
+	"Vendakadri #0" = 354
+	"Sayeebai #0" = -237
+	"Vikramaditya #0" = 236
+	"Revakanimmadi #0" = -1181
+	"Ranubai #0" = -296
+	"Tundaka #0" = -178
+	"Durvinita #0" = 324
+	"Sadashivrao #0" = 147
+	"Ramadeva #0" = 531
+	"Vishnugopa #0" = 265
+	"Shivamara #0" = 206
+	"Dattadevi #0" = -30
+	"Krishna #0" = 472
+	"Kundaladevi #0" = -178
+	"Balaji #0" = 177
+	"Mailaladevi #0" = -1063
+	"Madhava #0" = 206
+	"Devanayaka #0" = 29
+	"Yachama #0" = 236
+	"Khottiga #0" = 147
+	"Soddhala #0" = 29
+	"Durgabai #0" = -148
+	"Ramchandrapant #0" = 29
+	"Bhiubai #0" = -89
+	"Permanadi #0" = 177
+	"Permadi #0" = 265
+	"Shrimitradevi #0" = -30
+	"Guhala #0" = 118
+	"Satyasraya #0" = 88
+	"Khanderao #0" = 59
+	"Mastani #0" = -119
+	"Sovideva #0" = 324
+	"Sunita #0" = -207
+	"Rajkunvarbai #0" = -148
+	"Saibai #0" = -178
+	"Vappuvanna #0" = 236
+	"Achyutadeva #0" = 88
+	"Purandaradasa #0" = 265
+	"Mushkara #2" = 265
+	"Kakanvati #0" = -30
+	"Mahadik #0" = -266
+	"Sujanbai #0" = -325
+	"Achugi #0" = 59
+	"Skandavarman #0" = 147
+	"Sadashiva #0" = 236
+	"Harirao #0" = 177
+	"Praudharaya #0" = 147
+	"Bodhideva #0" = -30
+	"Harihara #0" = 147
+	"Indra #0" = 177
+	"Madhavrao #0" = 59
+	"Hambirao #0" = 118
+	"Govinda #0" = 649
+	"Akalavarsha #0" = 88
+	"Dantivarman #0" = 29
+	"Butuga #0" = 265
+	"Tribhuvana #0" = -30
+	"Narasanayaka #0" = 118
+	"Padmadevi #0" = -30
+	"Gangaraja #0" = 177
+	"Kambarasa #0" = 413
+	"Vimaladitya #0" = 29
+	"Srimahadevi #0" = -266
+	"Vinayaditya #0" = 236
+	"Yachamanedu #0" = 88
+	"Merada #0" = 177
+	"Rudramba #0" = -119
+	"Ramaraya #0" = 619
+	"Konganivarman #0" = 147
+	"Ayyapayya #0" = 29
+	"Mallugi #0" = 177
+	"Jankibai #0" = -207
+	"Anekonda #0" = 147
+	"Urmil #0" = -30
+	"Viravarmadeva #0" = 59
+	"Tukojirao #0" = 59
+	"Anitalli #0" = -60
+	"Pulakesi #0" = 590
+	"Ayyana #0" = 59
+	"Ereganga #0" = 147
+	"Asaga #0" = 147
+	"Kirtivarman #0" = 147
+	"Kannama #0" = 324
+	"Anavema #0" = 59
+	"Janakappa #0" = 29
+	"Nagipoti #0" = -30
+	"Kesarbai #0" = -237
+	"Hariharamba #0" = -60
+	"Pammava #0" = -30
+	"Shudhamati #0" = -178
+	"Ambikabai #0" = -89
+	"Sripurusha #0" = 177
+	"Kalayandevi #0" = -30
+	"Niravadyadhavala #0" = 59
+	"Bhima #0" = 88
+	"Moropant #0" = 88
+	"Martandrao #0" = 88
+	"Chamekamba #0" = -60
+	"Nanasaheb #0" = 177
+	"Râcatêviyâr #0" = -30
+	"Rudramadevi #0" = -60
+	"Mahadeva #0" = 88
+	"Pandaranga #0" = 147
+	"Ekoji #0" = 147
+	"Hakka #0" = 177
+	"Allada #0" = 29
+	"Sovidevi #0" = -148
+	"Yuddhamalla #0" = 29
+	"Soyarabai #0" = -148
+	"Maya #0" = -207
+	"Tejahkantha #0" = 118
+	"Marsimha #0" = 29
+	"Anjanibai #0" = -148
+	"Uchita #0" = 177
+	"Tarabai #0" = -237
+	"Ramabai #0" = -207
+	"Mallapa #0" = 29
+	"Daulatrao #0" = 206
+	"Saktivarman #0" = 29
+	"Tukkoji #0" = 59
+	"Bhoja #0" = 118
+	"Yesubai #0" = -237
+	"Dhruvadevi #0" = -30
+	"Manaladevi #0" = -30
+	"Dhanaji #0" = 442
+	"Tryambakrao #0" = 59
+	"Dattaji #0" = 59
+	"Gamakamba #0" = -30
+	"Keshideva #0" = 118
+	"Bijjama #0" = 59
+	"Gajankusha #0" = 88
+	"Bijjala #0" = 59
+	"Pratapsinh #0" = 29
+	"Raghunathrao #0" = 29
+	"Indrabhattaraka #0" = 29
+	"Gobburi #0" = 206
+	"Aiyaparaja #0" = 177
+	"Amutrao #0" = 265
+	"Chandena #0" = -30
+	"Avinita #0" = 29
+	"Gunvantibai #0" = -89
+	"Guhalladeva #0" = 88
+	"Rachamalla #0" = 59
+	"Gandaraditya #0" = 206
+	"Ramshastri #0" = 59
+	"Daharasena #0" = 88
+	"Narendra #0" = 29
+	"Putalabai #0" = -119
+	"Durga #0" = -60
+	"Bahadur #0" = 59
+	"Gonka #0" = 59
+	"Avasara #0" = 29
+	"Kashibai #0" = -89
+	"Subhatavarman #0" = 29
+	"Malharrao #0" = 29
+	"Nagarjuna #0" = 59
+	"Kamlabai #0" = -60
+	"Yashwantrao #0" = 29
+	"Kishori #0" = -178
+	"Mahendra #0" = 118
+	"Venkatrao #0" = 29
+	"Shashthadeva #0" = 29
+	"Keeratdeva #0" = 59
+	"Shivachitta #0" = 29
+	"Pullashakti #0" = 118
+	"Kamadeva #0" = 29
+	"Anantadeva #0" = 118
+	"Anubai #0" = -30
+	"Nagavarma #0" = 59
+	"Mummuniraja #0" = 29
+	"Sakavaarbai #0" = -60
+	"Aparaditya #0" = 29
+	"Serfoji #0" = 29
+	"Someshvara #0" = 29
+	"Deepabai #0" = -119
+	"Malerao #0" = 29
+	"Rajasbai #0" = -89
+	"Chandraditya #0" = 118
+	"Chhadvaideva #0" = 59
+	"Dhammayira #0" = 29
+	"Haripaladeva #0" = 29
+	"Sriranga #0" = 118
+	"Viranarasimha #0" = 88
+	"Bhavadatta #0" = 59
+	"Dhondu #0" = 29
+	"Suketuvarman #0" = 29
+	"Murarirao #0" = 59
+	"Bahiroji #0" = 29
+	"Rattaraja #0" = 29
+	"Fatehsinh #0" = 29
+	"Arthapathi #0" = 29
+	"Somesvara #0" = 0
+}
+

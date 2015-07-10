@@ -1,0 +1,318 @@
+# Scotland
+graphical_culture = westerngfx
+color = { 198 163 12 }
+historical_idea_groups = {
+
+	defensive_ideas
+
+	aristocracy_ideas
+
+	naval_ideas
+
+	trade_ideas
+
+	diplomatic_ideas
+
+	economic_ideas
+
+	innovativeness_ideas
+
+	offensive_ideas
+
+}
+
+historical_units = {
+
+	western_medieval_infantry
+
+	western_medieval_knights
+
+	gaelic_galloglaigh
+
+	gaelic_mercenary
+
+	gaelic_free_shooter
+
+	irish_charge
+
+	scottish_highlander
+
+	british_redcoat
+
+	british_hussar
+
+	british_square
+
+	mixed_order_infantry
+
+	open_order_cavalry
+
+	napoleonic_square
+
+	napoleonic_lancers
+
+}
+
+
+
+leader_names = {
+
+	"Morgan" "Mariota" "Talore" "Cailean" "Isla" "Lulach" "Conan" "Duncan" "Radulf" "Nuala" 
+	"Roy" "Edith" "Saundra" "Christina" "Colin" "Flora" "Gruoch" "Paul" "Henry" "Hugh" 
+	"Maisie" "Eva" "Eimhir" "Eithne" "Richard" "Iain" "Malmure" "Kirstin" "Aileen" "David" 
+	"Torquil" "Kentigern" "Isabel" "Alpin" "Michael" "Thomas" "Muriel" "Edward" "Annabella" "Slaine" 
+	"Alexander" "Frang" "Ros" "Beitris" "Gilpatrick" "Rory" "Donald" "Beathan" "Edwin" "Derilla" 
+	"Brice" "Barabal" "Tadhg" "Stephan" "Mary" "Murray" "Jean" "Margaret" "Lachlan" "Matad" 
+	"Gregor" "Alastair" "Morag" "Murron" "Kenna" "Dugald" "Julia" "Donella" "Laurence" "Dermid" 
+	"Godfrey" "Angus" "Patrick" "Colban" "Lillias" "Indulf" "James" "Alice" "Shona" "Galiena" 
+	"Maldred" "Mungo" "John" "Andrew" "Douglas" "Affraic" "Simon" "Gilbride" "Ninian" "Murdoch" 
+	"Agnes" "Malise" "Anna" "Aufrica" "Isobel" "Uhtred" "Fingal" "Maud" "Gillespie" "Shaw" 
+	"Mirren" "Edgar" "Fingola" "Martha" "Sheena" "Waldeve" "Giric" "Lorna" "Deirdre" "Cecilia" 
+	"Ela" "Ranald" "Marthoc" "Maldoven" "Orabilia" "Gormelia" "Malcolm" "Gilbert" "Bethoc" "Matthew" 
+	"Joan" "Donada" "Kentigerna" "Walter" "Magnus" "Adam" "Fenella" "Farquhar" "Alfgeir" "Bride" 
+	"Sisinnius" "Marjory" "Oscar" "Ada" "Catriona" "Duff" "Helen" "Rodina" "Gilchrist" "Alan" 
+	"Euna" "Conall" "Alain" "Glenn" "Fergus" "Beileag" "Gjertrud" "Hamish" "Edna" "Ronald" 
+	"Dervorgilla" "Maoilios" "Sigrid" "Peigi" "Ingebjørg" "Muir" "Neil" "Roderick" "Maura" "Sweeny" 
+	"Forflissa" "Ross" "Glenna" "Iona" "Rhonda" "William" "Moyna" "Philip" "Eilionoir" "Effie" 
+	"Arthur" "Innes" "Peter" "Ewan" "Somerled" "Gavin" "Malina" "Eleanor" "Gilroy" "Kenneth" 
+	"Constantine" "Archibald" "Arran" "Aulay" "Brian" "Calum" "Carbrey" "Eric" "Evander" "Findlay" 
+	"Hector" "Lennon" "Macbeth" "Marcas" "Robert" "Uisdean" "Walan" }
+monarch_names = {
+	"Morgan #1" = 165
+	"Mariota #0" = -104
+	"Talore #1" = 248
+	"Cailean #0" = 103
+	"Isla #0" = -187
+	"Lulach #0" = 82
+	"Conan #0" = 20
+	"Duncan #1" = 124
+	"Radulf #1" = 62
+	"Nuala #0" = -104
+	"Roy #0" = 41
+	"Edith #0" = -145
+	"Saundra #0" = -83
+	"Christina #0" = -83
+	"Colin #0" = 82
+	"Flora #0" = -104
+	"Gruoch #0" = -104
+	"Paul #0" = 20
+	"Henry #0" = 62
+	"Hugh #0" = 82
+	"Maisie #0" = -125
+	"Eva #0" = -42
+	"Eimhir #0" = -42
+	"Eithne #0" = -104
+	"Richard #0" = 124
+	"Iain #0" = 41
+	"Malmure #0" = 124
+	"Kirstin #0" = -125
+	"Aileen #0" = -21
+	"David #0" = 41
+	"Torquil #0" = 62
+	"Kentigern #0" = 62
+	"Isabel #0" = -63
+	"Alpin #0" = 41
+	"Michael #0" = 20
+	"Thomas #0" = 82
+	"Muriel #0" = -63
+	"Edward #1" = 82
+	"Annabella #0" = -63
+	"Slaine #0" = -125
+	"Alexander #1" = 207
+	"Frang #1" = 41
+	"Ros #0" = -187
+	"Beitris #0" = -63
+	"Gilpatrick #0" = 144
+	"Rory #0" = 82
+	"Donald #2" = 41
+	"Beathan #0" = 20
+	"Edwin #0" = 41
+	"Derilla #0" = -42
+	"Brice #0" = 41
+	"Barabal #0" = -63
+	"Tadhg #2" = 103
+	"Stephan #0" = 20
+	"Mary #0" = -125
+	"Murray #0" = 103
+	"Jean #0" = -21
+	"Margaret #0" = -21
+	"Lachlan #0" = 165
+	"Matad #0" = 82
+	"Gregor #0" = 20
+	"Alastair #0" = 20
+	"Morag #0" = -83
+	"Murron #0" = -125
+	"Kenna #0" = -83
+	"Dugald #0" = 20
+	"Julia #0" = -187
+	"Donella #0" = -63
+	"Laurence #1" = 62
+	"Dermid #0" = 62
+	"Godfrey #0" = 82
+	"Angus #0" = 103
+	"Patrick #2" = 103
+	"Colban #0" = 82
+	"Lillias #0" = -21
+	"Indulf #0" = 41
+	"James #2" = 62
+	"Alice #0" = -104
+	"Shona #0" = -228
+	"Galiena #0" = -83
+	"Maldred #2" = 124
+	"Mungo #0" = 41
+	"John #0" = 62
+	"Andrew #0" = 82
+	"Douglas #0" = 41
+	"Affraic #0" = -145
+	"Simon #0" = 82
+	"Gilbride #0" = 103
+	"Ninian #3" = 124
+	"Murdoch #0" = 186
+	"Agnes #0" = -145
+	"Malise #0" = 62
+	"Anna #0" = -63
+	"Aufrica #0" = -125
+	"Isobel #0" = -42
+	"Uhtred #0" = 124
+	"Fingal #1" = 62
+	"Maud #0" = -125
+	"Gillespie #0" = 20
+	"Shaw #0" = 20
+	"Mirren #0" = -63
+	"Edgar #0" = 124
+	"Fingola #0" = -83
+	"Martha #0" = -104
+	"Sheena #0" = -104
+	"Waldeve #0" = 20
+	"Giric #0" = 62
+	"Lorna #0" = -42
+	"Deirdre #0" = -63
+	"Cecilia #0" = -104
+	"Ela #0" = -63
+	"Ranald #0" = 124
+	"Marthoc #0" = -83
+	"Maldoven #2" = 124
+	"Orabilia #0" = -104
+	"Gormelia #0" = -63
+	"Malcolm #0" = 20
+	"Gilbert #0" = 20
+	"Bethoc #0" = -42
+	"Matthew #0" = 41
+	"Joan #0" = -42
+	"Donada #0" = -83
+	"Kentigerna #0" = -104
+	"Walter #0" = 20
+	"Magnus #0" = 103
+	"Adam #1" = 82
+	"Fenella #0" = -63
+	"Farquhar #2" = 20
+	"Alfgeir #0" = 20
+	"Bride #0" = -63
+	"Sisinnius #0" = 20
+	"Marjory #0" = -104
+	"Oscar #0" = 41
+	"Ada #0" = -42
+	"Catriona #0" = -83
+	"Duff #0" = 41
+	"Helen #0" = -42
+	"Rodina #0" = -42
+	"Gilchrist #1" = 41
+	"Alan #1" = 62
+	"Euna #0" = -63
+	"Conall #0" = 62
+	"Alain #0" = 20
+	"Glenn #0" = 20
+	"Fergus #1" = 41
+	"Beileag #0" = -63
+	"Gjertrud #0" = -21
+	"Hamish #0" = 20
+	"Edna #0" = -42
+	"Ronald #0" = 20
+	"Dervorgilla #0" = -83
+	"Maoilios #0" = 41
+	"Sigrid #0" = -21
+	"Peigi #0" = -21
+	"Ingebjørg #0" = -21
+	"Muir #0" = 62
+	"Neil #0" = 20
+	"Roderick #0" = 41
+	"Maura #0" = -21
+	"Sweeny #0" = 41
+	"Forflissa #0" = -21
+	"Ross #0" = 20
+	"Glenna #0" = -21
+	"Iona #0" = -21
+	"Rhonda #0" = -63
+	"William #1" = 20
+	"Moyna #0" = -21
+	"Philip #1" = 41
+	"Eilionoir #0" = -42
+	"Effie #0" = -63
+	"Arthur #0" = 20
+	"Innes #0" = -42
+	"Peter #1" = 20
+	"Ewan #0" = 20
+	"Somerled #0" = 20
+	"Gavin #0" = 20
+	"Malina #0" = -21
+	"Eleanor #0" = -21
+	"Gilroy #0" = 20
+	"Kenneth #1" = 0
+	"Constantine #1" = 0
+	"Archibald #0" = 0
+	"Arran #0" = 0
+	"Aulay #0" = 0
+	"Brian #0" = 0
+	"Calum #0" = 0
+	"Carbrey #0" = 0
+	"Eric #0" = 0
+	"Evander #0" = 0
+	"Findlay #0" = 0
+	"Hector #0" = 0
+	"Lennon #0" = 0
+	"Macbeth #0" = 0
+	"Marcas #0" = 0
+	"Robert #0" = 0
+	"Uisdean #0" = 0
+	"Walan #0" = 0
+}
+ship_names = {
+
+	Advantage "Ann of Anstruther"
+
+	Bonaventure Bruce
+
+	Charles "Christian of Boness" Christopher Cuckoo
+
+	Flower Fortune
+
+	"Good Fortune" Green-tree
+
+	"Great Michael"
+
+	James Janet "Jenny Pirwin"
+
+	"King's Caravel"
+
+	"Lamb of Leith" Lesley Lion
+
+	Margaret "Margaret of Peterhead" "Mary Willoughby" "Mary Walsingham" Mercury Moon Morton
+
+	Pelican "Prince Rupert" "Providence of Dundee"
+
+	"Rainbow of Dundee" Rothes
+
+	Salamander "St. Salvator"
+
+	Thistle
+
+	Unicorn
+
+	Venture
+
+	Wemyss
+
+	"Yellow Caravel"
+
+}
+

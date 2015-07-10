@@ -1,0 +1,189 @@
+# Vestergøtland
+graphical_culture = westerngfx
+color = { 60 55 255 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	#New Ideas
+	innovativeness_ideas
+	naval_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	dutch_maurician
+	swedish_gallop
+	swedish_gustavian
+	swedish_caroline
+	swedish_arme_blanche
+	prussian_frederickian
+	prussian_uhlan
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Haldora" "Einar" "Margrete" "Bård" "Finn" "Eilif" "Holmfrid" "Sigfrið" "Ragnarr" "Halfdan" 
+	"Guðfrið" "Skuli" "Klas" "Linda" "Edla" "Freyja" "Oddr" "Ingfrid" "Hæsteinn" "Refil" 
+	"Dan" "Elin" "Asa" "Anundr" "Gurli" "Elisabet" "Fredrik" "Ingjerðr" "Þorbrandr" "Gyða" 
+	"Ofeig" "Rögnfrið" "Magnus" "Kol" "Buðli" "Ivar" "Bragi" "Frirek" "Þordis" "Rikissa" 
+	"Astrid" "Þorbjörn" "Gyrið" "Ylva" "Vigdis" "Maer" "Refr" "Gyla" "Barid" "Anlaufr" 
+	"Iliana" "Sofia" "Halla" "Totil" "Sif" "Vagn" "Martha" "Ossor" "Sigrid" "Ragnvald" 
+	"Gyrid" "Alv" "Sunniva" "Anna" "Thorborg" "Inge" "Brigida" "Ingjerd" "Gunnhild" "Snøfrid" 
+	"Ølver" "Harald" "Pål" "Trond" "Skule" "Eystein" "Sverre" "Åshild" "Åse" "Ingebjørg" 
+	"Eldrid" "Arne" "Arnfinn" "Arnkjell" "Arnmod" "Arnvid" "Bjørn" "Eigil" "Eirik" "Erlend" 
+	"Erling" "Grim" "Gudbrand" "Gudleik" "Gudrød" "Gunnar" "Guttorm" "Haldor" "Halkjell" "Håkon" 
+	"Håvard" "Jon" "Kåre" "Kolbein" "Lodin" "Ogmund" "Olav" "Ragnar" "Rolf" "Sigurd" 
+	"Skjalg" "Skofte" "Svein" "Torbjørn" "Tord" "Tore" "Torgil" "Tormod" "Torolf" "Torstein" 
+	"Tryggve" "Ulv" "Vigleik" "Åle" "Åmund" "Øystein" }
+monarch_names = {
+	"Haldora #0" = -28
+	"Einar #0" = 27
+	"Margrete #0" = -14
+	"Bård #0" = 27
+	"Finn #0" = 13
+	"Eilif #0" = 27
+	"Holmfrid #0" = -14
+	"Sigfrið #0" = 27
+	"Ragnarr #0" = 13
+	"Halfdan #0" = 40
+	"Guðfrið #0" = 13
+	"Skuli #0" = 13
+	"Klas #0" = 13
+	"Linda #0" = -14
+	"Edla #0" = -14
+	"Freyja #0" = -14
+	"Oddr #0" = 13
+	"Ingfrid #0" = -28
+	"Hæsteinn #0" = 27
+	"Refil #0" = 13
+	"Dan #0" = 13
+	"Elin #0" = -28
+	"Asa #0" = -14
+	"Anundr #0" = 27
+	"Gurli #0" = -14
+	"Elisabet #0" = -14
+	"Fredrik #0" = 13
+	"Ingjerðr #0" = -14
+	"Þorbrandr #0" = 13
+	"Gyða #0" = -41
+	"Ofeig #0" = 13
+	"Rögnfrið #0" = -14
+	"Magnus #0" = 13
+	"Kol #0" = 13
+	"Buðli #0" = 13
+	"Ivar #0" = 13
+	"Bragi #0" = 13
+	"Frirek #0" = 13
+	"Þordis #0" = -14
+	"Rikissa #0" = -14
+	"Astrid #0" = -41
+	"Þorbjörn #0" = 13
+	"Gyrið #0" = -14
+	"Ylva #0" = -14
+	"Vigdis #0" = -28
+	"Maer #0" = -14
+	"Refr #0" = 27
+	"Gyla #0" = -14
+	"Barid #0" = 13
+	"Anlaufr #0" = 13
+	"Iliana #0" = -14
+	"Sofia #0" = -14
+	"Halla #0" = -14
+	"Totil #0" = 13
+	"Sif #0" = -14
+	"Vagn #0" = 13
+	"Martha #0" = -41
+	"Ossor #0" = 13
+	"Sigrid #0" = -14
+	"Ragnvald #0" = 13
+	"Gyrid #0" = -28
+	"Alv #0" = 13
+	"Sunniva #0" = -14
+	"Anna #0" = -28
+	"Thorborg #0" = -14
+	"Inge #0" = 13
+	"Brigida #0" = -41
+	"Ingjerd #0" = -14
+	"Gunnhild #0" = -28
+	"Snøfrid #0" = -14
+	"Ølver #0" = 13
+	"Harald #0" = 13
+	"Pål #0" = 13
+	"Trond #0" = 13
+	"Skule #0" = 13
+	"Eystein #0" = 13
+	"Sverre #0" = 13
+	"Åshild #0" = -14
+	"Åse #0" = -14
+	"Ingebjørg #0" = -14
+	"Eldrid #0" = -14
+	"Arne #0" = 0
+	"Arnfinn #0" = 0
+	"Arnkjell #0" = 0
+	"Arnmod #0" = 0
+	"Arnvid #0" = 0
+	"Bjørn #0" = 0
+	"Eigil #0" = 0
+	"Eirik #0" = 0
+	"Erlend #0" = 0
+	"Erling #0" = 0
+	"Grim #0" = 0
+	"Gudbrand #0" = 0
+	"Gudleik #0" = 0
+	"Gudrød #0" = 0
+	"Gunnar #0" = 0
+	"Guttorm #0" = 0
+	"Haldor #0" = 0
+	"Halkjell #0" = 0
+	"Håkon #0" = 0
+	"Håvard #0" = 0
+	"Jon #0" = 0
+	"Kåre #0" = 0
+	"Kolbein #0" = 0
+	"Lodin #0" = 0
+	"Ogmund #0" = 0
+	"Olav #0" = 0
+	"Ragnar #0" = 0
+	"Rolf #0" = 0
+	"Sigurd #0" = 0
+	"Skjalg #0" = 0
+	"Skofte #0" = 0
+	"Svein #0" = 0
+	"Torbjørn #0" = 0
+	"Tord #0" = 0
+	"Tore #0" = 0
+	"Torgil #0" = 0
+	"Tormod #0" = 0
+	"Torolf #0" = 0
+	"Torstein #0" = 0
+	"Tryggve #0" = 0
+	"Ulv #0" = 0
+	"Vigleik #0" = 0
+	"Åle #0" = 0
+	"Åmund #0" = 0
+	"Øystein #0" = 0
+}
+ship_names = {
+	Ålvik
+	Bergen
+	Engan
+	Kristiansund
+	Molde
+	Oslo
+	Roan
+	Stavanger Sula
+	Trondheim
+}
+

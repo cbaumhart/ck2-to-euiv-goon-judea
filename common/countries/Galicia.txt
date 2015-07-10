@@ -1,0 +1,281 @@
+# Galicia
+graphical_culture = westerngfx
+color = { 255 224 94 }
+historical_idea_groups = {
+
+	religious_ideas
+
+	naval_ideas
+
+	defensive_ideas
+
+	economic_ideas
+
+	innovativeness_ideas
+
+	spy_ideas
+
+	trade_ideas
+
+	diplomatic_ideas
+
+}
+
+historical_units = {
+
+	western_medieval_infantry
+
+	western_medieval_knights
+
+	western_men_at_arms
+
+	spanish_tercio
+
+	austrian_tercio
+
+	austrian_grenzer
+
+	austrian_hussar
+
+	austrian_white_coat
+
+	austrian_jaeger
+
+	mixed_order_infantry
+
+	open_order_cavalry
+
+	napoleonic_square
+
+	napoleonic_lancers
+
+}
+
+
+
+leader_names = {
+
+	"Bouchard" "Rorgues" "Othon" "Judith" "Antoinette" "Isabelle" "Jacques" "Rorgon" "Mélisende" "Blanche" 
+	"Onfroy" "Ide" "Amaury" "Alphonse" "Plaisance" "Étiennette" "Aléarde" "Roubaud" "Mafalda" "Alix" 
+	"Ancel" "Bourguigne" "Bérenger" "Walther" "Ermengarde" "Alain" "Béatrice" "Tiburge" "Aymar" "Robin" 
+	"Berthe" "Jaufré" "Agnès" "Henri" "Aliénor" "Archambaud" "Perinne" "Isabeau" "Thierry" "Géraud" 
+	"Mahaut" "Amédée" "Hélie" "Centule" "Esclarmonde" "Denise" "Julien" "Douce" "Eudes" "Pernette" 
+	"Élodie" "Édouard" "Adelinde" "Gelduin" "Benoîte" "Euphrosine" "Arsinde" "Anne" "Thomas" "Sigismond" 
+	"Cécile" "Simon" "Éléonore" "Bérengère" "Amelie" "Pelayo" "Favila" "Alfonso" "Fruela" "Aurelio" 
+	"Silo" "Mauregato" "Vermudo" "Ramiro" "Ordoño" "Alonso" "Osorio" "Teobaldo" "Afonso" "Maria" 
+	"Luís" "Loba" "Berengária" "Étienne" "Winfrida" "Thiébaut" "Bernard" "Ebbon" "Cai" "Cadell" 
+	"Baudouin" "Yves" "Sophie" "Érrard" "Adalbert" "Adémar" "Adrien" "Aimery" "Aldebert" "Aldéric" 
+	"André" "Angelbert" "Antoine" "Arnaud" "Arnault" "Arnoul" "Aubry" "Barthélémi" "Benoît" "Bertrand" 
+	"Bohemond" "Boson" "Charles" "Clotaire" "Enguerrand" "Eustache" "Evrard" "Foulques" "François" "Frédéric" 
+	"Gargamel" "Gaucher" "Gaucelin" "Gauthier" "Geoffroy" "Gilbert" "Gilles" "Godefroy" "Guichard" "Guiges" 
+	"Guilhem" "Guillaume" "Guy" "Hamelin" "Herbert" "Hildebert" "Hugues" "Humbert" "Jaspert" "Jean" 
+	"Josselin" "Jourdain" "Léon" "Léonard" "Lothaire" "Louis" "Loup" "Manassès" "Mathieu" "Maurice" 
+	"Nicolas" "Ogier" "Orson" "Payen" "Philippe" "Pierre" "Raimbaut" "Raoul" "Raymond" "Raynaud" 
+	"Renaud" "Richard" "Robert" "Roger" "Savary" "Thibault" "Valeran" }
+monarch_names = {
+	"Bouchard #2" = 53
+	"Rorgues #0" = 17
+	"Othon #0" = 70
+	"Judith #0" = -18
+	"Antoinette #0" = -36
+	"Isabelle #0" = -18
+	"Jacques #1" = 17
+	"Rorgon #0" = 17
+	"Mélisende #0" = -18
+	"Blanche #0" = -107
+	"Onfroy #2" = 17
+	"Ide #0" = -54
+	"Amaury #0" = 70
+	"Alphonse #0" = 17
+	"Plaisance #0" = -36
+	"Étiennette #0" = -18
+	"Aléarde #0" = -18
+	"Roubaud #0" = 17
+	"Mafalda #0" = -18
+	"Alix #0" = -18
+	"Ancel #0" = 53
+	"Bourguigne #0" = -36
+	"Bérenger #0" = 70
+	"Walther #0" = 17
+	"Ermengarde #0" = -18
+	"Alain #0" = 17
+	"Béatrice #0" = -36
+	"Tiburge #0" = -18
+	"Aymar #0" = 88
+	"Robin #0" = 35
+	"Berthe #0" = -18
+	"Jaufré #0" = 17
+	"Agnès #0" = -54
+	"Henri #0" = 53
+	"Aliénor #0" = -18
+	"Archambaud #0" = 17
+	"Perinne #0" = -18
+	"Isabeau #0" = -18
+	"Thierry #0" = 35
+	"Géraud #0" = 53
+	"Mahaut #1" = -18
+	"Amédée #0" = 17
+	"Hélie #0" = 17
+	"Centule #0" = 35
+	"Esclarmonde #0" = -18
+	"Denise #0" = -18
+	"Julien #0" = 17
+	"Douce #0" = -18
+	"Eudes #0" = 17
+	"Pernette #0" = -18
+	"Élodie #0" = -18
+	"Édouard #0" = 17
+	"Adelinde #0" = -18
+	"Gelduin #0" = 17
+	"Benoîte #0" = -18
+	"Euphrosine #0" = -18
+	"Arsinde #0" = -18
+	"Anne #0" = -18
+	"Thomas #0" = 17
+	"Sigismond #0" = 17
+	"Cécile #0" = -18
+	"Simon #0" = 17
+	"Éléonore #0" = -18
+	"Bérengère #0" = -18
+	"Amelie #0" = -18
+	"Pelayo #1" = 0
+	"Favila #1" = 0
+	"Alfonso #3" = 0
+	"Fruela #1" = 0
+	"Aurelio #1" = 0
+	"Silo #1" = 0
+	"Mauregato #1" = 0
+	"Vermudo #1" = 0
+	"Ramiro #1" = 0
+	"Ordoño #1" = 0
+	"Alonso #1" = 0
+	"Osorio #1" = 0
+	"Teobaldo #1" = 0
+	"Afonso #1" = 0
+	"Maria #1" = -1
+	"Luís #1" = 0
+	"Loba #1" = -1
+	"Berengária #1" = -1
+	"Étienne #2" = 0
+	"Winfrida #1" = -1
+	"Thiébaut #1" = 0
+	"Bernard #1" = 0
+	"Ebbon #1" = 0
+	"Cai #1" = 0
+	"Cadell #1" = 0
+	"Baudouin #1" = 0
+	"Yves #2" = 0
+	"Sophie #1" = -1
+	"Érrard #0" = 0
+	"Adalbert #0" = 0
+	"Adémar #0" = 0
+	"Adrien #0" = 0
+	"Aimery #0" = 0
+	"Aldebert #0" = 0
+	"Aldéric #0" = 0
+	"André #0" = 0
+	"Angelbert #0" = 0
+	"Antoine #0" = 0
+	"Arnaud #0" = 0
+	"Arnault #0" = 0
+	"Arnoul #0" = 0
+	"Aubry #0" = 0
+	"Barthélémi #0" = 0
+	"Benoît #0" = 0
+	"Bertrand #0" = 0
+	"Bohemond #0" = 0
+	"Boson #0" = 0
+	"Charles #0" = 0
+	"Clotaire #0" = 0
+	"Enguerrand #0" = 0
+	"Eustache #0" = 0
+	"Evrard #0" = 0
+	"Foulques #0" = 0
+	"François #0" = 0
+	"Frédéric #0" = 0
+	"Gargamel #0" = 0
+	"Gaucher #0" = 0
+	"Gaucelin #0" = 0
+	"Gauthier #0" = 0
+	"Geoffroy #0" = 0
+	"Gilbert #0" = 0
+	"Gilles #0" = 0
+	"Godefroy #0" = 0
+	"Guichard #0" = 0
+	"Guiges #0" = 0
+	"Guilhem #0" = 0
+	"Guillaume #0" = 0
+	"Guy #0" = 0
+	"Hamelin #0" = 0
+	"Herbert #0" = 0
+	"Hildebert #0" = 0
+	"Hugues #0" = 0
+	"Humbert #0" = 0
+	"Jaspert #0" = 0
+	"Jean #0" = 0
+	"Josselin #0" = 0
+	"Jourdain #0" = 0
+	"Léon #0" = 0
+	"Léonard #0" = 0
+	"Lothaire #0" = 0
+	"Louis #0" = 0
+	"Loup #0" = 0
+	"Manassès #0" = 0
+	"Mathieu #0" = 0
+	"Maurice #0" = 0
+	"Nicolas #0" = 0
+	"Ogier #0" = 0
+	"Orson #0" = 0
+	"Payen #0" = 0
+	"Philippe #0" = 0
+	"Pierre #0" = 0
+	"Raimbaut #0" = 0
+	"Raoul #0" = 0
+	"Raymond #0" = 0
+	"Raynaud #0" = 0
+	"Renaud #0" = 0
+	"Richard #0" = 0
+	"Robert #0" = 0
+	"Roger #0" = 0
+	"Savary #0" = 0
+	"Thibault #0" = 0
+	"Valeran #0" = 0
+}
+ship_names = {
+
+	Galicia Argonauta Asturias Asunción Atrevido Azor
+
+	Cartagonova Castilla "Castillo Negro" Castor "Ciervo Volante"
+
+	Doncella Dragón 
+
+	"El Gran Grin" "El Retiro" Eneas Eolo Esperanza "Espíritu Santo" Extremadura
+
+	Furor Galicia "Gran Grifón" Halcón Hércules Isabela Júpiter
+
+	"La Concepción" "La Magdalena" "La Manuela" León Ligera "Lobo Marino"
+
+	Marte Mercurio Neptuno Niña Orión
+
+	"Paloma Blanca" Pegaso "Perro Marino" Pinta Plutón Pollux "Príncipe de Asturias"
+
+	Rayo "Real Alfonso" "Real Enrique" "Real Juan" "Rey Pelayo" "Rey Rodrigo"
+
+	"San Andrés" "San Antonio" "San Bartolomé" "San Bernabé" "San Cristobal" "San Enrique"
+
+	"San Esteban" "San Fernando" "San Francisco" "San Gabriel" "San Isidoro" "San Jerónimo"
+
+	"San José" "San Juan" "San Juan Bautista" "San Leandro" "San Miguel" "San Pedro"
+
+	"San Rafael" "San Salvador" "San Sebastian" "Santa Ana" "Santa Bárbara" "Santa Beatriz"
+
+	"Santa Catalina" "Santa Cruz" "Santa Fe" "Santa Isabel" "Santa Justa" "Santa María"
+
+	"Santa Marta" "Santa Rita" "Santa Teresa" Santiago "Santísima Trinidad" "Santo Domingo" Sirena
+
+	Terror Toledo Trinidad Tritón Unicornio
+
+	Vencedora Ventura Victoria Vigilante Vizcaya Vulcano Zúñiga
+
+}
+

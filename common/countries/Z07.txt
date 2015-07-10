@@ -1,0 +1,359 @@
+# Upper Lorraine
+graphical_culture = southamericagfx
+color = { 90 90 125 }
+historical_idea_groups = {
+
+	trade_ideas
+
+	religious_ideas
+
+	economic_ideas
+
+	diplomatic_ideas
+
+	innovativeness_ideas
+
+	defensive_ideas
+
+	offensive_ideas
+
+	spy_ideas
+
+}
+
+historical_units = {
+
+	western_medieval_infantry
+
+	western_medieval_knights
+
+	western_men_at_arms
+
+	swiss_landsknechten
+
+	dutch_maurician
+
+	austrian_tercio
+
+	austrian_grenzer
+
+	austrian_hussar
+
+	austrian_white_coat
+
+	austrian_jaeger
+
+	mixed_order_infantry
+
+	open_order_cavalry
+
+	napoleonic_square
+
+	napoleonic_lancers
+
+}
+
+
+
+leader_names = {
+
+	"Sciarra" "Cozahtli" "Guðfrið" "Jaufré" "Kettil" "Artemio" "Astrid" "Techichpotzin" "Foulques" "Miahuaxiuitl" 
+	"Béatrix" "Tochtli" "Louis" "Letizia" "Plaisance" "Mats" "Julienne" "Ohtli" "Azcalxochitzin" "Chichimecacihuatzin" 
+	"Amoxtli" "Xochitl" "Eglantine" "Itzcuintli" "Xochipilli" "Violante" "Elisa" "Quauhtli" "Cécile" "Amédée" 
+	"Guy" "Anschaire" "Géraud" "Alisia" "Adelinde" "Benoît" "Mascarose" "Raymond" "Emma" "Bérengère" 
+	"Douce" "Antoinette" "Adémar" "Margherita" "Arsinde" "Blanche" "Cecilia" "Isnardo" "Aymar" "Valence" 
+	"Marguerite" "Simon" "Étienne" "Eve" "Bourguigne" "Philippe" "Eustachie" "Adalmode" "Gilles" "Alain" 
+	"Clementia" "Sarrazine" "Aldebert" "Enguerrand" "Léon" "Isabeau" "Sybille" "Lambert" "Charles" "Lothaire" 
+	"Thiébaut" "Élodie" "Gilbert" "Mélisande" "Gerberge" "Sigismond" "Constance" "Eudes" "Elisabeth" "Gauthier" 
+	"Thibault" "Marie" "Thierry" "Agathe" "Étiennette" "Helvis" "Margot" "Isabelle" "Angelbert" "Alix" 
+	"Yves" "Frédéric" "Édouard" "Amelie" "Benoîte" "Winfrida" "Mathilde" "Aldéric" "Guillaumette" "Ogier" 
+	"Máirgred" "Barthélémi" "Ermengarde" "Clotaire" "Boson" "Gargamel" "Raymonde" "Solène" "Osterhild" "Sylvester" 
+	"François" "Guilhem" "Raynaud" "Cathèrine" "Bourgogne" "Baudouin" "Ida" "Pernelle" "Arnault" "Echive" 
+	"Alphonse" "Pernette" "Ancel" "Sophie" "Bernard" "Judith" "Bertrand" "Agnès" "Érrard" "Orson" 
+	"Aléarde" "Roger" "Ebbon" "Berthe" "Renaud" "Jacques" "Mélusine" "Robert" "Adelaide" "Alice" 
+	"Anne" "Ildégarde" "Nicolas" "Marthe" "Eva" "Belleassez" "Adrien" "Arnoul" "Héloise" "Stéphanie" 
+	"Jeanne" "Béatrice" "Dietmar" "Arnulf" "Berchte" "Yolande" "Wilhelm" "Denise" "Wilhelmina" "Jean" 
+	"Iuitl" "Bérenger" "Maurice" "Euphrosine" "Ursula" "Centehua" "Tepin" "Iliana" "Tibaldo" "Aurengarde" 
+	"Tlacaelel" "Rutger" "Jourdain" "Roubaud" "Centule" "Johann" "Guillaume" "Chimalpopoca" "Matlatzincatzin" "Acalan" 
+	"Acacitli" "Acamapichtli" "Acolmiztli" "Aculnahuacatl" "Ahuiliztli" "Ahuitzotl" "Atl" "Axayacatl" "Cacamatzin" "Chimalli" 
+	"Chimalpilli" "Cipac" "Coanacoch" "Coatl" "Cuauhtemoc" "Cuauhtl" "Cuetlachtli" "Cuetzpalli" "Cuixtli" "Cuitlahuac" 
+	"Huitzilin" "Huitzilihuitl" "Huitzitl" "Huitztecol" "Iquehuacatzin" "Itzcoatl" "Itzli" "Ixtlilxochitl" "Mahchimaleh" "Matlal" 
+	"Mazatl" "Matlalihuitl" "Maxtla" "Miztli" "Moctezuma" "Moquihuix" "Necuametl" "Nezahualcoyotl" "Nezahualpilli" "Nochehuatl" 
+	"Ocuil" "Olli" "Opochtli" "Ozomatli" "Tapayaxi" "Tecocoltzin" "Tecolotl" "Tetlepanquetzaltzin" "Tezozomoc" "Tizoc" 
+	"Tizocic" "Tlacaeleltzin" "Tlalli" "Tlaloc" "Tototl" "Tzompantzin" "Tlilpotonqui" "Topiltzin" "Totoquihuaztli" "Ueman" 
+	"Yaotl" "Yayauhqui" "Yolotli" "Yolyamanitzin" "Xicohtencatl" "Xiuhpilli" "Xihuitl" "Xipil" "Xipilli" "Xochipepe" 
+	"Zipactonal" "Zolin" }
+monarch_names = {
+	"Sciarra #0" = 26
+	"Cozahtli #0" = 26
+	"Guðfrið #0" = 26
+	"Jaufré #1" = 78
+	"Kettil #0" = 26
+	"Artemio #0" = 52
+	"Astrid #0" = -27
+	"Techichpotzin #0" = -27
+	"Foulques #0" = 104
+	"Miahuaxiuitl #0" = -27
+	"Béatrix #0" = -53
+	"Tochtli #0" = 26
+	"Louis #1" = 26
+	"Letizia #0" = -27
+	"Plaisance #0" = -105
+	"Mats #0" = 26
+	"Julienne #0" = -53
+	"Ohtli #0" = -27
+	"Azcalxochitzin #0" = -27
+	"Chichimecacihuatzin #0" = -53
+	"Amoxtli #0" = -27
+	"Xochitl #0" = 26
+	"Eglantine #1" = -105
+	"Itzcuintli #0" = 26
+	"Xochipilli #2" = 78
+	"Violante #0" = -27
+	"Elisa #0" = -27
+	"Quauhtli #1" = 26
+	"Cécile #0" = -79
+	"Amédée #0" = 52
+	"Guy #0" = 78
+	"Anschaire #0" = 131
+	"Géraud #0" = 78
+	"Alisia #0" = -27
+	"Adelinde #0" = -27
+	"Benoît #0" = 52
+	"Mascarose #0" = -27
+	"Raymond #0" = 78
+	"Emma #0" = -132
+	"Bérengère #0" = -79
+	"Douce #1" = -27
+	"Antoinette #0" = -53
+	"Adémar #0" = 131
+	"Margherita #0" = -27
+	"Arsinde #0" = -105
+	"Blanche #0" = -79
+	"Cecilia #0" = -27
+	"Isnardo #0" = 26
+	"Aymar #0" = 52
+	"Valence #0" = -105
+	"Marguerite #1" = -158
+	"Simon #0" = 78
+	"Étienne #0" = 104
+	"Eve #0" = -27
+	"Bourguigne #0" = -53
+	"Philippe #0" = 78
+	"Eustachie #0" = -79
+	"Adalmode #0" = -53
+	"Gilles #0" = 157
+	"Alain #0" = 393
+	"Clementia #0" = -27
+	"Sarrazine #0" = -27
+	"Aldebert #0" = 131
+	"Enguerrand #0" = 26
+	"Léon #0" = 26
+	"Isabeau #0" = -105
+	"Sybille #0" = -79
+	"Lambert #0" = 26
+	"Charles #0" = 104
+	"Lothaire #1" = 26
+	"Thiébaut #0" = 131
+	"Élodie #0" = -53
+	"Gilbert #1" = 78
+	"Mélisande #0" = -79
+	"Gerberge #0" = -53
+	"Sigismond #0" = 104
+	"Constance #0" = -53
+	"Eudes #0" = 78
+	"Elisabeth #0" = -53
+	"Gauthier #0" = 52
+	"Thibault #0" = 52
+	"Marie #0" = -79
+	"Thierry #2" = 131
+	"Agathe #0" = -79
+	"Étiennette #0" = -27
+	"Helvis #0" = -105
+	"Margot #0" = -132
+	"Isabelle #0" = -53
+	"Angelbert #1" = 52
+	"Alix #0" = -53
+	"Yves #0" = 52
+	"Frédéric #0" = 26
+	"Édouard #0" = 52
+	"Amelie #0" = -27
+	"Benoîte #1" = -132
+	"Winfrida #0" = -27
+	"Mathilde #0" = -53
+	"Aldéric #0" = 26
+	"Guillaumette #0" = -27
+	"Ogier #1" = 26
+	"Máirgred #0" = -27
+	"Barthélémi #0" = 26
+	"Ermengarde #1" = -53
+	"Clotaire #2" = 157
+	"Boson #0" = 78
+	"Gargamel #0" = 26
+	"Raymonde #0" = -27
+	"Solène #0" = -27
+	"Osterhild #0" = -27
+	"Sylvester #0" = 26
+	"François #0" = 26
+	"Guilhem #0" = 78
+	"Raynaud #1" = 78
+	"Cathèrine #0" = -105
+	"Bourgogne #0" = -27
+	"Baudouin #0" = 52
+	"Ida #0" = -79
+	"Pernelle #0" = -27
+	"Arnault #0" = 26
+	"Echive #0" = -53
+	"Alphonse #0" = 52
+	"Pernette #0" = -53
+	"Ancel #0" = 26
+	"Sophie #0" = -27
+	"Bernard #0" = 52
+	"Judith #0" = -53
+	"Bertrand #0" = 52
+	"Agnès #0" = -27
+	"Érrard #0" = 26
+	"Orson #1" = 26
+	"Aléarde #0" = -27
+	"Roger #0" = 52
+	"Ebbon #0" = 52
+	"Berthe #0" = -105
+	"Renaud #0" = 26
+	"Jacques #1" = 52
+	"Mélusine #0" = -27
+	"Robert #0" = 26
+	"Adelaide #0" = -53
+	"Alice #0" = -27
+	"Anne #0" = -53
+	"Ildégarde #0" = -27
+	"Nicolas #0" = 78
+	"Marthe #0" = -79
+	"Eva #0" = -27
+	"Belleassez #0" = -27
+	"Adrien #3" = 78
+	"Arnoul #0" = 26
+	"Héloise #0" = -53
+	"Stéphanie #0" = -27
+	"Jeanne #0" = -27
+	"Béatrice #0" = -53
+	"Dietmar #1" = 26
+	"Arnulf #0" = 26
+	"Berchte #0" = -27
+	"Yolande #0" = -27
+	"Wilhelm #0" = 26
+	"Denise #0" = -27
+	"Wilhelmina #0" = -27
+	"Jean #2" = 78
+	"Iuitl #0" = -27
+	"Bérenger #0" = 26
+	"Maurice #1" = 26
+	"Euphrosine #0" = -27
+	"Ursula #0" = -27
+	"Centehua #0" = -27
+	"Tepin #0" = -27
+	"Iliana #0" = -27
+	"Tibaldo #0" = 26
+	"Aurengarde #0" = -27
+	"Tlacaelel #0" = 26
+	"Rutger #1" = 0
+	"Jourdain #1" = 0
+	"Roubaud #1" = 0
+	"Centule #1" = 0
+	"Johann #1" = 0
+	"Guillaume #1" = 0
+	"Chimalpopoca #1" = 0
+	"Matlatzincatzin #1" = 0
+	"Acalan #0" = 0
+	"Acacitli #0" = 0
+	"Acamapichtli #0" = 0
+	"Acolmiztli #0" = 0
+	"Aculnahuacatl #0" = 0
+	"Ahuiliztli #0" = 0
+	"Ahuitzotl #0" = 0
+	"Atl #0" = 0
+	"Axayacatl #0" = 0
+	"Cacamatzin #0" = 0
+	"Chimalli #0" = 0
+	"Chimalpilli #0" = 0
+	"Cipac #0" = 0
+	"Coanacoch #0" = 0
+	"Coatl #0" = 0
+	"Cuauhtemoc #0" = 0
+	"Cuauhtl #0" = 0
+	"Cuetlachtli #0" = 0
+	"Cuetzpalli #0" = 0
+	"Cuixtli #0" = 0
+	"Cuitlahuac #0" = 0
+	"Huitzilin #0" = 0
+	"Huitzilihuitl #0" = 0
+	"Huitzitl #0" = 0
+	"Huitztecol #0" = 0
+	"Iquehuacatzin #0" = 0
+	"Itzcoatl #0" = 0
+	"Itzli #0" = 0
+	"Ixtlilxochitl #0" = 0
+	"Mahchimaleh #0" = 0
+	"Matlal #0" = 0
+	"Mazatl #0" = 0
+	"Matlalihuitl #0" = 0
+	"Maxtla #0" = 0
+	"Miztli #0" = 0
+	"Moctezuma #0" = 0
+	"Moquihuix #0" = 0
+	"Necuametl #0" = 0
+	"Nezahualcoyotl #0" = 0
+	"Nezahualpilli #0" = 0
+	"Nochehuatl #0" = 0
+	"Ocuil #0" = 0
+	"Olli #0" = 0
+	"Opochtli #0" = 0
+	"Ozomatli #0" = 0
+	"Tapayaxi #0" = 0
+	"Tecocoltzin #0" = 0
+	"Tecolotl #0" = 0
+	"Tetlepanquetzaltzin #0" = 0
+	"Tezozomoc #0" = 0
+	"Tizoc #0" = 0
+	"Tizocic #0" = 0
+	"Tlacaeleltzin #0" = 0
+	"Tlalli #0" = 0
+	"Tlaloc #0" = 0
+	"Tototl #0" = 0
+	"Tzompantzin #0" = 0
+	"Tlilpotonqui #0" = 0
+	"Topiltzin #0" = 0
+	"Totoquihuaztli #0" = 0
+	"Ueman #0" = 0
+	"Yaotl #0" = 0
+	"Yayauhqui #0" = 0
+	"Yolotli #0" = 0
+	"Yolyamanitzin #0" = 0
+	"Xicohtencatl #0" = 0
+	"Xiuhpilli #0" = 0
+	"Xihuitl #0" = 0
+	"Xipil #0" = 0
+	"Xipilli #0" = 0
+	"Xochipepe #0" = 0
+	"Zipactonal #0" = 0
+	"Zolin #0" = 0
+}
+ship_names = {
+
+	Ariadne Habicht Adler Albatross Amazone
+
+	Arcona Basilisk Beowulf Biene Wespe Wolf
+
+	Nautilus Natter Otter Pelikan Pfeil Meteor
+
+	Möwe Mücke Luchs König Kaiser Eber Drache
+
+	Falke Frauenlob Freya Fuchs Gazelle Geier
+
+	Greif Condor Cormoran Comet Wacht Tiger
+
+	Seeadler Jaguar Hyäne Blitz Bremse Brummer
+
+	Bussard Vulkan
+
+}
+

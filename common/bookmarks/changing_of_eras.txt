@@ -1,0 +1,7 @@
+bookmark = {
+	name = changing_of_eras
+	desc = changing_of_eras_desc
+	date = 1453.1.1
+	center = 379
+	country = JUD
+}

@@ -1,0 +1,302 @@
+# Kusinagara
+graphical_culture = indiangfx
+color = { 34 106 24 }
+
+
+
+
+leader_names = {
+
+	"Vina" "Mahendrani" "Hira" "Gayatri" "Dattadevi" "Devendranarayan" "Laxminath Singh Dev" "Nripendranarayan" "Bishwas Devi" "Dharmamahadevi" 
+	"Kanchani" "Vaaraharaja" "Shashanka" "Maurayadhwaj" "Nayanadevi" "Gandharavati" "Govindapal" "Narendranarayan" "Rudranarayan" "Mahendrapala" 
+	"Bhumimitra" "Vasujyeshtha" "Vijaysen" "Bauladevi" "Jagdeva" "Bhopal" "Kumaradevi" "Kirtipala" "Baghpal" "Annaladevi" 
+	"Tihunaka" "Padmaladevi" "Mayanalladevi" "Candrabhattarikadevi" "Rajamati" "Samantasimha" "Yograj" "Shrimitradevi" "Hammira" "Kanchuka" 
+	"Namalladevi" "Prabhavati" "Samarasimha" "Kalayandevi" "Bhim-Singh" "Akal" "Kanwar" "Desaladevi" "Draupad" "Bhumpal" 
+	"Lakshman" "Damayanti" "Prabhavatigupta" "Hirapal" "Bhumpala" "Gopala" "Deopali-Deo" "Prahladana" "Kunwar" "Anantadevi" 
+	"Dronasinha" "Maharani" "Mahidevi" "Prasadhanadevi" "Laxmidevi" "Kakanvati" "Chachinidevi" "Ratan-Singh" "Valhanadeva" "Vidurathpala" 
+	"Allat" "Krishnray" "Mulraja" "Arjunpala" "Anupapala" "Bisaldeva" "Devi Ahiylya" "Prithivipala" "Rangraja" "Ajmal" 
+	"Mahipal" "Kiratpal" "Govindachandra" "Narpal" "Bhavashankari" "Lakshmansen" "Hemavati" "Karmavati" "Amrapali" "Govindapala" 
+	"Sidhawa" "Dharmapala" "Jaganpala" "Shuchi-Verma" "Madhavi" "Bacchdev" "Bhuyikadevi" "Virama" "Suhava" "Jagaddipendranarayan" 
+	"Vakpati" "Sundaridevi" "Udayamati" "Vijnayavati" "Puppadevi" "Nattadevi" "Malavyadevi" "Jira" "Sinha" "Mahipala" 
+	"Ramnath" "Beejpal" "Andhraka" "Sinhad-Deo" "Ghosha" "Bhogavati" "Rajyapala" "Jayat-Singh" "Vasumitra" "Himadrija" 
+	"Syamadevi" "Rani" "Pushkaranadhipa" "Nar Singh" "Shakrasingh Dev" "Devavati" "Asima" "Ratnadevi" "Traillokyachandra" "Harasimhadeva" 
+	"Manava" "Yajnavati" "Pulindaka" "Vijaya" "Harendranarayan" "Lakshmichandra" "Bhagabhadra" "Bhairav Singh" "Narayana" "Amritnarayan" 
+	"Balabhata" "Balinarayan" "Ballalsen" "Basudevnayaran" "Bhagadatta" "Bhairabendranarayan" "Bhatta" "Bhimsingha" "Birnayaran" "Chandrasen" 
+	"Chandranarayan" "Chaturanan" "Chilarai" "Danujmadhava" "Dasharathadeva" "Devakhadga" "Devapala" "Dhairjendranayaran" "Dharendranarayan" "Dhirsingha" 
+	"Gajnarayan" "Hajo" "Haridevnarayan" "Hariyamandal" "Hemantasen" "Indranarayan" "Jadu" "Jatakhadga" "Jayanarayan" "Jayapala" 
+	"Jitendranarayan" "Kalyanachandra" "Kamalnarayan" "Keshabsen" "Khadgodyama" "Krishanmishra" "Krishnaroy" "Kumarapala" "Kumudnarayan" "Ladahachandra" 
+	"Lakshminarayan" "Lomapada" "Madanapala" "Mahendrasingha" "Mahindranarayan" "Mukundanarayan" "Naranarayan" "Narasingha" "Narayanapala" "Nayapala" 
+	"Parikshitnayaran" "Prananarayan" "Prannath" "Pratapnarayan" "Pratapnarayanroy" "Raghudev" "Rajabhata" "Rajadinaj" "Rajaganesha" "Rajendranarayan" 
+	"Rajrajendranarayan" "Ramapala" "Ranasura" "Ranjitsingha" "Roopnarayan" "Samudrasen" "Shanibhangar" "Shivanarayan" "Shivendranarayan" "Shukladhwaj" 
+	"Shurapala" "Srichandra" "Srimanta" "Subarnachandra" "Sukhdev" "Suryanarayan" "Udirnakhadga" "Uditanarayan" "Upendranayaran" "Vakapala" 
+	"Vapyata" "Vigrahapala" "Vijaynarayan" "Vijaysingha" "Virajdendranarayan" "Vishwarupsen" "Vishwasingha" "Bhavesh" "Bhogishwar" "Dev Singh" 
+	"Dhir Singh" "Dhireshwar" "Ganeshwar Singh" "Gang Dev" "Hari Singh" "Hemant Sen" "Kameshwar" "Kirti Singh" "Jyotirishwar" "Laxman Sen" 
+	"Madanpal" "Nanya Dev" "Narsingh Dev" "Padma Singh" "Rambhadra Singh Dev" "Rameshwar" "Samant Sen" "Shiv Singh" "Vallal Sen" "Vijay Sen" 
+	"Agnimitra" "Ayus" "Bhikhari" "Devabhuti" "Gopal" "Khsetravridha" "Maharshi" "Mahendra" "Pusyamitra" "Sahtiya" 
+	"Susarman" "Vajramitra" "Vasudeva" }
+monarch_names = {
+	"Vina #0" = -82
+	"Mahendrani #0" = -55
+	"Hira #0" = -55
+	"Gayatri #0" = -110
+	"Dattadevi #0" = -137
+	"Devendranarayan #0" = 27
+	"Laxminath Singh Dev #0" = 27
+	"Nripendranarayan #0" = 27
+	"Bishwas Devi #0" = -55
+	"Dharmamahadevi #0" = -28
+	"Kanchani #0" = -82
+	"Vaaraharaja #0" = 27
+	"Shashanka #0" = 27
+	"Maurayadhwaj #0" = 27
+	"Nayanadevi #0" = -28
+	"Gandharavati #0" = -55
+	"Govindapal #0" = 27
+	"Narendranarayan #0" = 27
+	"Rudranarayan #0" = 54
+	"Mahendrapala #0" = 327
+	"Bhumimitra #0" = 81
+	"Vasujyeshtha #0" = 54
+	"Vijaysen #0" = 27
+	"Bauladevi #0" = -110
+	"Jagdeva #0" = 54
+	"Bhopal #0" = 81
+	"Kumaradevi #0" = -82
+	"Kirtipala #0" = 109
+	"Baghpal #0" = 54
+	"Annaladevi #0" = -110
+	"Tihunaka #0" = -28
+	"Padmaladevi #0" = -55
+	"Mayanalladevi #0" = -55
+	"Candrabhattarikadevi #0" = -28
+	"Rajamati #0" = -82
+	"Samantasimha #0" = 27
+	"Yograj #0" = 27
+	"Shrimitradevi #0" = -55
+	"Hammira #0" = 27
+	"Kanchuka #0" = -28
+	"Namalladevi #0" = -28
+	"Prabhavati #0" = -28
+	"Samarasimha #0" = 27
+	"Kalayandevi #0" = -137
+	"Bhim-Singh #0" = 27
+	"Akal #0" = -82
+	"Kanwar #0" = -28
+	"Desaladevi #0" = -110
+	"Draupad #0" = 109
+	"Bhumpal #0" = 27
+	"Lakshman #0" = -28
+	"Damayanti #0" = -82
+	"Prabhavatigupta #0" = -28
+	"Hirapal #0" = 109
+	"Bhumpala #0" = 27
+	"Gopala #0" = 136
+	"Deopali-Deo #0" = 81
+	"Prahladana #0" = 27
+	"Kunwar #0" = 54
+	"Anantadevi #0" = -28
+	"Dronasinha #0" = 54
+	"Maharani #0" = -82
+	"Mahidevi #0" = -82
+	"Prasadhanadevi #0" = -110
+	"Laxmidevi #0" = -28
+	"Kakanvati #0" = -55
+	"Chachinidevi #0" = -28
+	"Ratan-Singh #0" = 81
+	"Valhanadeva #0" = 54
+	"Vidurathpala #0" = 54
+	"Allat #0" = 54
+	"Krishnray #0" = 27
+	"Mulraja #0" = 27
+	"Arjunpala #0" = 27
+	"Anupapala #0" = 54
+	"Bisaldeva #0" = 27
+	"Devi Ahiylya #0" = -82
+	"Prithivipala #0" = 27
+	"Rangraja #0" = 27
+	"Ajmal #0" = 27
+	"Mahipal #0" = 81
+	"Kiratpal #0" = 27
+	"Govindachandra #0" = 81
+	"Narpal #0" = 27
+	"Bhavashankari #0" = -82
+	"Lakshmansen #0" = 54
+	"Hemavati #0" = -28
+	"Karmavati #0" = -28
+	"Amrapali #0" = -28
+	"Govindapala #0" = 27
+	"Sidhawa #0" = -28
+	"Dharmapala #0" = 27
+	"Jaganpala #0" = 81
+	"Shuchi-Verma #0" = 54
+	"Madhavi #0" = -55
+	"Bacchdev #0" = 81
+	"Bhuyikadevi #0" = -28
+	"Virama #0" = 27
+	"Suhava #0" = -28
+	"Jagaddipendranarayan #0" = 27
+	"Vakpati #0" = 27
+	"Sundaridevi #0" = -28
+	"Udayamati #0" = -28
+	"Vijnayavati #0" = -55
+	"Puppadevi #0" = -28
+	"Nattadevi #0" = -28
+	"Malavyadevi #0" = -110
+	"Jira #0" = -28
+	"Sinha #0" = 27
+	"Mahipala #0" = 54
+	"Ramnath #0" = 109
+	"Beejpal #0" = 54
+	"Andhraka #0" = 54
+	"Sinhad-Deo #0" = 27
+	"Ghosha #0" = 27
+	"Bhogavati #0" = -82
+	"Rajyapala #0" = 27
+	"Jayat-Singh #0" = 81
+	"Vasumitra #0" = 54
+	"Himadrija #0" = -55
+	"Syamadevi #0" = -28
+	"Rani #0" = -82
+	"Pushkaranadhipa #0" = 27
+	"Nar Singh #0" = 27
+	"Shakrasingh Dev #0" = 54
+	"Devavati #0" = -28
+	"Asima #0" = -110
+	"Ratnadevi #0" = -55
+	"Traillokyachandra #0" = 27
+	"Harasimhadeva #0" = 27
+	"Manava #0" = 27
+	"Yajnavati #0" = -28
+	"Pulindaka #0" = 27
+	"Vijaya #0" = 27
+	"Harendranarayan #0" = 54
+	"Lakshmichandra #0" = 27
+	"Bhagabhadra #0" = 27
+	"Bhairav Singh #0" = 27
+	"Narayana #0" = 27
+	"Amritnarayan #0" = 0
+	"Balabhata #0" = 0
+	"Balinarayan #0" = 0
+	"Ballalsen #0" = 0
+	"Basudevnayaran #0" = 0
+	"Bhagadatta #0" = 0
+	"Bhairabendranarayan #0" = 0
+	"Bhatta #0" = 0
+	"Bhimsingha #0" = 0
+	"Birnayaran #0" = 0
+	"Chandrasen #0" = 0
+	"Chandranarayan #0" = 0
+	"Chaturanan #0" = 0
+	"Chilarai #0" = 0
+	"Danujmadhava #0" = 0
+	"Dasharathadeva #0" = 0
+	"Devakhadga #0" = 0
+	"Devapala #0" = 0
+	"Dhairjendranayaran #0" = 0
+	"Dharendranarayan #0" = 0
+	"Dhirsingha #0" = 0
+	"Gajnarayan #0" = 0
+	"Hajo #0" = 0
+	"Haridevnarayan #0" = 0
+	"Hariyamandal #0" = 0
+	"Hemantasen #0" = 0
+	"Indranarayan #0" = 0
+	"Jadu #0" = 0
+	"Jatakhadga #0" = 0
+	"Jayanarayan #0" = 0
+	"Jayapala #0" = 0
+	"Jitendranarayan #0" = 0
+	"Kalyanachandra #0" = 0
+	"Kamalnarayan #0" = 0
+	"Keshabsen #0" = 0
+	"Khadgodyama #0" = 0
+	"Krishanmishra #0" = 0
+	"Krishnaroy #0" = 0
+	"Kumarapala #0" = 0
+	"Kumudnarayan #0" = 0
+	"Ladahachandra #0" = 0
+	"Lakshminarayan #0" = 0
+	"Lomapada #0" = 0
+	"Madanapala #0" = 0
+	"Mahendrasingha #0" = 0
+	"Mahindranarayan #0" = 0
+	"Mukundanarayan #0" = 0
+	"Naranarayan #0" = 0
+	"Narasingha #0" = 0
+	"Narayanapala #0" = 0
+	"Nayapala #0" = 0
+	"Parikshitnayaran #0" = 0
+	"Prananarayan #0" = 0
+	"Prannath #0" = 0
+	"Pratapnarayan #0" = 0
+	"Pratapnarayanroy #0" = 0
+	"Raghudev #0" = 0
+	"Rajabhata #0" = 0
+	"Rajadinaj #0" = 0
+	"Rajaganesha #0" = 0
+	"Rajendranarayan #0" = 0
+	"Rajrajendranarayan #0" = 0
+	"Ramapala #0" = 0
+	"Ranasura #0" = 0
+	"Ranjitsingha #0" = 0
+	"Roopnarayan #0" = 0
+	"Samudrasen #0" = 0
+	"Shanibhangar #0" = 0
+	"Shivanarayan #0" = 0
+	"Shivendranarayan #0" = 0
+	"Shukladhwaj #0" = 0
+	"Shurapala #0" = 0
+	"Srichandra #0" = 0
+	"Srimanta #0" = 0
+	"Subarnachandra #0" = 0
+	"Sukhdev #0" = 0
+	"Suryanarayan #0" = 0
+	"Udirnakhadga #0" = 0
+	"Uditanarayan #0" = 0
+	"Upendranayaran #0" = 0
+	"Vakapala #0" = 0
+	"Vapyata #0" = 0
+	"Vigrahapala #0" = 0
+	"Vijaynarayan #0" = 0
+	"Vijaysingha #0" = 0
+	"Virajdendranarayan #0" = 0
+	"Vishwarupsen #0" = 0
+	"Vishwasingha #0" = 0
+	"Bhavesh #0" = 0
+	"Bhogishwar #0" = 0
+	"Dev Singh #0" = 0
+	"Dhir Singh #0" = 0
+	"Dhireshwar #0" = 0
+	"Ganeshwar Singh #0" = 0
+	"Gang Dev #0" = 0
+	"Hari Singh #0" = 0
+	"Hemant Sen #0" = 0
+	"Kameshwar #0" = 0
+	"Kirti Singh #0" = 0
+	"Jyotirishwar #0" = 0
+	"Laxman Sen #0" = 0
+	"Madanpal #0" = 0
+	"Nanya Dev #0" = 0
+	"Narsingh Dev #0" = 0
+	"Padma Singh #0" = 0
+	"Rambhadra Singh Dev #0" = 0
+	"Rameshwar #0" = 0
+	"Samant Sen #0" = 0
+	"Shiv Singh #0" = 0
+	"Vallal Sen #0" = 0
+	"Vijay Sen #0" = 0
+	"Agnimitra #0" = 0
+	"Ayus #0" = 0
+	"Bhikhari #0" = 0
+	"Devabhuti #0" = 0
+	"Gopal #0" = 0
+	"Khsetravridha #0" = 0
+	"Maharshi #0" = 0
+	"Mahendra #0" = 0
+	"Pusyamitra #0" = 0
+	"Sahtiya #0" = 0
+	"Susarman #0" = 0
+	"Vajramitra #0" = 0
+	"Vasudeva #0" = 0
+}
+

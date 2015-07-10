@@ -1,0 +1,375 @@
+# Sweden
+graphical_culture = westerngfx
+color = { 55 112 170 }
+historical_idea_groups = {
+
+	defensive_ideas
+
+	offensive_ideas
+
+	diplomatic_ideas
+
+	economic_ideas
+
+	trade_ideas
+
+	aristocracy_ideas
+
+	innovativeness_ideas
+
+	naval_ideas
+
+}
+
+historical_units = {
+
+	western_medieval_infantry
+
+	western_medieval_knights
+
+	western_men_at_arms
+
+	dutch_maurician
+
+	french_caracolle
+
+	swedish_gallop
+
+	swedish_gustavian
+
+	swedish_caroline
+
+	swedish_arme_blanche
+
+	prussian_uhlan
+
+	mixed_order_infantry
+
+	open_order_cavalry
+
+	napoleonic_square
+
+	napoleonic_lancers
+
+}
+
+
+
+leader_names = {
+
+	"Cwenburg" "Æthelswith" "Ecgfrida" "Alfred" "Henry" "Sigeberht" "Swæfræd" "Rhodri" "Tudwal" "Io" 
+	"Cerie" "Anarawd" "Casnar" "Merfyn" "Rhiannon" "Edwyn" "Cadell" "Ilud" "Nest" "Nesta" 
+	"Elen" "Madrun" "Haer" "Morien" "Hunydd" "Iseult" "Cedwyn" "Susanna" "Tydy" "Cynan" 
+	"Annes" "Morydd" "Cadwgan" "Lowry" "Fflur" "Ffwdwr" "Ynyr" "Gwerthefyr" "Mallt" "Drystan" 
+	"Gwilym" "Meilyr" "Gwen" "Cicely" "Fáelbe" "Macsen" "Elinion" "Rhydderch" "Tangwystl" "Sulien" 
+	"Elis" "Aeddan" "Dafydd" "Ysbail" "Ellyn" "Domnall" "Custennin" "Bébinn" "Delyth" "Seferus" 
+	"Gormflaith" "Emrys" "Siân" "Lleigy" "Adda" "Sulgwenn" "Mawd" "Lleuca" "Sion" "Aelwyd" 
+	"Cynfarch" "Gwenfrewwi" "Ragnell" "Sara" "Coel" "Rhun" "Padrig" "Elisedd" "Bedwyr" "Ffelis" 
+	"Senena" "Sadb" "Condál" "Gwenasedd" "Mair" "Peredyr" "Eadburg" "Róen" "Caid" "Brwyn" 
+	"Anowed" "Sioned" "Siwan" "Deiniol" "Iestyn" "Inês" "Cedig" "Steffen" "Meurig" "Mabyn" 
+	"Cain" "Mathgamain" "Pedr" "Dervorgilla" "Ardgar" "Cynfeddw" "Guilherme" "Caradog" "Chamoa" "Essyllt" 
+	"Cadfan" "Ffion" "Aeronwy" "Gwenllian" "Seonaid" "Maior" "Euronwy" "Cristin" "Ewyas" "Ieuan" 
+	"Vímara" "Máel-Muire" "Pwydion" "Marjory" "Mali" "Camila" "Rhonwen" "Margred" "Awst" "Goronwy" 
+	"Gwrgant" "Teilo" "Marcas" "Alisander" "Elspeth" "Æthelwulf" "Glynys" "Rhirid" "Ælfthryth" "Leofgifu" 
+	"Maud" "Isabella" "Ælfwynn" "Findlay" "Swithelm" "Edward" "Leofflæd" "Eva" "Barabal" "Balthild" 
+	"Uhtred" "Malmure" "Arthur" "Peter" "Cenfus" "Ecgwyn" "Thomas" "Eadwig" "Gunhilda" "Eadulf" 
+	"Ceolwulf" "Cuthburg" "Eadmær" "Adelaide" "Wulfhild" "Chimalpopoca" "Atl" "Eormenred" "Eorcenberht" "Ixcatzin" 
+	"Cristina" "Eleuia" "Cuicatl" "Beorhtwaru" "Edith" "Wulfgar" "Mahaut" "Björn" "Eirikr" "Malmfrið" 
+	"Eilif" "Hrolfr" "Buðli" "Ottarr" "Kjartan" "Bragi" "Torsten" "Tikshayka" "Ofeig" "Klas" 
+	"Haukr" "Sveinn" "Aleta" "Inge" "Refr" "Tord" "Bård" "Valerios" "Einarr" "Hemming" 
+	"Øystein" "Alv" "Ragnvald" "Vigleik" "Ingjerd" "Yolotli" "Ogmund" "Arne" "Arnfinn" "Arnkjell" 
+	"Arnmod" "Arnvid" "Bjørn" "Eigil" "Einar" "Eirik" "Erlend" "Erling" "Eystein" "Finn" 
+	"Grim" "Gudbrand" "Gudleik" "Gudrød" "Gunnar" "Guttorm" "Haldor" "Halfdan" "Halkjell" "Harald" 
+	"Håkon" "Håvard" "Ivar" "Jon" "Kåre" "Kolbein" "Lodin" "Magnus" "Olav" "Ossor" 
+	"Pål" "Ragnar" "Rolf" "Sigurd" "Skjalg" "Skofte" "Skule" "Svein" "Sverre" "Torbjørn" 
+	"Tore" "Torgil" "Tormod" "Torolf" "Torstein" "Trond" "Tryggve" "Ulv" "Åle" "Åmund" 
+	"Ølver" }
+monarch_names = {
+	"Cwenburg #0" = -28
+	"Æthelswith #0" = -28
+	"Ecgfrida #0" = -28
+	"Alfred #0" = 27
+	"Henry #0" = 27
+	"Sigeberht #0" = 27
+	"Swæfræd #1" = 108
+	"Rhodri #0" = 108
+	"Tudwal #0" = 54
+	"Io #0" = 27
+	"Cerie #0" = -28
+	"Anarawd #0" = 81
+	"Casnar #0" = 81
+	"Merfyn #0" = 54
+	"Rhiannon #0" = -28
+	"Edwyn #0" = 54
+	"Cadell #0" = 54
+	"Ilud #0" = -55
+	"Nest #0" = -55
+	"Nesta #0" = -28
+	"Elen #0" = -28
+	"Madrun #0" = -82
+	"Haer #0" = -55
+	"Morien #0" = -28
+	"Hunydd #0" = -28
+	"Iseult #0" = -55
+	"Cedwyn #0" = 81
+	"Susanna #0" = -55
+	"Tydy #0" = 54
+	"Cynan #0" = 27
+	"Annes #0" = -28
+	"Morydd #0" = 27
+	"Cadwgan #0" = 27
+	"Lowry #0" = -28
+	"Fflur #0" = -55
+	"Ffwdwr #0" = 81
+	"Ynyr #0" = 54
+	"Gwerthefyr #0" = 27
+	"Mallt #0" = -82
+	"Drystan #0" = 27
+	"Gwilym #0" = 81
+	"Meilyr #0" = 81
+	"Gwen #0" = -28
+	"Cicely #0" = -136
+	"Fáelbe #0" = 27
+	"Macsen #0" = 54
+	"Elinion #0" = -109
+	"Rhydderch #0" = 27
+	"Tangwystl #0" = -28
+	"Sulien #0" = 27
+	"Elis #0" = 54
+	"Aeddan #0" = 81
+	"Dafydd #0" = 27
+	"Ysbail #0" = -28
+	"Ellyn #0" = -28
+	"Domnall #0" = 27
+	"Custennin #0" = 27
+	"Bébinn #0" = -28
+	"Delyth #0" = -28
+	"Seferus #0" = 27
+	"Gormflaith #0" = -28
+	"Emrys #0" = 81
+	"Siân #0" = -55
+	"Lleigy #0" = -55
+	"Adda #0" = 54
+	"Sulgwenn #0" = -28
+	"Mawd #0" = -55
+	"Lleuca #0" = -28
+	"Sion #0" = 81
+	"Aelwyd #0" = -28
+	"Cynfarch #0" = 27
+	"Gwenfrewwi #0" = -28
+	"Ragnell #0" = -55
+	"Sara #0" = -28
+	"Coel #0" = 27
+	"Rhun #0" = 81
+	"Padrig #0" = 54
+	"Elisedd #0" = 27
+	"Bedwyr #0" = 27
+	"Ffelis #0" = -82
+	"Senena #0" = -28
+	"Sadb #0" = -28
+	"Condál #0" = -28
+	"Gwenasedd #0" = -82
+	"Mair #0" = -28
+	"Peredyr #0" = 54
+	"Eadburg #0" = -55
+	"Róen #0" = 27
+	"Caid #0" = 54
+	"Brwyn #0" = 27
+	"Anowed #0" = -55
+	"Sioned #0" = -28
+	"Siwan #0" = -28
+	"Deiniol #0" = 27
+	"Iestyn #0" = 27
+	"Inês #0" = -28
+	"Cedig #0" = 27
+	"Steffen #0" = 54
+	"Meurig #0" = 27
+	"Mabyn #0" = -28
+	"Cain #0" = 27
+	"Mathgamain #0" = 27
+	"Pedr #0" = 27
+	"Dervorgilla #0" = -28
+	"Ardgar #0" = 27
+	"Cynfeddw #0" = 27
+	"Guilherme #0" = 27
+	"Caradog #0" = 27
+	"Chamoa #0" = -28
+	"Essyllt #0" = -28
+	"Cadfan #0" = 27
+	"Ffion #0" = -28
+	"Aeronwy #0" = -28
+	"Gwenllian #0" = -28
+	"Seonaid #0" = -28
+	"Maior #0" = -28
+	"Euronwy #0" = -28
+	"Cristin #0" = -28
+	"Ewyas #0" = 27
+	"Ieuan #0" = 27
+	"Vímara #0" = 27
+	"Máel-Muire #0" = -28
+	"Pwydion #0" = 27
+	"Marjory #0" = -28
+	"Mali #0" = -28
+	"Camila #0" = -28
+	"Rhonwen #0" = -28
+	"Margred #0" = -28
+	"Awst #0" = 27
+	"Goronwy #0" = 27
+	"Gwrgant #0" = 27
+	"Teilo #0" = 27
+	"Marcas #0" = 27
+	"Alisander #0" = 27
+	"Elspeth #0" = -28
+	"Æthelwulf #0" = 27
+	"Glynys #0" = -28
+	"Rhirid #0" = 27
+	"Ælfthryth #0" = -55
+	"Leofgifu #0" = -28
+	"Maud #0" = -28
+	"Isabella #0" = -28
+	"Ælfwynn #0" = -28
+	"Findlay #0" = 27
+	"Swithelm #0" = 27
+	"Edward #0" = 27
+	"Leofflæd #0" = -28
+	"Eva #0" = -28
+	"Barabal #0" = -28
+	"Balthild #0" = -55
+	"Uhtred #0" = 27
+	"Malmure #0" = 27
+	"Arthur #0" = 27
+	"Peter #0" = 27
+	"Cenfus #0" = 27
+	"Ecgwyn #0" = -55
+	"Thomas #0" = 27
+	"Eadwig #0" = 27
+	"Gunhilda #0" = -28
+	"Eadulf #0" = 27
+	"Ceolwulf #0" = 27
+	"Cuthburg #0" = -28
+	"Eadmær #0" = 27
+	"Adelaide #0" = -28
+	"Wulfhild #0" = -28
+	"Chimalpopoca #0" = 27
+	"Atl #0" = -28
+	"Eormenred #0" = 54
+	"Eorcenberht #0" = 27
+	"Ixcatzin #0" = -28
+	"Cristina #0" = -28
+	"Eleuia #0" = -28
+	"Cuicatl #0" = -28
+	"Beorhtwaru #0" = -28
+	"Edith #0" = -28
+	"Wulfgar #0" = 27
+	"Mahaut #0" = -28
+	"Björn #3" = 0
+	"Eirikr #2" = 0
+	"Malmfrið #1" = -1
+	"Eilif #1" = 0
+	"Hrolfr #2" = 0
+	"Buðli #1" = 0
+	"Ottarr #1" = 0
+	"Kjartan #2" = 0
+	"Bragi #1" = 0
+	"Torsten #1" = 0
+	"Tikshayka #1" = 0
+	"Ofeig #1" = 0
+	"Klas #1" = 0
+	"Haukr #1" = 0
+	"Sveinn #1" = 0
+	"Aleta #1" = -1
+	"Inge #1" = 0
+	"Refr #1" = 0
+	"Tord #1" = 0
+	"Bård #1" = 0
+	"Valerios #1" = 0
+	"Einarr #1" = 0
+	"Hemming #1" = 0
+	"Øystein #2" = 0
+	"Alv #1" = 0
+	"Ragnvald #2" = 0
+	"Vigleik #1" = 0
+	"Ingjerd #1" = -1
+	"Yolotli #1" = 0
+	"Ogmund #1" = 0
+	"Arne #0" = 0
+	"Arnfinn #0" = 0
+	"Arnkjell #0" = 0
+	"Arnmod #0" = 0
+	"Arnvid #0" = 0
+	"Bjørn #0" = 0
+	"Eigil #0" = 0
+	"Einar #0" = 0
+	"Eirik #0" = 0
+	"Erlend #0" = 0
+	"Erling #0" = 0
+	"Eystein #0" = 0
+	"Finn #0" = 0
+	"Grim #0" = 0
+	"Gudbrand #0" = 0
+	"Gudleik #0" = 0
+	"Gudrød #0" = 0
+	"Gunnar #0" = 0
+	"Guttorm #0" = 0
+	"Haldor #0" = 0
+	"Halfdan #0" = 0
+	"Halkjell #0" = 0
+	"Harald #0" = 0
+	"Håkon #0" = 0
+	"Håvard #0" = 0
+	"Ivar #0" = 0
+	"Jon #0" = 0
+	"Kåre #0" = 0
+	"Kolbein #0" = 0
+	"Lodin #0" = 0
+	"Magnus #0" = 0
+	"Olav #0" = 0
+	"Ossor #0" = 0
+	"Pål #0" = 0
+	"Ragnar #0" = 0
+	"Rolf #0" = 0
+	"Sigurd #0" = 0
+	"Skjalg #0" = 0
+	"Skofte #0" = 0
+	"Skule #0" = 0
+	"Svein #0" = 0
+	"Sverre #0" = 0
+	"Torbjørn #0" = 0
+	"Tore #0" = 0
+	"Torgil #0" = 0
+	"Tormod #0" = 0
+	"Torolf #0" = 0
+	"Torstein #0" = 0
+	"Trond #0" = 0
+	"Tryggve #0" = 0
+	"Ulv #0" = 0
+	"Åle #0" = 0
+	"Åmund #0" = 0
+	"Ølver #0" = 0
+}
+ship_names = {
+
+	Akilles Amarant Andromeda Anklam Bohus "Böse Lejon" Calmar Camilla Carolus Charlotte Cossacken 
+
+	Crono-Solen David Disa Draken Drottningen Elefanten Elfsborg Elisabet Engel "Engel Gabriel" 
+
+	Enighet Euridice Falk Fenix Finland "Flygande Wargen" Fortuna Fredrika "Fredrika Amalia" 
+
+	Fröija Galathe "Gamla Fortuna" "Gamla Rikssvärdet" "Gotha Lejon" Grip Gustavus "Gyllende Lejon" 
+
+	Göta Göteborg Halland Havsfru Hektor Herkules Hieronymus Hjalmar Hök Illerim Ingeborg Jomfru 
+
+	Jupiter Jägare "Kalmar Nyckel" Kalmarkastell Karlskrona Kronan Laxen Leopard Lejon Lodbrok 
+
+	Mars Mercurius Morgonstjärna Norden Nordstjärna Nyckeln Nyland Oden Pelikanen Postillion 
+
+	"Prins Carl" Prinsessan Regina Rosa Skåne Småland Solen "St. Erik" "St. Göran" "St. Johannes" 
+
+	"St. Thomas" Starkoster Stenbock Stockholm "Stora Cronan" Svan "Svenska Falk" "Svenska Lejonet" 
+
+	Sverige Svärdet Södermanland Tapper Thetis Tigern "Tre Kronor" Troilus Ulrica Uppland 
+
+	Vasen Victoria Warberg Wasa Wenden Werden Vestervik Wästmanland Victoria Witduve Öland Örn
+
+}
+

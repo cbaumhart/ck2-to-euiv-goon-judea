@@ -1,0 +1,33 @@
+# Karelia
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = samoyed
+religion = animism
+capital = 1776
+1405.1.4 = {
+	monarch = {
+		name = "Sarak"
+		dynasty = "Paksyutid"
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+1439.12.5 = {
+	heir = {
+		name = "Ngënoh"
+		monarch_name = "Ngënoh"
+		dynasty = "Paksyutid"
+		birth_date = 1439.12.5
+		death_date = 1519.12.5
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+1444.11.11 = {
+	add_treasury = 197
+	add_prestige = 32
+}

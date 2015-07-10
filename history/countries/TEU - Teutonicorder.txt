@@ -1,0 +1,21 @@
+# Teutonic Order
+government = theocratic_government
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = german
+religion = catholic
+capital = 213
+1402.4.22 = {
+	monarch = {
+		name = "Johann"
+		dynasty = "Nordal"
+		adm = 3
+		dip = 0
+		mil = 4
+	}
+}
+1444.11.11 = {
+	add_treasury = 5082
+	add_prestige = 323
+}

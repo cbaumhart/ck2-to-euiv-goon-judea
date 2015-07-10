@@ -1,0 +1,239 @@
+# Knights Hospitaller
+graphical_culture = westerngfx
+color = { 180 180 180 }
+historical_idea_groups = {
+
+	naval_ideas
+
+	defensive_ideas
+
+	religious_ideas
+
+	offensive_ideas
+
+	trade_ideas
+
+	innovativeness_ideas
+
+	spy_ideas
+
+	quality_ideas
+
+}
+
+historical_units = {
+
+	western_medieval_infantry
+
+	western_medieval_knights
+
+	western_men_at_arms
+
+	swiss_landsknechten
+
+	french_caracolle
+
+	anglofrench_line
+
+	french_dragoon
+
+	prussian_frederickian
+
+	prussian_uhlan
+
+	mixed_order_infantry
+
+	open_order_cavalry
+
+	napoleonic_square
+
+	napoleonic_lancers
+
+}
+
+
+
+leader_names = {
+
+	"André" "Barthélémi" "Guiraud" "Bernhard" "Gontzal" "Raineri" "Kenneth" "Rodulf" "Robèrt" "Estève" 
+	"Ioseph" "Apollonios" "Gautier" "Arnaut" "Radulf" "Lop" "Porphyrios" "Alboino" "Godafres" "Sigismond" 
+	"Roubaud" "Matfre" "Bartoumiéu" "Centolh" "Ebles" "Skirgaila" "Pankratios" "Aimone" "Aleksander" "Vaisvilkas" 
+	"Filibert" "Adhémar" "Acfred" "Aimeric" "Alberic" "Albert" "Aldebert" "Alias" "Anfòs" "Amalric" 
+	"Amaneus" "Ancelmes" "Archambaut" "Artau" "Aton" "Audoïn" "Aymar" "Aymeric" "Aznar" "Barral" 
+	"Baudoïn" "Beneset" "Bérard" "Berenguié" "Bermond" "Bernat" "Bernat-Aton" "Bernat-Ezi" "Bertrand" "Blasi" 
+	"Borel" "Boson" "Carles" "Clamenç" "Dàvi" "Dat" "Dodon" "Doumenge" "Duran" "Emmanuèl" 
+	"Enric" "Ermengau" "Filip" "Ferrand" "Florènç" "Folquet" "Francés" "Frederi" "Garcia" "Gaston" 
+	"Gausbert" "Gilbèrt" "Girard" "Girvais" "Gui" "Guichard" "Guigues" "Guilhèm" "Guitart" "Ives" 
+	"Jacme" "Jaufret" "Joan" "Jordan" "Jorge" "Josselin" "Julian" "Laurènç" "Leon" "Loïs" 
+	"Loui" "Marçau" "Martin" "Matias" "Milo" "Miquel" "Nicholaus" "Odon" "Otton" "Pèire" 
+	"Péire-Arnaut" "Péire-Raimond" "Peranudet" "Pol" "Pons" "Raimond" "Raimond-Berenguié" "Rainaut" "Rainer" "Raolf" 
+	"Ricard" "Rogier" "Sancho" "Savarics" "Simon" "Tièrri" "Tibaud" "Toumas" "Ubald" "Ubert" 
+	"Uc" "Ugues" "Vézian" "Vicenç" }
+monarch_names = {
+	"André #0" = 14
+	"Barthélémi #0" = 14
+	"Guiraud #1" = 14
+	"Bernhard #1" = 0
+	"Gontzal #1" = 0
+	"Raineri #1" = 0
+	"Kenneth #1" = 0
+	"Rodulf #1" = 0
+	"Robèrt #1" = 0
+	"Estève #1" = 0
+	"Ioseph #1" = 0
+	"Apollonios #1" = 0
+	"Gautier #2" = 0
+	"Arnaut #1" = 0
+	"Radulf #1" = 0
+	"Lop #1" = 0
+	"Porphyrios #1" = 0
+	"Alboino #1" = 0
+	"Godafres #1" = 0
+	"Sigismond #1" = 0
+	"Roubaud #1" = 0
+	"Matfre #1" = 0
+	"Bartoumiéu #2" = 0
+	"Centolh #1" = 0
+	"Ebles #1" = 0
+	"Skirgaila #1" = 0
+	"Pankratios #1" = 0
+	"Aimone #1" = 0
+	"Aleksander #1" = 0
+	"Vaisvilkas #1" = 0
+	"Filibert #1" = 0
+	"Adhémar #0" = 0
+	"Acfred #0" = 0
+	"Aimeric #0" = 0
+	"Alberic #0" = 0
+	"Albert #0" = 0
+	"Aldebert #0" = 0
+	"Alias #0" = 0
+	"Anfòs #0" = 0
+	"Amalric #0" = 0
+	"Amaneus #0" = 0
+	"Ancelmes #0" = 0
+	"Archambaut #0" = 0
+	"Artau #0" = 0
+	"Aton #0" = 0
+	"Audoïn #0" = 0
+	"Aymar #0" = 0
+	"Aymeric #0" = 0
+	"Aznar #0" = 0
+	"Barral #0" = 0
+	"Baudoïn #0" = 0
+	"Beneset #0" = 0
+	"Bérard #0" = 0
+	"Berenguié #0" = 0
+	"Bermond #0" = 0
+	"Bernat #0" = 0
+	"Bernat-Aton #0" = 0
+	"Bernat-Ezi #0" = 0
+	"Bertrand #0" = 0
+	"Blasi #0" = 0
+	"Borel #0" = 0
+	"Boson #0" = 0
+	"Carles #0" = 0
+	"Clamenç #0" = 0
+	"Dàvi #0" = 0
+	"Dat #0" = 0
+	"Dodon #0" = 0
+	"Doumenge #0" = 0
+	"Duran #0" = 0
+	"Emmanuèl #0" = 0
+	"Enric #0" = 0
+	"Ermengau #0" = 0
+	"Filip #0" = 0
+	"Ferrand #0" = 0
+	"Florènç #0" = 0
+	"Folquet #0" = 0
+	"Francés #0" = 0
+	"Frederi #0" = 0
+	"Garcia #0" = 0
+	"Gaston #0" = 0
+	"Gausbert #0" = 0
+	"Gilbèrt #0" = 0
+	"Girard #0" = 0
+	"Girvais #0" = 0
+	"Gui #0" = 0
+	"Guichard #0" = 0
+	"Guigues #0" = 0
+	"Guilhèm #0" = 0
+	"Guitart #0" = 0
+	"Ives #0" = 0
+	"Jacme #0" = 0
+	"Jaufret #0" = 0
+	"Joan #0" = 0
+	"Jordan #0" = 0
+	"Jorge #0" = 0
+	"Josselin #0" = 0
+	"Julian #0" = 0
+	"Laurènç #0" = 0
+	"Leon #0" = 0
+	"Loïs #0" = 0
+	"Loui #0" = 0
+	"Marçau #0" = 0
+	"Martin #0" = 0
+	"Matias #0" = 0
+	"Milo #0" = 0
+	"Miquel #0" = 0
+	"Nicholaus #0" = 0
+	"Odon #0" = 0
+	"Otton #0" = 0
+	"Pèire #0" = 0
+	"Péire-Arnaut #0" = 0
+	"Péire-Raimond #0" = 0
+	"Peranudet #0" = 0
+	"Pol #0" = 0
+	"Pons #0" = 0
+	"Raimond #0" = 0
+	"Raimond-Berenguié #0" = 0
+	"Rainaut #0" = 0
+	"Rainer #0" = 0
+	"Raolf #0" = 0
+	"Ricard #0" = 0
+	"Rogier #0" = 0
+	"Sancho #0" = 0
+	"Savarics #0" = 0
+	"Simon #0" = 0
+	"Tièrri #0" = 0
+	"Tibaud #0" = 0
+	"Toumas #0" = 0
+	"Ubald #0" = 0
+	"Ubert #0" = 0
+	"Uc #0" = 0
+	"Ugues #0" = 0
+	"Vézian #0" = 0
+	"Vicenç #0" = 0
+}
+ship_names = {
+
+	"The Blessed Gerard"
+
+	"Raymond du Puy de Provence"
+
+	"Auger de Balben"
+
+	"Arnaud de Comps"
+
+	"Gilbert d'Aissailly"
+
+	"Gastone de Murols"
+
+	"Gilbert of Syria"
+
+	"Roger de Moulins"
+
+	"Hélion de Villeneuve"
+
+	"Hermangard d'Asp"
+
+	"Garnier de Naplous"
+
+	"Geoffroy de Donjon"
+
+	"Alfonse of Portugal"
+
+	"Geoffrey le Rat"
+
+}
+

@@ -1,0 +1,33 @@
+# Kaivarta
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = marathi
+religion = jain
+capital = 526
+1417.12.24 = {
+	monarch = {
+		name = "Naivarman"
+		dynasty = "Kaivarta"
+		adm = 2
+		dip = 6
+		mil = 2
+	}
+}
+1444.2.10 = {
+	heir = {
+		name = "Naivarman"
+		monarch_name = "Naivarman II"
+		dynasty = "Kaivarta"
+		birth_date = 1444.2.10
+		death_date = 1524.2.10
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+1444.11.11 = {
+	add_treasury = 450
+	add_prestige = 127
+}

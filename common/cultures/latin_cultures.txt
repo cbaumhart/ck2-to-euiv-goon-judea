@@ -1,0 +1,10 @@
+latin = {
+	italian = {
+		primary = ITA
+		dynasty_names = { "d'Ivrea" "di Avola" "Polizzi" "di Castello" "Paganelli" "di Conti" "di Jenne" "di Aquino" "di Celano" "Romano" "Torrelli" "Cybo" "Boccanegra" "Farnese" "di Tusculum" "di Terracina" "di Usson" "di Aljaraque" "di Beaune" "di Montfort-l'Amaury" "di Meaux" "di St Georges du Bois" "di Montenay" "di Ouguela" "di Olhão" "di Cosne" "di Guise" "di Calañas" "di Montmirail" "di Signy" "di Tamisa" "di Andújar" "di Château-Gontier" "di Beaumont" "di Arcos" "di Alcalá de los Gazules" "di Utrera" "di Cosne" "di Noyers" "di Barfleur" "di Montbazon" "di Cañete de las Torres" "di St Denis" "di Nevers" "di Honfleur" "di Mehun" "di Almodovar-del-Campo" "di Honfleur" "di Huelma" "di Tarifa" "di Cholet" "di Almodôvar" }
+	}
+	roman = {
+		primary = ITA
+		dynasty_names = { }
+	}
+}

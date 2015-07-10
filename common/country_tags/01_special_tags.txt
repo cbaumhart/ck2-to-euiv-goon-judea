@@ -1,0 +1,10 @@
+JOM = countries/Jomsvikings.txt
+HAH = countries/Hashshashin.txt
+ROM = countries/RomanEmpire.txt
+ISR = countries/Israel.txt
+TEM = countries/KnightsTemplar.txt
+JUD = countries/Judea.txt
+PRM = countries/Perm.txt
+CUM = countries/Cumania.txt
+TKM = countries/Turkestan.txt
+VBA = countries/VolgaBulgaria.txt

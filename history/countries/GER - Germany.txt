@@ -1,0 +1,33 @@
+# Germany
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = high_american
+primary_culture = aztek
+religion = catholic
+capital = 82
+1408.12.31 = {
+	monarch = {
+		name = "Cipac"
+		dynasty = "Bathid"
+		adm = 1
+		dip = 0
+		mil = 5
+	}
+}
+1412.12.31 = {
+	heir = {
+		name = "Cuetlachtli"
+		monarch_name = "Cuetlachtli"
+		dynasty = "Bathid"
+		birth_date = 1412.12.31
+		death_date = 1492.12.31
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+}
+1444.11.11 = {
+	add_treasury = 32
+	add_prestige = 214
+}

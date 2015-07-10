@@ -1,0 +1,21 @@
+# Granada
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = cosmopolitan_french
+religion = catholic
+capital = 222
+1410.12.16 = {
+	monarch = {
+		name = "Philippe"
+		dynasty = "de Jargeau"
+		adm = 1
+		dip = 3
+		mil = 1
+	}
+}
+1444.11.11 = {
+	add_treasury = 7
+	add_prestige = 121
+}

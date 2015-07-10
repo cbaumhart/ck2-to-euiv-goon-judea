@@ -1,0 +1,21 @@
+# Portucale
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = basque
+religion = catholic
+capital = 231
+1392.3.1 = {
+	monarch = {
+		name = "Gontzal III"
+		dynasty = "de Viana do Castelo"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+1444.11.11 = {
+	add_treasury = 164
+	add_prestige = 19
+}

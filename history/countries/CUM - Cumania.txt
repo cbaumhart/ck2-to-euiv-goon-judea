@@ -1,0 +1,21 @@
+# Cumania
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = cuman
+religion = jewish
+capital = 464 #Astrakhan
+1453.1.1 = {
+	monarch = {
+		name = "Anthousa"
+		Dynasty = "Bulanid"
+		birth_date = 1450.4.18
+		death_date = 1530.7.3
+		claim = 80
+		female = yes
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}

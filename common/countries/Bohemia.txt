@@ -1,0 +1,411 @@
+# Bohemia
+graphical_culture = easterngfx
+color = { 176 110 32 }
+historical_idea_groups = {
+
+	defensive_ideas
+
+	offensive_ideas
+
+	economic_ideas
+
+	spy_ideas
+
+	innovativeness_ideas
+
+	quantity_ideas
+
+	administrative_ideas
+
+	religious_ideas
+
+}
+
+historical_units = {
+
+	western_medieval_infantry
+
+	western_medieval_knights
+
+	western_men_at_arms
+
+	swiss_landsknechten
+
+	dutch_maurician
+
+	austrian_tercio
+
+	austrian_grenzer
+
+	austrian_hussar
+
+	austrian_white_coat
+
+	austrian_jaeger
+
+	mixed_order_infantry
+
+	open_order_cavalry
+
+	napoleonic_square
+
+	napoleonic_lancers
+
+}
+
+
+
+leader_names = {
+
+	"Albrecht" "Aleksander" "Adelinde" "Thomas" "Perchta" "Trude" "Zdenka" "Rutger" "Karlotte" "Arnold" 
+	"Rostislav" "Ojír" "Karlmann" "Waldemar" "Augustin" "Skonka" "Martin" "Gunzelin" "Ferdinand" "Wulfhilde" 
+	"Matthias" "Viola" "Alberich" "Reinhard" "Thietmar" "Jirík" "Richenza" "Gertruda" "Inga" "Katharina" 
+	"Johann" "Gottschalk" "Piotr" "Romilda" "Diepold" "Jarka" "Krystyn" "Barnim" "Wincenty" "Hanna" 
+	"Marcelina" "Lech" "Vladislava" "Dragovit" "Markéta" "Radomila" "Danuta" "Kajetan" "Alzbeta" "Szymon" 
+	"Ewa" "Aron" "Geira" "Zdenek" "Svetlana" "Jadwiga" "Prendota" "Dytryk" "Berta" "Urszula" 
+	"Oldrich" "Zwinislawa" "Krzeslaw" "Regelinda" "Jaromar" "Janusz" "Swietoslaw" "Smiechna" "Jolanta" "Dorota" 
+	"Kenna" "Rycheza" "Kliment" "Jaroslav" "Raina" "Irena" "Stefana" "Radomira" "Bozena" "Swietopelk" 
+	"Kazimierz" "Wizlaw" "Martyna" "Dobroniega" "Wenceslaw" "Boleslaw" "Zdislav" "Malgorzata" "Wlodzimierz" "Ksenia" 
+	"Krystyna" "Wawrzyniec" "Dobromil" "Strasz" "Gracja" "Andela" "Wratislaw" "Zdislava" "Tobiás" "Sobieslav" 
+	"Jindrich" "Smil" "Wera" "Dragomira" "Zygmunt" "Heralt" "Drahoslava" "Ryszard" "Jaromír" "Zofia" 
+	"Mikolás" "Vanek" "Boleslava" "Radoslava" "Borijov" "Magdalena" "Anna" "Doubravka" "Rajmund" "Marie" 
+	"Markvart" "Ota" "Pechna" "Adalbert" "Dagmar" "Bedrich" "Salomea" "Gawel" "Kunegunda" "Jaroslaw" 
+	"Adléta" "Litold" "Grzegorz" "Nadzieja" "Grazyna" "Katarina" "Sulistryj" "Wislawa" "Wielislaw" "Elzbieta" 
+	"Wszebora" "Piskla" "Swietoslawa" "Gniewomir" "Maria" "Spytko" "Serhilda" "Stefan" "Samboja" "Judyta" 
+	"Siemomysl" "Zegota" "Beata" "Heinrich" "Kazimiera" "Agathe" "Hesso" "Dobronega" "Walram" "Lucja" 
+	"Otto" "Gerhild" "Hugo" "Siegmund" "Grzymislawa" "Agnes" "Henryk" "Richwara" "Cecilie" "Jutta" 
+	"Twardomir" "Mateusz" "Gunhilda" "Milena" "Irmgard" "Gotthard" "Emma" "Agnieszka" "Jakub" "Amalie" 
+	"Gosciwuj" "Osterhild" "Ermengard" "Wszemila" "Gaudenty" "Svatopluk" "Bozydar" "Kamila" "Ingeltrude" "Hanus" 
+	"Milobrat" "Katarzyna" "Wanko" "Folkmar" "Wolfgang" "Wido" "Ludvik" "Václav" "Helferich" "Anezka" 
+	"Ulrich" "Arnost" "Dobrawa" "Hupold" "Attila" "Mikulás" "Viktorín" "Hynek" "Albert" "Ales" 
+	"Bavor" "Benes" "Bocek" "Bohuslav" "Boleslav" "Bores" "Bretislav" "Budivoj" "Castolov" "Cenek" 
+	"Chval" "Ctirad" "Detrich" "Drslav" "Gerhard" "Havel" "Herman" "Hrabis" "Jan" "Jesek" 
+	"Karel" "Kojata" "Konrád" "Kuník" "Matous" "Milic" "Mojmír" "Ondrej" "Otakar" "Pelhrim" 
+	"Petr" "Premysl" "Prokop" "Sezima" "Slavibor" "Slavomír" "Spytihnev" "Strachkvas" "Svatobor" "Vítek" 
+	"Vilém" "Vladimír" "Vladislav" "Vojtech" "Vratislav" "Vsebor" "Závis" "Zbynek" "Zdík" "Zdirad" 
+	"Zikmund" }
+monarch_names = {
+	"Albrecht #0" = 27
+	"Aleksander #0" = 81
+	"Adelinde #0" = -28
+	"Thomas #0" = 27
+	"Perchta #0" = -28
+	"Trude #0" = -28
+	"Zdenka #0" = -28
+	"Rutger #0" = 27
+	"Karlotte #0" = -28
+	"Arnold #0" = 27
+	"Rostislav #0" = 54
+	"Ojír #2" = 81
+	"Karlmann #0" = 27
+	"Waldemar #0" = 81
+	"Augustin #0" = 27
+	"Skonka #0" = -28
+	"Martin #0" = 54
+	"Gunzelin #0" = 27
+	"Ferdinand #0" = 27
+	"Wulfhilde #0" = -28
+	"Matthias #0" = 27
+	"Viola #0" = -55
+	"Alberich #0" = 27
+	"Reinhard #0" = 54
+	"Thietmar #0" = 27
+	"Jirík #0" = 27
+	"Richenza #0" = -28
+	"Gertruda #0" = -28
+	"Inga #0" = -28
+	"Katharina #0" = -28
+	"Johann #0" = 27
+	"Gottschalk #0" = 108
+	"Piotr #0" = 54
+	"Romilda #0" = -28
+	"Diepold #0" = 54
+	"Jarka #0" = -82
+	"Krystyn #0" = 27
+	"Barnim #0" = 108
+	"Wincenty #0" = 162
+	"Hanna #0" = -28
+	"Marcelina #0" = -28
+	"Lech #0" = 81
+	"Vladislava #1" = -55
+	"Dragovit #0" = 27
+	"Markéta #0" = -55
+	"Radomila #0" = -55
+	"Danuta #0" = -28
+	"Kajetan #0" = 54
+	"Alzbeta #0" = -28
+	"Szymon #0" = 81
+	"Ewa #0" = -55
+	"Aron #0" = 54
+	"Geira #0" = -82
+	"Zdenek #0" = 27
+	"Svetlana #0" = -55
+	"Jadwiga #0" = -55
+	"Prendota #0" = 108
+	"Dytryk #0" = 27
+	"Berta #0" = -82
+	"Urszula #0" = -28
+	"Oldrich #0" = 108
+	"Zwinislawa #0" = -82
+	"Krzeslaw #0" = 27
+	"Regelinda #0" = -55
+	"Jaromar #0" = 27
+	"Janusz #0" = 81
+	"Swietoslaw #0" = 81
+	"Smiechna #0" = -55
+	"Jolanta #0" = -55
+	"Dorota #0" = -28
+	"Kenna #0" = -82
+	"Rycheza #0" = -55
+	"Kliment #0" = 27
+	"Jaroslav #0" = 81
+	"Raina #0" = -55
+	"Irena #0" = -28
+	"Stefana #0" = -28
+	"Radomira #0" = -28
+	"Bozena #0" = -55
+	"Swietopelk #0" = 54
+	"Kazimierz #0" = 27
+	"Wizlaw #0" = 27
+	"Martyna #0" = -28
+	"Dobroniega #0" = -55
+	"Wenceslaw #0" = 27
+	"Boleslaw #0" = 108
+	"Zdislav #0" = 27
+	"Malgorzata #0" = -28
+	"Wlodzimierz #0" = 54
+	"Ksenia #0" = -28
+	"Krystyna #0" = -55
+	"Wawrzyniec #0" = 27
+	"Dobromil #0" = 27
+	"Strasz #0" = 27
+	"Gracja #0" = -55
+	"Andela #0" = -28
+	"Wratislaw #0" = 27
+	"Zdislava #0" = -28
+	"Tobiás #0" = 27
+	"Sobieslav #0" = 27
+	"Jindrich #1" = 54
+	"Smil #0" = 27
+	"Wera #0" = -28
+	"Dragomira #0" = -82
+	"Zygmunt #0" = 81
+	"Heralt #0" = 27
+	"Drahoslava #0" = -28
+	"Ryszard #0" = 27
+	"Jaromír #0" = 27
+	"Zofia #0" = -28
+	"Mikolás #0" = 27
+	"Vanek #0" = 27
+	"Boleslava #0" = -28
+	"Radoslava #0" = -28
+	"Borijov #0" = 27
+	"Magdalena #0" = -28
+	"Anna #0" = -190
+	"Doubravka #0" = -28
+	"Rajmund #0" = 27
+	"Marie #0" = -28
+	"Markvart #0" = 27
+	"Ota #0" = 27
+	"Pechna #0" = -28
+	"Adalbert #0" = 27
+	"Dagmar #0" = -28
+	"Bedrich #0" = 54
+	"Salomea #0" = -55
+	"Gawel #0" = 27
+	"Kunegunda #0" = -55
+	"Jaroslaw #0" = 27
+	"Adléta #0" = -28
+	"Litold #2" = 27
+	"Grzegorz #0" = 27
+	"Nadzieja #0" = -28
+	"Grazyna #0" = -28
+	"Katarina #0" = -28
+	"Sulistryj #0" = 135
+	"Wislawa #0" = -82
+	"Wielislaw #0" = 81
+	"Elzbieta #0" = -28
+	"Wszebora #0" = -55
+	"Piskla #0" = 54
+	"Swietoslawa #0" = -55
+	"Gniewomir #0" = 27
+	"Maria #0" = -28
+	"Spytko #0" = 27
+	"Serhilda #0" = -28
+	"Stefan #0" = 27
+	"Samboja #0" = -82
+	"Judyta #0" = -28
+	"Siemomysl #0" = 54
+	"Zegota #0" = 27
+	"Beata #0" = -82
+	"Heinrich #0" = 54
+	"Kazimiera #0" = -82
+	"Agathe #0" = -82
+	"Hesso #0" = 135
+	"Dobronega #0" = -28
+	"Walram #0" = 27
+	"Lucja #0" = -28
+	"Otto #0" = 27
+	"Gerhild #0" = -28
+	"Hugo #0" = 27
+	"Siegmund #0" = 27
+	"Grzymislawa #0" = -28
+	"Agnes #0" = -28
+	"Henryk #0" = 27
+	"Richwara #0" = -28
+	"Cecilie #0" = -28
+	"Jutta #0" = -28
+	"Twardomir #0" = 81
+	"Mateusz #0" = 27
+	"Gunhilda #0" = -28
+	"Milena #0" = -28
+	"Irmgard #0" = -55
+	"Gotthard #0" = 27
+	"Emma #0" = -28
+	"Agnieszka #0" = -28
+	"Jakub #0" = 27
+	"Amalie #0" = -28
+	"Gosciwuj #0" = 27
+	"Osterhild #0" = -28
+	"Ermengard #0" = -28
+	"Wszemila #0" = -28
+	"Gaudenty #0" = 27
+	"Svatopluk #1" = 27
+	"Bozydar #0" = 27
+	"Kamila #0" = -28
+	"Ingeltrude #0" = -28
+	"Hanus #0" = 27
+	"Milobrat #1" = 54
+	"Katarzyna #0" = -55
+	"Wanko #0" = 27
+	"Folkmar #0" = 27
+	"Wolfgang #0" = 27
+	"Wido #0" = 27
+	"Ludvik #0" = 27
+	"Václav #0" = 27
+	"Helferich #0" = 27
+	"Anezka #0" = -28
+	"Ulrich #0" = 27
+	"Arnost #0" = 27
+	"Dobrawa #0" = -28
+	"Hupold #0" = 27
+	"Attila #1" = 0
+	"Mikulás #1" = 0
+	"Viktorín #1" = 0
+	"Hynek #2" = 0
+	"Albert #0" = 0
+	"Ales #0" = 0
+	"Bavor #0" = 0
+	"Benes #0" = 0
+	"Bocek #0" = 0
+	"Bohuslav #0" = 0
+	"Boleslav #0" = 0
+	"Bores #0" = 0
+	"Bretislav #0" = 0
+	"Budivoj #0" = 0
+	"Castolov #0" = 0
+	"Cenek #0" = 0
+	"Chval #0" = 0
+	"Ctirad #0" = 0
+	"Detrich #0" = 0
+	"Drslav #0" = 0
+	"Gerhard #0" = 0
+	"Havel #0" = 0
+	"Herman #0" = 0
+	"Hrabis #0" = 0
+	"Jan #0" = 0
+	"Jesek #0" = 0
+	"Karel #0" = 0
+	"Kojata #0" = 0
+	"Konrád #0" = 0
+	"Kuník #0" = 0
+	"Matous #0" = 0
+	"Milic #0" = 0
+	"Mojmír #0" = 0
+	"Ondrej #0" = 0
+	"Otakar #0" = 0
+	"Pelhrim #0" = 0
+	"Petr #0" = 0
+	"Premysl #0" = 0
+	"Prokop #0" = 0
+	"Sezima #0" = 0
+	"Slavibor #0" = 0
+	"Slavomír #0" = 0
+	"Spytihnev #0" = 0
+	"Strachkvas #0" = 0
+	"Svatobor #0" = 0
+	"Vítek #0" = 0
+	"Vilém #0" = 0
+	"Vladimír #0" = 0
+	"Vladislav #0" = 0
+	"Vojtech #0" = 0
+	"Vratislav #0" = 0
+	"Vsebor #0" = 0
+	"Závis #0" = 0
+	"Zbynek #0" = 0
+	"Zdík #0" = 0
+	"Zdirad #0" = 0
+	"Zikmund #0" = 0
+}
+ship_names = {
+
+	"Svatý Vaclav"
+
+	"Svatá Ludmila"
+
+	"Svatý Jan Nepomucký"
+
+	"Svatý Mikulás"
+
+	"Svatý Jirí"
+
+	"Svatá Anezká"
+
+	"Nejsvetejsí Trojice"
+
+	"Král Karel"
+
+	"Král Boleslav"
+
+	"Král Premysl"
+
+	"Panna Maria Vitezná"
+
+	"Jan Hus"
+
+	"Jan Zizka"
+
+	"Prokop Holý"
+
+	"Kníze Bretislav"
+
+	"Premysl Orac"
+
+	Ctirad
+
+	Cechy
+
+	Morava
+
+	Libuse
+
+	Odvázný
+
+	Neporazitelný
+
+	Rychlý
+
+	Bystrý
+
+	Orel
+
+	Sokol
+
+	Slezsko
+
+	Sipka
+
+	Hvezda
+
+}
+

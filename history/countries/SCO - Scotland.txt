@@ -1,0 +1,33 @@
+# Scotland
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = scottish
+religion = fraticelli
+capital = 251
+1388.4.13 = {
+	monarch = {
+		name = "Tadhg II"
+		dynasty = "Menteith"
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}
+1389.4.17 = {
+	heir = {
+		name = "Lulach"
+		monarch_name = "Lulach"
+		dynasty = "Menteith"
+		birth_date = 1389.4.17
+		death_date = 1469.4.17
+		adm = 3
+		dip = 1
+		mil = 4
+	}
+}
+1444.11.11 = {
+	add_treasury = 281
+	add_prestige = 332
+}

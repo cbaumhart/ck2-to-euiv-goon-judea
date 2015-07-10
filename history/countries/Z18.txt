@@ -1,0 +1,33 @@
+# Rashtrakuta
+government = absolute_monarchy
+government_rank = 3
+mercantilism = 0.1
+technology_group = western
+primary_culture = kannada
+religion = jain
+capital = 1948
+1382.3.24 = {
+	monarch = {
+		name = "Mushkara II"
+		dynasty = "Rashtrakuta"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+1417.6.16 = {
+	heir = {
+		name = "Khottiga"
+		monarch_name = "Khottiga"
+		dynasty = "Rashtrakuta"
+		birth_date = 1417.6.16
+		death_date = 1497.6.16
+		adm = 4
+		dip = 2
+		mil = 1
+	}
+}
+1444.11.11 = {
+	add_treasury = 11
+	add_prestige = 1108
+}

@@ -1,0 +1,145 @@
+ignoring_the_laws = {
+	potential = {
+		tag = JUD #Former Z13
+		is_subject = no
+		uses_doom = no
+		NOT = { has_country_flag = had_ignoring_the_laws }
+		NOT = { government = theocracy }
+#		is_year = 1500
+		NOT { is_year = 1750}
+	}
+	#This should always be running
+	can_start = {
+		has_any_disaster = no
+		#NOT = { stability = 3 }
+	}
+	#This should be easy to stop if the ruler wants.
+	can_stop = {
+		OR = {
+			at_war_with_religious_enemy = yes
+			has_any_disaster = yes
+			stability = 1
+		}
+	}
+	
+	progress = {
+		modifier = { #Frontier Khaganate
+			#Perm PRM
+			factor = 0.25	
+			any_province = { is_core = PRM } #I think this prevents this countdown if the cores expired
+			PRM = {
+				OR = {
+					exists = no
+					NOT { vassal_of = ROOT }
+				}
+			}
+		}
+		modifier = { #Frontier Khaganate
+			#Cumania CUM
+			factor = 0.25
+			any_province = { is_core = CUM } #I think this prevents this countdown if the cores expired
+			CUM = {
+				OR = {
+					exists = no
+					NOT { vassal_of = ROOT }
+				}
+			}
+			
+		}
+		modifier = { #Frontier Khaganate
+			#Turkestan TKM
+			factor = 0.25
+			any_province = { is_core = TKM } #I think this prevents this countdown if the cores expired
+			TKM = {
+				OR = {
+					exists = no
+					NOT { vassal_of = ROOT }
+				}
+			}
+		}
+		modifier ={ #Frontier Khaganate
+			#Volga Bulgaria VBA
+			factor = 0.25
+			any_province = { is_core = VBA } #I think this prevents this countdown if the cores expired
+			VBA = {
+				OR = {
+					exists = no
+					NOT { vassal_of = ROOT }
+				}
+			}
+		}
+		modifier = {
+			#Crimea CRI
+			factor = 0.2
+			any_province = { is_core = CRI } #I think this prevents this countdown if the cores expired
+			CRI = {
+				OR = {
+					exists = no
+					NOT { vassal_of = ROOT }
+				}
+			}
+		}
+		modifier = {
+			factor = 6
+			is_bankrupt = yes
+		}
+	}	
+	
+	can_end ={
+		AND = {
+			NOT = { num_of_rebel_controlled_provinces = 1 }
+			stability = 3
+			is_bankrupt = no
+			OR = {
+				AND = {
+					PRM = {
+						exists = yes
+						vassal_of = ROOT
+					}
+					CUM = {
+						exists = yes
+						vassal_of = ROOT
+					}
+					TKM = {
+						exists = yes
+						vassal_of = ROOT
+					}
+					VBA = {
+						exists = yes
+						vassal_of = ROOT
+					}
+					CRI = {
+						exists = yes
+						vassal_of = ROOT
+						government = merchant_republic	#Goverment form of merchant republic
+					}
+				}
+				government = theocracy
+			}
+		}
+	}
+	
+	modifier = {
+		global_unrest = 4
+		stability_cost_modifier = 0.25
+		core_creation = 0.25
+	}
+	
+	on_start = ignoring_the_laws.1
+	on_end = ignoring_the_laws.100
+	
+	on_monthly = {
+		events = {	
+		}	
+		random_events = {
+			700 = 0
+			100 = ignoring_laws.2
+			100 = ignoring_laws.3
+			100 = ignoring_laws.4
+			100 = ignoring_laws.5
+			100 = ignoring_laws.6
+			100 = ignoring_laws.7
+			100 = ignoring_laws.8
+		}
+	}	
+}

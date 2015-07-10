@@ -1,0 +1,26 @@
+oghuz = {
+	pecheneg = {
+		primary = KAZ
+		dynasty_names = { "Vulatsopon" "Chirid" }
+	}
+	cuman = {
+		primary = KAZ
+		dynasty_names = { "Andjogli" "Itlarid" "Uzurid" }
+	}
+	bolghar = {
+		primary = KAZ
+		dynasty_names = { }
+	}
+	avar = {
+		primary = KAZ
+		dynasty_names = { }
+	}
+	khazar = {
+		primary = KAZ
+		dynasty_names = { "Bulanid" "Bukhal" "Bulan" "Tuzniqid" "Kisaid" "Çorpan" "Çorpan" "Bälgiçi" "Karadaid" "Hezekiahid" "Barsbekid" "Fastivid" "Hanukkahid" "Manassid" "Koltid" "Mänärid" "Manassid" "Barjikid" "Täbärid" "Alpid" "Bughid" "Sarmin" "Kamajid" "Khorolid" "Yavanteyid" "Lentekhi" "Simsamid" "Baghid" "Bashtwid" "Yerneslu" "Kundaçiqid" "Kundaçid" "Gerjanisid" "Kundaçid" "Alpid" "Kayghalaid" "Barjikid" "Tarkhan" "Kibarid" "Fastivid" "Insarid" "Boryspilid" "Kisaid" "Manassid" "Sartäçid" "Papaçyzid" "Bashtwid" "Mglin" "Tarkhan" "Yiligid" "Papaçyzid" "Luninetsid" "Bälgiçi" "Klimovo" "Manassid" "Aksayaskayid" "Yerneslu" "Khuterkin" "Tumakid" "Antiochosid" "Kundaçid" "Mënümarótid" "Gorodetsid" "Tarmaçid" "Yabghu" "Busirid" "Sorochyntsi" "Bulçan" "Yiligid" "Täbärid" "Barjikid" "Alpid" "Böri" "Ezraid" "Bulçan" "Mänäsid" "Bastu" "Çatn" "Polskyid" "Mänäsid" "Samsamid" "Mospyne" }
+	}
+	karluk = {
+		primary = UZB
+		dynasty_names = { }
+	}
+}

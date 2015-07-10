@@ -1,0 +1,21 @@
+# Nadia
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = oriya
+religion = hinduism
+capital = 561
+1388.2.15 = {
+	monarch = {
+		name = "Dhirsingha"
+		dynasty = "Senajit"
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}
+1444.11.11 = {
+	add_treasury = 1
+	add_prestige = 28
+}

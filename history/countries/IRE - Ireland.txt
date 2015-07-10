@@ -1,0 +1,33 @@
+# Ireland
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = scottish
+religion = fraticelli
+capital = 236
+1410.8.24 = {
+	monarch = {
+		name = "David"
+		dynasty = "Menteith"
+		adm = 2
+		dip = 4
+		mil = 0
+	}
+}
+1435.12.13 = {
+	heir = {
+		name = "Ninian"
+		monarch_name = "Ninian III"
+		dynasty = "Menteith"
+		birth_date = 1435.12.13
+		death_date = 1515.12.13
+		adm = 1
+		dip = 5
+		mil = 3
+	}
+}
+1444.11.11 = {
+	add_treasury = 28
+	add_prestige = 391
+}

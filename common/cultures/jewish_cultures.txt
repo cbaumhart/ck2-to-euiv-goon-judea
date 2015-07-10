@@ -1,0 +1,11 @@
+israelite = {
+	ashkenazi = {
+		primary = ISR
+		dynasty_names = { "of Nurlat" "of Chornukhy" "of Sason" "of Kiya" "of Gadera" "of Tonshaevo" "of Belyov" "of Szentlörinc" "of Tigranakert" }
+	}
+	
+	sephardi = {
+		primary = ISR
+		dynasty_names = { }
+	}
+}

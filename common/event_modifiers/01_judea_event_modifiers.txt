@@ -1,0 +1,17 @@
+affirmed_traditions = {
+	global_unrest = -2
+	accepted_culture_threshold = -0.25
+	local_autonomy = -0.05
+}
+
+overturned_tradition = {
+	global_unrest = -1
+	idea_cost = -0.1
+	local_autonomy = -0.05
+}
+
+#traditional_conflict = {
+#	global_unrest = 3
+#	stability_cost_modifier = 0.25
+#	core_creation = 0.25
+#}

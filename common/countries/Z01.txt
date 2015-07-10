@@ -1,0 +1,164 @@
+# Island
+graphical_culture = westerngfx
+color = { 195 190 255 }
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	offensive_ideas
+	economic_ideas
+	diplomatic_ideas
+	plutocracy_ideas
+	#New Ideas
+	innovativeness_ideas
+	naval_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	dutch_maurician
+	swedish_gallop
+	swedish_gustavian
+	swedish_caroline
+	swedish_arme_blanche
+	prussian_frederickian
+	prussian_uhlan
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+
+
+leader_names = {
+
+	"Maria" "Mizquixahual" "Åle" "Tepin" "Eystein" "Arnfinn" "Ølver" "Sunniva" "Sigrid" "Acacitli" 
+	"Thorborg" "Snøfrid" "Eirik" "Ossor" "Åshild" "Alv" "Torgils" "Margrete" "Erlend" "Gudrun" 
+	"Gyrid" "Haldora" "Tryggve" "Anna" "Arnkjell" "Grim" "Torgil" "Skjalg" "Ingrid" "Gunnhild" 
+	"Haldor" "Astrid" "Tord" "Ulv" "Cecilia" "Håvard" "Åsta" "Magnus" "Finn" "Tore" 
+	"Erling" "Kolbein" "Gudrid" "Gjertrud" "Rannveig" "Gunnar" "Arne" "Rolf" "Kristina" "Svein" 
+	"Dag" "Skule" "Inge" "Brigida" "Ingjerd" "Jon" "Bård" "Ragna" "Trond" "Jorunn" 
+	"Lodin" "Martha" "Skofte" "Gudbrand" "Frans" "Harald" "Eldrid" "Ogmund" "Arnmod" "Tormod" 
+	"Ingebjørg" "Ivar" "Torstein" "Åse" "Vigleik" "Karin" "Bjørn" "Pål" "Chalchiuitl" "Ragnar" 
+	"Sverre" "Haraldr" "Froði" "Refr" "Anders" "Kåre" "Halkjell" "Arnvid" "Eigil" "Eilif" 
+	"Einar" "Gudleik" "Gudrød" "Guttorm" "Halfdan" "Håkon" "Olav" "Ragnvald" "Sigurd" "Torbjørn" 
+	"Torolf" "Åmund" "Øystein" }
+monarch_names = {
+	"Maria #1" = -91
+	"Mizquixahual #0" = -12
+	"Åle #0" = 11
+	"Tepin #0" = -12
+	"Eystein #0" = 33
+	"Arnfinn #1" = 67
+	"Ølver #1" = 101
+	"Sunniva #0" = -34
+	"Sigrid #0" = -57
+	"Acacitli #0" = 11
+	"Thorborg #0" = -114
+	"Snøfrid #0" = -34
+	"Eirik #0" = 22
+	"Ossor #0" = 22
+	"Åshild #0" = -80
+	"Alv #0" = 67
+	"Torgils #0" = 11
+	"Margrete #0" = -34
+	"Erlend #1" = 22
+	"Gudrun #0" = -57
+	"Gyrid #0" = -57
+	"Haldora #0" = -57
+	"Tryggve #0" = 11
+	"Anna #0" = -57
+	"Arnkjell #0" = 33
+	"Grim #1" = 11
+	"Torgil #0" = 22
+	"Skjalg #0" = 11
+	"Ingrid #0" = -57
+	"Gunnhild #0" = -34
+	"Haldor #0" = 11
+	"Astrid #0" = -114
+	"Tord #0" = 101
+	"Ulv #0" = 67
+	"Cecilia #0" = -23
+	"Håvard #0" = 11
+	"Åsta #0" = -23
+	"Magnus #1" = 33
+	"Finn #0" = 22
+	"Tore #0" = 22
+	"Erling #0" = 22
+	"Kolbein #1" = 56
+	"Gudrid #0" = -46
+	"Gjertrud #0" = -34
+	"Rannveig #0" = -68
+	"Gunnar #0" = 22
+	"Arne #0" = 45
+	"Rolf #0" = 33
+	"Kristina #0" = -57
+	"Svein #0" = 67
+	"Dag #0" = 22
+	"Skule #1" = 33
+	"Inge #0" = 11
+	"Brigida #0" = -34
+	"Ingjerd #0" = -12
+	"Jon #0" = 22
+	"Bård #0" = 33
+	"Ragna #0" = -23
+	"Trond #0" = 11
+	"Jorunn #0" = -68
+	"Lodin #0" = 11
+	"Martha #1" = -68
+	"Skofte #0" = 45
+	"Gudbrand #0" = 11
+	"Frans #0" = 11
+	"Harald #0" = 22
+	"Eldrid #0" = -23
+	"Ogmund #1" = 33
+	"Arnmod #0" = 11
+	"Tormod #0" = 11
+	"Ingebjørg #0" = -12
+	"Ivar #3" = 11
+	"Torstein #0" = 11
+	"Åse #0" = -12
+	"Vigleik #1" = 11
+	"Karin #0" = -23
+	"Bjørn #0" = 11
+	"Pål #0" = 11
+	"Chalchiuitl #0" = -12
+	"Ragnar #0" = 11
+	"Sverre #0" = 11
+	"Haraldr #2" = 0
+	"Froði #2" = 0
+	"Refr #1" = 0
+	"Anders #1" = 0
+	"Kåre #1" = 0
+	"Halkjell #1" = 0
+	"Arnvid #0" = 0
+	"Eigil #0" = 0
+	"Eilif #0" = 0
+	"Einar #0" = 0
+	"Gudleik #0" = 0
+	"Gudrød #0" = 0
+	"Guttorm #0" = 0
+	"Halfdan #0" = 0
+	"Håkon #0" = 0
+	"Olav #0" = 0
+	"Ragnvald #0" = 0
+	"Sigurd #0" = 0
+	"Torbjørn #0" = 0
+	"Torolf #0" = 0
+	"Åmund #0" = 0
+	"Øystein #0" = 0
+}
+ship_names = {
+	Ålvik
+	Bergen
+	Engan
+	Kristiansund
+	Molde
+	Oslo
+	Roan
+	Stavanger Sula
+	Trondheim
+}
+

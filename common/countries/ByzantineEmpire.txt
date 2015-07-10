@@ -1,0 +1,820 @@
+# Byzantine Empire
+graphical_culture = easterngfx
+color = { 163 10 145 }
+historical_idea_groups = {
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	spy_ideas
+	defensive_ideas
+	trade_ideas
+	innovativeness_ideas
+	quality_ideas
+}
+
+historical_units = {
+	eastern_medieval_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	ottoman_spahi
+	ottoman_sekban
+	ottoman_reformed_spahi
+	ottoman_reformed_janissary
+	ottoman_toprakli_hit_and_run
+	ottoman_nizami_cedid
+	ottoman_toprakli_dragoon
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	ottoman_new_model
+	ottoman_lancer
+}
+
+
+
+leader_names = {
+
+	"Amaury" "Géraud" "Konstancja" "Jovirdas" "Marie" "Zofia" "Henri" "Wicher" "Thiébaut" "Aubry" 
+	"Felicia" "Jacques" "Étiennette" "Sarrazine" "Eglantine" "Euphrosine" "Humbert" "Gertruda" "Ettore" "Julienne" 
+	"Aude" "Viviana" "André" "Krystyna" "Angelbert" "Guillaume" "Gilles" "Arnoul" "Manrique" "Thomais" 
+	"Evalda" "Swietopelk" "Maslaw" "Alice" "Thierry" "Louis" "Boson" "Bourguigne" "Mascarose" "Amalberga" 
+	"Amalrich" "Sophie" "Alarich" "Adam" "Mélisande" "Solène" "Theophanes" "Rutger" "Gerberga" "Laima" 
+	"Prendota" "Orestes" "Léonard" "Mafalda" "Euphemia" "Payen" "Vainius" "Gautselin" "Hildeburg" "Guichard" 
+	"Rorgues" "Tibaldo" "Zwinislawa" "Irmgard" "Mathilde" "Girdenis" "Blanche" "Markia" "Fraunk" "Archambaud" 
+	"Emma" "Arsinde" "Marthe" "Dausprungas" "Drogo" "Pepin" "Charles" "Grimoald" "Lothaire" "Rotrude" 
+	"Bernard" "Adelaide" "Gisela" "Childebrand" "Nibelung" "Grifo" "Carloman" "Ida" "Aeda" "Rotrud" 
+	"Alpais" "Aldana" "Jérôme" "Richard" "Waldger" "Ermengarde" "Theoderic" "Ekkehard" "Ludwig" "Irmengarde" 
+	"Adelheid" "Isabeau" "Gisele" "Diether" "Karl" "Herbert" "Karlmann" "Gerhild" "Hildegard" "Judith" 
+	"Eginolf" "Rotryde" "Arnulf" "Onfroy" "Ermentrude" "Richara" "Bertha" "Cunegundis" "Edda" "Aliénor" 
+	"Adémar" "Serhilda" "Robert" "Michael" "Pernelle" "Eustachie" "Reinhard" "Inge" "Ezzo" "Aléarde" 
+	"Tiburge" "Valence" "Thomas" "Bourgogne" "Helvis" "Adrien" "Hemma" "Alix" "Almodis" "Hamelin" 
+	"Marguerite" "Klara" "Bonne" "Ulrike" "Cécile" "Romilda" "Adèle" "Étienne" "Agathe" "Udo" 
+	"Franz" "Denise" "Adelinde" "Katharina" "Wilhelmina" "Julien" "Karlotte" "Henrike" "Antoinette" "Dietpold" 
+	"Ogier" "Berchte" "Dietwin" "Baldewin" "Raymond" "Bohemond" "Baldemar" "Arnault" "Constance" "Plaisance" 
+	"Sofie" "Ordulf" "Thietmar" "Alberade" "Berthold" "Erich" "Luis" "Pernette" "Werner" "Aimery" 
+	"Elisabeth" "Josselin" "Gunhilda" "Irmeltrud" "Renaud" "Gudrun" "Sigismond" "Aurengarde" "Hedwig" "Hildebert" 
+	"Gauthier" "Benoît" "Cecilie" "Aymar" "Philipp" "Érrard" "Kriemhild" "Berthe" "Ermessinde" "Adalmode" 
+	"Oda" "Frédéric" "Alphonse" "Estève" "Aldebert" "Perinne" "Mélusine" "Agnès" "Ide" "Irmele" 
+	"Cothilda" "Raoul" "Héloise" "Folkhard" "Viktor" "Élodie" "Giselbert" "Inwær" "Stefan" "Mélisende" 
+	"Eadhild" "Ehrenfried" "Bérengère" "Guy" "Markward" "Raynaud" "Siegmund" "Gerberge" "Simon" "Berengar" 
+	"Anne" "Philippe" "Gisèle" "Augustin" "Mahaut" "Stéphanie" "Mathieu" "Maria" "Ilsa" "Gertrude" 
+	"Geoffroy" "Adela" "Centule" "Ludolf" "Beatrix" "Hermann" "Ursula" "Amadeus" "Mathias" "Roger" 
+	"Echive" "Foulques" "Norbert" "Esclarmonde" "Ernst" "Tibaud" "Guilhem" "Ildégarde" "Rudger" "Binhilde" 
+	"Dorothea" "Georg" "Manfred" "Mechtild" "Jourdain" "Nicolas" "Engeltraud" "Wenzel" "Amelie" "Friedrica" 
+	"Savary" "Helga" "Folkmar" "Otto" "Guillaumette" "Lando" "Jutte" "Günzel" "Clotaire" "Agaete" 
+	"Guiges" "Gotthard" "Ruprecht" "Ulrich" "Frida" "Agnes" "Gerlach" "Éléonore" "Thibault" "Isentrude" 
+	"Wolfgang" "Belleassez" "Gottfried" "Péronelle" "Wulfhilde" "Benoîte" "Jaspert" "Walram" "Margarete" "Richenza" 
+	"Benedicta" "Sieghard" "Margot" "Arnold" "Yves" "Mautild" "Amalie" "Trude" "Siegfried" "Gelduin" 
+	"Jeanne" "Roubaud" "Ainès" "Barbara" "Eve" "Manassès" "Helene" "Emelrich" "Béatrix" "Alexander" 
+	"Ermengard" "Sybille" "Wolfram" "Godefroy" "Sibyl" "Rorgon" "Severinus" "Luitgard" "Hélie" "Winfrida" 
+	"Hilarius" "Meinhard" "Aubrey" "Eufemia" "Clarimond" "Gargamel" "Adalbert" "Raymonde" "Hodierne" "Hermessent" 
+	"Máire" "Gebhard" "Walpurga" "Welf" "Antoine" "Eustache" "Poppo" "Hartmann" "Béatrice" "Andreas" 
+	"Cenn-Fáelad" "Hugo" "Ardgar" "Berta" "Richwara" "Marwenna" "Gaucher" "Heinrich" "Adolf" "Heike" 
+	"Yolande" "Friedrich" "Gerbert" "Heilwiva" "Jaufré" "Christine" "Rudolf" "Barthélémi" "Ancel" "Ailbhe" 
+	"Raimbaut" "Finnguala" "Johann" "Derborgaill" "Cathèrine" "Constanza" "Cuicatl" "Walter" "Akgul" "Báetán" 
+	"Guntram" "Alain" "Christopher" "Kunigunde" "Gilla-Críst" "Geva" "Lambert" "Gotzelo" "Hupold" "Áedammair" 
+	"Jean" "Siobán" "Emõke" "Matfre" "Brunhilde" "Peter" "Bertrand" "Eberhard" "Adalhard" "Waldemar" 
+	"Gormflaith" "Bartoumiéu" "Gervas" "Klementia" "Hugues" "Sigrid" "Malinalxochitl" "Inga" "Opochtli" "Alison" 
+	"Liudolf" "Kaspar" "Tura" "Anders" "Cihuaton" "Gerhard" "Gautier" "Jutta" "Theodorich" "Chimalpilli" 
+	"Selova" "Wilhelm" "Ingeltrude" "Jakob" "Xiloxoch" "Adelard" "Konstanze" "Maxtla" "Tziquetzalpoztectzin" "Herleve" 
+	"Nikolaus" "Tlaloc" "Tezcatlan" "Tlacaelel" "Frery" "Evrard" "Eztli" "Ute" "Kettilmund" "Huitzilin" 
+	"Mechthild" "Osterhild" "Topiltzin" "Yvon" "Adalbero" "Yaretzi" "Wigerich" "Baldarich" "Coaxoch" "Ebbon" 
+	"Jaksa" "Iakobos" "Bernhard" "Magdalene" "Ingegerd" "Margherita" "Ioanna" "Damiane" "Stephania" "Gaucelin" 
+	"Alberich" "Enzo" "Filibert" "Ferdinand" "Alexios" "Dobronega" "Simone" "Augustus" "Tiberius" "Caligula" 
+	"Claudius" "Nero" "Galba" "Otho" "Vitellius" "Vespasian" "Titus" "Domitian" "Nerva" "Trajan" 
+	"Hadrian" "Antoninus" "Lucius" "Marcus" "Commodus" "Pertinax" "Julian" "Septimius" "Geta" "Caracalla" 
+	"Macrinus" "Heliogabalus" "Maximinus" "Gordian" "Pupienus" "Balbinus" "Philip" "Decius" "Gallus" "Aemilian" 
+	"Valerian" "Gallienus" "Quintillus" "Aurelian" "Severina" "Tacitus" "Florian" "Probus" "Carus" "Numerian" 
+	"Carinus" "Diocletian" "Maximian" "Constantius" "Galerius" "Maxentius" "Licinius" "Constantine" "Constans" "Jovian" 
+	"Valentinian" "Valens" "Gratian" "Theodosius" "Arcadius" "Honorius" "Marcian" "Leon" "Zenon" "Basiliskos" 
+	"Anastasios" "Justin" "Justinian" "Ioustinos" "Tiberios" "Maurikios" "Phokas" "Herakleios" "Konstantinos" "Herakleonas" 
+	"Konstas" "Ioustinianos" "Leontios" "Philippikos" "Theodosios" "Artavasdos" "Eirene" "Nikephoros" "Stavrakios" "Theophilos" 
+	"Basileios" "Kyriake" "Jolán" "Lõrinc" "Ioannes" "Symeon" "Lajos" "Elek" "Miklós" "Methodios" 
+	"Chrysogonos" "Timotheos" "Martha" "Pavlina" "Kosmas" "Kallinikos" "Helias" "Theophano" "Dionysios" "Philotheos" 
+	"Adrianos" "Akakios" "Alexandros" "Anatolios" "Andronikos" "Anthemios" "Anthimos" "Antiochos" "Antonios" "Apollonios" 
+	"Arsenios" "Artemios" "Athanasios" "Bardas" "Bartholomaios" "Belisarios" "Boethios" "Bosporios" "Christophoros" "Chrysanthos" 
+	"Damianos" "Daniel" "David" "Demetrios" "Diogenes" "Dorotheos" "Eirenaios" "Eudoxios" "Eustratios" "Eugenios" 
+	"Euphemios" "Eusebios" "Eustathios" "Evangelos" "Gabriel" "Gennadios" "Georgios" "Gerasimos" "Germanos" "Gregoras" 
+	"Gregorios" "Hektorios" "Hierotheos" "Himerios" "Hippolytos" "Hypatios" "Ignatios" "Innokentios" "Ioannikios" "Iordanes" 
+	"Ioseph" "Isaakios" "Isaias" "Isidoros" "Ioulianos" "Kaisarios" "Kallistos" "Komitas" "Konstantios" "Kyriakos" 
+	"Kyrillos" "Kyros" "Laurentios" "Lazaros" "Loukas" "Makarios" "Manuel" "Markos" "Matthaios" "Maximos" 
+	"Megistos" "Meletios" "Narses" "Neophytos" "Niketas" "Nikodemos" "Nikolaos" "Niphon" "Pamphilios" "Pankratios" 
+	"Pantoleon" "Paschalis" "Pavlos" "Pelagios" "Petros" "Philaretos" "Philippos" "Photios" "Polykarpos" "Porphyrios" 
+	"Prokopios" "Pyrros" "Raphail" "Romanos" "Sabas" "Samuel" "Serapion" "Sebastianos" "Sergios" "Stephanos" 
+	"Staurakios" "Symmachos" "Theocharistos" "Theodoros" "Theodotos" "Theodoulos" "Theoktistos" "Theophylaktos" "Traianos" "Tryphon" 
+	"Valerios" "Zacharias" "Zenobios" }
+monarch_names = {
+	"Amaury #0" = 69
+	"Géraud #0" = 277
+	"Konstancja #0" = -70
+	"Jovirdas #0" = 69
+	"Marie #0" = -486
+	"Zofia #0" = -70
+	"Henri #0" = 415
+	"Wicher #0" = 69
+	"Thiébaut #0" = 138
+	"Aubry #0" = 415
+	"Felicia #0" = -70
+	"Jacques #0" = 346
+	"Étiennette #0" = -278
+	"Sarrazine #0" = -486
+	"Eglantine #0" = -278
+	"Euphrosine #0" = -347
+	"Humbert #0" = 277
+	"Gertruda #0" = -139
+	"Ettore #0" = 69
+	"Julienne #0" = -416
+	"Aude #0" = -347
+	"Viviana #0" = -70
+	"André #0" = 138
+	"Krystyna #0" = -70
+	"Angelbert #0" = 138
+	"Guillaume #0" = 138
+	"Gilles #0" = 485
+	"Arnoul #0" = 207
+	"Manrique #0" = 69
+	"Thomais #0" = -70
+	"Evalda #0" = -70
+	"Swietopelk #0" = 138
+	"Maslaw #0" = 69
+	"Alice #0" = -278
+	"Thierry #0" = 554
+	"Louis #0" = 554
+	"Boson #0" = 207
+	"Bourguigne #0" = -278
+	"Mascarose #0" = -416
+	"Amalberga #0" = -278
+	"Amalrich #0" = 207
+	"Sophie #0" = -70
+	"Alarich #0" = 138
+	"Adam #0" = 138
+	"Mélisande #0" = -278
+	"Solène #0" = -208
+	"Theophanes #1" = 69
+	"Rutger #0" = 69
+	"Gerberga #0" = -416
+	"Laima #0" = -70
+	"Prendota #0" = 69
+	"Orestes #1" = 69
+	"Léonard #0" = 138
+	"Mafalda #0" = -139
+	"Euphemia #0" = -70
+	"Payen #0" = 762
+	"Vainius #0" = 69
+	"Gautselin #0" = 138
+	"Hildeburg #0" = -416
+	"Guichard #0" = 277
+	"Rorgues #0" = 1039
+	"Tibaldo #0" = 69
+	"Zwinislawa #0" = -70
+	"Irmgard #0" = -278
+	"Mathilde #0" = -278
+	"Girdenis #0" = 69
+	"Blanche #0" = -347
+	"Markia #0" = -70
+	"Fraunk #0" = 69
+	"Archambaud #0" = 138
+	"Emma #0" = -208
+	"Arsinde #0" = -139
+	"Marthe #0" = -486
+	"Dausprungas #0" = 69
+	"Drogo #0" = 69
+	"Pepin #0" = 1386
+	"Charles #0" = 762
+	"Grimoald #0" = 69
+	"Lothaire #0" = 831
+	"Rotrude #0" = -70
+	"Bernard #0" = 277
+	"Adelaide #0" = -208
+	"Gisela #0" = -347
+	"Childebrand #0" = 623
+	"Nibelung #0" = 138
+	"Grifo #0" = 69
+	"Carloman #0" = 207
+	"Ida #0" = -347
+	"Aeda #0" = -70
+	"Rotrud #0" = -70
+	"Alpais #0" = -70
+	"Aldana #0" = -70
+	"Jérôme #0" = 69
+	"Richard #0" = 415
+	"Waldger #0" = 69
+	"Ermengarde #0" = -901
+	"Theoderic #0" = 69
+	"Ekkehard #0" = 138
+	"Ludwig #0" = 623
+	"Irmengarde #0" = -70
+	"Adelheid #0" = -694
+	"Isabeau #0" = -278
+	"Gisele #0" = -139
+	"Diether #0" = 138
+	"Karl #0" = 138
+	"Herbert #0" = 138
+	"Karlmann #0" = 207
+	"Gerhild #0" = -486
+	"Hildegard #0" = -208
+	"Judith #0" = -416
+	"Eginolf #0" = 693
+	"Rotryde #0" = -70
+	"Arnulf #0" = 138
+	"Onfroy #0" = 346
+	"Ermentrude #0" = -139
+	"Richara #0" = -347
+	"Bertha #0" = -70
+	"Cunegundis #0" = -70
+	"Edda #0" = -70
+	"Aliénor #0" = -278
+	"Adémar #0" = 346
+	"Serhilda #0" = -416
+	"Robert #0" = 207
+	"Michael #3" = 69
+	"Pernelle #0" = -486
+	"Eustachie #0" = -208
+	"Reinhard #0" = 485
+	"Inge #0" = -208
+	"Ezzo #0" = 207
+	"Aléarde #0" = -278
+	"Tiburge #0" = -278
+	"Valence #0" = -70
+	"Thomas #0" = 554
+	"Bourgogne #0" = -70
+	"Helvis #0" = -208
+	"Adrien #0" = 485
+	"Hemma #0" = -278
+	"Alix #0" = -139
+	"Almodis #0" = -208
+	"Hamelin #0" = 69
+	"Marguerite #0" = -416
+	"Klara #0" = -208
+	"Bonne #0" = -208
+	"Ulrike #0" = -278
+	"Cécile #0" = -208
+	"Romilda #0" = -208
+	"Adèle #0" = -555
+	"Étienne #0" = 415
+	"Agathe #0" = -763
+	"Udo #0" = 138
+	"Franz #0" = 415
+	"Denise #0" = -208
+	"Adelinde #0" = -278
+	"Katharina #1" = -486
+	"Wilhelmina #0" = -139
+	"Julien #0" = 485
+	"Karlotte #0" = -208
+	"Henrike #0" = -416
+	"Antoinette #0" = -347
+	"Dietpold #0" = 485
+	"Ogier #0" = 277
+	"Berchte #0" = -208
+	"Dietwin #0" = 69
+	"Baldewin #0" = 207
+	"Raymond #0" = 138
+	"Bohemond #0" = 207
+	"Baldemar #0" = 415
+	"Arnault #0" = 69
+	"Constance #0" = -486
+	"Plaisance #0" = -278
+	"Sofie #0" = -139
+	"Ordulf #0" = 138
+	"Thietmar #0" = 207
+	"Alberade #0" = -347
+	"Berthold #0" = 277
+	"Erich #0" = 277
+	"Luis #0" = 69
+	"Pernette #0" = -208
+	"Werner #0" = 207
+	"Aimery #0" = 207
+	"Elisabeth #0" = -1387
+	"Josselin #0" = 277
+	"Gunhilda #0" = -278
+	"Irmeltrud #0" = -278
+	"Renaud #0" = 69
+	"Gudrun #0" = -278
+	"Sigismond #0" = 138
+	"Aurengarde #0" = -139
+	"Hedwig #0" = -208
+	"Hildebert #0" = 207
+	"Gauthier #0" = 138
+	"Benoît #0" = 207
+	"Cecilie #0" = -555
+	"Aymar #0" = 138
+	"Philipp #0" = 207
+	"Érrard #0" = 277
+	"Kriemhild #0" = -208
+	"Berthe #0" = -139
+	"Ermessinde #0" = -139
+	"Adalmode #0" = -208
+	"Oda #0" = -278
+	"Frédéric #0" = 138
+	"Alphonse #0" = 485
+	"Estève #0" = 69
+	"Aldebert #0" = 138
+	"Perinne #0" = -139
+	"Mélusine #0" = -347
+	"Agnès #0" = -208
+	"Ide #0" = -278
+	"Irmele #0" = -486
+	"Cothilda #0" = -278
+	"Raoul #0" = 69
+	"Héloise #0" = -278
+	"Folkhard #0" = 138
+	"Viktor #0" = 415
+	"Élodie #0" = -347
+	"Giselbert #0" = 346
+	"Inwær #0" = 415
+	"Stefan #0" = 138
+	"Mélisende #0" = -278
+	"Eadhild #0" = -70
+	"Ehrenfried #0" = 69
+	"Bérengère #0" = -208
+	"Guy #0" = 69
+	"Markward #0" = 415
+	"Raynaud #0" = 207
+	"Siegmund #0" = 138
+	"Gerberge #0" = -70
+	"Simon #0" = 277
+	"Berengar #0" = 277
+	"Anne #0" = -347
+	"Philippe #0" = 277
+	"Gisèle #0" = -139
+	"Augustin #0" = 485
+	"Mahaut #0" = -347
+	"Stéphanie #0" = -139
+	"Mathieu #0" = 762
+	"Maria #0" = -208
+	"Ilsa #0" = -208
+	"Gertrude #0" = -208
+	"Geoffroy #0" = 138
+	"Adela #0" = -416
+	"Centule #0" = 69
+	"Ludolf #0" = 346
+	"Beatrix #0" = -139
+	"Hermann #0" = 485
+	"Ursula #0" = -208
+	"Amadeus #0" = 346
+	"Mathias #0" = 69
+	"Roger #0" = 138
+	"Echive #0" = -139
+	"Foulques #0" = 69
+	"Norbert #0" = 69
+	"Esclarmonde #0" = -278
+	"Ernst #0" = 277
+	"Tibaud #0" = 69
+	"Guilhem #0" = 69
+	"Ildégarde #0" = -139
+	"Rudger #0" = 207
+	"Binhilde #0" = -208
+	"Dorothea #0" = -278
+	"Georg #0" = 69
+	"Manfred #0" = 69
+	"Mechtild #0" = -208
+	"Jourdain #0" = 69
+	"Nicolas #0" = 138
+	"Engeltraud #0" = -416
+	"Wenzel #0" = 346
+	"Amelie #0" = -555
+	"Friedrica #0" = -278
+	"Savary #0" = 69
+	"Helga #0" = -208
+	"Folkmar #0" = 207
+	"Otto #0" = 207
+	"Guillaumette #0" = -139
+	"Lando #0" = 69
+	"Jutte #0" = -70
+	"Günzel #0" = 138
+	"Clotaire #0" = 69
+	"Agaete #0" = -70
+	"Guiges #0" = 138
+	"Gotthard #0" = 138
+	"Ruprecht #0" = 623
+	"Ulrich #0" = 138
+	"Frida #0" = -139
+	"Agnes #0" = -278
+	"Gerlach #0" = 138
+	"Éléonore #0" = -208
+	"Thibault #0" = 138
+	"Isentrude #0" = -347
+	"Wolfgang #0" = 69
+	"Belleassez #0" = -347
+	"Gottfried #0" = 207
+	"Péronelle #0" = -70
+	"Wulfhilde #0" = -70
+	"Benoîte #0" = -139
+	"Jaspert #0" = 69
+	"Walram #0" = 277
+	"Margarete #0" = -416
+	"Richenza #0" = -208
+	"Benedicta #0" = -555
+	"Sieghard #0" = 138
+	"Margot #0" = -139
+	"Arnold #0" = 69
+	"Yves #0" = 138
+	"Mautild #0" = -70
+	"Amalie #0" = -208
+	"Trude #0" = -347
+	"Siegfried #0" = 69
+	"Gelduin #0" = 138
+	"Jeanne #0" = -139
+	"Roubaud #0" = 138
+	"Ainès #0" = -70
+	"Barbara #0" = -278
+	"Eve #0" = -278
+	"Manassès #0" = 69
+	"Helene #0" = -139
+	"Emelrich #0" = 69
+	"Béatrix #0" = -208
+	"Alexander #1" = 69
+	"Ermengard #0" = -278
+	"Sybille #0" = -278
+	"Wolfram #0" = 138
+	"Godefroy #0" = 207
+	"Sibyl #0" = -70
+	"Rorgon #0" = 69
+	"Severinus #0" = 69
+	"Luitgard #0" = -139
+	"Hélie #0" = 138
+	"Winfrida #0" = -278
+	"Hilarius #0" = 69
+	"Meinhard #0" = 138
+	"Aubrey #0" = -70
+	"Eufemia #0" = -347
+	"Clarimond #0" = -139
+	"Gargamel #0" = 277
+	"Adalbert #0" = 69
+	"Raymonde #0" = -70
+	"Hodierne #0" = -139
+	"Hermessent #0" = -70
+	"Máire #0" = -70
+	"Gebhard #0" = 277
+	"Walpurga #0" = -70
+	"Welf #0" = 138
+	"Antoine #0" = 346
+	"Eustache #0" = 138
+	"Poppo #0" = 207
+	"Hartmann #0" = 138
+	"Béatrice #0" = -208
+	"Andreas #0" = 415
+	"Cenn-Fáelad #0" = 69
+	"Hugo #0" = 207
+	"Ardgar #0" = 69
+	"Berta #0" = -139
+	"Richwara #0" = -208
+	"Marwenna #0" = -70
+	"Gaucher #0" = 69
+	"Heinrich #0" = 415
+	"Adolf #0" = 138
+	"Heike #0" = -70
+	"Yolande #0" = -139
+	"Friedrich #0" = 69
+	"Gerbert #0" = 69
+	"Heilwiva #0" = -70
+	"Jaufré #0" = 138
+	"Christine #0" = -347
+	"Rudolf #0" = 69
+	"Barthélémi #0" = 207
+	"Ancel #0" = 138
+	"Ailbhe #0" = -70
+	"Raimbaut #0" = 207
+	"Finnguala #0" = -70
+	"Johann #0" = 138
+	"Derborgaill #0" = -70
+	"Cathèrine #0" = -139
+	"Constanza #0" = -70
+	"Cuicatl #0" = -70
+	"Walter #0" = 207
+	"Akgul #0" = -70
+	"Báetán #0" = 69
+	"Guntram #0" = 138
+	"Alain #0" = 69
+	"Christopher #0" = 138
+	"Kunigunde #0" = -139
+	"Gilla-Críst #0" = 69
+	"Geva #0" = -70
+	"Lambert #0" = 69
+	"Gotzelo #0" = 415
+	"Hupold #0" = 69
+	"Áedammair #0" = -70
+	"Jean #0" = 138
+	"Siobán #0" = -70
+	"Emõke #0" = -70
+	"Matfre #0" = 69
+	"Brunhilde #0" = -139
+	"Peter #0" = 138
+	"Bertrand #0" = 69
+	"Eberhard #0" = 207
+	"Adalhard #0" = 207
+	"Waldemar #0" = 138
+	"Gormflaith #0" = -70
+	"Bartoumiéu #0" = 69
+	"Gervas #0" = 69
+	"Klementia #0" = -139
+	"Hugues #0" = 138
+	"Sigrid #0" = -70
+	"Malinalxochitl #0" = -70
+	"Inga #0" = -278
+	"Opochtli #0" = 138
+	"Alison #0" = -70
+	"Liudolf #0" = 69
+	"Kaspar #0" = 69
+	"Tura #0" = -70
+	"Anders #0" = 69
+	"Cihuaton #0" = -70
+	"Gerhard #0" = 69
+	"Gautier #0" = 69
+	"Jutta #0" = -70
+	"Theodorich #0" = 138
+	"Chimalpilli #0" = 69
+	"Selova #0" = -70
+	"Wilhelm #0" = 69
+	"Ingeltrude #0" = -70
+	"Jakob #0" = 69
+	"Xiloxoch #0" = -70
+	"Adelard #0" = 69
+	"Konstanze #0" = -70
+	"Maxtla #0" = 69
+	"Tziquetzalpoztectzin #0" = -70
+	"Herleve #0" = -70
+	"Nikolaus #0" = 69
+	"Tlaloc #0" = 69
+	"Tezcatlan #0" = -70
+	"Tlacaelel #0" = 69
+	"Frery #0" = 138
+	"Evrard #0" = 69
+	"Eztli #0" = -70
+	"Ute #0" = -70
+	"Kettilmund #0" = 69
+	"Huitzilin #0" = 69
+	"Mechthild #0" = -70
+	"Osterhild #0" = -139
+	"Topiltzin #0" = 69
+	"Yvon #0" = -70
+	"Adalbero #0" = 69
+	"Yaretzi #0" = -70
+	"Wigerich #0" = 69
+	"Baldarich #0" = 69
+	"Coaxoch #0" = -70
+	"Ebbon #0" = 69
+	"Jaksa #0" = 69
+	"Iakobos #0" = 69
+	"Bernhard #0" = 69
+	"Magdalene #0" = -70
+	"Ingegerd #0" = -70
+	"Margherita #0" = -70
+	"Ioanna #0" = -70
+	"Damiane #1" = -70
+	"Stephania #1" = -70
+	"Gaucelin #0" = 138
+	"Alberich #0" = 69
+	"Enzo #0" = 69
+	"Filibert #0" = 69
+	"Ferdinand #1" = 69
+	"Alexios #0" = 69
+	"Dobronega #0" = -70
+	"Simone #0" = 69
+	"Augustus #1" = 0
+	"Tiberius #1" = 0
+	"Caligula #1" = 0
+	"Claudius #2" = 0
+	"Nero #1" = 0
+	"Galba #1" = 0
+	"Otho #1" = 0
+	"Vitellius #1" = 0
+	"Vespasian #1" = 0
+	"Titus #1" = 0
+	"Domitian #1" = 0
+	"Nerva #1" = 0
+	"Trajan #1" = 0
+	"Hadrian #1" = 0
+	"Antoninus #1" = 0
+	"Lucius #1" = 0
+	"Marcus #1" = 0
+	"Commodus #1" = 0
+	"Pertinax #1" = 0
+	"Julian #2" = 0
+	"Septimius #1" = 0
+	"Geta #1" = 0
+	"Caracalla #1" = 0
+	"Macrinus #1" = 0
+	"Heliogabalus #1" = 0
+	"Maximinus #2" = 0
+	"Gordian #3" = 0
+	"Pupienus #1" = 0
+	"Balbinus #1" = 0
+	"Philip #1" = 0
+	"Decius #1" = 0
+	"Gallus #1" = 0
+	"Aemilian #1" = 0
+	"Valerian #1" = 0
+	"Gallienus #1" = 0
+	"Quintillus #1" = 0
+	"Aurelian #1" = 0
+	"Severina #1" = -1
+	"Tacitus #1" = 0
+	"Florian #1" = 0
+	"Probus #1" = 0
+	"Carus #1" = 0
+	"Numerian #1" = 0
+	"Carinus #1" = 0
+	"Diocletian #1" = 0
+	"Maximian #1" = 0
+	"Constantius #3" = 0
+	"Galerius #1" = 0
+	"Maxentius #1" = 0
+	"Licinius #1" = 0
+	"Constantine #2" = 0
+	"Constans #1" = 0
+	"Jovian #1" = 0
+	"Valentinian #3" = 0
+	"Valens #1" = 0
+	"Gratian #1" = 0
+	"Theodosius #2" = 0
+	"Arcadius #1" = 0
+	"Honorius #1" = 0
+	"Marcian #1" = 0
+	"Leon #6" = 0
+	"Zenon #1" = 0
+	"Basiliskos #1" = 0
+	"Anastasios #6" = 0
+	"Justin #1" = 0
+	"Justinian #1" = 0
+	"Ioustinos #1" = 0
+	"Tiberios #2" = 0
+	"Maurikios #1" = 0
+	"Phokas #1" = 0
+	"Herakleios #2" = 0
+	"Konstantinos #4" = 0
+	"Herakleonas #1" = 0
+	"Konstas #1" = 0
+	"Ioustinianos #1" = 0
+	"Leontios #1" = 0
+	"Philippikos #1" = 0
+	"Theodosios #1" = 0
+	"Artavasdos #1" = 0
+	"Eirene #1" = -1
+	"Nikephoros #1" = 0
+	"Stavrakios #1" = 0
+	"Theophilos #1" = 0
+	"Basileios #1" = 0
+	"Kyriake #1" = -1
+	"Jolán #1" = -1
+	"Lõrinc #1" = 0
+	"Ioannes #1" = 0
+	"Symeon #1" = 0
+	"Lajos #1" = 0
+	"Elek #3" = 0
+	"Miklós #2" = 0
+	"Methodios #1" = 0
+	"Chrysogonos #2" = 0
+	"Timotheos #1" = 0
+	"Martha #1" = -1
+	"Pavlina #1" = -1
+	"Kosmas #1" = 0
+	"Kallinikos #1" = 0
+	"Helias #1" = 0
+	"Theophano #1" = -1
+	"Dionysios #1" = 0
+	"Philotheos #1" = 0
+	"Adrianos #0" = 0
+	"Akakios #0" = 0
+	"Alexandros #0" = 0
+	"Anatolios #0" = 0
+	"Andronikos #0" = 0
+	"Anthemios #0" = 0
+	"Anthimos #0" = 0
+	"Antiochos #0" = 0
+	"Antonios #0" = 0
+	"Apollonios #0" = 0
+	"Arsenios #0" = 0
+	"Artemios #0" = 0
+	"Athanasios #0" = 0
+	"Bardas #0" = 0
+	"Bartholomaios #0" = 0
+	"Belisarios #0" = 0
+	"Boethios #0" = 0
+	"Bosporios #0" = 0
+	"Christophoros #0" = 0
+	"Chrysanthos #0" = 0
+	"Damianos #0" = 0
+	"Daniel #0" = 0
+	"David #0" = 0
+	"Demetrios #0" = 0
+	"Diogenes #0" = 0
+	"Dorotheos #0" = 0
+	"Eirenaios #0" = 0
+	"Eudoxios #0" = 0
+	"Eustratios #0" = 0
+	"Eugenios #0" = 0
+	"Euphemios #0" = 0
+	"Eusebios #0" = 0
+	"Eustathios #0" = 0
+	"Evangelos #0" = 0
+	"Gabriel #0" = 0
+	"Gennadios #0" = 0
+	"Georgios #0" = 0
+	"Gerasimos #0" = 0
+	"Germanos #0" = 0
+	"Gregoras #0" = 0
+	"Gregorios #0" = 0
+	"Hektorios #0" = 0
+	"Hierotheos #0" = 0
+	"Himerios #0" = 0
+	"Hippolytos #0" = 0
+	"Hypatios #0" = 0
+	"Ignatios #0" = 0
+	"Innokentios #0" = 0
+	"Ioannikios #0" = 0
+	"Iordanes #0" = 0
+	"Ioseph #0" = 0
+	"Isaakios #0" = 0
+	"Isaias #0" = 0
+	"Isidoros #0" = 0
+	"Ioulianos #0" = 0
+	"Kaisarios #0" = 0
+	"Kallistos #0" = 0
+	"Komitas #0" = 0
+	"Konstantios #0" = 0
+	"Kyriakos #0" = 0
+	"Kyrillos #0" = 0
+	"Kyros #0" = 0
+	"Laurentios #0" = 0
+	"Lazaros #0" = 0
+	"Loukas #0" = 0
+	"Makarios #0" = 0
+	"Manuel #0" = 0
+	"Markos #0" = 0
+	"Matthaios #0" = 0
+	"Maximos #0" = 0
+	"Megistos #0" = 0
+	"Meletios #0" = 0
+	"Narses #0" = 0
+	"Neophytos #0" = 0
+	"Niketas #0" = 0
+	"Nikodemos #0" = 0
+	"Nikolaos #0" = 0
+	"Niphon #0" = 0
+	"Pamphilios #0" = 0
+	"Pankratios #0" = 0
+	"Pantoleon #0" = 0
+	"Paschalis #0" = 0
+	"Pavlos #0" = 0
+	"Pelagios #0" = 0
+	"Petros #0" = 0
+	"Philaretos #0" = 0
+	"Philippos #0" = 0
+	"Photios #0" = 0
+	"Polykarpos #0" = 0
+	"Porphyrios #0" = 0
+	"Prokopios #0" = 0
+	"Pyrros #0" = 0
+	"Raphail #0" = 0
+	"Romanos #0" = 0
+	"Sabas #0" = 0
+	"Samuel #0" = 0
+	"Serapion #0" = 0
+	"Sebastianos #0" = 0
+	"Sergios #0" = 0
+	"Stephanos #0" = 0
+	"Staurakios #0" = 0
+	"Symmachos #0" = 0
+	"Theocharistos #0" = 0
+	"Theodoros #0" = 0
+	"Theodotos #0" = 0
+	"Theodoulos #0" = 0
+	"Theoktistos #0" = 0
+	"Theophylaktos #0" = 0
+	"Traianos #0" = 0
+	"Tryphon #0" = 0
+	"Valerios #0" = 0
+	"Zacharias #0" = 0
+	"Zenobios #0" = 0
+}
+ship_names = {
+	Adrianopolis "Aetos Autokratiki" "Aghia Ioylia" "Aghia Irini" "Aghia Magdalini" "Aghia Sophia" "Aghia Thekla"
+	"Aghios Angelos" "Aghios Eusebios" "Aghios Ioakeim" "Aghios Ioannes" "Aghios Loukas"
+	"Aghios Markos" "Aghios Matthaios" "Aghios Maximos" "Aghios Nikolaos" "Aghios Pavlos"
+	"Aghios Petros" "Aghios Philimon" "Aghios Sergios" "Aghios Stephanos" "Aghios Thimoteos"
+	Aiakos Aineas Akhilleus Amphitrion Aphrodita Apollo Arakhne Ares Asia Athena
+	"Basileous Alexandros" "Basileous Alexeios" "Basileous Andronikos" "Basileous Basileos"
+	"Basileous Demetrios" "Basileous Ioannes" "Basileous Isaak" "Basileous Leon"
+	"Basileous Manuel" "Basileous Michael" "Basileous Rhomaion" "Basileous Romanos"
+	"Basileous Theodoros" "Basileous Theophilos" "Basileisa Theodora" "Basileisa Zoe"
+	Belisarios Byzantion
+	Cassandra Castor "Christos Soter" Chronos
+	Demeter "Despotes Demetrios" "Despotes Moreas" Diana "Drakon Ouranos" Dyonisos
+	Ellade Endymion Eros Europa
+	Gea "Gorgona Poseidonos"
+	Hades Hektor Hephaistos Hera Herakles Hermes Hestia Hydra Hypnos
+	Jason
+	"Kaisar Konstantinos" Konstantinopolis "Konstantinos Dragases"
+	"Liontari Skliros" "Lussa ton Theon" "Lykos Thalasses"
+	Makedonia "Margaritari Aspra" Minos
+	Nestor
+	Odysseos Orestes Okeanasthraustis Ouranos
+	Panselenos Pegasos Perseos "Pontikos Thalasses" Poseidon
+	Rhadamanthys
+	Sebastokrator
+	Thanatos Theseos
+	Zeous
+}
+

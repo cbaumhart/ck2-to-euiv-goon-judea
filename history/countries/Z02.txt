@@ -1,0 +1,33 @@
+# Deheubarth
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = cosmopolitan_french
+religion = catholic
+capital = 237
+1424.6.4 = {
+	monarch = {
+		name = "Herbert"
+		dynasty = "de Tourraine"
+		adm = 4
+		dip = 3
+		mil = 1
+	}
+}
+1443.8.12 = {
+	heir = {
+		name = "Centule"
+		monarch_name = "Centule"
+		dynasty = "de Tourraine"
+		birth_date = 1443.8.12
+		death_date = 1523.8.12
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+1444.11.11 = {
+	add_treasury = 49
+	add_prestige = 87
+}

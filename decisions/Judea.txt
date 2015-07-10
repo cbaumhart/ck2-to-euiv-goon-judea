@@ -1,0 +1,335 @@
+country_decisions = {
+	release_crimean_merchants = {
+		major = yes
+		potential = {
+			tag = JUD
+			owns = 284
+			government = monarchy
+			NOT = { capital = 284 }
+			NOT = { capital = 1974 }
+			NOT = { capital = 2412 }
+			NOT = { capital = 2406 }
+			NOT = { capital = 283 }
+			NOT = { has_country_flag = released_crimean_merchants }
+		}
+		allow = { 
+			stability = 0
+			is_core = 284
+			is_at_war = no
+		}
+		effect = {
+			set_country_flag = released_crimean_merchants
+			add_years_of_income = 0.75
+			add_stability = -1
+			add_legitimacy = 5
+			CRI = {
+				add_core = 284
+				add_core = 1974
+				add_core = 2412
+				add_core = 2406
+				add_core = 283
+			}
+			remove_core = 284
+			remove_core = 1974
+			remove_core = 2412
+			remove_core = 2406
+			remove_core = 283
+			release_vassal = CRI
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	release_permian_nation = {
+		major = yes
+		potential = {
+			tag = JUD
+			owns = 305
+			government = monarchy
+			NOT = { capital = 305 }
+			NOT = { has_country_flag = released_permian_nation }
+		}
+		allow = { 
+			stability = 1
+			is_core = 305
+			is_at_war = no
+		}
+		effect = {
+			set_country_flag = released_permian_nation
+			add_stability = -1
+			add_legitimacy = 5
+			PRM = {
+				add_core = 1955
+				add_core = 313
+				add_core = 1755
+				add_core = 1958
+				add_core = 1079
+				add_core = 1964
+				add_core = 1972
+				add_core = 305
+				add_core = 1962
+				add_core = 1963
+				add_core = 1071
+				add_core = 1080
+				add_core = 1077
+				add_core = 2427
+			}
+			remove_core = 1955
+			remove_core = 313
+			remove_core = 1755
+			remove_core = 1958
+			remove_core = 1079
+			remove_core = 1964
+			remove_core = 1972
+			remove_core = 305
+			remove_core = 1962
+			remove_core = 1963
+			remove_core = 1071
+			remove_core = 1080
+			remove_core = 1077
+			remove_core = 2427
+			release_vassal = PRM
+			create_march = PRM
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	release_volga_nation = {
+		major = yes
+		potential = {
+			tag = JUD
+			owns = 2421
+			government = monarchy
+			NOT = { capital = 2421 }
+			NOT = { has_country_flag = released_volga_nation }
+		}
+		allow = { 
+			stability = 1
+			is_core = 2421
+			is_at_war = no
+		}
+		effect = {
+			set_country_flag = released_volga_nation
+			add_stability = -1
+			add_legitimacy = 5
+			VBA = {
+				add_core = 2421
+				add_core = 2408
+				add_core = 299
+				add_core = 467
+				add_core = 2415
+				add_core = 302
+				add_core = 1778
+				add_core = 304
+				add_core = 1754
+				add_core = 2423
+				add_core = 1956
+				add_core = 306
+				add_core = 2422
+				add_core = 1082
+			}
+			remove_core = 2421
+			remove_core = 2408
+			remove_core = 299
+			remove_core = 467
+			remove_core = 2415
+			remove_core = 302
+			remove_core = 1778
+			remove_core = 304
+			remove_core = 1754
+			remove_core = 2423
+			remove_core = 1956
+			remove_core = 306
+			remove_core = 2422
+			remove_core = 1082
+			#release_vassal = VBA
+			create_march = VBA
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	release_cuman_nation = {
+		major = yes
+		potential = {
+			tag = JUD
+			owns = 464
+			government = monarchy
+			NOT = { capital = 464 }
+			NOT = { has_country_flag = released_cuman_nation }
+		}
+		allow = { 
+			stability = 1
+			is_core = 464
+			is_at_war = no
+		}
+		effect = {
+			set_country_flag = released_cuman_nation
+			add_stability = -1
+			add_legitimacy = 5
+			CUM = {
+				add_core = 480
+				add_core = 464
+				add_core = 469
+				add_core = 466
+				add_core = 1971
+				add_core = 303
+				add_core = 2418
+				add_core = 2365 #maybe maybe not  - Ordo
+				add_core = 2367
+				add_core = 470
+				add_core = 2366
+				add_core = 474
+				add_core = 2419
+				add_core = 1081	
+				add_core = 473
+				add_core = 1965
+				add_core = 2420
+				add_core = 1966
+				add_core = 2369
+				add_core = 2357
+				add_core = 475
+				add_core = 2444
+				add_core = 2441
+				add_core = 1076
+				add_core = 1075
+				add_core = 1074
+				add_core = 2429
+				add_core = 2428
+				add_core = 1071 #Irtesh
+				add_core = 2433
+				add_core = 1068
+				add_core = 2434
+				add_core = 2118
+				add_core = 1067
+				add_core = 478
+				add_core = 2360
+				add_core = 476
+				add_core = 2359
+				add_core = 2357
+				add_core = 479
+				add_core = 2354
+				add_core = 2355
+			}
+			remove_core = 480
+			remove_core = 464
+			remove_core = 469
+			remove_core = 466
+			remove_core = 1971
+			remove_core = 303
+			remove_core = 2418
+			remove_core = 2365 #maybe maybe not  - Ordo
+			remove_core = 2367
+			remove_core = 470
+			remove_core = 2366
+			remove_core = 474
+			remove_core = 2419
+			remove_core = 1081	
+			remove_core = 473
+			remove_core = 1965
+			remove_core = 2420
+			remove_core = 1966
+			remove_core = 2369
+			remove_core = 2357
+			remove_core = 475
+			remove_core = 2444
+			remove_core = 2441
+			remove_core = 1076
+			remove_core = 1075
+			remove_core = 1074
+			remove_core = 2429
+			remove_core = 2428
+			remove_core = 1071 #Irtesh
+			remove_core = 2433
+			remove_core = 1068
+			remove_core = 2434
+			remove_core = 2118
+			remove_core = 1067
+			remove_core = 478
+			remove_core = 2360
+			remove_core = 476
+			remove_core = 2359
+			remove_core = 2357
+			remove_core = 479
+			remove_core = 2354
+			remove_core = 2355
+			release_vassal = CUM
+			create_march = CUM
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	release_turkmeni_nation = {
+		major = yes
+		potential = {
+			tag = JUD
+			owns = 2352
+			government = monarchy
+			NOT = { capital = 2352 }
+			NOT = { has_country_flag = released_turkmeni_nation }
+		}
+		allow = { 
+			stability = 1
+			is_core = 2352
+			is_at_war = no
+		}
+		effect = {
+			set_country_flag = released_turkmeni_nation
+			add_stability = -1
+			add_legitimacy = 5
+			TKM = {
+				add_core = 2352
+				add_core = 472
+				add_core = 465
+				add_core = 471
+				add_core = 2351 
+				add_core = 2353
+				add_core = 2358
+				add_core = 439
+				add_core = 443
+				add_core = 2370
+				add_core = 1970
+				add_core = 456
+				add_core = 2361
+				add_core = 477
+				add_core = 1969
+				add_core = 459
+				add_core = 461
+				add_core = 2120
+				add_core = 2125
+				add_core = 2126
+				add_core = 2368
+			}
+			remove_core = 2352
+			remove_core = 472
+			remove_core = 465
+			remove_core = 471
+			remove_core = 2351 
+			remove_core = 2353
+			remove_core = 2358
+			remove_core = 439
+			remove_core = 443
+			remove_core = 2370
+			remove_core = 1970
+			remove_core = 456
+			remove_core = 2361
+			remove_core = 477
+			remove_core = 1969
+			remove_core = 459
+			remove_core = 461
+			remove_core = 2120
+			remove_core = 2125
+			remove_core = 2126
+			remove_core = 2368
+			release_vassal = TKM
+			create_march = TKM
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

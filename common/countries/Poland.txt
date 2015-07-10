@@ -1,0 +1,418 @@
+# Poland
+graphical_culture = easterngfx
+color = { 150 23 23 }
+historical_idea_groups = {
+
+	trade_ideas
+
+	defensive_ideas
+
+	offensive_ideas
+
+	diplomatic_ideas
+
+	economic_ideas
+
+	spy_ideas
+
+	administrative_ideas
+
+	religious_ideas
+
+}
+
+historical_units = {
+
+	bardiche_infantry
+
+	eastern_knights
+
+	slavic_stradioti
+
+	eastern_militia
+
+	hungarian_hussar
+
+	polish_musketeer
+
+	polish_hussar
+
+	polish_tercio
+
+	polish_winged_hussar
+
+	russian_lancer
+
+	russian_cuirassier
+
+	eastern_skirmisher
+
+	eastern_uhlan
+
+	eastern_carabinier
+
+	russian_mass
+
+}
+
+
+
+leader_names = {
+
+	"Zegota" "Danuta" "Ijsbrecht" "Jacco" "Kinga" "Gijsbrecht" "Gierolt" "Janislaw" "Eufrozyna" "Milena" 
+	"Agnieszka" "Maslaw" "Maria" "Nadbor" "Jakusz" "Bernard" "Skarbimir" "Katarzyna" "Zbyszko" "Smiechna" 
+	"Oscar" "Jaksa" "Dobrawa" "Zygmunt" "Leszek" "Wolislawa" "Gniewosz" "Alijse" "Pechna" "Jadwiga" 
+	"Zwinislawa" "Mszczuj" "Balderik" "Walter" "Otto" "Edna" "Acacitli" "Katrien" "Eufemia" "Nawoja" 
+	"Zbigniew" "Stefan" "Anna" "Cuetlachtli" "Bezprym" "Maciej" "Zofia" "Jasminne" "Aliken" "Albrecht" 
+	"Marquart" "Gerrit" "Aechte" "Claeuwaert" "Floris" "Yvonne" "Frans" "Sophie" "Steven" "Ide" 
+	"Kristof" "Hendrik" "Jutte" "Machtelt" "Annelies" "Waltrud" "Waelram" "Emma" "Imagina" "Hilligonda" 
+	"Isabelle" "Rutger" "Hugo" "Beatrijs" "Badeloge" "Giselbert" "Jaccobijn" "Pieternelle" "Gheertrude" "Douwe" 
+	"Clara" "Adela" "Mathilde" "Juliana" "Gozewijn" "Sebastiaen" "Olivier" "Iudith" "Emmo" "Engelbrecht" 
+	"Liedwin" "Diederick" "Eduard" "Maertijn" "Helena" "Elisabeth" "Roelof" "Otwin" "Arnulf" "Luthard" 
+	"Benedicta" "Cille" "Ambroos" "Simon" "Reynilde" "Odelt" "Cathèrine" "Fenne" "Blanca" "Bertold" 
+	"Arnold" "Margareta" "Wenna" "Daevit" "Haduwijn" "Cecily" "Steyn" "Frida" "Adelheid" "Blanceflore" 
+	"Hubert" "Willem" "Lisebet" "Gwijde" "Ermingarde" "Aleid" "Wendelmoet" "Thorborg" "Theodolf" "Onna" 
+	"Godila" "Johanna" "Gerard" "Gjertrud" "Dirk" "Gudrun" "Arnvid" "Ulv" "Snøfrid" "Claes" 
+	"Jolanda" "Rolf" "Gerulf" "Jan" "Haldor" "Yonefij" "Harald" "Barend" "Lambert" "Kåre" 
+	"Rannveig" "Jacoba" "Ølver" "Tormod" "Gudrid" "Thetburga" "Bava" "Wolfard" "Pieter" "Clementia" 
+	"Åshild" "Antoon" "Sicco" "Olinde" "Zoete" "Sigerda" "Lodewijk" "Alwin" "Ekbert" "Bozena" 
+	"Aldona" "Roland" "Dobieslaw" "Konrad" "Kathrijne" "Rycheza" "Reginar" "Rhiainfelt" "Godschalk" "Niclaes" 
+	"Pawel" "Willemine" "Magdalena" "Ludmila" "Gauthier" "Ijsbrand" "Kunegunda" "Lucja" "Gerðr" "Barnaerd" 
+	"Czcibor" "Koenraad" "Inga" "Konstancja" "Gertruda" "Piast" "Rzepicha" "Prendota" "Jacek" "Mieszko" 
+	"Karol" "Oldrich" "Wlodzimierz" "Jaroslav" "Przybor" "Borijov" "Jaroslaw" "Wielislaw" "Henryk" "Christopher" 
+	"Aleksander" "Andrzej" "Bartosz" "Boguchwal" "Bogumil" "Boleslaw" "Boncza" "Borzyslaw" "Bozydar" "Borzywoj" 
+	"Budziwuj" "Czyrzniech" "Dalimir" "Daniel" "Dobrogost" "Dobromir" "Doman" "Domawuj" "Dytryk" "Eustachy" 
+	"Gaudenty" "Gniewomir" "Gosciwuj" "Goszczon" "Imram" "Izbor" "Józef" "Jakub" "Janko" "Janusz" 
+	"Jerzy" "Kazimierz" "Krystyn" "Krzeslaw" "Macko" "Malowuj" "Marcin" "Mateusz" "Mikolaj" "Milobrat" 
+	"Milosz" "Miroslaw" "Msciwoj" "Niezamysl" "Odon" "Pelka" "Piotr" "Piskla" "Przemyslaw" "Sambor" 
+	"Sedziej" "Sedzimir" "Sieciech" "Siemomysl" "Siemowit" "Snowid" "Spytko" "Stanislaw" "Stoigniew" "Strasz" 
+	"Sulislaw" "Sulistryj" "Swietopelk" "Swietoslaw" "Szczesny" "Tomasz" "Trojden" "Twardomir" "Usciech" "Waclaw" 
+	"Wanko" "Wawrzyniec" "Wieslaw" "Wincenty" "Wit" "Witosz" "Wladyslaw" "Wojciech" "Wojuta" "Wszebor" 
+	"Zelibrat" }
+monarch_names = {
+	"Zegota #0" = 120
+	"Danuta #0" = -31
+	"Ijsbrecht #2" = 270
+	"Jacco #0" = 240
+	"Kinga #0" = -61
+	"Gijsbrecht #0" = 150
+	"Gierolt #0" = 30
+	"Janislaw #0" = 30
+	"Eufrozyna #0" = -31
+	"Milena #0" = -31
+	"Agnieszka #0" = -31
+	"Maslaw #0" = 30
+	"Maria #0" = -151
+	"Nadbor #0" = 30
+	"Jakusz #1" = 30
+	"Bernard #0" = 30
+	"Skarbimir #0" = 30
+	"Katarzyna #0" = -91
+	"Zbyszko #0" = 60
+	"Smiechna #0" = -31
+	"Oscar #0" = 30
+	"Jaksa #0" = 30
+	"Dobrawa #0" = -31
+	"Zygmunt #3" = 60
+	"Leszek #0" = 30
+	"Wolislawa #0" = -61
+	"Gniewosz #0" = 30
+	"Alijse #0" = -61
+	"Pechna #0" = -31
+	"Jadwiga #0" = -31
+	"Zwinislawa #0" = -61
+	"Mszczuj #0" = 30
+	"Balderik #0" = 60
+	"Walter #0" = 120
+	"Otto #0" = 150
+	"Edna #0" = -31
+	"Acacitli #0" = 30
+	"Katrien #0" = -91
+	"Eufemia #0" = -31
+	"Nawoja #0" = -31
+	"Zbigniew #0" = 60
+	"Stefan #0" = 30
+	"Anna #0" = -211
+	"Cuetlachtli #0" = 30
+	"Bezprym #0" = 30
+	"Maciej #0" = 30
+	"Zofia #0" = -31
+	"Jasminne #0" = -121
+	"Aliken #0" = -61
+	"Albrecht #0" = 90
+	"Marquart #0" = 90
+	"Gerrit #0" = 90
+	"Aechte #0" = -91
+	"Claeuwaert #0" = 60
+	"Floris #0" = 240
+	"Yvonne #0" = -121
+	"Frans #0" = 120
+	"Sophie #0" = -31
+	"Steven #0" = 60
+	"Ide #0" = -181
+	"Kristof #0" = 60
+	"Hendrik #0" = 60
+	"Jutte #0" = -211
+	"Machtelt #0" = -61
+	"Annelies #0" = -61
+	"Waltrud #0" = -61
+	"Waelram #0" = 120
+	"Emma #0" = -121
+	"Imagina #0" = -61
+	"Hilligonda #0" = -61
+	"Isabelle #0" = -91
+	"Rutger #0" = 60
+	"Hugo #0" = 30
+	"Beatrijs #0" = -181
+	"Badeloge #0" = -91
+	"Giselbert #0" = 90
+	"Jaccobijn #0" = -31
+	"Pieternelle #0" = -91
+	"Gheertrude #0" = -121
+	"Douwe #0" = 30
+	"Clara #0" = -121
+	"Adela #0" = -91
+	"Mathilde #0" = -121
+	"Juliana #0" = -61
+	"Gozewijn #0" = 120
+	"Sebastiaen #0" = 90
+	"Olivier #0" = 30
+	"Iudith #0" = -31
+	"Emmo #0" = 30
+	"Engelbrecht #0" = 60
+	"Liedwin #0" = -31
+	"Diederick #0" = 90
+	"Eduard #0" = 90
+	"Maertijn #0" = 60
+	"Helena #0" = -61
+	"Elisabeth #0" = -91
+	"Roelof #0" = 301
+	"Otwin #0" = 60
+	"Arnulf #0" = 30
+	"Luthard #0" = 30
+	"Benedicta #0" = -181
+	"Cille #0" = -31
+	"Ambroos #0" = 60
+	"Simon #0" = 30
+	"Reynilde #0" = -31
+	"Odelt #0" = -31
+	"Cathèrine #0" = -31
+	"Fenne #0" = -121
+	"Blanca #0" = -61
+	"Bertold #0" = 30
+	"Arnold #0" = 60
+	"Margareta #0" = -61
+	"Wenna #0" = -61
+	"Daevit #0" = 30
+	"Haduwijn #0" = -31
+	"Cecily #0" = -91
+	"Steyn #0" = 90
+	"Frida #0" = -61
+	"Adelheid #0" = -61
+	"Blanceflore #0" = -91
+	"Hubert #0" = 90
+	"Willem #0" = 30
+	"Lisebet #0" = -61
+	"Gwijde #0" = 60
+	"Ermingarde #0" = -31
+	"Aleid #0" = -61
+	"Wendelmoet #0" = -61
+	"Thorborg #0" = -31
+	"Theodolf #0" = 60
+	"Onna #0" = -61
+	"Godila #0" = -31
+	"Johanna #0" = -61
+	"Gerard #0" = 30
+	"Gjertrud #0" = -61
+	"Dirk #0" = 30
+	"Gudrun #0" = -61
+	"Arnvid #0" = 30
+	"Ulv #0" = 30
+	"Snøfrid #0" = -31
+	"Claes #0" = 120
+	"Jolanda #0" = -31
+	"Rolf #0" = 30
+	"Gerulf #0" = 180
+	"Jan #0" = 30
+	"Haldor #0" = 30
+	"Yonefij #0" = -91
+	"Harald #0" = 30
+	"Barend #0" = 60
+	"Lambert #0" = 30
+	"Kåre #0" = 30
+	"Rannveig #0" = -31
+	"Jacoba #0" = -91
+	"Ølver #0" = 30
+	"Tormod #0" = 30
+	"Gudrid #0" = -61
+	"Thetburga #0" = -31
+	"Bava #0" = -31
+	"Wolfard #0" = 150
+	"Pieter #0" = 30
+	"Clementia #0" = -91
+	"Åshild #0" = -31
+	"Antoon #0" = 90
+	"Sicco #0" = 30
+	"Olinde #0" = -61
+	"Zoete #0" = -31
+	"Sigerda #0" = -31
+	"Lodewijk #0" = 30
+	"Alwin #0" = 30
+	"Ekbert #0" = 60
+	"Bozena #0" = -31
+	"Aldona #0" = -31
+	"Roland #0" = 30
+	"Dobieslaw #0" = 30
+	"Konrad #0" = 30
+	"Kathrijne #0" = -61
+	"Rycheza #0" = -31
+	"Reginar #0" = 30
+	"Rhiainfelt #0" = -31
+	"Godschalk #0" = 30
+	"Niclaes #0" = 30
+	"Pawel #0" = 30
+	"Willemine #0" = -61
+	"Magdalena #0" = -31
+	"Ludmila #0" = -31
+	"Gauthier #0" = 30
+	"Ijsbrand #0" = 30
+	"Kunegunda #0" = -31
+	"Lucja #0" = -31
+	"Gerðr #0" = -31
+	"Barnaerd #0" = 30
+	"Czcibor #0" = 30
+	"Koenraad #0" = 30
+	"Inga #1" = -31
+	"Konstancja #0" = -31
+	"Gertruda #0" = -31
+	"Piast #3" = 0
+	"Rzepicha #1" = -1
+	"Prendota #1" = 0
+	"Jacek #1" = 0
+	"Mieszko #1" = 0
+	"Karol #1" = 0
+	"Oldrich #4" = 0
+	"Wlodzimierz #1" = 0
+	"Jaroslav #1" = 0
+	"Przybor #1" = 0
+	"Borijov #1" = 0
+	"Jaroslaw #1" = 0
+	"Wielislaw #2" = 0
+	"Henryk #1" = 0
+	"Christopher #1" = 0
+	"Aleksander #0" = 0
+	"Andrzej #0" = 0
+	"Bartosz #0" = 0
+	"Boguchwal #0" = 0
+	"Bogumil #0" = 0
+	"Boleslaw #0" = 0
+	"Boncza #0" = 0
+	"Borzyslaw #0" = 0
+	"Bozydar #0" = 0
+	"Borzywoj #0" = 0
+	"Budziwuj #0" = 0
+	"Czyrzniech #0" = 0
+	"Dalimir #0" = 0
+	"Daniel #0" = 0
+	"Dobrogost #0" = 0
+	"Dobromir #0" = 0
+	"Doman #0" = 0
+	"Domawuj #0" = 0
+	"Dytryk #0" = 0
+	"Eustachy #0" = 0
+	"Gaudenty #0" = 0
+	"Gniewomir #0" = 0
+	"Gosciwuj #0" = 0
+	"Goszczon #0" = 0
+	"Imram #0" = 0
+	"Izbor #0" = 0
+	"Józef #0" = 0
+	"Jakub #0" = 0
+	"Janko #0" = 0
+	"Janusz #0" = 0
+	"Jerzy #0" = 0
+	"Kazimierz #0" = 0
+	"Krystyn #0" = 0
+	"Krzeslaw #0" = 0
+	"Macko #0" = 0
+	"Malowuj #0" = 0
+	"Marcin #0" = 0
+	"Mateusz #0" = 0
+	"Mikolaj #0" = 0
+	"Milobrat #0" = 0
+	"Milosz #0" = 0
+	"Miroslaw #0" = 0
+	"Msciwoj #0" = 0
+	"Niezamysl #0" = 0
+	"Odon #0" = 0
+	"Pelka #0" = 0
+	"Piotr #0" = 0
+	"Piskla #0" = 0
+	"Przemyslaw #0" = 0
+	"Sambor #0" = 0
+	"Sedziej #0" = 0
+	"Sedzimir #0" = 0
+	"Sieciech #0" = 0
+	"Siemomysl #0" = 0
+	"Siemowit #0" = 0
+	"Snowid #0" = 0
+	"Spytko #0" = 0
+	"Stanislaw #0" = 0
+	"Stoigniew #0" = 0
+	"Strasz #0" = 0
+	"Sulislaw #0" = 0
+	"Sulistryj #0" = 0
+	"Swietopelk #0" = 0
+	"Swietoslaw #0" = 0
+	"Szczesny #0" = 0
+	"Tomasz #0" = 0
+	"Trojden #0" = 0
+	"Twardomir #0" = 0
+	"Usciech #0" = 0
+	"Waclaw #0" = 0
+	"Wanko #0" = 0
+	"Wawrzyniec #0" = 0
+	"Wieslaw #0" = 0
+	"Wincenty #0" = 0
+	"Wit #0" = 0
+	"Witosz #0" = 0
+	"Wladyslaw #0" = 0
+	"Wojciech #0" = 0
+	"Wojuta #0" = 0
+	"Wszebor #0" = 0
+	"Zelibrat #0" = 0
+}
+ship_names = {
+
+	"Arka Noego"
+
+        "Bialy Orzel" Burza "Bialy Lew" "Brzesko-Kujawskie" Belzkie Braclawskie
+
+        Charitas "Czarny Orzel" "Czarny Kruk" Chelminskie Czernichowskie
+
+        Fortuna
+
+        Gryf Gwiazda Gnieznienskie
+
+	Inoworclawskie
+
+	"Król Dawid" Kaliskie Krakowskie Kijowskie Kraków
+
+        Lublin "Latajacy Jelen" Lwów Leczyckie Lubelskie
+
+        "Maly Bialy Orzel" Malborskie Mazowieckie
+
+        Niewrazliwy "Nowy Czarny Orzel"
+
+        "Prorok Samuel" "Panna Wodna" Plomien Poznanskie Plockie Podlaskie Podolskie
+
+	"Rycerz Swiety Jerzy" Rawskie Ruskie
+
+        Strzelec Suwerenny "Swiety Piotr" Sieradzkie Sandomierskie "Swiety Kazimierz"
+
+        "Wielkie Slonce" Wodnik Warminskie Wolynskie Warszawa
+
+        Zwyciestwo "Zólty Lew"
+
+}
+

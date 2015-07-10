@@ -1,0 +1,34 @@
+# Kola
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = mordvin
+religion = animism
+capital = 1777
+1432.8.28 = {
+	monarch = {
+		name = "Virdyan"
+		dynasty = "Vyatich"
+		adm = 3
+		dip = 4
+		mil = 1
+	}
+}
+1436.10.11 = {
+	heir = {
+		name = "Noroava"
+		monarch_name = "Noroava"
+		dynasty = "Vyatich"
+		birth_date = 1436.10.11
+		death_date = 1516.10.11
+		female = yes
+		adm = 3
+		dip = 0
+		mil = 2
+	}
+}
+1444.11.11 = {
+	add_treasury = 418
+	add_prestige = 78
+}

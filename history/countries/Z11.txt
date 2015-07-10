@@ -1,0 +1,34 @@
+# Murcia
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = cosmopolitan_french
+religion = catholic
+capital = 221
+1428.2.1 = {
+	monarch = {
+		name = "Bernard IV"
+		dynasty = "di Jenne"
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+}
+1450.9.28 = {
+	heir = {
+		name = "Benoîte"
+		monarch_name = "Benoîte"
+		dynasty = "di Jenne"
+		birth_date = 1450.9.28
+		death_date = 1530.9.28
+		female = yes
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1444.11.11 = {
+	add_treasury = 33
+	add_prestige = 15
+}

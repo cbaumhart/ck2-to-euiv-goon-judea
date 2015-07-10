@@ -1,0 +1,573 @@
+#Great Perm
+
+graphical_culture = easterngfx
+
+color = { 236 159 90 }
+
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	defensive_ideas
+	administrative_ideas
+	offensive_ideas
+	expansion_ideas
+	quantity_ideas
+	economic_ideas
+}
+
+historical_units = {
+	bardiche_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	muscovite_musketeer
+	muscovite_caracolle
+	muscovite_soldaty
+	muscovite_cossack
+	russian_petrine
+	russian_lancer
+	russian_green_coat
+	russian_cuirassier
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	russian_mass
+}
+
+leader_names = {
+
+	"Chrysanthos" "Bälgiçi" "Eustathia" "Theodosia" "Niphon" "Kyrillos" "Euphemia" "Kale" "Gregoria" "Romanos" 
+	"Komitas" "Athanasia" "Hypatios" "Isidoros" "Romane" "Euphrasia" "Chrysogone" "Anastasia" "Squirrel" "Zenobios" 
+	"Konstantine" "Isaakios" "Antipatra" "Eunike" "Theodoulos" "Ioannikios" "Theoktiste" "Theophanes" "Theophano" "Sergia" 
+	"Paschalis" "Eirenaios" "Sergios" "Romylia" "Zoe" "Hierotheos" "Adriane" "Chiyya" "Euphrosyne" "Apollonios" 
+	"Rhodanthe" "Diogenes" "Lärkka" "Alexandra" "Basillike" "Anthe" "Khatun" "Theochariste" "Zenobia" "Gabriel" 
+	"Barjik" "Kibar" "Theognosia" "Dionysios" "Kallinikos" "Iordanes" "Xene" "Methodios" "Parthena" "Agne" 
+	"Eusebios" "Theodora" "Belisarios" "Markia" "Orestes" "Gerasimos" "Mänär" "Dorotheos" "Bulan" "Evanthia" 
+	"Konstas" "Azariah" "Abba" "Manuel" "Anthousa" "Theodoros" "Phyllis" "Kyriakos" "Epiphania" "Barbara" 
+	"Konstantios" "Nikodemos" "Anastasios" "Damianos" "Basileios" "Zenon" "Theodotos" "Meletios" "Thomais" "Neophytos" 
+	"Pelagia" "Kyriake" "Zacharias" "Theoktistos" "Dionysia" "Pulcheria" "Apollonia" "Tryphon" "Andronikos" "Anthimos" 
+	"Eudokia" "Theodosios" "Athanasios" "Sibel" "Guthela" "Eulalia" "Ioulia" "Belet" "Symmachos" "Pantoleon" 
+	"Hektorios" "Staurakios" "Çeçtilet" "Kyros" "Hulyen" "Pankratios" "Kyra" "Eudoxios" "Umay" "Melissa" 
+	"Serapion" "Philotheos" "Herakleios" "Eina" "Martha" "Valeria" "Garyphallia" "Georgia" "Thekla" "Eugenios" 
+	"Yeldem" "Eugenia" "Gabrielia" "Pultzelina" "Leon" "Agathe" "Maximos" "Konstantia" "Eudoxia" "Pyrros" 
+	"Isaias" "Alexeia" "Akakios" "Ezra" "Çiltanesi" "Porphyrios" "Chrysogonos" "Peksen" "Anthemios" "Sibylla" 
+	"Damiane" "Phokas" "Elaiodora" "Gennadios" "Pavlina" "Chisdai" "Himerios" "Yehudah" "Ioulianos" "Bosporios" 
+	"Photios" "Bastu" "Aikaterine" "Ioustina" "Eirene" "Eusebia" "Aigidia" "Zuiskind" "Arsenios" "Savkëlti" 
+	"Traianos" "Alexios" "Bulan-Sabriel" "Hezekiah" "Manasseh" "Hanukkah" "Zebulun" "Nisi" "Sarä" "Gunes" 
+	"Savaçka" "Yectirek" "Tähtani" "Esin" "Patiyer" "Yerneslu" "Ipek" "Gundes" "Kamaj" "Buzer" 
+	"Tabghaç" "Çeçki" "Yildiz" "Songul" "Sirin" "Kisa" "Yençepi" "Mänäs" "Basil" "Kera" 
+	"Bashtwa" "Tekçe" "Akgul" "Kayghalagh" "Çeçeppi" "Tarmaç" "Çiçäk" "Mutlu" "Savintik" "Gulçiçek" 
+	"Yavdi" "Irge" "Araslan" "Simsam" "Böri" "Bugha" "Baghatur" "Eliso" "Keratsa" "Istor" 
+	"Yartilek" "Ilik" "Usunbike" "Tsiala" "Baia" "Manushihr" "Gergana" "Yasar" "Çat'n" "Mala" 
+	"Vakrim" "Asli" "Bozçin" "Sirma" "Vahhab" "Yeçtirek" "Donya" "Bæqætar" "Farnaz" "Atsyrukhs" 
+	"Esther" "Ikalay" "Borena" "Savilay" "Këlnissa" "Tuzniq" "Özlem" "Alp" "Gulay" "Samur" 
+	"Kuluk" "Mënümarót" "Çilen" "Gunduz" "Michal" "Lamara" "Ber" "Kundaç" "Kubal" "Yavantey" 
+	"Suru" "Vardo" "Rusudan" "Jamileh" "Özgul" "Soraya" "Sarikel" "Ilkay" "Puyantay" "Naça" 
+	"Yabghu" "Barlah" "Karacik" "Sarica" "Ötemis" "Shorena" "Çat" "Mariami" "Kaur" "Ghazal" 
+	"Kätyarikka" "Çorpan" "Uzluk" "Samsam" "Sevilay" "Ayasun" "Sati" "Karadakh" "Koser" "Uturku" 
+	"Dzæræs" "Iltäbär" "Ghoncheh" "Boz-Uruz" "Lyukha" "Marzuban" "Ceylan" "Maturkka" "Papaçyz" "Khatir" 
+	"Elham" "Itakh" "Kul" "Gubaz" "Täbär" "Bagha" "Burikhan" "Kundaçiq" "Biræg" "Paykëlti" 
+	"Dilek" "Kandak" "Hamdam" "Sartäç" "Vali" "Khuterkin" "Ariel" "Akhsar" "Tura" "Beler" 
+	"Sevindik" "Barsbek" "Ayten" "Dariush" "Touran" "Candak" "Urdure" "Selene" "Lela" "Bedisa" 
+	"Shukhia" "Laura" "Ipekel" "Yeran" "Kamran" "Sarantay" "Gulchara" "Parsbit" "Tähtaman" "Soslan" 
+	"Uruzma" "Ruth" "Yilig" "Altun" "Busir" "Akiva" "Bulçan" "Aravat" "Këlyamal" "Aryeh" 
+	"Pekshayka" "Asrava" "Kordil" "Savtilek" "Gulçiçäk" "Lazaros" "Ildey" "Solomon" "Antonia" "Venda" 
+	"Tarkhan" "Tyueykezhut" "Elyuva" "Saris" "Liyava" "Puresh" "Pelagios" "Bihor" "Shurkka" "Azyren" 
+	"Nuyanza" "Orunza" "Berengaria" "Mastorava" "Nishkepaz" "Hypatia" "Philaretos" "Yugörka" "Prokopios" "Taus" 
+	"Tiberios" "Ravi" "Malyaka" "Euphemios" "Fareedeh" "Ahu" "Tolun" "Simonis" "Begluk" "Daune" 
+	"Tonirhoma" "Oshama" "Asa" "Ignatios" "Mahtab" "Narses" "Aydogan" "Kuaz" "Tikshayka" "Cherava" 
+	"Niketas" "Eupraxia" "Syryava" "Savur" "Leontia" "Viviana" "Chabi" "Ioustinos" "Antiochos" "Yesui" 
+	"Makarios" "Alan" "Boethios" "Sökmen" "Sokhatai" "Helias" "Chakha" "Chormakhan" "Aytekin" "Zehra" 
+	"Innokentios" "Bardas" "Minna" "Snidely Whiplash" "Dimi" "Moose" "Dudai" "Dokya" "Nonna" "Oshypel" 
+	"Eustratios" "Germanos" "Nikephoros" "Nikoletta" "Loukas" "Kaisarios" "Yonatan Egoz" "Hippolytos" "Nikarete" "Sabas" 
+	"Mishael" "Petronia" "Theophylaktos" "Evangelos" "Artemios" "Adrianos" "Alexandros" "Anatolios" "Andreas" "Antonios" 
+	"Bartholomaios" "Christophoros" "Demetrios" "Eustathios" "Georgios" "Gregoras" "Gregorios" "Iakobos" "Ioannes" "Ioseph" 
+	"Ioustinianos" "Kallistos" "Konstantinos" "Kosmas" "Laurentios" "Leontios" "Markos" "Matthaios" "Maurikios" "Megistos" 
+	"Nikolaos" "Pamphilios" "Pavlos" "Petros" "Philippos" "Polykarpos" "Raphail" "Sebastianos" "Stephanos" "Symeon" 
+	"Theocharistos" "Theophilos" "Timotheos" "Valerios" }
+monarch_names = {
+	"Chrysanthos #0" = 296
+	"Bälgiçi #0" = 345
+	"Eustathia #0" = -99
+	"Theodosia #0" = -99
+	"Niphon #0" = 148
+	"Kyrillos #0" = 345
+	"Euphemia #0" = -149
+	"Kale #1" = -248
+	"Gregoria #0" = -297
+	"Romanos #0" = 98
+	"Komitas #0" = 247
+	"Athanasia #0" = -297
+	"Hypatios #0" = 197
+	"Isidoros #0" = 247
+	"Romane #0" = -396
+	"Euphrasia #0" = -198
+	"Chrysogone #0" = -99
+	"Anastasia #0" = -495
+	"Squirrel #0" = 98
+	"Zenobios #0" = 98
+	"Konstantine #0" = -297
+	"Isaakios #0" = 197
+	"Antipatra #0" = -248
+	"Eunike #0" = -149
+	"Theodoulos #0" = 98
+	"Ioannikios #1" = 543
+	"Theoktiste #0" = -149
+	"Theophanes #0" = 98
+	"Theophano #0" = -396
+	"Sergia #0" = -248
+	"Paschalis #0" = 49
+	"Eirenaios #0" = 148
+	"Sergios #1" = 148
+	"Romylia #0" = -99
+	"Zoe #0" = -99
+	"Hierotheos #0" = 98
+	"Adriane #0" = -149
+	"Chiyya #0" = 49
+	"Euphrosyne #0" = -50
+	"Apollonios #0" = 197
+	"Rhodanthe #0" = -198
+	"Diogenes #0" = 98
+	"Lärkka #0" = -495
+	"Alexandra #0" = -99
+	"Basillike #0" = -248
+	"Anthe #0" = -297
+	"Khatun #0" = -544
+	"Theochariste #0" = -149
+	"Zenobia #0" = -198
+	"Gabriel #1" = 197
+	"Barjik #0" = 444
+	"Kibar #0" = 543
+	"Theognosia #0" = -99
+	"Dionysios #0" = 148
+	"Kallinikos #0" = 247
+	"Iordanes #0" = 148
+	"Xene #0" = -495
+	"Methodios #0" = 148
+	"Parthena #0" = -445
+	"Agne #0" = -346
+	"Eusebios #0" = 148
+	"Theodora #0" = -50
+	"Belisarios #0" = 247
+	"Markia #0" = -248
+	"Orestes #0" = 148
+	"Gerasimos #0" = 395
+	"Mänär #2" = 741
+	"Dorotheos #0" = 98
+	"Bulan #0" = 444
+	"Evanthia #0" = -149
+	"Konstas #0" = 98
+	"Azariah #0" = 49
+	"Abba #0" = 49
+	"Manuel #0" = 98
+	"Anthousa #0" = -346
+	"Theodoros #0" = 148
+	"Phyllis #0" = -248
+	"Kyriakos #0" = 98
+	"Epiphania #0" = -297
+	"Barbara #0" = -297
+	"Konstantios #0" = 49
+	"Nikodemos #0" = 148
+	"Anastasios #0" = 98
+	"Damianos #0" = 247
+	"Basileios #0" = 197
+	"Zenon #0" = 49
+	"Theodotos #0" = 98
+	"Meletios #1" = 247
+	"Thomais #0" = -396
+	"Neophytos #0" = 49
+	"Pelagia #0" = -248
+	"Kyriake #0" = -99
+	"Zacharias #0" = 197
+	"Theoktistos #0" = 197
+	"Dionysia #0" = -198
+	"Pulcheria #0" = -149
+	"Apollonia #0" = -248
+	"Tryphon #0" = 247
+	"Andronikos #0" = 98
+	"Anthimos #0" = 247
+	"Eudokia #0" = -198
+	"Theodosios #0" = 148
+	"Athanasios #0" = 148
+	"Sibel #0" = -396
+	"Guthela #0" = -50
+	"Eulalia #0" = -248
+	"Ioulia #0" = -50
+	"Belet #0" = -346
+	"Symmachos #0" = 49
+	"Pantoleon #0" = 148
+	"Hektorios #0" = 197
+	"Staurakios #0" = 296
+	"Çeçtilet #0" = -396
+	"Kyros #0" = 49
+	"Hulyen #0" = 49
+	"Pankratios #0" = 247
+	"Kyra #0" = -99
+	"Eudoxios #0" = 148
+	"Umay #0" = -742
+	"Melissa #0" = -198
+	"Serapion #0" = 98
+	"Philotheos #0" = 296
+	"Herakleios #0" = 197
+	"Eina #0" = 49
+	"Martha #0" = -149
+	"Valeria #0" = -248
+	"Garyphallia #0" = -99
+	"Georgia #0" = -346
+	"Thekla #0" = -99
+	"Eugenios #0" = 197
+	"Yeldem #0" = -445
+	"Eugenia #0" = -50
+	"Gabrielia #0" = -198
+	"Pultzelina #0" = -50
+	"Leon #0" = 98
+	"Agathe #0" = -198
+	"Maximos #0" = 197
+	"Konstantia #0" = -248
+	"Eudoxia #0" = -149
+	"Pyrros #0" = 49
+	"Isaias #0" = 197
+	"Alexeia #0" = -149
+	"Akakios #0" = 98
+	"Ezra #0" = 741
+	"Çiltanesi #0" = -593
+	"Porphyrios #0" = 148
+	"Chrysogonos #0" = 148
+	"Peksen #0" = -544
+	"Anthemios #0" = 98
+	"Sibylla #0" = -99
+	"Damiane #0" = -396
+	"Phokas #0" = 197
+	"Elaiodora #0" = -99
+	"Gennadios #0" = 49
+	"Pavlina #0" = -99
+	"Chisdai #0" = 49
+	"Himerios #0" = 49
+	"Yehudah #0" = 49
+	"Ioulianos #0" = 296
+	"Bosporios #0" = 98
+	"Photios #0" = 197
+	"Bastu #0" = 247
+	"Aikaterine #0" = -50
+	"Ioustina #0" = -297
+	"Eirene #0" = -99
+	"Eusebia #0" = -248
+	"Aigidia #0" = -149
+	"Zuiskind #0" = 49
+	"Arsenios #0" = 296
+	"Savkëlti #0" = -346
+	"Traianos #0" = 98
+	"Alexios #0" = 148
+	"Bulan-Sabriel #0" = 49
+	"Hezekiah #0" = 296
+	"Manasseh #0" = 741
+	"Hanukkah #0" = 543
+	"Zebulun #0" = 395
+	"Nisi #0" = 395
+	"Sarä #0" = -198
+	"Gunes #0" = -297
+	"Savaçka #0" = -445
+	"Yectirek #0" = 49
+	"Tähtani #0" = -544
+	"Esin #0" = -445
+	"Patiyer #0" = -643
+	"Yerneslu #0" = 889
+	"Ipek #0" = -346
+	"Gundes #0" = -445
+	"Kamaj #0" = 444
+	"Buzer #0" = 494
+	"Tabghaç #0" = 345
+	"Çeçki #0" = -544
+	"Yildiz #0" = -198
+	"Songul #0" = -149
+	"Sirin #0" = -346
+	"Kisa #0" = 148
+	"Yençepi #0" = 592
+	"Mänäs #0" = 247
+	"Basil #0" = 49
+	"Kera #0" = -50
+	"Bashtwa #0" = 345
+	"Tekçe #0" = -346
+	"Akgul #0" = -791
+	"Kayghalagh #0" = 790
+	"Çeçeppi #0" = -495
+	"Tarmaç #0" = 395
+	"Çiçäk #0" = -445
+	"Mutlu #0" = -396
+	"Savintik #0" = -791
+	"Gulçiçek #0" = -50
+	"Yavdi #0" = 642
+	"Irge #0" = -445
+	"Araslan #0" = 345
+	"Simsam #0" = 444
+	"Böri #0" = 98
+	"Bugha #0" = 592
+	"Baghatur #0" = 345
+	"Eliso #0" = -99
+	"Keratsa #0" = -50
+	"Istor #0" = 148
+	"Yartilek #0" = -495
+	"Ilik #0" = 296
+	"Usunbike #0" = -248
+	"Tsiala #0" = -99
+	"Baia #0" = -149
+	"Manushihr #0" = 49
+	"Gergana #0" = -50
+	"Yasar #0" = -346
+	"Çat'n #0" = 444
+	"Mala #0" = -643
+	"Vakrim #0" = 790
+	"Asli #0" = -346
+	"Bozçin #0" = -149
+	"Sirma #0" = -445
+	"Vahhab #0" = 49
+	"Yeçtirek #0" = 1037
+	"Donya #0" = -50
+	"Bæqætar #0" = 148
+	"Farnaz #0" = -99
+	"Atsyrukhs #0" = -99
+	"Esther #0" = -50
+	"Ikalay #0" = -593
+	"Borena #0" = -149
+	"Savilay #0" = -445
+	"Këlnissa #0" = -495
+	"Tuzniq #0" = 395
+	"Özlem #0" = -297
+	"Alp #0" = 247
+	"Gulay #0" = -297
+	"Samur #0" = -297
+	"Kuluk #0" = 49
+	"Mënümarót #1" = 543
+	"Çilen #0" = -445
+	"Gunduz #0" = -346
+	"Michal #0" = -50
+	"Lamara #0" = -99
+	"Ber #0" = 49
+	"Kundaç #0" = 395
+	"Kubal #0" = 148
+	"Yavantey #0" = 543
+	"Suru #0" = 98
+	"Vardo #0" = -50
+	"Rusudan #0" = -248
+	"Jamileh #0" = -50
+	"Özgul #0" = -445
+	"Soraya #0" = -50
+	"Sarikel #0" = -297
+	"Ilkay #0" = -248
+	"Puyantay #0" = -149
+	"Naça #0" = -445
+	"Yabghu #0" = 494
+	"Barlah #0" = 98
+	"Karacik #0" = -593
+	"Sarica #0" = -99
+	"Ötemis #0" = 197
+	"Shorena #0" = -149
+	"Çat #0" = 494
+	"Mariami #0" = -50
+	"Kaur #0" = 98
+	"Ghazal #0" = -50
+	"Kätyarikka #0" = -840
+	"Çorpan #0" = 296
+	"Uzluk #0" = 49
+	"Samsam #0" = 444
+	"Sevilay #0" = -50
+	"Ayasun #0" = -445
+	"Sati #0" = -445
+	"Karadakh #0" = 197
+	"Koser #0" = -149
+	"Uturku #0" = 49
+	"Dzæræs #0" = 49
+	"Iltäbär #0" = 642
+	"Ghoncheh #0" = -50
+	"Boz-Uruz #0" = 98
+	"Lyukha #0" = -198
+	"Marzuban #0" = 49
+	"Ceylan #0" = -50
+	"Maturkka #0" = -445
+	"Papaçyz #0" = 642
+	"Khatir #0" = 395
+	"Elham #0" = -50
+	"Itakh #0" = 296
+	"Kul #0" = 49
+	"Gubaz #0" = 49
+	"Täbär #0" = 395
+	"Bagha #0" = 444
+	"Burikhan #0" = 49
+	"Kundaçiq #0" = 395
+	"Biræg #0" = 98
+	"Paykëlti #0" = -396
+	"Dilek #0" = -544
+	"Kandak #0" = 49
+	"Hamdam #0" = -50
+	"Sartäç #1" = 148
+	"Vali #0" = 49
+	"Khuterkin #0" = 98
+	"Ariel #0" = 49
+	"Akhsar #0" = 49
+	"Tura #0" = -297
+	"Beler #0" = 49
+	"Sevindik #0" = -149
+	"Barsbek #0" = 345
+	"Ayten #0" = -346
+	"Dariush #0" = 49
+	"Touran #0" = -50
+	"Candak #0" = 49
+	"Urdure #0" = 49
+	"Selene #0" = -50
+	"Lela #0" = -50
+	"Bedisa #0" = -99
+	"Shukhia #0" = -50
+	"Laura #0" = -50
+	"Ipekel #0" = -99
+	"Yeran #0" = -50
+	"Kamran #0" = 49
+	"Sarantay #0" = -248
+	"Gulchara #0" = -50
+	"Parsbit #0" = -297
+	"Tähtaman #0" = 49
+	"Soslan #0" = 49
+	"Uruzma #0" = 49
+	"Ruth #0" = -50
+	"Yilig #0" = 247
+	"Altun #0" = -50
+	"Busir #0" = 148
+	"Akiva #0" = 49
+	"Bulçan #0" = 148
+	"Aravat #0" = 49
+	"Këlyamal #0" = -495
+	"Aryeh #1" = 197
+	"Pekshayka #0" = -50
+	"Asrava #0" = -50
+	"Kordil #0" = 49
+	"Savtilek #0" = -198
+	"Gulçiçäk #0" = -297
+	"Lazaros #0" = 247
+	"Ildey #0" = 49
+	"Solomon #0" = 98
+	"Antonia #0" = -248
+	"Venda #0" = 148
+	"Tarkhan #0" = 247
+	"Tyueykezhut #0" = 49
+	"Elyuva #0" = -50
+	"Saris #0" = -50
+	"Liyava #0" = -50
+	"Puresh #0" = 49
+	"Pelagios #1" = 197
+	"Bihor #0" = 247
+	"Shurkka #0" = -149
+	"Azyren #0" = 49
+	"Nuyanza #0" = 49
+	"Orunza #0" = 49
+	"Berengaria #0" = -50
+	"Mastorava #0" = -50
+	"Nishkepaz #0" = 49
+	"Hypatia #0" = -99
+	"Philaretos #2" = 296
+	"Yugörka #0" = -50
+	"Prokopios #0" = 98
+	"Taus #0" = 49
+	"Tiberios #0" = 148
+	"Ravi #0" = 49
+	"Malyaka #0" = 49
+	"Euphemios #0" = 148
+	"Fareedeh #0" = -50
+	"Ahu #0" = -99
+	"Tolun #0" = 49
+	"Simonis #0" = -50
+	"Begluk #0" = 98
+	"Daune #0" = 49
+	"Tonirhoma #0" = -99
+	"Oshama #0" = -50
+	"Asa #0" = -50
+	"Ignatios #0" = 148
+	"Mahtab #0" = -50
+	"Narses #0" = 49
+	"Aydogan #0" = 49
+	"Kuaz #0" = 98
+	"Tikshayka #0" = -50
+	"Cherava #0" = -50
+	"Niketas #0" = 197
+	"Eupraxia #0" = -149
+	"Syryava #0" = -50
+	"Savur #0" = 49
+	"Leontia #0" = -50
+	"Viviana #0" = -149
+	"Chabi #0" = -50
+	"Ioustinos #0" = 148
+	"Antiochos #0" = 49
+	"Yesui #0" = -50
+	"Makarios #0" = 148
+	"Alan #0" = -50
+	"Boethios #0" = 148
+	"Sökmen #0" = 49
+	"Sokhatai #0" = -50
+	"Helias #0" = 49
+	"Chakha #0" = -50
+	"Chormakhan #0" = 49
+	"Aytekin #0" = 49
+	"Zehra #0" = -50
+	"Innokentios #0" = 148
+	"Bardas #1" = 148
+	"Minna #0" = -50
+	"Snidely Whiplash #0" = 98
+	"Dimi #0" = 49
+	"Moose #0" = 49
+	"Dudai #0" = 49
+	"Dokya #0" = 49
+	"Nonna #0" = -50
+	"Oshypel #0" = 49
+	"Eustratios #0" = 49
+	"Germanos #0" = 49
+	"Nikephoros #1" = 49
+	"Nikoletta #0" = -50
+	"Loukas #0" = 49
+	"Kaisarios #0" = 49
+	"Yonatan Egoz #0" = 49
+	"Hippolytos #0" = 49
+	"Nikarete #0" = -50
+	"Sabas #0" = 49
+	"Mishael #0" = 49
+	"Petronia #0" = -50
+	"Theophylaktos #0" = 49
+	"Evangelos #0" = 49
+	"Artemios #0" = 49
+	"Adrianos #0" = 0
+	"Alexandros #0" = 0
+	"Anatolios #0" = 0
+	"Andreas #0" = 0
+	"Antonios #0" = 0
+	"Bartholomaios #0" = 0
+	"Christophoros #0" = 0
+	"Demetrios #0" = 0
+	"Eustathios #0" = 0
+	"Georgios #0" = 0
+	"Gregoras #0" = 0
+	"Gregorios #0" = 0
+	"Iakobos #0" = 0
+	"Ioannes #0" = 0
+	"Ioseph #0" = 0
+	"Ioustinianos #0" = 0
+	"Kallistos #0" = 0
+	"Konstantinos #0" = 0
+	"Kosmas #0" = 0
+	"Laurentios #0" = 0
+	"Leontios #0" = 0
+	"Markos #0" = 0
+	"Matthaios #0" = 0
+	"Maurikios #0" = 0
+	"Megistos #0" = 0
+	"Nikolaos #0" = 0
+	"Pamphilios #0" = 0
+	"Pavlos #0" = 0
+	"Petros #0" = 0
+	"Philippos #0" = 0
+	"Polykarpos #0" = 0
+	"Raphail #0" = 0
+	"Sebastianos #0" = 0
+	"Stephanos #0" = 0
+	"Symeon #0" = 0
+	"Theocharistos #0" = 0
+	"Theophilos #0" = 0
+	"Timotheos #0" = 0
+	"Valerios #0" = 0
+}

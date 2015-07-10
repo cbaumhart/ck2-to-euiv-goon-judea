@@ -1,0 +1,234 @@
+# Germany
+graphical_culture = southamericagfx
+color = { 75 130 135 }
+historical_idea_groups = {
+
+	trade_ideas
+
+	religious_ideas
+
+	economic_ideas
+
+	diplomatic_ideas
+
+	innovativeness_ideas
+
+	defensive_ideas
+
+	offensive_ideas
+
+	spy_ideas
+
+}
+
+historical_units = {
+
+	western_medieval_infantry
+
+	western_medieval_knights
+
+	western_men_at_arms
+
+	swiss_landsknechten
+
+	dutch_maurician
+
+	austrian_tercio
+
+	austrian_grenzer
+
+	austrian_hussar
+
+	austrian_white_coat
+
+	austrian_jaeger
+
+	mixed_order_infantry
+
+	open_order_cavalry
+
+	napoleonic_square
+
+	napoleonic_lancers
+
+}
+
+
+
+leader_names = {
+
+	"Cipac" "Itotia" "Teicuih" "Cuixtli" "Xiloxoch" "Ahuiliztli" "Yaotl" "Nochehuatl" "Tezcatlan" "Citlali" 
+	"Cihuaton" "Folkhard" "Toltecatl" "Iquehuacatzin" "Teiuc" "Acacitli" "Cozamalotl" "Ueman" "Chicahua" "Cuetlachtli" 
+	"Atl" "Momoztli" "Necahual" "Coanacoch" "Yolotli" "Xochipepe" "Douce" "Chichimecacihuatzin" "Coszcatl" "Opochtli" 
+	"Tzompantzin" "Tziquetzalpoztectzin" "Patli" "Etalpalli" "Malinalxochitl" "Tlilpotonqui" "Chimalli" "Huitzilin" "Xiuhpilli" "Cozahtli" 
+	"Citlalmina" "Miahuaxiuitl" "Cuetzpalli" "Papa" "Techichpotzin" "Yaretzi" "Miyaoaxochitl" "Ozomatli" "Cuauhtl" "Ocuil" 
+	"Tlazozomizqui" "Ayauhcihuatl" "Agnes" "Quiauhxochitl" "Tlahco" "Xocoyotl" "Ixtlilxochitl" "Matlalihuitl" "Zipactonal" "Tecocoltzin" 
+	"Xihuitl" "Tlacotl" "Axayacatl" "Zeltzin" "Coatl" "Tepin" "Tlacaelel" "Amoxtli" "Eloxochitl" "Ixcatzin" 
+	"Tochtli" "Cuitlahuac" "Xochitl" "Yayauhqui" "Charles" "Louis" "Ludwig" "Karlmann" "Arnulf" "Dietpold" 
+	"Ida" "Inwær" "Ernst" "Otto" "Johann" "Guntram" "Markward" "Kettilmund" "Dorothea" "Eystein" 
+	"Magnus" "Hedwig" "Konstanze" "Acalan" "Acamapichtli" "Acolmiztli" "Aculnahuacatl" "Ahuitzotl" "Cacamatzin" "Chimalpilli" 
+	"Chimalpopoca" "Cuauhtemoc" "Huitzilihuitl" "Huitzitl" "Huitztecol" "Itzcoatl" "Itzli" "Itzcuintli" "Mahchimaleh" "Matlal" 
+	"Mazatl" "Matlatzincatzin" "Maxtla" "Miztli" "Moctezuma" "Moquihuix" "Necuametl" "Nezahualcoyotl" "Nezahualpilli" "Olli" 
+	"Quauhtli" "Tapayaxi" "Tecolotl" "Tetlepanquetzaltzin" "Tezozomoc" "Tizoc" "Tizocic" "Tlacaeleltzin" "Tlalli" "Tlaloc" 
+	"Tototl" "Topiltzin" "Totoquihuaztli" "Yolyamanitzin" "Xicohtencatl" "Xipil" "Xipilli" "Xochipilli" "Zolin" }
+monarch_names = {
+	"Cipac #1" = 29
+	"Itotia #0" = -30
+	"Teicuih #0" = -45
+	"Cuixtli #0" = 14
+	"Xiloxoch #0" = -15
+	"Ahuiliztli #0" = 44
+	"Yaotl #0" = 29
+	"Nochehuatl #0" = 29
+	"Tezcatlan #0" = -30
+	"Citlali #0" = -30
+	"Cihuaton #0" = -45
+	"Folkhard #0" = 14
+	"Toltecatl #0" = -15
+	"Iquehuacatzin #0" = 14
+	"Teiuc #0" = -15
+	"Acacitli #0" = 14
+	"Cozamalotl #0" = -15
+	"Ueman #0" = 74
+	"Chicahua #0" = -30
+	"Cuetlachtli #0" = 44
+	"Atl #0" = 14
+	"Momoztli #0" = -15
+	"Necahual #0" = -15
+	"Coanacoch #0" = 59
+	"Yolotli #0" = 14
+	"Xochipepe #0" = 74
+	"Douce #0" = -15
+	"Chichimecacihuatzin #0" = -30
+	"Coszcatl #0" = -15
+	"Opochtli #0" = 29
+	"Tzompantzin #0" = 29
+	"Tziquetzalpoztectzin #0" = -30
+	"Patli #0" = -15
+	"Etalpalli #0" = -30
+	"Malinalxochitl #0" = -15
+	"Tlilpotonqui #0" = 14
+	"Chimalli #0" = 44
+	"Huitzilin #0" = 14
+	"Xiuhpilli #0" = 29
+	"Cozahtli #0" = 29
+	"Citlalmina #0" = -15
+	"Miahuaxiuitl #0" = -15
+	"Cuetzpalli #0" = 14
+	"Papa #0" = -15
+	"Techichpotzin #0" = -30
+	"Yaretzi #0" = -15
+	"Miyaoaxochitl #0" = -30
+	"Ozomatli #0" = 29
+	"Cuauhtl #0" = 14
+	"Ocuil #0" = 29
+	"Tlazozomizqui #0" = -15
+	"Ayauhcihuatl #0" = -15
+	"Agnes #0" = -15
+	"Quiauhxochitl #0" = -15
+	"Tlahco #0" = -15
+	"Xocoyotl #0" = -15
+	"Ixtlilxochitl #0" = 14
+	"Matlalihuitl #0" = 14
+	"Zipactonal #0" = 14
+	"Tecocoltzin #0" = 14
+	"Xihuitl #0" = 29
+	"Tlacotl #0" = -15
+	"Axayacatl #0" = 14
+	"Zeltzin #0" = -15
+	"Coatl #0" = 14
+	"Tepin #0" = -15
+	"Tlacaelel #0" = 14
+	"Amoxtli #0" = -15
+	"Eloxochitl #0" = -15
+	"Ixcatzin #0" = -15
+	"Tochtli #0" = 14
+	"Cuitlahuac #0" = 14
+	"Xochitl #0" = 14
+	"Yayauhqui #0" = 14
+	"Charles #1" = 0
+	"Louis #1" = 0
+	"Ludwig #3" = 0
+	"Karlmann #2" = 0
+	"Arnulf #1" = 0
+	"Dietpold #1" = 0
+	"Ida #1" = -1
+	"Inwær #2" = 0
+	"Ernst #2" = 0
+	"Otto #1" = 0
+	"Johann #1" = 0
+	"Guntram #2" = 0
+	"Markward #2" = 0
+	"Kettilmund #1" = 0
+	"Dorothea #1" = -1
+	"Eystein #1" = 0
+	"Magnus #1" = 0
+	"Hedwig #1" = -1
+	"Konstanze #1" = -1
+	"Acalan #0" = 0
+	"Acamapichtli #0" = 0
+	"Acolmiztli #0" = 0
+	"Aculnahuacatl #0" = 0
+	"Ahuitzotl #0" = 0
+	"Cacamatzin #0" = 0
+	"Chimalpilli #0" = 0
+	"Chimalpopoca #0" = 0
+	"Cuauhtemoc #0" = 0
+	"Huitzilihuitl #0" = 0
+	"Huitzitl #0" = 0
+	"Huitztecol #0" = 0
+	"Itzcoatl #0" = 0
+	"Itzli #0" = 0
+	"Itzcuintli #0" = 0
+	"Mahchimaleh #0" = 0
+	"Matlal #0" = 0
+	"Mazatl #0" = 0
+	"Matlatzincatzin #0" = 0
+	"Maxtla #0" = 0
+	"Miztli #0" = 0
+	"Moctezuma #0" = 0
+	"Moquihuix #0" = 0
+	"Necuametl #0" = 0
+	"Nezahualcoyotl #0" = 0
+	"Nezahualpilli #0" = 0
+	"Olli #0" = 0
+	"Quauhtli #0" = 0
+	"Tapayaxi #0" = 0
+	"Tecolotl #0" = 0
+	"Tetlepanquetzaltzin #0" = 0
+	"Tezozomoc #0" = 0
+	"Tizoc #0" = 0
+	"Tizocic #0" = 0
+	"Tlacaeleltzin #0" = 0
+	"Tlalli #0" = 0
+	"Tlaloc #0" = 0
+	"Tototl #0" = 0
+	"Topiltzin #0" = 0
+	"Totoquihuaztli #0" = 0
+	"Yolyamanitzin #0" = 0
+	"Xicohtencatl #0" = 0
+	"Xipil #0" = 0
+	"Xipilli #0" = 0
+	"Xochipilli #0" = 0
+	"Zolin #0" = 0
+}
+ship_names = {
+
+	Ariadne Habicht Adler Albatross Amazone
+
+	Arcona Basilisk Beowulf Biene Wespe Wolf
+
+	Nautilus Natter Otter Pelikan Pfeil Meteor
+
+	Möwe Mücke Luchs König Kaiser Eber Drache
+
+	Falke Frauenlob Freya Fuchs Gazelle Geier
+
+	Greif Condor Cormoran Comet Wacht Tiger
+
+	Seeadler Jaguar Hyäne Blitz Bremse Brummer
+
+	Bussard Vulkan
+
+}
+

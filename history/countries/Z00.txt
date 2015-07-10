@@ -1,0 +1,33 @@
+# Vestergøtland
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = norwegian
+religion = catholic
+capital = 18
+1406.5.10 = {
+	monarch = {
+		name = "Bård"
+		dynasty = "Hvitserk"
+		adm = 4
+		dip = 6
+		mil = 1
+	}
+}
+1438.3.29 = {
+	heir = {
+		name = "Eilif"
+		monarch_name = "Eilif"
+		dynasty = "Hvitserk"
+		birth_date = 1438.3.29
+		death_date = 1518.3.29
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+1444.11.11 = {
+	add_treasury = 26
+	add_prestige = 119
+}

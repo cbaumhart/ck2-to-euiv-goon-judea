@@ -1,0 +1,131 @@
+To Do list:
+Fixes
+	1. Fix rebel flags
+	2. Add trade good to Barnaul, Pegaya Orda
+	3. Flag for Volga Bulgaria, Cumania, Turkmenistan
+	x4. Add Ar-Chally to Volga Bulgaria
+	x5. Add Pegaya Orda to Cumania
+	x6. Add Zhetyru to Turkestan
+	x7. Add Alty-Kuduk to Turkestan
+	x8. Change all references to Turkmenistan to Turkestan
+	x9. Add Narym to Cumania
+	x10. Add Karamegdan to Turkestan
+General
+	1. Create triggered modifier for owning Jerusalem
+	1a. have it take effect only after conversion
+	2. Change countries in India to Indian tech group rather than Eastern
+	3. Change countries in Iberia to Western tech group
+	4. And France too
+	5. Fix Mayan traditions
+	6. Fix traditions of Choctaw, Navajo, Shoshone, Haida, Salish, Chinook, Blackfoot, Comanche, Kiowa, Assinboine, Cheyenne, Sioux, Pawnee, Osage, Miami, Fox, Ojibwe, Cree, Ottowa, Patowatomi, Suxquehhaneck, Pequot, Abenaki, Mikmaq, Tlapanec, Tuipiniquim, Potiguara, Tupinamba, Arawak, Mzab, Ajuuraan, Kaffa, Gujarat, Rashtrakutas, Kaivartas, Bihar, Kalinga Gangas, Nadia, Tripuna, Garhwal, Buryatia, Chavcheveny, Khodynt, Chukchi, Kamchadals, Ainu, Ireland, Gwynedd, Dehebeurth, Lithuania, Karelia, Kola, Germany, Anjou, Burgundy (kingdom), upper Lorraine, Portucale, Galacia, Cordoba, Murcia, Granada, 
+	7. Add Hawaiian nation, ideas
+	8. Add Maori nation, ideas
+	9. Add minor religion rebels (Nestorian, Messalian)
+	x10. Create colonial regions in Europe
+	11. Get customized province / region names
+Byzantium
+	1. Change Byz ideas from Carolingian to Roman
+	2. Add base manpower to Crete to 5
+	3. Add base manpower and production to Corfu to 3
+	4. Add base tax, production and manpower to Calabria to equal about 10
+	5. Add base tax, production and manpower to Cosenza to equal about 12
+	6. Add base production to Salerno to 4
+	7. Add base tax, production and manpower to Lucania to equal about 10
+	8. Add base tax and manpower to Salento to equal about 10
+	9. Add base tax and manpower to Bari to equal about 10
+	10. Set ruler as good general (2/4/2/1)
+	11. Set at war with Judea
+	12. Set historical friend with Knights of Calatrava, 
+	13. Set historical enemies with Judea
+	14. Create triggered modifier for owning Constantinople
+	15. Add core for Benevento: Capitanata
+	16. Add historical enemy to JUD
+The Knights 
+	1. Change The Knight's ideas from French to Knight ideas
+Knights of Calatrava
+	1. Create ideas
+Lyddid
+	1. Create national ideas for Lyddid's
+	2. Create triggered modifier
+	3. Change tech group from Eastern to Ottoman
+	4. add historical enemey to JUD
+Judea
+	1. Create national ideas for Judea
+	x - add below in Religion 2. Set holy sites for Judaism in Sinai (Ar Tur), Jerusalem (Jerusalem), Damascus(Glitterhoof), Hamadan(Hamadan)) & Dhofar (Salalah) to be +.25 Prestige/Year Each
+	3. Create triggered modifier "Fuck Europe" for aggressor in war against country with capital in europe, +unrest, -Manpower recovery, -Morale
+	4. Create tech group for Judea at Western rates.
+	x5. Add cores for Perm: 		1955 Kholmogory, 		313 Arkhangelsk, 		1755 Ustyug, 		1958 Kargopol, 		1079 Viatka, 		1964 Ust-Sysolk, 		1972 Udmurtia, 		305 Perm, 		1962 Kudymkar, 		1963 Cherdyn, 		1077 Solikasmsk, 		1071 Tura, 		1080 Pelym, 		2427 Ostyaki	
+	x6. Add cores for Cumania: 		464 Astrakan, 		469 Ryn, 		466 Sarai, 		1971 Tsaritsyn, 		303 Saratov, 		2418 Ukek, 		2365 Orda, 		2367 Lower Yik, 		470 Bayuly, 		2366 Utva, 		474 Yaik,		2419 Kanadey, 		1081 Simbirsk, 		473 Samara, 		1965 Buzuluk, 		2420 Agyidel, 		1966 Chelyaba, 		2369 Lower Ishim, 		2357 Aksary, 		475 Bashkortostan, 		2444 Bashigird, 		2441 Iglino, 		1076 Kurgan, 		1075 Tyumen, 		1074 Sibir, 		2429 Agan, 		2428 Yugan, 		1071 Irtesh, 		2433 vah, 		1068 Pegaya Ordo, 		2434 Barnaul, 		2118 Urzhar, 		1067 Narym, 		478 Argyn, 		2360 Tobykyt, 		476 Kypshak, 		2359 Baganaly, 		2357 Aksary, 		479 Kerey, 		2354 Shegendyk
+	x7. Add cores for Turkestan: 		471 Alimuly, 		2351 Shekyt, 		2353 Tortkara, 		2358 Altyn, 		2352 Alty-kubak, 		439 Mangyshlak, 		443 Ustyurt, 		2370 Kungirot, 		1970 Syghnak, 		456 Turkestan, 		2361 Dzhhaman-kuduk, 		477 Nadym, 		1969 Sozak, 		459 Taraz, 		461 Almaty, 		2120 Ili, 		2125 Kochkor,		2126 Chuy
+	x8. Add cores for Volga Bulgaria: 		2408 Lipestk, 		299 Voronezh, 		467 Borisoglebsk, 		2415 Etkara, 		302 Tambov, 		1778 Kasimov, 		304 Penza, 		1754 Murom, 		2423 Alatyr, 		1956 Suzdal, 		306 Nizhny Novgorod, 		2422 Veda-Suvar, 		1082 Kazan
+	x9. Add cores for Crimea: 		284 Crimea		1974 Yedishkul		2412 Kyzyl-Yar 		2406 Ingil		283 Zaporozhia
+	10. Add core for Venice: Venice 
+	10. Add Khazar as accepted culture
+	11. Add missions to for IDE nations where you get a claim on all provinces
+	z12. Add core for Fars: Bushehr
+	13. Reveal TI from: the Persian Gulf and Arabian Sea and Red Sea
+	x14. Add disaster for ignoring certain laws (cuz i want us to turn into a theocracy)
+	15. Set Korasan and Qara Qoyunlu areas in persia to JUD owned
+Aztec
+	1. Add cores on rest of Scandanvia
+	2. Fix government
+Crimea
+	x1. Change default government type to merchant_republic
+	
+Religion - add triggered modifier for each
+	Shia
+		Add Religious Site for Mecca, Medina, Jerusalem, Damascus, Hillah (Nadjaf)
+	Catholic
+		Add religious Site for Jerusalem, Rome, Koln, Kent (Canterbury), Galacia (Santiago)
+	Hindu
+		Add religious Site for Navanagar (Dwarakadheesh), Bhilsa(Mahakaleshwar), Central Doab (Krishnajanmabhoomi), Varanasi (Varanasi), Lucknow (Ram Janmabhoomi)
+	Sunni
+		Add religious Site for Mecca, Medina, Jerusalem, Bagdad, Cordoba
+	Ibadi
+		Add religious Site for Mecca, Medina, Jerusalem, Kasdir (Bordj), Nizwa
+	Jain
+		Add religious Site for Mysore (Shravanabelagola), Girnar (Girnar), Gorwar(Bhillamala), Patan(Vadnagar), Damin(Rajrappa)
+	Tengri
+		Add religious Site for Ryn (Sasquin), Tyumen (Isilkul), Crimea (Aqmescit), Turkestan (Kyzylorda), Pest (Vac)
+	Miaphysite (Coptic)
+		Add religious Site for Alexandria, Jerusalem, Antioch, Aksum, Dongala (Ghazali)
+	Nestorian
+		Add religious Site for Bagdad, Alexandria, Teheran, Jerusalem, Antioch
+	Theraveda
+		Add religious Site for Varnasi (Sarnath), Damin (Gaya), Margalla (Oddiyana), Mahakoshal (Sanchi), Marathwada(Ellora)
+	Nahuatl
+		Add religious Site for Mexico (Tenochtitlan), Cholula (Cholula), Huastec (Teotihuacán), Teloloapan (Xochicalco), Cuetlaxtlan (Zempoala)
+	Confucian
+		Add religious Site for Xuzhou (Mount Taishan), Jinan (Qufu), Beijing, Nanjing, Suzhou (Shanghai)
+	Inti
+		Add religious Site for Cusco (Machu Picchu), Puno (Isla Del Sol), Jauja (Vitcos), Huancavelica (Choquequirao), Nazca (Nazca Lines)
+	Vajrayana
+		Add religious Site for Lhasa, Katmandu (Lumbina), Patna (Bhod Gaya), Bhutan (Bumthang Valley), Doaba (Rewalsar)
+	Shinto
+		Add religious Site for Owari (Ise), Izumo (Izumo Shrine), Kyoto (Heian Shrine), Musashi (Tsurugaoka Hachimangu), Kai (Mount Fuji)
+	Mayan
+		Add religious Site for Mani (Chichén Itzá), Campeche (Óoxmáal), Ecab (Muyil), Peten (Tikal), Guatemala (Chinkultic) 
+	Mahayana
+		Add religious Site for Katmandu (Lumbina), Patna (Bhod Gaya), Tirhut (Kusinara), Jaunpur (Sarnath), Central Doab (Sankassa)
+
+The Laws
+	NA The Flow of Time - No savescumming (as is)
+	NA Story Telling - Interesting story over optimised play
+	Honoring your ancestors - rename something
+	DEC The Black merchants - CRI be merchant_republic
+	Insertname Delenda Est - Any nation that takes a province must be destroyed - hidden even that gives historical enemy modifier to country, create CB that can target historical enemy
+	Holy Holy Holy - Taking a holy place prioritized
+	In Due Time - not applicable
+	Family Business - royal marriages with all vassals must be maintained?
+	DEC Fronteir Khaganate - vassals in Perm, Volga Bulgaria, Cumania & Turkestan
+	All roads lead to home - new connections must have land connection to capital - colonial regions make that more meaningful
+	I vote neigh - create new tech group with 100% cavalry allowed. cavalry should be at least 80% of all military.
+	Prison industrial complex - No releasing of nations?
+	Bastards and gays be gone - only strong claims allowed, create event for weak claims that kills them
+	dreidel dreidel dreidel - rulers enjoy the little things - create events for this
+	gold decides war - declare with more than 1000 in bank, under 500 you must surrender. event for this / triggered modifier
+	While the enemies of hte empire draw breath there can be no peace - Anyone on IDE may not white peace
+	Jerusalem is center of hte world - Jerusalem capital, all construction projects must be completed asap
+	Fuck Europe - all threats come from not europe, wars of expansion directed to Asia and Africa
+	Wider and wider still - Realm yo bequeath must be larger than realm you inherit - triggered modifier on unowned cores?
+	Know the battlefield - future leaders must be generals - Edit defines ot make females able to be generals

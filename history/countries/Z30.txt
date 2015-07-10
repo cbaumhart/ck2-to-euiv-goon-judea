@@ -1,0 +1,22 @@
+# Punjab
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = rajput
+religion = hinduism
+capital = 507
+1416.12.31 = {
+	monarch = {
+		name = "Laxmidevi"
+		dynasty = "Tomara"
+		female = yes
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+}
+1444.11.11 = {
+	add_treasury = 19
+	add_prestige = 623
+}

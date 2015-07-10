@@ -1,0 +1,33 @@
+# Tomara
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = rajput
+religion = hinduism
+capital = 522
+1401.9.19 = {
+	monarch = {
+		name = "Harischandra II"
+		dynasty = "Tomara"
+		adm = 2
+		dip = 4
+		mil = 1
+	}
+}
+1437.12.22 = {
+	heir = {
+		name = "Prithipala"
+		monarch_name = "Prithipala"
+		dynasty = "Tomara"
+		birth_date = 1437.12.22
+		death_date = 1517.12.22
+		adm = 1
+		dip = 4
+		mil = 2
+	}
+}
+1444.11.11 = {
+	add_treasury = 1
+	add_prestige = 672
+}

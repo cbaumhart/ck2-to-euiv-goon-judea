@@ -1,0 +1,33 @@
+# Mali
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = mali
+religion = shiite
+capital = 1136
+1422.3.11 = {
+	monarch = {
+		name = "Sandaki II"
+		dynasty = "Kusoyid"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+1439.9.8 = {
+	heir = {
+		name = "Sakoura"
+		monarch_name = "Sakoura II"
+		dynasty = "Kusoyid"
+		birth_date = 1439.9.8
+		death_date = 1519.9.8
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+1444.11.11 = {
+	add_treasury = 468
+	add_prestige = 356
+}

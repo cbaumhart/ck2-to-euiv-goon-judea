@@ -1,0 +1,21 @@
+# Senajit
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = bengali
+religion = hinduism
+capital = 563
+1435.2.20 = {
+	monarch = {
+		name = "Bhimsingha"
+		dynasty = "Senajit"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+1444.11.11 = {
+	add_treasury = 1
+	add_prestige = 186
+}

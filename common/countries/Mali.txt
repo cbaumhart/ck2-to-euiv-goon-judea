@@ -1,0 +1,182 @@
+# Mali
+graphical_culture = muslimgfx
+color = { 158 188 61 }
+historical_idea_groups = {
+
+	trade_ideas
+
+	defensive_ideas
+
+	offensive_ideas
+
+	spy_ideas
+
+	diplomatic_ideas
+
+	economic_ideas
+
+	religious_ideas
+
+	innovativeness_ideas
+
+}
+
+historical_units = {
+
+	african_spearmen
+
+	mali_tribal_warfare
+
+	african_hill_warfare
+
+	niger_kongolese_gunpowder_warfare
+
+	westernized_niger_kongolese
+
+	african_western_franchise_warfare
+
+}
+
+
+
+leader_names = {
+
+	"Djire" "Djenly" "Igoumou" "Akoi" "Kinkin" "Mamoudou" "Namiss" "Kanafa" "Salimata" "Dankaran" 
+	"Kaya" "Mariam" "Demba" "Aminata" "Sandaki" "Kilia" "Kambine" "Sakoura" "Sidibé" "Barakissa" 
+	"Firuz" "Ina" "Yasiboy" "Lahiltoul" "Safiatou" "Mamadi" "Nintasanay" "Zeïnab" "Kusoy" "Aissata" 
+	"Bintou" "Tekhaye" "Djeneba" "Konaté" "M'Bali" "Majan" "Soumaba" "Reidja" "Zenku" "Harun" 
+	"Ouati" "Kayna" "Hawa" "Hargani" "Kabayo" "Bamari" "Lorane" "Tunka" "Bankanu" "Ouali" 
+	"Maghan" "Faga-Laye" "Cisse" "Maammarou" "Bakr" "Kalabi" "Abi-Bakr" "Abubakari" "Alayaman" "Ali" 
+	"Ali-Fay" "Ali-Kolon" "Ali-Zalil" "Badä" "Bakr-Kanbu" "Bannu" "Bassarou" "Bassi" "Birama" "Bisi" 
+	"Biyu" "Bonga" "Daoud" "Dawud" "Diara" "Düru" "Fatta" "Fodi" "Fuluku" "Fädazu" 
+	"Gane" "Gao" "Ishaq" "Ismail" "Kassa" "Kasseï" "Kisha" "Kodama" "Koïzé" "Kukuray" 
+	"Mahmud" "Malla" "Manding-Bory" "Mari-Djata" "Maÿroumfa" "Missi-Izé" "Morobani" "Musa" "Nuh" "Ouankoÿ" 
+	"Salman" "Samsou-Béri" "Samsou-Keïna" "Soumaoro" "Soundiata" "Sulayman" "Takoi" "Tib" "Tomo" "Umar" 
+	"Yama" "Yaqub" "Zakoi" }
+monarch_names = {
+	"Djire #0" = -13
+	"Djenly #0" = -13
+	"Igoumou #0" = 12
+	"Akoi #0" = 12
+	"Kinkin #0" = 12
+	"Mamoudou #0" = 12
+	"Namiss #0" = -25
+	"Kanafa #0" = 24
+	"Salimata #0" = -13
+	"Dankaran #0" = 12
+	"Kaya #0" = 12
+	"Mariam #0" = -13
+	"Demba #0" = 12
+	"Aminata #0" = -25
+	"Sandaki #2" = 24
+	"Kilia #0" = -13
+	"Kambine #0" = 24
+	"Sakoura #1" = 24
+	"Sidibé #0" = -13
+	"Barakissa #0" = -25
+	"Firuz #0" = 12
+	"Ina #0" = -25
+	"Yasiboy #2" = 12
+	"Lahiltoul #0" = 12
+	"Safiatou #0" = -13
+	"Mamadi #1" = 24
+	"Nintasanay #0" = 12
+	"Zeïnab #0" = -13
+	"Kusoy #1" = 12
+	"Aissata #0" = -13
+	"Bintou #0" = -13
+	"Tekhaye #0" = -13
+	"Djeneba #0" = -13
+	"Konaté #1" = 0
+	"M'Bali #1" = 0
+	"Majan #2" = 0
+	"Soumaba #1" = 0
+	"Reidja #1" = 0
+	"Zenku #1" = 0
+	"Harun #1" = 0
+	"Ouati #1" = 0
+	"Kayna #1" = 0
+	"Hawa #1" = -1
+	"Hargani #1" = 0
+	"Kabayo #1" = 0
+	"Bamari #1" = 0
+	"Lorane #1" = -1
+	"Tunka #1" = 0
+	"Bankanu #1" = 0
+	"Ouali #2" = 0
+	"Maghan #1" = 0
+	"Faga-Laye #1" = 0
+	"Cisse #2" = 0
+	"Maammarou #1" = 0
+	"Bakr #1" = 0
+	"Kalabi #1" = 0
+	"Abi-Bakr #0" = 0
+	"Abubakari #0" = 0
+	"Alayaman #0" = 0
+	"Ali #0" = 0
+	"Ali-Fay #0" = 0
+	"Ali-Kolon #0" = 0
+	"Ali-Zalil #0" = 0
+	"Badä #0" = 0
+	"Bakr-Kanbu #0" = 0
+	"Bannu #0" = 0
+	"Bassarou #0" = 0
+	"Bassi #0" = 0
+	"Birama #0" = 0
+	"Bisi #0" = 0
+	"Biyu #0" = 0
+	"Bonga #0" = 0
+	"Daoud #0" = 0
+	"Dawud #0" = 0
+	"Diara #0" = 0
+	"Düru #0" = 0
+	"Fatta #0" = 0
+	"Fodi #0" = 0
+	"Fuluku #0" = 0
+	"Fädazu #0" = 0
+	"Gane #0" = 0
+	"Gao #0" = 0
+	"Ishaq #0" = 0
+	"Ismail #0" = 0
+	"Kassa #0" = 0
+	"Kasseï #0" = 0
+	"Kisha #0" = 0
+	"Kodama #0" = 0
+	"Koïzé #0" = 0
+	"Kukuray #0" = 0
+	"Mahmud #0" = 0
+	"Malla #0" = 0
+	"Manding-Bory #0" = 0
+	"Mari-Djata #0" = 0
+	"Maÿroumfa #0" = 0
+	"Missi-Izé #0" = 0
+	"Morobani #0" = 0
+	"Musa #0" = 0
+	"Nuh #0" = 0
+	"Ouankoÿ #0" = 0
+	"Salman #0" = 0
+	"Samsou-Béri #0" = 0
+	"Samsou-Keïna #0" = 0
+	"Soumaoro #0" = 0
+	"Soundiata #0" = 0
+	"Sulayman #0" = 0
+	"Takoi #0" = 0
+	"Tib #0" = 0
+	"Tomo #0" = 0
+	"Umar #0" = 0
+	"Yama #0" = 0
+	"Yaqub #0" = 0
+	"Zakoi #0" = 0
+}
+ship_names = {
+
+	Kiringa Timbuktu "Koumbi Saleh" Gao
+
+	Jenne "Sundiata Keita" "Kankan Musa"
+
+	"Kouroukan Fouga" "Wali Keita" "Quati Keita"
+
+	"Khalifa Keita" Sakura
+
+}
+

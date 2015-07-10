@@ -1,0 +1,34 @@
+# Satakunta
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = finnish
+religion = catholic
+capital = 27
+1427.2.15 = {
+	monarch = {
+		name = "Ahma"
+		dynasty = "Tamm"
+		adm = 1
+		dip = 4
+		mil = 2
+	}
+}
+1448.7.20 = {
+	heir = {
+		name = "Salme"
+		monarch_name = "Salme"
+		dynasty = "Tamm"
+		birth_date = 1448.7.20
+		death_date = 1528.7.20
+		female = yes
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1444.11.11 = {
+	add_treasury = 195
+	add_prestige = 24
+}

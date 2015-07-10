@@ -1,0 +1,33 @@
+# Poland
+government = absolute_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = polish
+religion = catholic
+capital = 2963
+1425.3.13 = {
+	monarch = {
+		name = "Jakusz"
+		dynasty = "van Utrecht"
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}
+1451.7.12 = {
+	heir = {
+		name = "Zegota"
+		monarch_name = "Zegota"
+		dynasty = "van Utrecht"
+		birth_date = 1451.7.12
+		death_date = 1531.7.12
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+1444.11.11 = {
+	add_treasury = 11
+	add_prestige = 330
+}

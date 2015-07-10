@@ -1,0 +1,34 @@
+# Byzantine Empire
+government = feudal_monarchy
+government_rank = 3
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = greek
+religion = catholic
+capital = 2984
+1430.10.1 = {
+	monarch = {
+		name = "Orestes"
+		dynasty = "Karling"
+		adm = 5
+		dip = 5
+		mil = 4
+	}
+}
+1432.4.1 = {
+	heir = {
+		name = "Markia"
+		monarch_name = "Markia"
+		dynasty = "Karling"
+		birth_date = 1432.4.1
+		death_date = 1512.4.1
+		female = yes
+		adm = 1
+		dip = 6
+		mil = 2
+	}
+}
+1444.11.11 = {
+	add_treasury = 5
+	add_prestige = 1211
+}

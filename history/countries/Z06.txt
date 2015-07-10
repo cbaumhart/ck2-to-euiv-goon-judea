@@ -1,0 +1,33 @@
+# Anjou
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = italian
+religion = catholic
+capital = 178
+1398.2.17 = {
+	monarch = {
+		name = "Agapito II"
+		dynasty = "di Tamisa"
+		adm = 3
+		dip = 1
+		mil = 6
+	}
+}
+1434.6.16 = {
+	heir = {
+		name = "Agapito"
+		monarch_name = "Agapito III"
+		dynasty = "di Tamisa"
+		birth_date = 1434.6.16
+		death_date = 1514.6.16
+		adm = 1
+		dip = 6
+		mil = 3
+	}
+}
+1444.11.11 = {
+	add_treasury = 11
+	add_prestige = 202
+}

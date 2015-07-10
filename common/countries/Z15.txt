@@ -1,0 +1,324 @@
+# Kola
+graphical_culture = easterngfx
+color = { 194 171 117 }
+historical_idea_groups = {
+
+	trade_ideas
+
+	defensive_ideas
+
+	offensive_ideas
+
+	economic_ideas
+
+	diplomatic_ideas
+
+	plutocracy_ideas
+
+	spy_ideas
+
+	religious_ideas
+
+}
+
+historical_units = {
+
+	western_medieval_infantry
+
+	western_medieval_knights
+
+	western_men_at_arms
+
+	swiss_landsknechten
+
+	dutch_maurician
+
+	swedish_gallop
+
+	swedish_gustavian
+
+	swedish_caroline
+
+	swedish_arme_blanche
+
+	prussian_frederickian
+
+	prussian_uhlan
+
+	mixed_order_infantry
+
+	open_order_cavalry
+
+	napoleonic_square
+
+	napoleonic_lancers
+
+}
+
+
+
+leader_names = {
+
+	"Shukshtoroyka" "Dergun" "Noroava" "Sanal'ka" "Chechama" "Chindyapa" "Serzhay" "Kezhevat" "Tetyava" "Azyren" 
+	"Unzhutka" "Koshel" "Styaka" "Inyava" "Slyugan'ka" "Malyy" "Chitska" "Virdyan" "Kirdyava" "Bojan" 
+	"Zhavoronok" "Dragan" "Vladislav" "Gorislava" "Gradimir" "Mitrofan" "Vasilko" "Demid" "Ulyana" "Igor" 
+	"Vseslava" "Yevdokia" "Afanasiy" "Praskovya" "Velimir" "Boleslava" "Yefimiy" "Agrafena" "Varvara" "Tatyana" 
+	"Zvenislava" "Marina" "Rostislava" "Putiata" "Premyslava" "Sviatoslav" "Fevronia" "Fedot" "Vasiliy" "Trifon" 
+	"Yelisey" "Rostislav" "Mstislav" "Vseslav" "Malfrida" "Briachislav" "Gradislava" "Iziaslav" "Sbyslava" "Svetozar" 
+	"Vasilisa" "Dobrynia" "Volodar" "Dobrava" "Xenia" "Rodislav" "Rogneda" "Yaroslav" "Viacheslava" "Gleb" 
+	"Alexei" "Viacheslav" "Boris" "Ulita" "Yaropolk" "Liudmila" "Ruslan" "Yaroslava" "Radoslav" "Terentiy" 
+	"Prebrana" "Pribislava" "Koz'ma" "Czyrzniech" "Olga" "Predslava" "Ingvar" "Dobroslava" "Praxida" "Stanislav" 
+	"Sviatopolk" "Rurik" "Sviatoslava" "Dobronega" "Rogvolod" "Vsevolod" "Vladimir" "Malusha" "Feodosia" "Yefrosinia" 
+	"Sudislav" "Iliya" "Nikita" "Vysheslav" "Pereyaslava" "Nuyanza" "Varmanpaz" "Sangasa" "Irina" "Chinzhay" 
+	"Kanyava" "Pokshayka" "Kezhapa" "Kezhedey" "Paksyay" "Upurga" "Pivtsay" "Kubrat" "Syryava" "Kunava" 
+	"Tatka" "Shoksha" "Ashava" "Shkay" "Setyamka" "Vergava" "Puresh" "Vechkas" "Velmayka" "Deryab" 
+	"Vezhav" "Erziya" "Tikshayka" "Mordvinko" "Paksyut" "Uchva" "Viryay" "Megurka" "Ruzava" "Atyamas" 
+	"Potyava" "Nyal'ka" "Potekay" "Liyava" "Toyaksha" "Vidyava" "Parush" "Anava" "Tyueykezhut" "Dobrinya" 
+	"Ovtay" "Valdava" "Nishkepaz" "Tutyra" "Tyushtya" "Varaka" "Litava" "Orunza" "Tyushten" "Asrava" 
+	"Saksa" "Chipaz" "Meltsayka" "Nulzyava" "Chumbulat" "Tylmache" "Sernyava" "Chenksa" "Utyayka" "Kanyuva" 
+	"Olota" "Chichayka" "Shonzhava" "Tul" "Tundya" "Pemka" "Nezayka" "Kinyak" "Moksha" "Siyamka" 
+	"Shindyay" "Seyamka" "Pekshayka" "Yalgava" "Nuyaksha" "Pokshava" "Andyamo" "Chindyayka" "Baeivi" "Áigesárri" 
+	"Pakstyan" "Inzhay" "Kezhay" "Kichay" "Malyaka" "Nalka" "Nuyat" "Putyayka" "Syrka" "Viryas" 
+	"Kardaz" "Murunza" "Naruchad" "Purysho" "Surt" "Tunya" "Tylze" "Uzhara" }
+monarch_names = {
+	"Shukshtoroyka #0" = -44
+	"Dergun #0" = 43
+	"Noroava #0" = -44
+	"Sanal'ka #0" = -66
+	"Chechama #0" = -44
+	"Chindyapa #0" = -110
+	"Serzhay #0" = -66
+	"Kezhevat #1" = 65
+	"Tetyava #0" = -44
+	"Azyren #0" = 109
+	"Unzhutka #0" = -22
+	"Koshel #0" = 43
+	"Styaka #0" = -66
+	"Inyava #0" = -22
+	"Slyugan'ka #0" = -22
+	"Malyy #0" = 21
+	"Chitska #0" = -22
+	"Virdyan #1" = 21
+	"Kirdyava #0" = -44
+	"Bojan #0" = 21
+	"Zhavoronok #0" = 109
+	"Dragan #0" = 109
+	"Vladislav #0" = 87
+	"Gorislava #0" = -88
+	"Gradimir #0" = 43
+	"Mitrofan #0" = 43
+	"Vasilko #0" = 43
+	"Demid #0" = 87
+	"Ulyana #0" = -44
+	"Igor #0" = 109
+	"Vseslava #0" = -22
+	"Yevdokia #0" = -153
+	"Afanasiy #0" = 130
+	"Praskovya #0" = -22
+	"Velimir #0" = 21
+	"Boleslava #0" = -88
+	"Yefimiy #0" = 87
+	"Agrafena #0" = -44
+	"Varvara #0" = -66
+	"Tatyana #0" = -22
+	"Zvenislava #0" = -88
+	"Marina #0" = -110
+	"Rostislava #0" = -44
+	"Putiata #0" = 87
+	"Premyslava #0" = -44
+	"Sviatoslav #0" = 43
+	"Fevronia #0" = -22
+	"Fedot #0" = 43
+	"Vasiliy #0" = 21
+	"Trifon #0" = 109
+	"Yelisey #0" = 65
+	"Rostislav #0" = 21
+	"Mstislav #0" = 43
+	"Vseslav #0" = 43
+	"Malfrida #0" = -22
+	"Briachislav #0" = 65
+	"Gradislava #0" = -22
+	"Iziaslav #0" = 130
+	"Sbyslava #0" = -88
+	"Svetozar #0" = 21
+	"Vasilisa #0" = -88
+	"Dobrynia #0" = 109
+	"Volodar #0" = 21
+	"Dobrava #0" = -110
+	"Xenia #0" = -22
+	"Rodislav #0" = 65
+	"Rogneda #0" = -44
+	"Yaroslav #0" = 87
+	"Viacheslava #0" = -88
+	"Gleb #0" = 21
+	"Alexei #0" = 43
+	"Viacheslav #0" = 43
+	"Boris #0" = 109
+	"Ulita #0" = -88
+	"Yaropolk #0" = 21
+	"Liudmila #0" = -22
+	"Ruslan #0" = 21
+	"Yaroslava #0" = -44
+	"Radoslav #0" = 65
+	"Terentiy #0" = 21
+	"Prebrana #0" = -66
+	"Pribislava #0" = -66
+	"Koz'ma #0" = 87
+	"Czyrzniech #0" = 43
+	"Olga #0" = -44
+	"Predslava #0" = -44
+	"Ingvar #0" = 21
+	"Dobroslava #0" = -22
+	"Praxida #0" = -44
+	"Stanislav #0" = 130
+	"Sviatopolk #0" = 65
+	"Rurik #0" = 21
+	"Sviatoslava #0" = -22
+	"Dobronega #0" = -44
+	"Rogvolod #0" = 87
+	"Vsevolod #0" = 21
+	"Vladimir #0" = 21
+	"Malusha #0" = -22
+	"Feodosia #0" = -22
+	"Yefrosinia #0" = -22
+	"Sudislav #0" = 65
+	"Iliya #0" = 21
+	"Nikita #0" = 21
+	"Vysheslav #0" = 21
+	"Pereyaslava #0" = -22
+	"Nuyanza #0" = -110
+	"Varmanpaz #0" = 21
+	"Sangasa #0" = -44
+	"Irina #0" = -22
+	"Chinzhay #0" = -44
+	"Kanyava #0" = -22
+	"Pokshayka #0" = 43
+	"Kezhapa #1" = 65
+	"Kezhedey #1" = 43
+	"Paksyay #0" = 21
+	"Upurga #0" = -22
+	"Pivtsay #0" = 43
+	"Kubrat #0" = 43
+	"Syryava #0" = -44
+	"Kunava #0" = -22
+	"Tatka #0" = -22
+	"Shoksha #0" = 43
+	"Ashava #0" = -44
+	"Shkay #0" = 87
+	"Setyamka #0" = -44
+	"Vergava #0" = -66
+	"Puresh #0" = 21
+	"Vechkas #0" = 43
+	"Velmayka #0" = 65
+	"Deryab #0" = 65
+	"Vezhav #0" = -22
+	"Erziya #1" = 65
+	"Tikshayka #0" = 43
+	"Mordvinko #0" = 65
+	"Paksyut #0" = 21
+	"Uchva #0" = 21
+	"Viryay #0" = 43
+	"Megurka #0" = -22
+	"Ruzava #0" = -44
+	"Atyamas #2" = 87
+	"Potyava #1" = -66
+	"Nyal'ka #0" = -22
+	"Potekay #0" = -66
+	"Liyava #0" = -22
+	"Toyaksha #0" = -22
+	"Vidyava #0" = -44
+	"Parush #0" = 21
+	"Anava #0" = -22
+	"Tyueykezhut #0" = 65
+	"Dobrinya #1" = 21
+	"Ovtay #0" = 21
+	"Valdava #0" = -22
+	"Nishkepaz #0" = 21
+	"Tutyra #0" = 65
+	"Tyushtya #0" = 43
+	"Varaka #0" = 21
+	"Litava #0" = -22
+	"Orunza #0" = 21
+	"Tyushten #0" = 43
+	"Asrava #0" = -22
+	"Saksa #0" = 21
+	"Chipaz #0" = 21
+	"Meltsayka #0" = 21
+	"Nulzyava #0" = -44
+	"Chumbulat #0" = 21
+	"Tylmache #0" = 21
+	"Sernyava #0" = -66
+	"Chenksa #0" = -44
+	"Utyayka #0" = -22
+	"Kanyuva #0" = -22
+	"Olota #0" = -22
+	"Chichayka #0" = 43
+	"Shonzhava #0" = -22
+	"Tul #0" = 21
+	"Tundya #0" = -22
+	"Pemka #0" = -22
+	"Nezayka #0" = -22
+	"Kinyak #0" = 21
+	"Moksha #0" = 21
+	"Siyamka #0" = -22
+	"Shindyay #0" = 21
+	"Seyamka #0" = -22
+	"Pekshayka #0" = -44
+	"Yalgava #0" = -22
+	"Nuyaksha #0" = 21
+	"Pokshava #0" = -22
+	"Andyamo #0" = 21
+	"Chindyayka #0" = -22
+	"Baeivi #1" = 0
+	"Áigesárri #1" = 0
+	"Pakstyan #1" = 0
+	"Inzhay #0" = 0
+	"Kezhay #0" = 0
+	"Kichay #0" = 0
+	"Malyaka #0" = 0
+	"Nalka #0" = 0
+	"Nuyat #0" = 0
+	"Putyayka #0" = 0
+	"Syrka #0" = 0
+	"Viryas #0" = 0
+	"Kardaz #0" = 0
+	"Murunza #0" = 0
+	"Naruchad #0" = 0
+	"Purysho #0" = 0
+	"Surt #0" = 0
+	"Tunya #0" = 0
+	"Tylze #0" = 0
+	"Uzhara #0" = 0
+}
+ship_names = {
+
+	Agricola Aura
+
+	Borgå "Birger Jarl"
+
+	Helsingfors Hakkapeliitta
+
+	Ilmarinen
+
+	Kullervo Karelen Kymi
+
+	Lemminkäinen Lapland
+
+	Nyland
+
+	Oulu
+
+	"Per Brahe"
+
+	Sampo "St. Henrik" Savolax
+
+	Tavastehus Tavastland
+
+	Väinämöinen Vasa Viborg Vanda Vuoksi
+
+	Åbo
+
+	Österbotten
+
+}
+

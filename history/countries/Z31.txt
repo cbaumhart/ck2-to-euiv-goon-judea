@@ -1,0 +1,21 @@
+# Bhumpalid
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = indian
+primary_culture = rajput
+religion = hinduism
+capital = 2077
+1433.8.10 = {
+	monarch = {
+		name = "Vakpatiraja II"
+		dynasty = "Bhumpalid"
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}
+1444.11.11 = {
+	add_treasury = 196
+	add_prestige = 156
+}

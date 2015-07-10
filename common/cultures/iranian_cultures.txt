@@ -1,0 +1,14 @@
+iranian = {
+	kurdish = {
+		primary = PER
+		dynasty_names = { }
+	}
+	baloch = {
+		primary = bal
+		dynasty_names = { }
+	}
+	afghan = {
+		primary = AFG
+		dynasty_names = { }
+	}
+}

@@ -1,0 +1,33 @@
+# Galicia
+government = absolute_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = cosmopolitan_french
+religion = catholic
+capital = 227
+1400.8.9 = {
+	monarch = {
+		name = "Bouchard II"
+		dynasty = "de Beaumont-au-Maine"
+		adm = 2
+		dip = 2
+		mil = 6
+	}
+}
+1424.11.28 = {
+	heir = {
+		name = "Jacques"
+		monarch_name = "Jacques II"
+		dynasty = "de Beaumont-au-Maine"
+		birth_date = 1424.11.28
+		death_date = 1504.11.28
+		adm = 2
+		dip = 1
+		mil = 5
+	}
+}
+1444.11.11 = {
+	add_treasury = 588
+	add_prestige = 305
+}

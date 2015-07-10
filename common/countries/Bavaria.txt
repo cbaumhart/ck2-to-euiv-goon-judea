@@ -1,0 +1,311 @@
+# Bavaria
+graphical_culture = westerngfx
+color = { 178 163 143 }
+historical_idea_groups = {
+
+	defensive_ideas
+
+	offensive_ideas
+
+	economic_ideas
+
+	spy_ideas
+
+	diplomatic_ideas
+
+	innovativeness_ideas
+
+	religious_ideas
+
+	quantity_ideas
+
+}
+
+historical_units = {
+
+	halberd_infantry
+
+	western_medieval_knights
+
+	western_men_at_arms
+
+	swiss_landsknechten
+
+	dutch_maurician
+
+	austrian_tercio
+
+	austrian_grenzer
+
+	austrian_hussar
+
+	austrian_white_coat
+
+	austrian_jaeger
+
+	mixed_order_infantry
+
+	open_order_cavalry
+
+	napoleonic_square
+
+	napoleonic_lancers
+
+}
+
+
+
+leader_names = {
+
+	"Engelbert" "Konstanze" "Barthélémi" "Gunhilda" "Sofie" "Berthold" "Karlotte" "Philipp" "Christine" "Kaspar" 
+	"Renaud" "Inga" "Berchte" "Jutta" "Albrecht" "Klementia" "Hupold" "Frida" "Aldrich" "Günther" 
+	"Emmerich" "Adelinde" "Gerberga" "Werner" "Anselm" "Arnold" "Nikolaus" "Dorothea" "Gottschalk" "Kriemhild" 
+	"Andreas" "Klara" "Romilda" "Konrad" "Wolfgang" "Cecilie" "Gerhard" "Reinhold" "Georg" "Irmeltrud" 
+	"Gisela" "Wulfhilde" "Amalberga" "Kunigunde" "Irmgard" "Ursula" "Ernst" "Thomas" "Maria" "Guntram" 
+	"Augustin" "Richwara" "Helferich" "Arnulf" "Trude" "Johann" "Agnes" "Agathe" "Beatrix" "Emma" 
+	"Leopold" "Adela" "Cothilda" "Serhilda" "Eufemia" "Simon" "Barbara" "Gebhard" "Welf" "Amadeus" 
+	"Viktor" "Stefan" "Giselbert" "Wilhelmina" "Adalbero" "Ekkehard" "Karl" "Lothar" "Irmele" "Osterhild" 
+	"Dietmar" "Amalie" "Gottfried" "Engelbrecht" "Heike" "Manfred" "Reinhard" "Alberade" "Caspar" "Ulrike" 
+	"Thietmar" "Jakob" "Hildegard" "Richara" "Jutte" "Wilhelm" "Engeltraud" "Heinrich" "Bernhard" "Ilsa" 
+	"Norbert" "Mechtild" "Winfrida" "Judith" "Richenza" "Franz" "Helga" "Ezzo" "Walpurga" "Helene" 
+	"Ruprecht" "Hartmann" "Ulrich" "Siegfried" "Binhilde" "Christopher" "Eberhard" "Folkmar" "Dietrich" "Oda" 
+	"Henrike" "Emelrich" "Ludolf" "Berta" "Gerlach" "Hesso" "Hermann" "Waldemar" "Gerhild" "Humbert" 
+	"Adelheid" "Karlmann" "Eginolf" "Meinhard" "Isentrude" "Otto" "Manegold" "Liutpold" "Rutger" "Amalrich" 
+	"Markward" "Alberich" "Mechthild" "Gotthard" "Theodorich" "Nahuatl" "Matthias" "Martin" "Xochitl" "Magnus" 
+	"Hedwig" "Benedicta" "Charles" "Lothaire" "Louis" "Ludwig" "Dietpold" "Erich" "Siegmund" "Günzel" 
+	"Aliénor" "Gotzelo" "Liudolf" "Poppo" "Adalbert" "Adalhard" "Adam" "Ademar" "Adolf" "Alarich" 
+	"Alois" "Baldarich" "Baldewin" "Baldomar" "Baldur" "Berengar" "Burchard" "Dieter" "Dietwin" "Ehrenfried" 
+	"Ekbert" "Emich" "Ferdinand" "Filibert" "Folkhard" "Friedrich" "Gautselin" "Gunzelin" "Hans" "Hartwig" 
+	"Heribert" "Hugo" "Jürgen" "Kuno" "Lambert" "Landolf" "Liutbert" "Liutbrand" "Lutbert" "Michael" 
+	"Peter" "Radbot" "Rudolf" "Sieghard" "Sigismund" "Udalrich" "Walram" "Walther" "Wenzel" "Wido" 
+	"Wigerich" "Wolfram" }
+monarch_names = {
+	"Engelbert #0" = 22
+	"Konstanze #0" = -23
+	"Barthélémi #0" = 22
+	"Gunhilda #0" = -67
+	"Sofie #0" = -89
+	"Berthold #0" = 133
+	"Karlotte #0" = -45
+	"Philipp #0" = 44
+	"Christine #0" = -23
+	"Kaspar #0" = 22
+	"Renaud #0" = 88
+	"Inga #0" = -45
+	"Berchte #0" = -67
+	"Jutta #0" = -67
+	"Albrecht #0" = 88
+	"Klementia #0" = -67
+	"Hupold #0" = 22
+	"Frida #0" = -67
+	"Aldrich #1" = 22
+	"Günther #0" = 44
+	"Emmerich #0" = 44
+	"Adelinde #0" = -23
+	"Gerberga #0" = -45
+	"Werner #0" = 44
+	"Anselm #0" = 111
+	"Arnold #0" = 155
+	"Nikolaus #0" = 88
+	"Dorothea #0" = -23
+	"Gottschalk #0" = 22
+	"Kriemhild #0" = -134
+	"Andreas #0" = 44
+	"Klara #0" = -89
+	"Romilda #0" = -67
+	"Konrad #0" = 44
+	"Wolfgang #1" = 111
+	"Cecilie #0" = -112
+	"Gerhard #0" = 111
+	"Reinhold #0" = 44
+	"Georg #0" = 44
+	"Irmeltrud #0" = -134
+	"Gisela #0" = -89
+	"Wulfhilde #0" = -45
+	"Amalberga #0" = -67
+	"Kunigunde #0" = -45
+	"Irmgard #0" = -67
+	"Ursula #0" = -45
+	"Ernst #1" = 88
+	"Thomas #0" = 66
+	"Maria #0" = -67
+	"Guntram #0" = 44
+	"Augustin #0" = 22
+	"Richwara #0" = -89
+	"Helferich #0" = 22
+	"Arnulf #0" = 88
+	"Trude #0" = -23
+	"Johann #0" = 88
+	"Agnes #0" = -134
+	"Agathe #0" = -45
+	"Beatrix #0" = -23
+	"Emma #0" = -89
+	"Leopold #0" = 44
+	"Adela #0" = -89
+	"Cothilda #0" = -45
+	"Serhilda #1" = -89
+	"Eufemia #0" = -23
+	"Simon #0" = 22
+	"Barbara #0" = -67
+	"Gebhard #1" = 66
+	"Welf #0" = 22
+	"Amadeus #0" = 44
+	"Viktor #1" = 111
+	"Stefan #0" = 88
+	"Giselbert #0" = 44
+	"Wilhelmina #0" = -23
+	"Adalbero #0" = 66
+	"Ekkehard #0" = 44
+	"Karl #2" = 155
+	"Lothar #0" = 22
+	"Irmele #0" = -89
+	"Osterhild #0" = -45
+	"Dietmar #0" = 22
+	"Amalie #0" = -45
+	"Gottfried #1" = 22
+	"Engelbrecht #0" = 44
+	"Heike #0" = -23
+	"Manfred #0" = 44
+	"Reinhard #0" = 44
+	"Alberade #0" = -45
+	"Caspar #0" = 22
+	"Ulrike #0" = -23
+	"Thietmar #0" = 44
+	"Jakob #0" = 22
+	"Hildegard #0" = -23
+	"Richara #0" = -89
+	"Jutte #0" = -45
+	"Wilhelm #0" = 44
+	"Engeltraud #0" = -45
+	"Heinrich #2" = 22
+	"Bernhard #0" = 22
+	"Ilsa #0" = -23
+	"Norbert #0" = 44
+	"Mechtild #0" = -23
+	"Winfrida #0" = -23
+	"Judith #0" = -23
+	"Richenza #0" = -23
+	"Franz #3" = 66
+	"Helga #0" = -45
+	"Ezzo #0" = 66
+	"Walpurga #0" = -67
+	"Helene #0" = -23
+	"Ruprecht #1" = 22
+	"Hartmann #0" = 44
+	"Ulrich #0" = 66
+	"Siegfried #0" = 66
+	"Binhilde #0" = -23
+	"Christopher #0" = 22
+	"Eberhard #0" = 22
+	"Folkmar #0" = 22
+	"Dietrich #0" = 44
+	"Oda #0" = -23
+	"Henrike #0" = -23
+	"Emelrich #0" = 22
+	"Ludolf #3" = 22
+	"Berta #0" = -23
+	"Gerlach #0" = 44
+	"Hesso #0" = 22
+	"Hermann #0" = 22
+	"Waldemar #1" = 22
+	"Gerhild #0" = -23
+	"Humbert #0" = 22
+	"Adelheid #0" = -45
+	"Karlmann #2" = 44
+	"Eginolf #0" = 44
+	"Meinhard #1" = 66
+	"Isentrude #0" = -23
+	"Otto #0" = 22
+	"Manegold #0" = 22
+	"Liutpold #0" = 22
+	"Rutger #0" = 22
+	"Amalrich #0" = 22
+	"Markward #0" = 44
+	"Alberich #0" = 22
+	"Mechthild #0" = -23
+	"Gotthard #0" = 22
+	"Theodorich #0" = 22
+	"Nahuatl #0" = -23
+	"Matthias #0" = 22
+	"Martin #0" = 22
+	"Xochitl #0" = -23
+	"Magnus #0" = 22
+	"Hedwig #0" = -23
+	"Benedicta #0" = -23
+	"Charles #1" = 0
+	"Lothaire #1" = 0
+	"Louis #1" = 0
+	"Ludwig #5" = 0
+	"Dietpold #2" = 0
+	"Erich #1" = 0
+	"Siegmund #1" = 0
+	"Günzel #2" = 0
+	"Aliénor #1" = -1
+	"Gotzelo #1" = 0
+	"Liudolf #1" = 0
+	"Poppo #1" = 0
+	"Adalbert #0" = 0
+	"Adalhard #0" = 0
+	"Adam #0" = 0
+	"Ademar #0" = 0
+	"Adolf #0" = 0
+	"Alarich #0" = 0
+	"Alois #0" = 0
+	"Baldarich #0" = 0
+	"Baldewin #0" = 0
+	"Baldomar #0" = 0
+	"Baldur #0" = 0
+	"Berengar #0" = 0
+	"Burchard #0" = 0
+	"Dieter #0" = 0
+	"Dietwin #0" = 0
+	"Ehrenfried #0" = 0
+	"Ekbert #0" = 0
+	"Emich #0" = 0
+	"Ferdinand #0" = 0
+	"Filibert #0" = 0
+	"Folkhard #0" = 0
+	"Friedrich #0" = 0
+	"Gautselin #0" = 0
+	"Gunzelin #0" = 0
+	"Hans #0" = 0
+	"Hartwig #0" = 0
+	"Heribert #0" = 0
+	"Hugo #0" = 0
+	"Jürgen #0" = 0
+	"Kuno #0" = 0
+	"Lambert #0" = 0
+	"Landolf #0" = 0
+	"Liutbert #0" = 0
+	"Liutbrand #0" = 0
+	"Lutbert #0" = 0
+	"Michael #0" = 0
+	"Peter #0" = 0
+	"Radbot #0" = 0
+	"Rudolf #0" = 0
+	"Sieghard #0" = 0
+	"Sigismund #0" = 0
+	"Udalrich #0" = 0
+	"Walram #0" = 0
+	"Walther #0" = 0
+	"Wenzel #0" = 0
+	"Wido #0" = 0
+	"Wigerich #0" = 0
+	"Wolfram #0" = 0
+}
+ship_names = {
+
+	"St. Kilian" "Tassilo III" "Kaiser Ludwig IV"
+
+	"König Arnulf" "Graf von Bogen" "Graf von Andechs"
+
+	"Graf von Sulzbach" Wittelsbach "Graf von Diepolding"
+
+	"König Konrad III" "König Friedrich I" "Pfalzgraf Otto"
+
+	Augsburg Andechs Burgau Diessen Friedberg Kempten Lindau
+
+	Memmingen Mindel Oettingen Straubing Wolfstein
+
+}
+

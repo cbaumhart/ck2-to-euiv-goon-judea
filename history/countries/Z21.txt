@@ -1,0 +1,33 @@
+# Jayapalid
+government = absolute_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = bengali
+religion = hinduism
+capital = 571
+1403.11.14 = {
+	monarch = {
+		name = "Dharendranarayan"
+		dynasty = "Jayapalid"
+		adm = 6
+		dip = 4
+		mil = 5
+	}
+}
+1422.4.17 = {
+	heir = {
+		name = "Hemant Sen"
+		monarch_name = "Hemant Sen"
+		dynasty = "Jayapalid"
+		birth_date = 1422.4.17
+		death_date = 1502.4.17
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+1444.11.11 = {
+	add_treasury = 14
+	add_prestige = 336
+}

@@ -1,0 +1,33 @@
+# Bihar
+government = absolute_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = oriya
+religion = hinduism
+capital = 2082
+1411.1.4 = {
+	monarch = {
+		name = "Bhupendravarman"
+		dynasty = "Kalinga Ganga"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1447.11.18 = {
+	heir = {
+		name = "Dharmaraja"
+		monarch_name = "Dharmaraja"
+		dynasty = "Kalinga Ganga"
+		birth_date = 1447.11.18
+		death_date = 1527.11.18
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1444.11.11 = {
+	add_treasury = 5
+	add_prestige = 266
+}

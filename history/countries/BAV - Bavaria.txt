@@ -1,0 +1,33 @@
+# Bavaria
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = german
+religion = catholic
+capital = 65
+1414.12.4 = {
+	monarch = {
+		name = "Ernst"
+		dynasty = "von Andechs"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}
+1434.3.12 = {
+	heir = {
+		name = "Werner"
+		monarch_name = "Werner"
+		dynasty = "von Andechs"
+		birth_date = 1434.3.12
+		death_date = 1514.3.12
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+}
+1444.11.11 = {
+	add_treasury = -7
+	add_prestige = 223
+}

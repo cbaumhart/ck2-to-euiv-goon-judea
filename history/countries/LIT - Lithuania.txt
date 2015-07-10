@@ -1,0 +1,33 @@
+# Lithuania
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = lithuanian
+religion = catholic
+capital = 272
+1427.10.24 = {
+	monarch = {
+		name = "Vainius"
+		dynasty = "Karling"
+		adm = 1
+		dip = 5
+		mil = 3
+	}
+}
+1451.6.22 = {
+	heir = {
+		name = "Jovirdas"
+		monarch_name = "Jovirdas"
+		dynasty = "Karling"
+		birth_date = 1451.6.22
+		death_date = 1531.6.22
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+1444.11.11 = {
+	add_treasury = -3
+	add_prestige = 1226
+}

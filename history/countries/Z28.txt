@@ -1,0 +1,22 @@
+# Tirabhukti
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = bengali
+religion = hinduism
+capital = 2047
+1450.6.6 = {
+	monarch = {
+		name = "Devi Ahiylya"
+		dynasty = "Prithipalid"
+		female = yes
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+1444.11.11 = {
+	add_treasury = 296
+	add_prestige = 28
+}

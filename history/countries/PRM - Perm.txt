@@ -1,0 +1,21 @@
+# Perm
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = khazar
+religion = jewish
+capital = 305 #Perm
+1453.1.1 = {
+	monarch = {
+		name = "Maximos"
+		monarch_name = "Maximos II"
+		dynasty = "Bulanid"
+		birth_date = 1448.1.9
+		death_date = 1503.4.2
+		claim = 95
+		adm = 4
+		dip = 1
+		mil = 0
+	}
+}

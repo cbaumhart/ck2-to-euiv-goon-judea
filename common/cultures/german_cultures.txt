@@ -1,0 +1,22 @@
+germanic = {
+	german = {
+		primary = GER
+		dynasty_names = { "Welf" "Udonen" "von Komburg" "von Lichtenberg" "von Sigmaringen" "von Geroldseck" "von Limpurg" "Geroldonen" "von Zollern" "von Andechs" "von Waging" "von Glurns" "von Köpingsvik" "von Andechs" "von Erlangen" "von Hulingsryd" "von Nenzing" "von Bregenz" "von Asperg" "von Staufen" "von Brzesko" "von Rain" "von Cloppenburg" "von Pfeffingen" "von Ungstein" "von Mannheim" "von Ingelheim" "von Straubing" "von Vreta" "von Jønkøping" "von Steyr" "von Châtillon" "von Zollern" "von Getinge" "von Stenay" "von Staufen" "von Calw" "von Rosello" "von La Algaba" "von Naumburg" "von Doaumont" "von Avaskær" "von Sølvesborg" "von Skawina" "von Puigcerdà" "von Urgell" "von Urgell" "von Herisau" "von Alquézar" "von El Pui de Segur" "von Morella" "von Linz" "von Épila" "von Halle" "von Verdú" "von Alquézar" "von Lindau" "von Osona" "von Castelnaudary" "von Termes" "von Olmeda" "von Loarre" "von Stübing" "von Cerdanya" "von Manresa" }
+	}
+	frankish = {
+		primary = FRA
+		dynasty_names = { "Bontemps" "de Tourraine" "de la Trémoille" "de Limousin" "de Ridefort" "Saint-Menehould" "de Stromoncourt" "de Thourotte" "de Richercourt" "of Burgundy" "de Montbéliard" "d'Alcuéscar" "de Ceclavin" "de Talayuela" "de Vernon" "de Sursee" "de Monaco" "de Fontdouce" "de Waverley" "de Quéribus" "de Sansepolcro" "de Beaumont-au-Maine" "de Murat" "de Brindas" "de Hagenow" "de Castellane" "de St Jean-de-Losne" "de Boves" "de La Tranchade" "de Mendrisio" "de Gap" "de Porhoet" "de St. Meen" "de Quintin" "de Montbrison" "de Lezergue" "d'Anse" "de Longueville" "de Mondragon" "de Schagen" "de Murten" "de Comborn" "de Tafalla" "de St. Nazaire" "de Jargeau" "de Quintin" "de Hasparren" "de Jargeau" "de Janville" "de Tamisa" "de Baeza" "de Conwy" "d'Alacuàs" "de Naplouse" "de Cuisery" "de Grimaud" "de Haverford" "de Gwynedd" "de Poitiers" "de Coín" "de Ploermel" "de Chiva" "de Sherborne" "de Tomar" "de Montguyon" "de Grândola" "de Castillon" "de Tarbes" "de Chartres" "de Hailes" "de Cicon" "de Greyerz" "de Fuente del Maestre" "de Jargeau" "de Breteuil" "de Lescar" "de Montpensier" "de Tournel" "de Conwy" "de Montpellier" "de Vélez-Málaga" "de Ceret" "de Vogué" "de Domeyrat" "de Villefranche-sur-Saône" "d'Audun-le-Roman" "d'Eynsham" "d'Illescas" "de Longueville" "de Buckingham" "de Châtelaillon" "de Salvaing" "de Marlborough" "de Beaucourt" "de Schio" "de Vera" "de Bonaguil" "de Lillebonne" "de Sansepolcro" "de Montevarchi" "d'Aquila" "de Giglio" "de Colle di Val d'Elsa" "de Ciconia" "de Bagnacavallo" "de Castel Guelfo" "de Capoterra" "d'Auriate" "de Montecchio" "de Paese" "de Manerbio" "de Bomporto" "de Gonzaga" "de Lodi" "de San Vincenzo" "de Voghiera" "de Bondeno" "de Castiglione" "d'Este" "de Noceto" "de Fontanellato" "de Portevecchio" "de Tortona" "d'Acqui" "de Mirandola" "de Pula" "de Görz" "de Voghera" "de Camerino" "de Wolfsberg" }
+	}
+	suebi = {
+		primary = POR
+		dynasty_names = { }
+	}
+	old_saxon = {
+		primary = GER
+		dynasty_names = { }
+	}
+	frisian = {
+		primary = NED
+		dynasty_names = { }
+	}
+}

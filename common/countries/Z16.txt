@@ -1,0 +1,174 @@
+# Karelia
+graphical_culture = easterngfx
+color = { 155 135 45 }
+historical_idea_groups = {
+
+	trade_ideas
+
+	defensive_ideas
+
+	offensive_ideas
+
+	economic_ideas
+
+	diplomatic_ideas
+
+	plutocracy_ideas
+
+	spy_ideas
+
+	religious_ideas
+
+}
+
+historical_units = {
+
+	western_medieval_infantry
+
+	western_medieval_knights
+
+	western_men_at_arms
+
+	swiss_landsknechten
+
+	dutch_maurician
+
+	swedish_gallop
+
+	swedish_gustavian
+
+	swedish_caroline
+
+	swedish_arme_blanche
+
+	prussian_frederickian
+
+	prussian_uhlan
+
+	mixed_order_infantry
+
+	open_order_cavalry
+
+	napoleonic_square
+
+	napoleonic_lancers
+
+}
+
+
+
+leader_names = {
+
+	"Ilme" "Atpälha" "Ngënoh" "Sarak" "Nabtiko" "Yurak" "Yapti" "Kat" "Paksyay" "Tada" 
+	"Yalgava" "Syeju" "Surt" "Nezayka" "Paksyut" "Tyueykezhut" "Sangasa" "Shoksha" "Malyy" "Sinyava" 
+	"Kubrat" "Kanyava" "Tylmache" "Nalka" "Hellä" "Poshayka" "Sanal'ka" "Potyava" "Inyava" "Nuyanza" 
+	"Purysho" "Shindyay" "Tikshayka" "Pekshayka" "Serzhay" "Khatyako" "Senda" "Megurka" "Vesei" "Kujku" 
+	"Tuure" "Into" "Ahma" "Samatu" "Alik" "Panay" "Wayngachi" "Laptsui" "Oshama" "Hasaba" 
+	"Henri" "Kako" "Kharuchi" "Kolik" "Mandak" "Nenyts" "Nga" "Noumea" "Num" "Nyalku" 
+	"Pudak" "Salinder" "Sirtya" "Somatu" "Syudbya" "Tatva" "Tolik" "Xëryuchi" "Yadne" "Yar" 
+	"Yavlad" }
+monarch_names = {
+	"Ilme #0" = -17
+	"Atpälha #1" = -9
+	"Ngënoh #0" = 16
+	"Sarak #1" = 16
+	"Nabtiko #4" = 16
+	"Yurak #0" = 8
+	"Yapti #0" = 8
+	"Kat #0" = -9
+	"Paksyay #0" = 8
+	"Tada #0" = -9
+	"Yalgava #0" = -9
+	"Syeju #0" = -9
+	"Surt #0" = 8
+	"Nezayka #1" = -9
+	"Paksyut #0" = 24
+	"Tyueykezhut #0" = 8
+	"Sangasa #0" = -9
+	"Shoksha #0" = 8
+	"Malyy #0" = 8
+	"Sinyava #0" = -9
+	"Kubrat #0" = 8
+	"Kanyava #0" = -9
+	"Tylmache #0" = 8
+	"Nalka #0" = 8
+	"Hellä #0" = -9
+	"Poshayka #0" = -9
+	"Sanal'ka #0" = -9
+	"Potyava #0" = -9
+	"Inyava #0" = -9
+	"Nuyanza #0" = -9
+	"Purysho #1" = 16
+	"Shindyay #0" = 8
+	"Tikshayka #0" = -9
+	"Pekshayka #0" = -9
+	"Serzhay #0" = -9
+	"Khatyako #0" = -9
+	"Senda #0" = -9
+	"Megurka #0" = -9
+	"Vesei #2" = 8
+	"Kujku #0" = -9
+	"Tuure #2" = 0
+	"Into #1" = 0
+	"Ahma #2" = 0
+	"Samatu #1" = 0
+	"Alik #2" = 0
+	"Panay #1" = 0
+	"Wayngachi #1" = 0
+	"Laptsui #1" = -1
+	"Oshama #1" = -1
+	"Hasaba #1" = 0
+	"Henri #1" = 0
+	"Kako #0" = 0
+	"Kharuchi #0" = 0
+	"Kolik #0" = 0
+	"Mandak #0" = 0
+	"Nenyts #0" = 0
+	"Nga #0" = 0
+	"Noumea #0" = 0
+	"Num #0" = 0
+	"Nyalku #0" = 0
+	"Pudak #0" = 0
+	"Salinder #0" = 0
+	"Sirtya #0" = 0
+	"Somatu #0" = 0
+	"Syudbya #0" = 0
+	"Tatva #0" = 0
+	"Tolik #0" = 0
+	"Xëryuchi #0" = 0
+	"Yadne #0" = 0
+	"Yar #0" = 0
+	"Yavlad #0" = 0
+}
+ship_names = {
+
+	Agricola Aura
+
+	Borgå "Birger Jarl"
+
+	Helsingfors Hakkapeliitta
+
+	Ilmarinen
+
+	Kullervo Karelen Kymi
+
+	Lemminkäinen Lapland
+
+	Nyland
+
+	Oulu
+
+	"Per Brahe"
+
+	Sampo "St. Henrik" Savolax
+
+	Tavastehus Tavastland
+
+	Väinämöinen Vasa Viborg Vanda Vuoksi
+
+	Åbo
+
+	Österbotten
+
+}
+

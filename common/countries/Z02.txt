@@ -1,0 +1,254 @@
+# Deheubarth
+graphical_culture = westerngfx
+color = { 125 51 3 }
+historical_idea_groups = {
+
+	naval_ideas
+
+	aristocracy_ideas
+
+	trade_ideas
+
+	economic_ideas
+
+	religious_ideas
+
+	innovativeness_ideas
+
+	offensive_ideas
+
+	defensive_ideas
+
+}
+
+historical_units = {
+
+	western_medieval_infantry
+
+	western_medieval_knights
+
+	western_longbow
+
+	gaelic_mercenary
+
+	gaelic_free_shooter
+
+	irish_charge
+
+	anglofrench_line
+
+	british_redcoat
+
+	british_hussar
+
+	british_square
+
+	mixed_order_infantry
+
+	open_order_cavalry
+
+	napoleonic_square
+
+	napoleonic_lancers
+
+}
+
+
+
+leader_names = {
+
+	"Arsinde" "Centule" "Plaisance" "Aliénor" "Adémar" "Rorgues" "Aude" "Amédée" "Julien" "Alix" 
+	"Robin" "Jacques" "Herbert" "Yves" "Jourdain" "Bourguigne" "Léon" "Antoine" "Ermengarde" "Einudd" 
+	"Eudaf" "Macsen" "Annwn Dynod" "Tudwal" "Dyfnwal" "Ynyr" "Caradog" "Meurig" "Erbic" "Erb" 
+	"Nynniaw" "Llywarch" "Tewdrig" "Arthwys" "Morgan" "Ithel" "Rhys" "Brochfael" "Gwriad" "Arthfael" 
+	"Hywel" "Alan" "Padrig" "Dafydd" "Alys" "Wulfstan" "Diederick" "Balderik" "Llywelyn" "Maelcwn" 
+	"Cynyr" "Gwrfoddw" "Rhydderch" "Édouard" "Érrard" "Étienne" "Adalbert" "Adrien" "Aimery" "Alain" 
+	"Aldebert" "Aldéric" "Alphonse" "Amaury" "Ancel" "André" "Angelbert" "Archambaud" "Arnaud" "Arnault" 
+	"Arnoul" "Aubry" "Aymar" "Barthélémi" "Baudouin" "Benoît" "Bérenger" "Bernard" "Bertrand" "Bohemond" 
+	"Boson" "Bouchard" "Charles" "Clotaire" "Ebbon" "Enguerrand" "Eudes" "Eustache" "Evrard" "Foulques" 
+	"François" "Frédéric" "Géraud" "Gargamel" "Gaucher" "Gaucelin" "Gauthier" "Geoffroy" "Gelduin" "Gilbert" 
+	"Gilles" "Godefroy" "Guichard" "Guiges" "Guilhem" "Guillaume" "Guy" "Hélie" "Hamelin" "Henri" 
+	"Hildebert" "Hugues" "Humbert" "Jaufré" "Jaspert" "Jean" "Josselin" "Léonard" "Lothaire" "Louis" 
+	"Loup" "Manassès" "Mathieu" "Maurice" "Nicolas" "Ogier" "Onfroy" "Orson" "Othon" "Payen" 
+	"Philippe" "Pierre" "Raimbaut" "Raoul" "Raymond" "Raynaud" "Renaud" "Richard" "Robert" "Roger" 
+	"Rorgon" "Roubaud" "Savary" "Sigismond" "Simon" "Thibault" "Thiébaut" "Thierry" "Thomas" "Valeran" }
+monarch_names = {
+	"Arsinde #0" = -17
+	"Centule #0" = 16
+	"Plaisance #0" = -17
+	"Aliénor #0" = -33
+	"Adémar #0" = 16
+	"Rorgues #0" = 16
+	"Aude #0" = -17
+	"Amédée #0" = 32
+	"Julien #0" = 32
+	"Alix #0" = -33
+	"Robin #0" = 16
+	"Jacques #1" = 48
+	"Herbert #1" = 16
+	"Yves #1" = 32
+	"Jourdain #0" = 16
+	"Bourguigne #0" = -17
+	"Léon #0" = 16
+	"Antoine #0" = 16
+	"Ermengarde #0" = -17
+	"Einudd #1" = 0
+	"Eudaf #1" = 0
+	"Macsen #1" = 0
+	"Annwn Dynod #1" = 0
+	"Tudwal #1" = 0
+	"Dyfnwal #1" = 0
+	"Ynyr #1" = 0
+	"Caradog #1" = 0
+	"Meurig #2" = 0
+	"Erbic #1" = 0
+	"Erb #1" = 0
+	"Nynniaw #1" = 0
+	"Llywarch #1" = 0
+	"Tewdrig #1" = 0
+	"Arthwys #1" = 0
+	"Morgan #1" = 0
+	"Ithel #1" = 0
+	"Rhys #2" = 0
+	"Brochfael #1" = 0
+	"Gwriad #1" = 0
+	"Arthfael #3" = 0
+	"Hywel #4" = 0
+	"Alan #1" = 0
+	"Padrig #2" = 0
+	"Dafydd #1" = 0
+	"Alys #1" = -1
+	"Wulfstan #1" = 0
+	"Diederick #1" = 0
+	"Balderik #2" = 0
+	"Llywelyn #1" = 0
+	"Maelcwn #1" = 0
+	"Cynyr #1" = 0
+	"Gwrfoddw #1" = 0
+	"Rhydderch #1" = 0
+	"Édouard #0" = 0
+	"Érrard #0" = 0
+	"Étienne #0" = 0
+	"Adalbert #0" = 0
+	"Adrien #0" = 0
+	"Aimery #0" = 0
+	"Alain #0" = 0
+	"Aldebert #0" = 0
+	"Aldéric #0" = 0
+	"Alphonse #0" = 0
+	"Amaury #0" = 0
+	"Ancel #0" = 0
+	"André #0" = 0
+	"Angelbert #0" = 0
+	"Archambaud #0" = 0
+	"Arnaud #0" = 0
+	"Arnault #0" = 0
+	"Arnoul #0" = 0
+	"Aubry #0" = 0
+	"Aymar #0" = 0
+	"Barthélémi #0" = 0
+	"Baudouin #0" = 0
+	"Benoît #0" = 0
+	"Bérenger #0" = 0
+	"Bernard #0" = 0
+	"Bertrand #0" = 0
+	"Bohemond #0" = 0
+	"Boson #0" = 0
+	"Bouchard #0" = 0
+	"Charles #0" = 0
+	"Clotaire #0" = 0
+	"Ebbon #0" = 0
+	"Enguerrand #0" = 0
+	"Eudes #0" = 0
+	"Eustache #0" = 0
+	"Evrard #0" = 0
+	"Foulques #0" = 0
+	"François #0" = 0
+	"Frédéric #0" = 0
+	"Géraud #0" = 0
+	"Gargamel #0" = 0
+	"Gaucher #0" = 0
+	"Gaucelin #0" = 0
+	"Gauthier #0" = 0
+	"Geoffroy #0" = 0
+	"Gelduin #0" = 0
+	"Gilbert #0" = 0
+	"Gilles #0" = 0
+	"Godefroy #0" = 0
+	"Guichard #0" = 0
+	"Guiges #0" = 0
+	"Guilhem #0" = 0
+	"Guillaume #0" = 0
+	"Guy #0" = 0
+	"Hélie #0" = 0
+	"Hamelin #0" = 0
+	"Henri #0" = 0
+	"Hildebert #0" = 0
+	"Hugues #0" = 0
+	"Humbert #0" = 0
+	"Jaufré #0" = 0
+	"Jaspert #0" = 0
+	"Jean #0" = 0
+	"Josselin #0" = 0
+	"Léonard #0" = 0
+	"Lothaire #0" = 0
+	"Louis #0" = 0
+	"Loup #0" = 0
+	"Manassès #0" = 0
+	"Mathieu #0" = 0
+	"Maurice #0" = 0
+	"Nicolas #0" = 0
+	"Ogier #0" = 0
+	"Onfroy #0" = 0
+	"Orson #0" = 0
+	"Othon #0" = 0
+	"Payen #0" = 0
+	"Philippe #0" = 0
+	"Pierre #0" = 0
+	"Raimbaut #0" = 0
+	"Raoul #0" = 0
+	"Raymond #0" = 0
+	"Raynaud #0" = 0
+	"Renaud #0" = 0
+	"Richard #0" = 0
+	"Robert #0" = 0
+	"Roger #0" = 0
+	"Rorgon #0" = 0
+	"Roubaud #0" = 0
+	"Savary #0" = 0
+	"Sigismond #0" = 0
+	"Simon #0" = 0
+	"Thibault #0" = 0
+	"Thiébaut #0" = 0
+	"Thierry #0" = 0
+	"Thomas #0" = 0
+	"Valeran #0" = 0
+}
+ship_names = {
+
+	Bedwyr Brycheiniog
+
+	Cadwaladr Caerdydd Caernarfon Caradoc Ceredigion Conwy Culhwch  
+
+	Deheubarth "Dewi Sant" Dolbadarn Dolwyddelan Dyfed
+
+	Eryri
+
+	Glywysing Gwalchmei "Gwenan Gorn" Gwydion Gwyn Gwynedd
+
+	Lleu "Llewellyn Fawr"
+
+	Mabinogi Math Meirionydd Morgannwg
+
+	Olwen "Owain Glyndwr"
+
+	Penfro Powys "Preiddeu Annwn" Pryderi Pwyll
+
+	Rhiannon
+
+	Taff Teifi Teirnon Tywi
+
+	"Ynys Môn"
+
+}
+

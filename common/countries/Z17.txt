@@ -1,0 +1,336 @@
+# Lyddid
+graphical_culture = muslimgfx
+color = { 32 150 85 }
+historical_idea_groups = {
+
+	defensive_ideas
+
+	religious_ideas
+
+	offensive_ideas
+
+	trade_ideas
+
+	spy_ideas
+
+	diplomatic_ideas
+
+	innovativeness_ideas
+
+	economic_ideas
+
+}
+
+historical_units = {
+
+	persian_footsoldier
+
+	persian_cavalry_charge
+
+	persian_shamshir
+
+	qizilbash_cavalry
+
+	tofongchis_musketeer
+
+	topchis_artillery
+
+	afsharid_reformed
+
+	afsharid_reformed_infantry
+
+	muslim_mass_infantry
+
+	muslim_dragoon
+
+	persian_rifle
+
+}
+
+
+
+leader_names = {
+
+	"Khalil" "Pamin" "Taweret" "Sharif" "Amunet" "Nuraddin" "Tawaret" "Khadija" "Asim" "Zara" 
+	"Radiya" "Alia" "Abanoub" "Suhail" "Muhammad" "Thuriya" "Agathos" "Nabil" "Kemaladdin" "Malik" 
+	"Bakr" "Mina" "Andali" "Bassi" "Zahra" "Azenet" "Jalaaladdin" "Halima" "Ra'uf" "Ablarion" 
+	"Jamila" "Badiat" "Hakam" "Rana" "Morobani" "Nassib" "Walid" "Musa" "Acenith" "Dawlat" 
+	"Nura" "Yassir" "Mukhtar" "Sha'ban" "Tayyib" "Asenath" "Abdul-Haq" "Latif" "Bishoi" "Binyamin" 
+	"Zakariyah" "Abu-Bakr" "Samira" "Cena" "Ashraf" "Jawdat" "Alam" "Ahmad" "Sacmis" "Biktor" 
+	"Fatima" "Asenet" "Haroun" "Muzaffaraddin" "Habil" "Rafiq" "Murshid" "Milad" "Titi" "Murad" 
+	"Suhaila" "Amr" "Majida" "Zaia" "Majan" "Abdul-Salaam" "Abianos" "Hammud" "Gabri’el" "Abisalom" 
+	"Tadros" "Gane" "Abdul-Aziz" "Mehtar" "Bashir" "Gao" "Abderahman" "Ridwan" "Yahya" "Tajaddin" 
+	"Deye" "Ghiyasaddin" "Yared" "Sogolon" "Asanet" "Ilyas" "Hisham" "Badr" "Ali" "Qadir" 
+	"Siya" "Abdullah" "Hargani" "Arsenios" "Cisse" "Yasiboy" "Muammar" "Aaron" "Lahiltoul" "Zenku" 
+	"Hussayn" "Nabila" "Agathonikos" "Is'mail" "Salman" "Aichata" "Alayaman" "Demissie" "Safiya" "Adnan" 
+	"Agathon" "Anthinos" "Athanasios" "Izzaddin" "Hanri" "Lot" "Farhan" "Firuz" "Abdul-Madjid" "Usama" 
+	"Akbar" "Hildebert" "Sabah" "Tahmasb" "Salim" "Teferi" "Fareedeh" "Ghoncheh" "Munawwar" "Nasir" 
+	"Keren" "Berta" "Melaku" "Soumaba" "Haeran" "Dilla" "Totit" "Berhanua" "Yekta" "Tessema" 
+	"Berhanu" "Habesha" "Girma" "Safiatou" "Taye" "Kodama" "Sisay" "Acacitli" "Fatta" "Fatim" 
+	"Yacob" "Gebereal" "Hawa" "Mari-Djata" "Amita" "Delaram" "Abrihet" "Azam" "Barakissa" "Zeïnab" 
+	"Ismail" "Teruworq" "Aoua" "Sidibé" "Tekhaye" "Aminata" "Jazarah" "Kassa" "Muawiyah" "Yazid" 
+	"Marwan" "Abu-al-Malik" "al-Walid" "Sulayman" "Umar" "Ibrahim" "As-Saffah" "Al-Mansur" "Al-Mahdi" "Al-Hadi" 
+	"Harun al-Rashid" "Al-Amin" "Al-Ma'mum" "Al-Mu'tasim" "Al-Wathiq" "Al-Mutawakkil" "Al-Muntasir" "Al-Musta'in" "Al-Mu'tazz" "Samir" 
+	"Nizam" "Burhanaddin" "Nasr" "Jibril" "Aarif" "Hafiz" "Hasan" "Abdul-Qadir" "Fadil" "Najib" 
+	"Sami" "Mirza" "Aram" "Sadiq" "Borjigidai" "Buri" "Abraam" "Androus" "Boutros" "Danyal" 
+	"Da’oud" "Georgios" "Jerjer" "Krystafer" "Matta" "Mikail" "Mikhael" "Touma" "Youkhanna" "Youssef" }
+monarch_names = {
+	"Khalil #0" = 312
+	"Pamin #1" = 192
+	"Taweret #0" = -625
+	"Sharif #0" = 264
+	"Amunet #0" = -769
+	"Nuraddin #0" = 288
+	"Tawaret #0" = -457
+	"Khadija #0" = -769
+	"Asim #0" = 120
+	"Zara #0" = -745
+	"Radiya #0" = -625
+	"Alia #0" = -817
+	"Abanoub #0" = 240
+	"Suhail #0" = 168
+	"Muhammad #0" = 192
+	"Thuriya #0" = -649
+	"Agathos #0" = 240
+	"Nabil #0" = 216
+	"Kemaladdin #0" = 168
+	"Malik #0" = 264
+	"Bakr #0" = 48
+	"Mina #0" = 384
+	"Andali #0" = -985
+	"Bassi #0" = 24
+	"Zahra #0" = -769
+	"Azenet #0" = -649
+	"Jalaaladdin #0" = 144
+	"Halima #0" = -841
+	"Ra'uf #0" = 336
+	"Ablarion #0" = 216
+	"Jamila #0" = -697
+	"Badiat #0" = -673
+	"Hakam #0" = 144
+	"Rana #0" = -745
+	"Morobani #0" = 24
+	"Nassib #0" = 216
+	"Walid #0" = 168
+	"Musa #1" = 240
+	"Acenith #0" = -721
+	"Dawlat #0" = 336
+	"Nura #0" = -793
+	"Yassir #0" = 288
+	"Mukhtar #1" = 264
+	"Sha'ban #0" = 240
+	"Tayyib #0" = 312
+	"Asenath #0" = -673
+	"Abdul-Haq #0" = 408
+	"Latif #0" = 408
+	"Bishoi #0" = 360
+	"Binyamin #0" = 312
+	"Zakariyah #0" = 264
+	"Abu-Bakr #0" = 288
+	"Samira #0" = -625
+	"Cena #0" = -625
+	"Ashraf #0" = 168
+	"Jawdat #0" = 312
+	"Alam #0" = 288
+	"Ahmad #0" = 192
+	"Sacmis #0" = -745
+	"Biktor #0" = 216
+	"Fatima #0" = -841
+	"Asenet #0" = -625
+	"Haroun #0" = 384
+	"Muzaffaraddin #0" = 264
+	"Habil #0" = 144
+	"Rafiq #0" = 360
+	"Murshid #0" = 528
+	"Milad #0" = 216
+	"Titi #0" = -553
+	"Murad #0" = 216
+	"Suhaila #0" = -625
+	"Amr #0" = 336
+	"Majida #0" = -793
+	"Zaia #1" = 336
+	"Majan #0" = 24
+	"Abdul-Salaam #0" = 192
+	"Abianos #0" = 168
+	"Hammud #0" = 312
+	"Gabri’el #0" = 240
+	"Abisalom #0" = 192
+	"Tadros #0" = 144
+	"Gane #0" = 24
+	"Abdul-Aziz #0" = 144
+	"Mehtar #0" = 504
+	"Bashir #1" = 288
+	"Gao #0" = 24
+	"Abderahman #0" = 288
+	"Ridwan #0" = 336
+	"Yahya #0" = 192
+	"Tajaddin #0" = 192
+	"Deye #0" = -25
+	"Ghiyasaddin #0" = 168
+	"Yared #0" = 120
+	"Sogolon #0" = -49
+	"Asanet #0" = -649
+	"Ilyas #0" = 336
+	"Hisham #1" = 192
+	"Badr #0" = 168
+	"Ali #0" = 144
+	"Qadir #3" = 288
+	"Siya #0" = -49
+	"Abdullah #0" = 312
+	"Hargani #0" = 48
+	"Arsenios #0" = 288
+	"Cisse #0" = 24
+	"Yasiboy #0" = 24
+	"Muammar #0" = 192
+	"Aaron #0" = 288
+	"Lahiltoul #0" = 24
+	"Zenku #0" = 24
+	"Hussayn #1" = 144
+	"Nabila #0" = -913
+	"Agathonikos #0" = 312
+	"Is'mail #1" = 72
+	"Salman #0" = 24
+	"Aichata #0" = -25
+	"Alayaman #0" = 24
+	"Demissie #0" = 48
+	"Safiya #0" = -769
+	"Adnan #0" = 240
+	"Agathon #0" = 144
+	"Anthinos #0" = 264
+	"Athanasios #0" = 312
+	"Izzaddin #0" = 240
+	"Hanri #0" = 144
+	"Lot #0" = 216
+	"Farhan #0" = 264
+	"Firuz #0" = 192
+	"Abdul-Madjid #0" = 144
+	"Usama #0" = 336
+	"Akbar #0" = 96
+	"Hildebert #0" = 24
+	"Sabah #0" = 168
+	"Tahmasb #0" = 24
+	"Salim #0" = 96
+	"Teferi #0" = 24
+	"Fareedeh #0" = -25
+	"Ghoncheh #0" = -25
+	"Munawwar #0" = -25
+	"Nasir #0" = 48
+	"Keren #0" = -25
+	"Berta #0" = -25
+	"Melaku #0" = 48
+	"Soumaba #0" = 24
+	"Haeran #0" = 24
+	"Dilla #0" = -25
+	"Totit #0" = -25
+	"Berhanua #0" = 24
+	"Yekta #0" = -25
+	"Tessema #0" = 24
+	"Berhanu #0" = 24
+	"Habesha #0" = -25
+	"Girma #0" = 48
+	"Safiatou #0" = -25
+	"Taye #0" = 24
+	"Kodama #0" = 24
+	"Sisay #0" = -25
+	"Acacitli #0" = 24
+	"Fatta #0" = 24
+	"Fatim #0" = -25
+	"Yacob #0" = 24
+	"Gebereal #0" = 24
+	"Hawa #0" = -25
+	"Mari-Djata #0" = 24
+	"Amita #0" = -25
+	"Delaram #0" = -25
+	"Abrihet #0" = -25
+	"Azam #1" = 24
+	"Barakissa #0" = -25
+	"Zeïnab #0" = -25
+	"Ismail #0" = 24
+	"Teruworq #0" = 24
+	"Aoua #0" = -25
+	"Sidibé #0" = -25
+	"Tekhaye #0" = -49
+	"Aminata #0" = -25
+	"Jazarah #0" = -25
+	"Kassa #0" = 24
+	"Muawiyah #2" = 0
+	"Yazid #3" = 0
+	"Marwan #2" = 0
+	"Abu-al-Malik #1" = 0
+	"al-Walid #2" = 0
+	"Sulayman #1" = 0
+	"Umar #1" = 0
+	"Ibrahim #1" = 0
+	"As-Saffah #1" = 0
+	"Al-Mansur #1" = 0
+	"Al-Mahdi #1" = 0
+	"Al-Hadi #1" = 0
+	"Harun al-Rashid #1" = 0
+	"Al-Amin #1" = 0
+	"Al-Ma'mum #1" = 0
+	"Al-Mu'tasim #1" = 0
+	"Al-Wathiq #1" = 0
+	"Al-Mutawakkil #1" = 0
+	"Al-Muntasir #1" = 0
+	"Al-Musta'in #1" = 0
+	"Al-Mu'tazz #1" = 0
+	"Samir #1" = 0
+	"Nizam #1" = 0
+	"Burhanaddin #4" = 0
+	"Nasr #1" = 0
+	"Jibril #1" = 0
+	"Aarif #2" = 0
+	"Hafiz #1" = 0
+	"Hasan #2" = 0
+	"Abdul-Qadir #1" = 0
+	"Fadil #1" = 0
+	"Najib #1" = 0
+	"Sami #1" = 0
+	"Mirza #1" = 0
+	"Aram #2" = 0
+	"Sadiq #1" = 0
+	"Borjigidai #1" = 0
+	"Buri #1" = 0
+	"Abraam #0" = 0
+	"Androus #0" = 0
+	"Boutros #0" = 0
+	"Danyal #0" = 0
+	"Da’oud #0" = 0
+	"Georgios #0" = 0
+	"Jerjer #0" = 0
+	"Krystafer #0" = 0
+	"Matta #0" = 0
+	"Mikail #0" = 0
+	"Mikhael #0" = 0
+	"Touma #0" = 0
+	"Youkhanna #0" = 0
+	"Youssef #0" = 0
+}
+ship_names = {
+
+	Arif
+
+	Azmi
+
+	Dervish
+
+	Fuad
+
+	Haci
+
+	Haydar
+
+	Mulish
+
+	Nuri
+
+	Salih
+
+	Said
+
+	Sefveti
+
+	Shukri
+
+}
+

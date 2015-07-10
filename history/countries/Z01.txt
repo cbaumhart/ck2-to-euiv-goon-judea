@@ -1,0 +1,21 @@
+# Island
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = norwegian
+religion = catholic
+capital = 371
+1391.1.7 = {
+	monarch = {
+		name = "Arnfinn"
+		dynasty = "Hesby"
+		adm = 1
+		dip = 4
+		mil = 6
+	}
+}
+1444.11.11 = {
+	add_treasury = 200
+	add_prestige = 195
+}

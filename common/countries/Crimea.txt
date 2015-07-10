@@ -1,0 +1,92 @@
+#Crimea
+
+graphical_culture = easterngfx
+
+color = { 59  158  125 }
+
+historical_idea_groups = {
+	offensive_ideas
+	administrative_ideas
+	expansion_ideas
+	trade_ideas
+	economic_ideas
+	defensive_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	bardiche_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	muscovite_musketeer
+	muscovite_caracolle
+	muscovite_soldaty
+	muscovite_cossack
+	russian_petrine
+	russian_lancer
+	russian_green_coat
+	russian_cuirassier
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	russian_mass
+}
+
+ship_names = {
+	Bakhchisaray "Çürük Suv" "Chufut Kale"
+	Hansaray "Haci Giray" "Meli I Giray" 
+	"Zincilri Medrese" Kyrym  "Qirq Yer"
+	"Cufut Qale" "Chingiz Khan"
+}
+
+monarch_names = {
+	"Alp #0" = 10
+	"Arslan #0" = 10
+	"Adil #0" = 10
+	"Amin #0" = 10
+	"Bahadir #0" = 20
+	"Busir #0" = 30
+	"Devlet #0" = 40
+	"Bulçan #0" = 20
+	"Fetih #0" = 20
+	"Ghazi #0" = 30
+	"Haji #0" = 20
+	"Halim #0" = 10
+	"Haspulad #0" = 10
+	"Hayder #0" = 10
+	"Inayet #0" = 10
+	"Islam #0" = 30
+	"Janay #0" = 10
+	"Janibek #0" = 10
+	"Mänär #0" = 30
+	"Maqsud #0" = 10
+	"Manasseh #0" = 20
+	"Mehmed #0" = 40
+	"Mengli #0" = 20
+	"Mubarek #0" = 10
+	"Murad #0" = 10
+	"Nur Devlet #0" = 10
+	"Otemesh #0" = 10
+	"Qaplan #0" = 20
+	"Qirim #0" = 10
+	"Saadet #0" = 20
+	"Safa #0" = 10
+	"Sahib #0" = 20
+	"Satilghan #0" = 10
+	"Shahin #0" = 10
+	"Shardan #0" = 10
+	"Selamet #0" = 20
+	"Selim #0" = 30
+	"Toqtamish #0" = 10
+	"Khalida #0" = -1	
+	"Kundaçiq #0" = 20
+	"Mariam #0" = -1
+	"Tarmaç #0" = 20
+	"Sabah #0" = -1
+}
+
+leader_names = {
+	Çorpan Dzhankoyid Karadaid Bulan Bälgiçi Yavanteyid Manassid
+}

@@ -1,0 +1,21 @@
+# Prithipalid
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = bengali
+religion = hinduism
+capital = 555
+1423.1.18 = {
+	monarch = {
+		name = "Rajrajendranarayan"
+		dynasty = "Prithipalid"
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}
+1444.11.11 = {
+	add_treasury = 58
+	add_prestige = 105
+}

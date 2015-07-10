@@ -1,0 +1,21 @@
+#Volga Bulgaria
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = bolghar
+religion = jewish
+capital = 2421 #Ar-Chally
+1453.1.1 = {
+	monarch = {
+		name = "Konstantia"
+		dynasty = "Bulanid"
+		birth_date = 1451.2.22
+		death_date = 1487.9.27
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 2
+		female = yes
+	}
+}

@@ -1,0 +1,33 @@
+# Bohemia
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = czech
+religion = catholic
+capital = 266
+1427.2.19 = {
+	monarch = {
+		name = "Ojír II"
+		dynasty = "ze Stodaranow"
+		adm = 2
+		dip = 1
+		mil = 5
+	}
+}
+1445.3.2 = {
+	heir = {
+		name = "Rostislav"
+		monarch_name = "Rostislav"
+		dynasty = "ze Stodaranow"
+		birth_date = 1445.3.2
+		death_date = 1525.3.2
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1444.11.11 = {
+	add_treasury = -63
+	add_prestige = 330
+}

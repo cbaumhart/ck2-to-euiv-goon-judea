@@ -1,0 +1,33 @@
+# Normandy
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = muslim
+primary_culture = italian
+religion = catholic
+capital = 168
+1419.10.21 = {
+	monarch = {
+		name = "Bassiano"
+		dynasty = "di Castello"
+		adm = 3
+		dip = 1
+		mil = 3
+	}
+}
+1439.1.14 = {
+	heir = {
+		name = "Albano"
+		monarch_name = "Albano"
+		dynasty = "di Castello"
+		birth_date = 1439.1.14
+		death_date = 1519.1.14
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+1444.11.11 = {
+	add_treasury = 10
+	add_prestige = 213
+}

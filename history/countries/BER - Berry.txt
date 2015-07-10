@@ -1,0 +1,21 @@
+# Berry
+government = feudal_monarchy
+government_rank = 1
+mercantilism = 0.1
+technology_group = eastern
+primary_culture = italian
+religion = catholic
+capital = 179
+1409.3.14 = {
+	monarch = {
+		name = "Jacopo"
+		dynasty = "di Castello"
+		adm = 6
+		dip = 6
+		mil = 2
+	}
+}
+1444.11.11 = {
+	add_treasury = 8
+	add_prestige = 48
+}
