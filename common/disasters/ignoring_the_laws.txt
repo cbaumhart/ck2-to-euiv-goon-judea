@@ -26,7 +26,7 @@ ignoring_the_laws = {
 		modifier = { #Frontier Khaganate
 			#Perm PRM
 			factor = 0.25	
-			any_province = { is_core = PRM } #I think this prevents this countdown if the cores expired
+			any_province = { is_core = PRM } #This prevents this countdown if the cores expired
 			PRM = {
 				OR = {
 					exists = no
@@ -37,7 +37,7 @@ ignoring_the_laws = {
 		modifier = { #Frontier Khaganate
 			#Cumania CUM
 			factor = 0.25
-			any_province = { is_core = CUM } #I think this prevents this countdown if the cores expired
+			any_province = { is_core = CUM } #This prevents this countdown if the cores expired
 			CUM = {
 				OR = {
 					exists = no
@@ -49,7 +49,7 @@ ignoring_the_laws = {
 		modifier = { #Frontier Khaganate
 			#Turkestan TKM
 			factor = 0.25
-			any_province = { is_core = TKM } #I think this prevents this countdown if the cores expired
+			any_province = { is_core = TKM } #This prevents this countdown if the cores expired
 			TKM = {
 				OR = {
 					exists = no
@@ -60,7 +60,7 @@ ignoring_the_laws = {
 		modifier ={ #Frontier Khaganate
 			#Volga Bulgaria VBA
 			factor = 0.25
-			any_province = { is_core = VBA } #I think this prevents this countdown if the cores expired
+			any_province = { is_core = VBA } #This prevents this countdown if the cores expired
 			VBA = {
 				OR = {
 					exists = no
@@ -68,10 +68,10 @@ ignoring_the_laws = {
 				}
 			}
 		}
-		modifier = {
+		modifier = { #The Black Merchants
 			#Crimea CRI
 			factor = 0.2
-			any_province = { is_core = CRI } #I think this prevents this countdown if the cores expired
+			any_province = { is_core = CRI } #This prevents this countdown if the cores expired
 			CRI = {
 				OR = {
 					exists = no
@@ -79,7 +79,7 @@ ignoring_the_laws = {
 				}
 			}
 		}
-		modifier = {
+		modifier = { #Change this to something about 
 			factor = 6
 			is_bankrupt = yes
 		}

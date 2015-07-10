@@ -1,6 +1,6 @@
 spriteTypes = {
 
-	spriteType = {
+	spriteType = { #Icon for Ignoring The Laws. Copied from Civil War
 		name = "GFX_disaster_ignoring_the_laws"
 		texturefile = "gfx//interface//disasters//ignoring_the_laws.dds"
 		noOfFrames = 3

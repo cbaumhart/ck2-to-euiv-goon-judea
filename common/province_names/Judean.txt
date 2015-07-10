@@ -1,0 +1,2 @@
+#Province names that have been customized.  ProvinceID = "new name"
+#Will change name of province that Judea owns

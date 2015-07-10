@@ -20,7 +20,7 @@ country_event = {
 			spawn_rebels = {
 				type = jewish_rebels
 				size = 4
-				win = yes
+				win = yes #Win automatically so that there are provinces controlled by rebels.
 			}
 		}
 		random_owned_province = {

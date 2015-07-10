@@ -86,14 +86,14 @@ replace_path = "common/technology.txt"
 #		Changed Crimea to default to Merchant Republic
 #		Added Volga Bulgaria
 #		Added Cumania
-#		Added Turkmenistan
+#		Added Turkestan
 
 #	Decisions
 #		Added decision to release Crimea as vassal
 #		Added decision to release Perm as vassal
 #		Added decision to release Volga Bulgaria as vassal
 #		Added decision to release Cumania as vassal
-#		Added decision to release Turkmenistan as vassal
+#		Added decision to release Turkestan as vassal
 
 #	Disasters
 #		Added Ignoring The Laws

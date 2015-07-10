@@ -2,14 +2,8 @@ To Do list:
 Fixes
 	1. Fix rebel flags
 	2. Add trade good to Barnaul, Pegaya Orda
-	3. Flag for Volga Bulgaria, Cumania, Turkmenistan
-	x4. Add Ar-Chally to Volga Bulgaria
-	x5. Add Pegaya Orda to Cumania
-	x6. Add Zhetyru to Turkestan
-	x7. Add Alty-Kuduk to Turkestan
-	x8. Change all references to Turkmenistan to Turkestan
-	x9. Add Narym to Cumania
-	x10. Add Karamegdan to Turkestan
+	3. Flag for Volga Bulgaria, Cumania, Turkestan
+
 General
 	1. Create triggered modifier for owning Jerusalem
 	1a. have it take effect only after conversion
@@ -21,7 +15,6 @@ General
 	7. Add Hawaiian nation, ideas
 	8. Add Maori nation, ideas
 	9. Add minor religion rebels (Nestorian, Messalian)
-	x10. Create colonial regions in Europe
 	11. Get customized province / region names
 Byzantium
 	1. Change Byz ideas from Carolingian to Roman
@@ -54,12 +47,7 @@ Judea
 	x - add below in Religion 2. Set holy sites for Judaism in Sinai (Ar Tur), Jerusalem (Jerusalem), Damascus(Glitterhoof), Hamadan(Hamadan)) & Dhofar (Salalah) to be +.25 Prestige/Year Each
 	3. Create triggered modifier "Fuck Europe" for aggressor in war against country with capital in europe, +unrest, -Manpower recovery, -Morale
 	4. Create tech group for Judea at Western rates.
-	x5. Add cores for Perm: 		1955 Kholmogory, 		313 Arkhangelsk, 		1755 Ustyug, 		1958 Kargopol, 		1079 Viatka, 		1964 Ust-Sysolk, 		1972 Udmurtia, 		305 Perm, 		1962 Kudymkar, 		1963 Cherdyn, 		1077 Solikasmsk, 		1071 Tura, 		1080 Pelym, 		2427 Ostyaki	
-	x6. Add cores for Cumania: 		464 Astrakan, 		469 Ryn, 		466 Sarai, 		1971 Tsaritsyn, 		303 Saratov, 		2418 Ukek, 		2365 Orda, 		2367 Lower Yik, 		470 Bayuly, 		2366 Utva, 		474 Yaik,		2419 Kanadey, 		1081 Simbirsk, 		473 Samara, 		1965 Buzuluk, 		2420 Agyidel, 		1966 Chelyaba, 		2369 Lower Ishim, 		2357 Aksary, 		475 Bashkortostan, 		2444 Bashigird, 		2441 Iglino, 		1076 Kurgan, 		1075 Tyumen, 		1074 Sibir, 		2429 Agan, 		2428 Yugan, 		1071 Irtesh, 		2433 vah, 		1068 Pegaya Ordo, 		2434 Barnaul, 		2118 Urzhar, 		1067 Narym, 		478 Argyn, 		2360 Tobykyt, 		476 Kypshak, 		2359 Baganaly, 		2357 Aksary, 		479 Kerey, 		2354 Shegendyk
-	x7. Add cores for Turkestan: 		471 Alimuly, 		2351 Shekyt, 		2353 Tortkara, 		2358 Altyn, 		2352 Alty-kubak, 		439 Mangyshlak, 		443 Ustyurt, 		2370 Kungirot, 		1970 Syghnak, 		456 Turkestan, 		2361 Dzhhaman-kuduk, 		477 Nadym, 		1969 Sozak, 		459 Taraz, 		461 Almaty, 		2120 Ili, 		2125 Kochkor,		2126 Chuy
-	x8. Add cores for Volga Bulgaria: 		2408 Lipestk, 		299 Voronezh, 		467 Borisoglebsk, 		2415 Etkara, 		302 Tambov, 		1778 Kasimov, 		304 Penza, 		1754 Murom, 		2423 Alatyr, 		1956 Suzdal, 		306 Nizhny Novgorod, 		2422 Veda-Suvar, 		1082 Kazan
-	x9. Add cores for Crimea: 		284 Crimea		1974 Yedishkul		2412 Kyzyl-Yar 		2406 Ingil		283 Zaporozhia
-	10. Add core for Venice: Venice 
+	9. Add core for Venice: Venice 
 	10. Add Khazar as accepted culture
 	11. Add missions to for IDE nations where you get a claim on all provinces
 	z12. Add core for Fars: Bushehr
@@ -69,8 +57,6 @@ Judea
 Aztec
 	1. Add cores on rest of Scandanvia
 	2. Fix government
-Crimea
-	x1. Change default government type to merchant_republic
 	
 Religion - add triggered modifier for each
 	Shia
@@ -108,24 +94,28 @@ Religion - add triggered modifier for each
 	Mahayana
 		Add religious Site for Katmandu (Lumbina), Patna (Bhod Gaya), Tirhut (Kusinara), Jaunpur (Sarnath), Central Doab (Sankassa)
 
-The Laws
-	NA The Flow of Time - No savescumming (as is)
-	NA Story Telling - Interesting story over optimised play
-	Honoring your ancestors - rename something
-	DEC The Black merchants - CRI be merchant_republic
-	Insertname Delenda Est - Any nation that takes a province must be destroyed - hidden even that gives historical enemy modifier to country, create CB that can target historical enemy
-	Holy Holy Holy - Taking a holy place prioritized
-	In Due Time - not applicable
-	Family Business - royal marriages with all vassals must be maintained?
-	DEC Fronteir Khaganate - vassals in Perm, Volga Bulgaria, Cumania & Turkestan
-	All roads lead to home - new connections must have land connection to capital - colonial regions make that more meaningful
-	I vote neigh - create new tech group with 100% cavalry allowed. cavalry should be at least 80% of all military.
-	Prison industrial complex - No releasing of nations?
-	Bastards and gays be gone - only strong claims allowed, create event for weak claims that kills them
-	dreidel dreidel dreidel - rulers enjoy the little things - create events for this
-	gold decides war - declare with more than 1000 in bank, under 500 you must surrender. event for this / triggered modifier
-	While the enemies of hte empire draw breath there can be no peace - Anyone on IDE may not white peace
-	Jerusalem is center of hte world - Jerusalem capital, all construction projects must be completed asap
-	Fuck Europe - all threats come from not europe, wars of expansion directed to Asia and Africa
-	Wider and wider still - Realm yo bequeath must be larger than realm you inherit - triggered modifier on unowned cores?
-	Know the battlefield - future leaders must be generals - Edit defines ot make females able to be generals
+The Laws 
+	#NA = Not applicable, no ingame effect 
+	#MOD = put something into place in the mod to "enforce"/suggest compliance with law, but don't make too harsh to prevent railroading - change later to type of effect used
+	#DECISION = created as Decision
+	#EVENT = created as Event or modified in way to use existing event system
+	NA #The Flow of Time - No savescumming (as is)
+	NA #Story Telling - Interesting story over optimised play
+	MOD Honoring your ancestors - rename something - Can do with province_names/Judea.txt
+	DECISION #The Black merchants - CRI be merchant_republic
+	MOD Insertname Delenda Est - Any nation that takes a province must be destroyed - hidden even that gives historical enemy modifier to country, create CB that can target historical enemy
+	MOD Holy Holy Holy - Taking a holy place prioritized - triggered modifier for religious sites occupied
+	NA #In Due Time - king/khan long dead, ignoring
+	MOD Family Business - royal marriages with all vassals must be maintained? triggered modifier?
+	DECISION #Frontier Khaganate - vassals in Perm, Volga Bulgaria, Cumania & Turkestan
+	EVENT #All roads lead to home - new conquests must have land connection to capital - colonial regions make that more meaningful
+	MOD I vote neigh - create new tech group with 100% cavalry allowed. cavalry should be at least 80% of all military.
+	MOD Prison industrial complex - No releasing of nations?
+	MOD Bastards and gays be gone - only strong claims allowed, create event for weak claims that kills them
+	MOD dreidel dreidel dreidel - rulers enjoy the little things - create events for this
+	MOD gold decides war - declare with more than 1000 in bank, under 500 you must surrender. event for this / triggered modifier
+	MOD While the enemies of hte empire draw breath there can be no peace - Anyone on IDE may not white peace - change defines.lua?
+	MOD Jerusalem is center of hte world - Jerusalem capital, all construction projects must be completed asap - prevent capital from being changed
+	MOD Fuck Europe - all threats come from not europe, wars of expansion directed to Asia and Africa - if not crusade target, look at something like unlawful terretory from HRE?
+	MOD Wider and wider still - Realm yo bequeath must be larger than realm you inherit - triggered modifier on unowned cores?
+	MOD Know the battlefield - future leaders must be generals - Edit defines ot make females able to be generals
