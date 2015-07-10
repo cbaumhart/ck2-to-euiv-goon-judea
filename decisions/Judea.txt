@@ -145,7 +145,7 @@ country_decisions = {
 			remove_core = 306
 			remove_core = 2422
 			remove_core = 1082
-			#release_vassal = VBA
+			release_vassal = VBA
 			create_march = VBA
 		}
 		ai_will_do = {
