@@ -73,6 +73,8 @@ replace_path = "common/rebel_types/jewish.txt"
 replace_path = "interface/countrystabilityview.gfx"
 replace_path = "common/defines.lua"
 replace_path = "common/technology.txt"
+replace_path = "commmon/cb_types/00_cb_types.txt"
+
 
 #Release Notes
 
