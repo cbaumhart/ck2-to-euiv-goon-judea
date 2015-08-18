@@ -5,7 +5,7 @@ affirmed_traditions = {
 }
 
 overturned_tradition = {
-	global_unrest = -1
+	global_unrest = 1
 	idea_cost = -0.1
 	local_autonomy = -0.05
 }

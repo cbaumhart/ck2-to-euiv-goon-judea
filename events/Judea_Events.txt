@@ -1,0 +1,130 @@
+#Event that gives historical rival to any country owning a Judean core
+country_event = {
+	id = Judean_Events.1
+	title = "Judean_Events.Title1"
+	desc = "Judean_Events.Desc1"
+	Picture = Praying_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { is_subject_of = JUD }
+		any_owned_province = { is_core = JUD }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	#We will stand firm in our new holdings
+	option = {
+		name = "Judean_Events.1.a"
+		ai_chance = {
+			factor = 0.95
+			modifier = {
+				factor = 10
+				is_rival = JUD			
+			}
+			modifier = {
+				factor = 5
+				is_great_power = yes
+			}
+		}
+		remove_historical_friend = JUD
+		add_historical_rival = JUD
+		add_prestige = 10
+		add_yearly_manpower = 0.10
+		any_country = {
+			limit = { tag = JUD }
+			country_event = {
+				id = Judean_Events.2
+				days = 1
+			}
+		}
+		JUD = {
+			remove_historical_friend = ROOT
+			add_historical_rival = ROOT
+		}
+	}
+	
+	#Our pants are wet
+	option = {
+		name = "Judean_Events.1.b"
+		ai_chance = {
+			factor = 0.05
+			modifier = {
+				factor = 0
+				is_rival = JUD
+			}
+			modifier = {
+				factor = 1.5
+				war_exhaustion = 10
+			}
+			modifier = {
+				factor = 1.5
+				is_at_war = yes
+			}
+			modifier = {
+				factor = 5
+				is_bankrupt = yes
+			}
+		}
+		every_owned_province = {
+			limit = {
+				is_core = JUD
+			}
+			cede_province = JUD
+			add_local_autonomy = 50
+		}
+		any_country = {
+			limit = { tag = JUD }
+			country_event = {
+				id = Judean_Events.3
+				days = 1
+			}
+		}
+		reverse_add_opinion = {
+			who = JUD
+			modifier = 200
+			years = 50
+		}
+		JUD = {
+			remove_historical_friend = ROOT
+			add_historical_rival = ROOT
+		}
+	}
+}
+
+#Event for Judea resulting from .1.a
+country_event = {
+	id = Judean_Events.2
+	title = "Judean_Events.Title2"
+	desc = "Judean_Events.Desc2"
+	Picture = ACCUSATION_eventPicture
+	
+	is_triggered_only = yes
+	
+	#We shall sow the earth with salt
+	option = {
+		name = "Judean_Events.2.a"
+		add_prestige = -5
+	}
+}
+
+#Event for Judea resulting from .1.b
+country_event = {
+	id = Judean_Events.3
+	title = "Judean_Events.Title3"
+	desc = "Judean_Events.Desc3"
+	Picture = DIPLOMACY_eventPicture
+	
+	is_triggered_only = yes
+	#They still will be destroyed. Just not today.
+	option = {
+		name = "Judean_Events.3.a"
+		add_prestige = -5
+	}
+}
+
+
+

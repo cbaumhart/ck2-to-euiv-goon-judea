@@ -74,7 +74,7 @@ replace_path = "interface/countrystabilityview.gfx"
 replace_path = "common/defines.lua"
 replace_path = "common/technology.txt"
 replace_path = "commmon/cb_types/00_cb_types.txt"
-
+replace_path = "commmon/wargoal_types/00_wargoal_types.txt"
 
 #Release Notes
 
@@ -110,3 +110,6 @@ replace_path = "commmon/cb_types/00_cb_types.txt"
 #		Changed some stuff. Don't remember what.
 #	Technology
 #		Added Trade Companies for High American, Eastern & Western technology
+#	War types
+#		Added war type Insertname Delenda Est. Applies only to JUD, makes it easier for defender to claim more stuff.
+#		Added war type for While The Enemies... Applies to only Historical Rivals, which are set by event if another country owns a Judean core

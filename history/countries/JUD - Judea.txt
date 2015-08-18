@@ -2,10 +2,11 @@
 government = feudal_monarchy
 government_rank = 3
 mercantilism = 0.1
-technology_group = western
+technology_group = Judean
 primary_culture = greek
 religion = jewish
 capital = 379
+fixed_capital = 379
 1393.1.11 = {
 	monarch = {
 		name = "Gabriel"

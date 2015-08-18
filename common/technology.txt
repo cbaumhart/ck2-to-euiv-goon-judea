@@ -73,12 +73,12 @@ groups = {
 		cav_to_inf_ratio = 0.5
 		trade_company = yes
 	}
-#	judean = {
-#		modifier = 0
-#		start_level = 3
-#		cav_to_inf_ratio = 1
-#		trade_company = yes
-#	}	
+	judean = {
+		modifier = 0
+		start_level = 3
+		cav_to_inf_ratio = 1
+		trade_company = yes
+	}	
 }
 
 tables = {
