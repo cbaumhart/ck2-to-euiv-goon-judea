@@ -1,24 +1,32 @@
+namespace = judean_events
+
 #Event that gives historical rival to any country owning a Judean core
 country_event = {
-	id = Judean_Events.1
-	title = "Judean_Events.Title1"
-	desc = "Judean_Events.Desc1"
+	id = judean_events.1
+	title = "judean_events.Title1"
+	desc = "judean_events.Desc1"
 	Picture = Praying_eventPicture
 	
 	is_triggered_only = yes
 	
 	trigger = {
+		NOT = { has_country_flag = judea_event_1 }
 		NOT = { is_subject_of = JUD }
 		any_owned_province = { is_core = JUD }
 	}
-
 	mean_time_to_happen = {
 		days = 1
 	}
-
+	immediate = {
+		hidden_effect = {
+			FROM = {
+				set_country_flag = judea_event_1
+			}
+		}
+	}
 	#We will stand firm in our new holdings
 	option = {
-		name = "Judean_Events.1.a"
+		name = "judean_events.1.a"
 		ai_chance = {
 			factor = 0.95
 			modifier = {
@@ -34,10 +42,9 @@ country_event = {
 		add_historical_rival = JUD
 		add_prestige = 10
 		add_yearly_manpower = 2
-		any_country = {
-			limit = { tag = JUD }
+		hidden_effect = {
 			country_event = {
-				id = Judean_Events.2
+				id = judean_events.2
 				days = 1
 			}
 		}
@@ -46,10 +53,9 @@ country_event = {
 			add_historical_rival = ROOT
 		}
 	}
-	
 	#Our pants are wet
 	option = {
-		name = "Judean_Events.1.b"
+		name = "judean_events.1.b"
 		ai_chance = {
 			factor = 0.05
 			modifier = {
@@ -76,11 +82,10 @@ country_event = {
 			cede_province = JUD
 			add_local_autonomy = 50
 		}
-		any_country = {
-			limit = { tag = JUD }
+		hidden_effect = {
 			country_event = {
-				id = Judean_Events.3
-				days = 1
+				id = judean_events.3
+				days = 2
 			}
 		}
 		reverse_add_opinion = {
@@ -97,34 +102,38 @@ country_event = {
 
 #Event for Judea resulting from .1.a
 country_event = {
-	id = Judean_Events.2
-	title = "Judean_Events.Title2"
-	desc = "Judean_Events.Desc2"
+	id = judean_events.2
+	title = "judean_events.Title2"
+	desc = "judean_events.Desc2"
 	Picture = ACCUSATION_eventPicture
-	
 	is_triggered_only = yes
-	
+	trigger = {
+		FROM = {
+			tag = JUD
+		}
+	}
 	#We shall sow the earth with salt
 	option = {
-		name = "Judean_Events.2.a"
+		name = "judean_events.2.a"
 		add_prestige = -5
 	}
 }
 
 #Event for Judea resulting from .1.b
 country_event = {
-	id = Judean_Events.3
-	title = "Judean_Events.Title3"
-	desc = "Judean_Events.Desc3"
+	id = judean_events.3
+	title = "judean_events.Title3"
+	desc = "judean_events.Desc3"
 	Picture = DIPLOMACY_eventPicture
-	
 	is_triggered_only = yes
+	trigger = {
+		FROM = {
+			tag = JUD
+		}
+	}
 	#They still will be destroyed. Just not today.
 	option = {
-		name = "Judean_Events.3.a"
+		name = "judean_events.3.a"
 		add_prestige = -5
 	}
 }
-
-
-

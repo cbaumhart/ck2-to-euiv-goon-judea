@@ -111,16 +111,17 @@ The Laws
 	MOD #Insertname Delenda Est - Added special recover cores CB for Judea only - decreased AE and cost for defender, increased prestige, prevented white peace
 	MOD Holy Holy Holy - Taking a holy place prioritized - triggered modifier for religious sites occupied
 	NA #In Due Time - king/khan long dead, ignoring
-	MOD Family Business - royal marriages with all vassals must be maintained? triggered modifier?
+	MOD Family Business - royal marriages with all vassals must be maintained? triggered modifier? #Honored in national ideas
 	DECISION #Frontier Khaganate - vassals in Perm, Volga Bulgaria, Cumania & Turkestan
 	EVENT #All roads lead to home - new conquests must have land connection to capital - colonial regions make that more meaningful
-	MOD #I vote neigh - create new tech group with 100% cavalry allowed. cavalry should be at least 80% of all military.
+	MOD/IDEA #I vote neigh - create new tech group with 100% cavalry allowed. cavalry should be at least 80% of all military.
 	MOD Prison industrial complex - No releasing of nations?
 	MOD Bastards and gays be gone - only strong claims allowed, create event for weak claims that kills them
 	MOD dreidel dreidel dreidel - rulers enjoy the little things - create events for this
-	MOD gold decides war - declare with more than 1000 in bank, under 500 you must surrender. event for this / triggered modifier
+	MOD Council of Lords - All council members must hold a title equivalent to Duke or above.
+	IDEA #gold decides war - declare with more than 1000 in bank, under 500 you must surrender. event for this / triggered modifier
 	MOD #While the enemies of hte empire draw breath there can be no peace #Any nation that takes a province must be destroyed - hidden even that gives historical enemy modifier to country, create CB that can target historical enemy
-	MOD Jerusalem is center of hte world - Jerusalem capital, all construction projects must be completed asap - prevent capital from being changed
+	MOD/IDEA #Jerusalem is center of hte world - Jerusalem capital, all construction projects must be completed asap - prevent capital from being changed
 	MOD Fuck Europe - all threats come from not europe, wars of expansion directed to Asia and Africa - if not crusade target, look at something like unlawful terretory from HRE?
-	MOD Wider and wider still - Realm yo bequeath must be larger than realm you inherit - triggered modifier on unowned cores?
-	MOD Know the battlefield - future leaders must be generals - Edit defines to make females able to be generals
+	IDEA #Wider and wider still - Realm yo bequeath must be larger than realm you inherit - triggered modifier on unowned cores?
+	EVENT Know the battlefield - future leaders must be generals#Create event that will set ruler as general.  Event with negative tradition makes female ruler?

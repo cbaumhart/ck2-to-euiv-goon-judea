@@ -1,2 +1,6 @@
 #Province names that have been customized.  ProvinceID = "new name"
 #Will change name of province that Judea owns
+#Constantinople - New Jerusalem
+#Hungary - Pretty Borders
+#Georgia - Grand Commonwealth of Incest - thanks Glitterhoof
+#? - Dikopolis - look at HGS turn http://forums.somethingawful.com/showthread.php?threadid=3622095&userid=0&perpage=40&pagenumber=32

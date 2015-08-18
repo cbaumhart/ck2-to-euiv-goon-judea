@@ -76,7 +76,7 @@ replace_path = "common/technology.txt"
 replace_path = "commmon/cb_types/00_cb_types.txt"
 replace_path = "commmon/wargoal_types/00_wargoal_types.txt"
 replace_path = "common/technologies/mil.txt"
-
+replace_path = "common/on_actions/00_on_actions.txt"
 #Release Notes
 
 #Release 0.1
@@ -115,3 +115,7 @@ replace_path = "common/technologies/mil.txt"
 #	War types
 #		Added war type Insertname Delenda Est. Applies only to JUD, makes it easier for defender to claim more stuff.
 #		Added war type for While The Enemies... Applies to only Historical Rivals, which are set by event if another country owns a Judean core
+#	Ideas
+#		Added Judean Ideas for Judea, Cumania, Turkestan, Perm & Volga Bulgaria
+#	On Actions
+#		Added Judean event for peace aggrement

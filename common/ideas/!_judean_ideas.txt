@@ -1,0 +1,53 @@
+judean_ideas = {
+	start = {
+		tolerance_own  = 1
+		land_attrition = -0.15
+	}
+	
+	bonus = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = .01
+	}
+	
+	trigger = {
+		OR = {
+			tag = JUD
+			tag = PRM
+			tag = VBA
+			tag = TKM
+			tag = CUM
+		}
+	}
+		
+	free = yes
+	
+	family_business = {
+		advisor_cost  = -0.25
+		advisor_pool = 1
+	}
+	frontier_khaganate = {
+		diplomatic_relations = 1
+		vassal_forcelimit_bonus = 0.33
+	}
+	all_roads_lead_home = {
+		accepted_culture_threshold = 0.5
+		global_ship_cost = 0.15
+	}
+	i_vote_neigh = {
+		cavalry_cost = -0.10
+		cavalry_power = 0.15
+	}
+	gold_decides_war = {
+		interest = 2
+		land_maintenance_modifier = -0.10
+	}
+	jerusalem_center_world = {
+		land_morale = 0.15
+		development_cost = -0.10
+	}
+	wider_and_wider = {
+		core_creation = -0.15
+		ae_impact = 0.1
+	}
+}
