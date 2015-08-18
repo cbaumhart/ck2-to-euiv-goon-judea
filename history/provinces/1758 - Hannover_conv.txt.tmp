@@ -1,0 +1,24 @@
+owner = GER
+controller = GER
+add_core = GER
+culture = german
+religion = catholic
+citysize = 2000
+add_core = GER
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = GUJ
+discovered_by = Z33
+discovered_by = judean
+hre = no
+base_tax = 4
+base_production = 4
+base_manpower = 4
+1444.11.11 = {
+	owner = GER
+	controller = GER
+	culture = german
+	religion = catholic
+}

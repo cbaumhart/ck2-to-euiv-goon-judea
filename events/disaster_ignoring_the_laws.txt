@@ -311,13 +311,14 @@ country_event = {
 	option = { #They dare oppose the chosen?
 		name = flavor_itl.6.a
 		add_prestige = -5
-		all_neighbor_country = {
+		every_neighbor_country = {
 			limit = {
 				NOT = { alliance_with = ROOT }
+				NOT = { is_subject_of = ROOT }
 			}
 			country_event = {
 				id = ignoring_the_laws.9 #This doesn't work in 0.1
-				days = 1
+				days = 2
 			}
 		}
 	}
@@ -411,19 +412,27 @@ country_event = {
 		name = flavor_itl.9.a
 		ai_chance = { factor = 75 }
 		declare_war_with_cb = {
-			who = FROM
-			causus_belli = cb_border_war
+			who = JUD
+			causus_belli = cb_conquest
 		}
 		add_prestige = 40
 		add_stability = 1
 		add_legitimacy = 20
+		JUD = {
+			every_owned_province = {
+				limit = {
+					is_neighbor_of = ROOT
+				}
+				add_claim = ROOT
+			}
+		}
 	}
-	option = { #They're big and scary
-		name = flavor_itl.9.b
-		ai_chance = { factor = 25 }
-		add_prestige = -25
-		add_stability = -1
-	}
+	#option = { #They're big and scary
+	#	name = flavor_itl.9.b
+	#	ai_chance = { factor = 25 }
+	#	add_prestige = -25
+	#	add_stability = -1
+	#}
 }
 
 country_event = {

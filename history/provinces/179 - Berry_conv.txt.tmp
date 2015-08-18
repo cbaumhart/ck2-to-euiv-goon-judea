@@ -1,0 +1,24 @@
+owner = BER
+controller = BER
+add_core = BER
+culture = italian
+religion = catholic
+citysize = 2000
+add_core = BER
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = GUJ
+discovered_by = Z33
+discovered_by = judean
+hre = no
+base_tax = 7
+base_production = 7
+base_manpower = 5
+1444.11.11 = {
+	owner = BER
+	controller = BER
+	culture = italian
+	religion = catholic
+}

@@ -3,6 +3,8 @@ Fixes
 	1. Fix rebel flags
 	2. Add trade good to Barnaul, Pegaya Orda
 	3. Flag for Volga Bulgaria, Cumania, Turkestan
+	4. Create Judean Military units
+	5. Make sure that Judean tech group is not case dependent.
 General
 	1. Create triggered modifier for owning Jerusalem
 	1a. have it take effect only after conversion
@@ -17,6 +19,7 @@ General
 	11. Get customized province / region names, add to Judea.txt in common/province_names
 	12. ?Should trade be changed? maybe just st. lawrence heading to cheseapeake, cheseapeake to Caribbean?
 	13. revealed map - who knows what? should some "known" provinces be terra incognita to CK2?  Should Aztecs know all Europe? Fix aztec to know route from NA/SA to Europe.
+	14. Give Azores to Aztec
 Byzantium
 	1. Change Byz ideas from Carolingian to Roman
 	2. Add base manpower to Crete to 5

@@ -1,0 +1,24 @@
+owner = IRE
+controller = IRE
+add_core = IRE
+culture = anglo_saxon
+religion = fraticelli
+citysize = 2000
+add_core = IRE
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = GUJ
+discovered_by = Z33
+discovered_by = judean
+hre = no
+base_tax = 2
+base_production = 2
+base_manpower = 2
+1444.11.11 = {
+	owner = IRE
+	controller = IRE
+	culture = anglo_saxon
+	religion = fraticelli
+}

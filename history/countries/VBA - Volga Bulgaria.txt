@@ -2,7 +2,7 @@
 government = feudal_monarchy
 government_rank = 1
 mercantilism = 0.1
-technology_group = eastern
+technology_group = judean
 primary_culture = bolghar
 religion = jewish
 capital = 2421 #Ar-Chally

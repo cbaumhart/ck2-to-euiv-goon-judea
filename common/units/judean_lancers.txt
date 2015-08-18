@@ -1,0 +1,12 @@
+# Judean Warfare
+
+unit_type = judean
+type = cavalry
+
+maneuver = 2
+offensive_morale = 6
+defensive_morale = 4
+offensive_fire = 1
+defensive_fire = 1
+offensive_shock = 6
+defensive_shock = 3

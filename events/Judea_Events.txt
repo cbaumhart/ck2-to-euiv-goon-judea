@@ -33,7 +33,7 @@ country_event = {
 		remove_historical_friend = JUD
 		add_historical_rival = JUD
 		add_prestige = 10
-		add_yearly_manpower = 0.10
+		add_yearly_manpower = 2
 		any_country = {
 			limit = { tag = JUD }
 			country_event = {

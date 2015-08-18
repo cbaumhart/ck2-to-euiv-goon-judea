@@ -1,0 +1,24 @@
+owner = Z10
+controller = Z10
+add_core = Z10
+culture = cosmopolitan_french
+religion = catholic
+citysize = 2000
+add_core = POR
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = GUJ
+discovered_by = Z33
+discovered_by = judean
+hre = no
+base_tax = 5
+base_production = 5
+base_manpower = 3
+1444.11.11 = {
+	owner = Z10
+	controller = Z10
+	culture = cosmopolitan_french
+	religion = catholic
+}
