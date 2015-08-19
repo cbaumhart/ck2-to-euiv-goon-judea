@@ -1,12 +1,78 @@
 l_english:
  JUD: "Judea"
- JUD_ADJ: "Judean"
+ JUD_ADJ: "Judeaic"
  CUM: "Cumania"
  CUM_ADJ: "Cumanian"
  TKM: "Turkestan"
  TKM_ADJ: "Turkmeni"
  VBA: "Volga Bulgaria"
  VBA_ADJ: "Volgan"
+ ﻿VST: "Vestergøtland" #Old Z00
+﻿ VST_ADJ: "West Geatish" #Old Z00
+ ISL: "Island" #Old Z01
+﻿ ISL_ADJ: "Icelandic" #Old Z01
+ DEH: "Deheubarth" #Old Z02	
+﻿ DEH_ADJ: "Deheubarthian" #Old Z02
+ BTG: "Bretagne" #Old Z03
+﻿ BTG_ADJ: "Breton" #Old Z03
+ ORK: "Orkney" #Old Z04
+﻿ ORK_ADJ: "Orknian" #Old Z04
+ GWY: "Gwynedd" #Old Z05
+﻿ GWY_ADJ: "Gwyneddian" #Old Z05
+ ANJ: "Anjou" #Old Z06
+﻿ ANJ_ADJ: "Angevin" #Old Z06
+﻿ ULO: "Upper Lorraine" #Old Z07
+﻿ ULO_ADJ: "Upper Lorrainian" #Old Z07
+﻿ BGD: "Burgundy" #Old Z08
+﻿ BGD_ADJ: "Burgundian" #Old Z08
+ KCA: "Knights of Calatrava" #Old Z09
+﻿ KCA_ADJ: "Calatrava" #Old Z09
+ PTC: "Portucale" #Old Z10
+﻿ PTC_ADJ: "Portucalese" #Old Z10
+ MUR: "Murcia" #Old Z11
+﻿ MUR_ADJ: "Murcian" #Old Z11
+ CRD: "Cordoba" #Old Z12
+﻿ CRD_ADJ: "Cordoban" #Old Z12
+﻿ SAT: "Satakunta" #Old Z14
+﻿ SAT_ADJ: "Satakuntan" #Old Z14
+﻿ KLA: "Kola" #Old Z15
+﻿ KLA_ADJ: "Kolan" #Old Z15
+ KRE: "Karelia" #Old Z16
+﻿ KRE_ADJ: "Karelian" #Old Z16
+ LYD: "Lyddids" #Old Z17
+﻿ LYD_ADJ: "Lyddid" #Old Z17
+ RAS: "Rashtrakutas" #Old Z18
+﻿ RAS_ADJ: "Rashtrakuta" #Old Z18
+﻿ KAL: "Kalinga Gangas" #Old Z19
+﻿ KAL_ADJ: "Kalinga Ganga" #Old Z19
+﻿ MLE: "Mlechchhas" #Old Z20
+﻿ MLE_ADJ: "Mlechchha" #Old Z20
+ JAY: "Jayapalids" #Old Z21
+﻿ JAY_ADJ: "Jayapalid" #Old Z21
+﻿ TOM: "Tomaras" #Old Z22
+﻿ TOM_ADJ: "Tomara" #Old Z22
+﻿ KAI: "Kaivartas" #Old Z23
+﻿ KAI_ADJ: "Kaivarta" #Old Z23
+ SEN: "Senajits" #Old Z24
+﻿ SEN_ADJ: "Senajit" #Old Z24
+﻿ NAD: "Nadia" #Old Z25
+﻿ NAD_ADJ: "Nadia"  #Old Z25
+﻿ PRI: "Prithipalids" #Old Z26
+﻿ PRI_ADJ: "Prithipalid" #Old Z26
+ KUS: "Kusinagara" #Old Z27
+﻿ KUS_ADJ: "Kusinagaran" #Old Z27
+ TRB: "Tirabhukti" #Old Z28
+﻿ TRB_ADJ: "Tirabhukti" #Old Z28
+﻿ BIH: "Bihar" #Old Z29
+﻿ BIH_ADJ: "Bihar" #Old Z29
+﻿ #PUN: "Punjab" #Old Z30
+﻿ #PUN_ADJ: "Punjab" #Old Z30
+﻿ BHM: "Bhumpalids" #Old Z31
+﻿ BHM_ADJ: "Bhumpalid" #Old Z31
+﻿ KOS: "Kosala" #Old Z32
+﻿ KOS_ADJ: "Kosala" #Old Z32
+ KTC: "Kutch" #Old Z33
+﻿ KTC_ADJ: "Kutch" #Old Z33
  release_crimean_merchants_title: "Release Black Merchants"
  release_crimean_merchants_desc: "One of our oldest traditions is that of the Black Merchants. They've served for centuries enriching the coast of the Black Sea with their trade, but now suffer under our direct rule.  Shall we grant autonomy to these people?"
  release_permian_nation_title: "Release Perm"

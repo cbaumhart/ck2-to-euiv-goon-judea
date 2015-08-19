@@ -2,6 +2,9 @@ To Do list:
 Fixes
 	2. Add trade good to Barnaul, Pegaya Orda
 General
+	1. Look at Upper Lorraine in CKII to see if it's an Aztek colony, alter country file if required.
+	
+
 	1. Create triggered modifier for owning Jerusalem
 	1a. have it take effect only after conversion
 	2. Change countries in India to Indian tech group rather than Eastern

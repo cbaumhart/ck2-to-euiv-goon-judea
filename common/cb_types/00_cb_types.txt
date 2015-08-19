@@ -28,7 +28,7 @@ cb_delenda_est = {
 cb_die_die_die = {
 	prerequisites = {
 		tag = JUD
-		has_country_flag = insertname_delenda_est
+		FROM = { has_country_flag = insertname_delenda_est }
 	}
 	war_goal = die_die_die
 }

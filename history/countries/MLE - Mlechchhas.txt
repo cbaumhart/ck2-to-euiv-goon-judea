@@ -2,7 +2,7 @@
 government = feudal_monarchy
 government_rank = 2
 mercantilism = 0.1
-technology_group = eastern
+technology_group = indian
 primary_culture = rajput
 religion = hinduism
 capital = 519

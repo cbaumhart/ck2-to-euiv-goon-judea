@@ -153,7 +153,7 @@ country_event = {
 	#}
 	option = { #Give me my armor
 		name = "judean_events.4.a"
-		limit = { is_monarch_leader = no }
+		trigger = { is_monarch_leader = no }
 		add_prestige = 5
 		add_army_tradition = 5
 		#This may work without needing to check if ruler is male or female
@@ -162,12 +162,12 @@ country_event = {
 	}
 	option = { #Hide in castle
 		name = "judean_events.4.b"
-		limit = { is_monarch_leader = no }
+		trigger = { is_monarch_leader = no }
 		add_prestige = -5
 	}
 	option = {
 		name = "judean_events.4.c"
-		limit = { is_monarch_leader = yes }
+		trigger = { is_monarch_leader = yes }
 		add_prestige = 10
 		add_army_tradition = 10
 		add_ruler_modifier = { name = know_the_battlefield }

@@ -117,3 +117,77 @@ function fixprovinces {
         Move-Item $PSItem.FullName -Destination (Join-Path -Path $provinceloc -ChildPath 'Processed')
     }
 }
+
+function getprovinces {
+	$provinceloc = "C:\Users\cbaumhart\Documents\GitHub\ck2-to-euiv-goon-judea\history\provinces"
+    $nameloc = "C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\localisation\prov_names_l_english.yml"
+    $namecontent = Get-Content $nameloc
+    $provcontent = Get-ChildItem $provinceloc -File
+    $worlddata = @()
+    $provcontent | foreach {
+        $provowner = $null
+        $discoveredby = @()
+        $addcore = @()
+        $provcontroller = $null
+        $culture = $null
+        $religion = $null
+        $citysize = $null
+        $basetax = $null
+        $baseproduction = $null
+        $basemanpower = $null
+        $provnum = $null
+        $provname = $null
+        $provdata = New-Object psobject
+        $filecontent = get-content $PSItem.FullName
+        #Get Province Number from file name
+        if ($PSItem.name.chars(3) -match "[0-9]") {
+            $ItemNumbers = 4
+        }
+        Elseif ($PSItem.name.chars(2) -match "[0-9]") {
+            $ItemNumbers = 3
+        }
+        Elseif ($PSItem.name.chars(1) -match "[0-9]") {
+            $ItemNumbers = 2
+        } 
+        Else {$ItemNumbers = 1}
+        $provnum = $PSItem.Name.Substring(0,$ItemNumbers)
+        #Get Province Name from English Localisation file
+        $namecontent | foreach {
+        if($_.tostring().substring(5,($provnum+":").Length) -eq ($provnum+":")){
+        
+            $provname = $_.ToString().TrimStart(" PROV"+$provnum+": ").TrimStart('"').trimEnd('"')
+            } 
+        }
+        #Parse file, pulling important bits
+        $filecontent | Foreach { 
+        if($_.ToString() -match ("owner = ")){ $provowner = $_.ToString().Trim().TrimStart("owner ") -replace '= ','' }
+        if($_.ToString() -match ("controller = ")) { $provcontroller = $_.ToString().Trim().TrimStart("controller ") -replace '= ',''}
+        if($_.ToString() -match ("add_core = ")) { $addcore += $_.ToString().Trim().TrimStart("add_core ") -replace '= ',''}
+        if($_.ToString() -match ("culture = ")) { $culture = $_.ToString().Trim().TrimStart("culture ") -replace '= ',''}
+        if($_.ToString() -match ("religion = ")) { $religion = $_.ToString().Trim().TrimStart("religion ") -replace '= ',''}
+        if($_.ToString() -match ("citysize = ")) { $citysize = $_.ToString().Trim().TrimStart("citysize ") -replace '= ',''}
+        if($_.ToString() -match ("discovered_by = ")) { $discoveredby += $_.ToString().Trim().TrimStart("discovered_by ") -replace '= ','' }
+        $hre = "no"
+        if($_.ToString() -match ("base_tax = ")) { $basetax = $_.ToString().Trim().TrimStart("base_tax ") -replace '= ',''}
+        if($_.ToString() -match ("base_production = ")) { $baseproduction = $_.ToString().Trim().TrimStart("base_production ") -replace '= ',''}
+        if($_.ToString() -match ("base_manpower = ")) { $basemanpower = $_.ToString().Trim().TrimStart("base_manpower ") -replace '= ',''}
+        }
+        #add it all up to a sandwich
+        $provdata | add-member -MemberType Noteproperty -name Province_Number -Value ($provnum -join ',')
+        $provdata | add-member -MemberType Noteproperty -name Province_Name -Value ($provname -join ',')
+        $provdata | add-member -MemberType Noteproperty -name Owner -Value ($provowner -join ',')
+        $provdata | add-member -MemberType Noteproperty -name Controller -Value ($provcontroller -join ',')
+        $provdata | add-member -MemberType Noteproperty -name Add_Core -Value ($addcore -join ',')
+        $provdata | add-member -MemberType Noteproperty -name Culture -Value ($culture -join ',')
+        $provdata | add-member -MemberType Noteproperty -name Religion -Value ($religion -join ',')
+        $provdata | add-member -MemberType Noteproperty -name CitySize -Value ($citysize -join ',')
+        $provdata | add-member -MemberType Noteproperty -name Discovered_by -Value ($discoveredby -join ',')
+        $provdata | add-member -MemberType Noteproperty -name HRE -Value ($hre -join ',')
+        $provdata | add-member -MemberType Noteproperty -name Base_Tax -Value ($basetax -join ',')
+        $provdata | add-member -MemberType Noteproperty -name Base_Production -Value ($baseproduction -join ',')
+        $provdata | add-member -MemberType Noteproperty -name Base_Manpower -Value ($basemanpower -join ',')
+        #Add it to everything
+        $worlddata += $provdata
+    }
+    $worlddata | Export-Csv -Path 'C:\temp\euiv.txt' -Delimiter "`t" -Encoding BigEndianUnicode -NoTypeInformation 
+}

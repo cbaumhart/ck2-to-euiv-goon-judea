@@ -54,6 +54,8 @@ replace_path = "common/countries/Gujarat.txt"
 replace_path = "history/countries/GUJ - Gujarat.txt"
 replace_path = "common/countries/Sind.txt"
 replace_path = "history/countries/SND - Sind.txt"
+replace_path = "common/countries/Punjab.txt"
+replace_path = "history/countries/PUN - Punjab.txt"
 replace_path = "history/diplomacy/Scandinavian_alliances.txt"
 replace_path = "history/diplomacy/AustriaHungaryBohemia_alliances.txt"
 replace_path = "history/diplomacy/Baltic_alliances.txt"
@@ -117,7 +119,7 @@ replace_path = "gfx/flags/sunni_rebels.tga"
 replace_path = "gfx/flags/tengri_pagan_reformed_rebels.tga"
 replace_path = "gfx/flags/vajrayana_rebels.tga"
 replace_path = "gfx/flags/zoroastrian_rebels.tga"
-
+replace_path = "gfx/flags/PUN.tga"
 
 #Release Notes
 
