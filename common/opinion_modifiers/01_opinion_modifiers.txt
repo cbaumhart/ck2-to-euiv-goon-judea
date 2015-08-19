@@ -1,0 +1,5 @@
+
+bought_judea_off = {
+	opinion = 200
+	yearly_decay = 8
+}

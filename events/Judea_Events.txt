@@ -88,8 +88,7 @@ country_event = {
 		}
 		reverse_add_opinion = {
 			who = JUD
-			modifier = 200
-			years = 50
+			modifier = bought_judea_off
 		}
 		JUD = {
 			remove_historical_friend = ROOT
@@ -141,21 +140,45 @@ country_event = {
 	desc = "judean_events.Desc4"
 	Picture = LAND_MILITARY_eventPicture
 	is_triggered_only = yes
-	#Trigger is if it's Judea, if ruler isn't already general.
+	#Trigger is if it's Judea, if ruler isn't already general, if isn't theocracy.
 	trigger = {
 		tag = JUD
 		is_monarch_leader = no
+		NOT = { government = theocracy }
 	}
 	mean_time_to_happen = {
 		months = 3
 	}
-	immediate = {
-	
-	}
-	option = {
+	#immediate = { #Reset progress on Ignoring the Laws so one person can't totally fuck another intentionally with a hot potato.
+	#}
+	option = { #Give me my armor
 		name = "judean_events.4.a"
+		limit = { is_monarch_leader = no }
+		add_prestige = 5
+		add_army_tradition = 5
+		#This may work without needing to check if ruler is male or female
+		convert_ruler_to_general = yes
+		add_ruler_modifier = { name = know_the_battlefield }
+	}
+	option = { #Hide in castle
+		name = "judean_events.4.b"
+		limit = { is_monarch_leader = no }
+		add_prestige = -5
 	}
 	option = {
-		name = "judean_events.4.b"
+		name = "judean_events.4.c"
+		limit = { is_monarch_leader = yes }
+		add_prestige = 10
+		add_army_tradition = 10
+		add_ruler_modifier = { name = know_the_battlefield }
 	}
+	
+	
+	
 }
+
+
+
+
+
+

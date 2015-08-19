@@ -25,7 +25,7 @@ ignoring_the_laws = {
 	progress = {
 		modifier = { #Frontier Khaganate
 			#Perm PRM
-			factor = 0.25	
+			factor = 0.2
 			any_province = { is_core = PRM } #This prevents this countdown if the cores expired
 			PRM = {
 				OR = {
@@ -36,7 +36,7 @@ ignoring_the_laws = {
 		}
 		modifier = { #Frontier Khaganate
 			#Cumania CUM
-			factor = 0.25
+			factor = 0.2
 			any_province = { is_core = CUM } #This prevents this countdown if the cores expired
 			CUM = {
 				OR = {
@@ -48,7 +48,7 @@ ignoring_the_laws = {
 		}
 		modifier = { #Frontier Khaganate
 			#Turkestan TKM
-			factor = 0.25
+			factor = 0.2
 			any_province = { is_core = TKM } #This prevents this countdown if the cores expired
 			TKM = {
 				OR = {
@@ -59,7 +59,7 @@ ignoring_the_laws = {
 		}
 		modifier ={ #Frontier Khaganate
 			#Volga Bulgaria VBA
-			factor = 0.25
+			factor = 0.2
 			any_province = { is_core = VBA } #This prevents this countdown if the cores expired
 			VBA = {
 				OR = {
@@ -79,10 +79,19 @@ ignoring_the_laws = {
 				}
 			}
 		}
-		modifier = { #Change this to something about 
-			factor = 6
-			is_bankrupt = yes
+		modifier = { #Change this to something about being at war and having less gold than 500 - will preclude holy wars due to them not ticking
+			#factor = 6
+			#is_bankrupt = yes
+			factor = 0.2
+			NOT = { treasury = 500 }
+			is_at_war = yes
 		}
+		modifier = {#Add modifier ruler not leader (after fixing ruler event) but only if ruler is male as there's no way to make ruler leader if female outside of event
+			factor = 0.2
+			is_monarch_leader = no
+			is_female = no
+		}
+
 	}	
 	
 	can_end ={

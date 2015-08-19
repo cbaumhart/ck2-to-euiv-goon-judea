@@ -410,7 +410,7 @@ country_event = {
 		ai_chance = { factor = 75 }
 		declare_war_with_cb = {
 			who = JUD
-			causus_belli = cb_conquest
+			casus_belli = cb_conquest
 		}
 		add_prestige = 40
 		add_stability = 1

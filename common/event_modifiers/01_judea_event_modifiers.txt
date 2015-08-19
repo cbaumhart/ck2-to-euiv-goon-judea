@@ -15,3 +15,7 @@ overturned_tradition = {
 #	stability_cost_modifier = 0.25
 #	core_creation = 0.25
 #}
+know_the_battlefield = {
+	army_tradition_decay = -0.005
+	prestige = 0.25
+}
