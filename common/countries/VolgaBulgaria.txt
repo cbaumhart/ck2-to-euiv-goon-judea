@@ -10,7 +10,7 @@ historical_idea_groups = {
 	defensive_ideas
 	administrative_ideas
 	offensive_ideas
-	innovative_ideas
+	innovativeness_ideas
 	quantity_ideas
 	economic_ideas
 }

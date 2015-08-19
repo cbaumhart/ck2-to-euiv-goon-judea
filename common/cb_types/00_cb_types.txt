@@ -671,9 +671,7 @@ cb_overseas = {
 		}
 		OR = { 
 			AND = {
-				limit = { 
-					capital_scope = { continent = Europe }
-				}
+				capital_scope = { continent = Europe }
 				FROM = { 
 					primitives = no
 					is_subject = no
@@ -692,12 +690,10 @@ cb_overseas = {
 				}
 			}
 			AND = { # Declaring Country Capital in North or South America, Target anywhere else
-				limit = {
-					capital_scope = { 
-						OR = {
-							continent = north_america 
-							continent = south_america 
-						}
+				capital_scope = { 
+					OR = {
+						continent = north_america 
+						continent = south_america 
 					}
 				}
 				FROM = { 

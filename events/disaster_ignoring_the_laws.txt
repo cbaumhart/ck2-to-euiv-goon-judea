@@ -355,6 +355,7 @@ country_event = {
 			AND = {
 				adm = 4
 				mil = 4
+			}
 		}
 		add_years_of_income = -0.25
 		add_yearly_manpower = -0.10

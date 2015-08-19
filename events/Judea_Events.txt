@@ -19,7 +19,7 @@ country_event = {
 	}
 	immediate = {
 		hidden_effect = {
-			FROM = {
+			ROOT = {
 				set_country_flag = insertname_delenda_est
 			}
 		}
@@ -55,7 +55,7 @@ country_event = {
 	option = {
 		name = "judean_events.1.b"
 		ai_chance = {
-			factor = 0.5
+			factor = 1
 			modifier = {
 				factor = 0
 				is_rival = JUD
@@ -88,7 +88,7 @@ country_event = {
 		}
 		reverse_add_opinion = {
 			who = JUD
-			modifier = 500
+			modifier = 200
 			years = 50
 		}
 		JUD = {
@@ -143,9 +143,7 @@ country_event = {
 	is_triggered_only = yes
 	#Trigger is if it's Judea, if ruler isn't already general.
 	trigger = {
-		FROM = {
-			tag = JUD
-		}
+		tag = JUD
 		is_monarch_leader = no
 	}
 	mean_time_to_happen = {
