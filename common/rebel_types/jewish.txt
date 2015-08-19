@@ -167,6 +167,13 @@ jewish_rebels = {
 	demands_enforced_effect = {
 		if = {
 			limit = {
+				tag = JUD #Former Z13
+			}
+			kill_ruler = yes
+			change_government = theocratic_government
+		}
+		if = {
+			limit = {
 				NOT = { religion_group = jewish_group }
 			}
 			add_prestige = -50
@@ -176,13 +183,6 @@ jewish_rebels = {
 				}
 				add_local_autonomy = 20
 			}
-		}
-		if = {
-			limit = {
-				tag = JUD #Former Z13
-			}
-			kill_ruler = yes
-			change_government = theocratic_government
 		}
 		if = {
 			limit = {

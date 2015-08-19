@@ -77,6 +77,48 @@ replace_path = "commmon/cb_types/00_cb_types.txt"
 replace_path = "commmon/wargoal_types/00_wargoal_types.txt"
 replace_path = "common/technologies/mil.txt"
 replace_path = "common/on_actions/00_on_actions.txt"
+replace_path = "gfx/flags/animism_rebels.tga"
+replace_path = "gfx/flags/anti_tax_rebels.tga"
+replace_path = "gfx/flags/buddhism_rebels.tga"
+replace_path = "gfx/flags/catholic_rebels.tga"
+replace_path = "gfx/flags/colonial_patriot_rebels.tga"
+replace_path = "gfx/flags/colonial_rebels.tga"
+replace_path = "gfx/flags/confucianism_rebels.tga"
+replace_path = "gfx/flags/coptic_rebels.tga"
+replace_path = "gfx/flags/heretic_rebels.tga"
+replace_path = "gfx/flags/hinduism_rebels.tga"
+replace_path = "gfx/flags/ibadi_rebels.tga"
+replace_path = "gfx/flags/ikko_ikki_rebels.tga"
+replace_path = "gfx/flags/jewish_rebels.tga"
+replace_path = "gfx/flags/lollard_rebels.tga"
+replace_path = "gfx/flags/mahayana_rebels.tga"
+replace_path = "gfx/flags/maya_rebels.tga"
+replace_path = "gfx/flags/nahuatl_rebels.tga"
+replace_path = "gfx/flags/nationalist_rebels.tga"
+replace_path = "gfx/flags/norse_rebels.tga"
+replace_path = "gfx/flags/norse_pagan_reformed_rebels.tga"
+replace_path = "gfx/flags/orthodox_rebels.tga"
+replace_path = "gfx/flags/particularist_rebels.tga"
+replace_path = "gfx/flags/patriot_rebels.tga"
+replace_path = "gfx/flags/polish_noble_rebels.tga"
+replace_path = "gfx/flags/pretender_rebels.tga"
+replace_path = "gfx/flags/protestant_rebels.tga"
+replace_path = "gfx/flags/reactoinary_rebels.tga"
+replace_path = "gfx/flags/reformed_rebels.tga"
+replace_path = "gfx/flags/religious_rebels.tga"
+replace_path = "gfx/flags/religious_rebels.tga"
+replace_path = "gfx/flags/revolutionary_rebels.tga"
+replace_path = "gfx/flags/ronin_rebels.tga"
+replace_path = "gfx/flags/shamanism_rebels.tga"
+replace_path = "gfx/flags/shiite_rebels.tga"
+replace_path = "gfx/flags/shinto_rebels.tga"
+replace_path = "gfx/flags/sikh_rebels.tga"
+replace_path = "gfx/flags/sunni_rebels.tga"
+replace_path = "gfx/flags/tengri_pagan_reformed_rebels.tga"
+replace_path = "gfx/flags/vajrayana_rebels.tga"
+replace_path = "gfx/flags/zoroastrian_rebels.tga"
+
+
 #Release Notes
 
 #Release 0.1
@@ -99,6 +141,7 @@ replace_path = "common/on_actions/00_on_actions.txt"
 #		Added Ignoring The Laws
 #	Events	
 #		Added events for disaster Ignoring The Laws
+#		Added events for Judea and neighbors
 #	Event Modifiers
 #		Added Affirmed Tradition modifier
 #		Added Overturned Tradition modifier
@@ -114,8 +157,13 @@ replace_path = "common/on_actions/00_on_actions.txt"
 #		Added Judean tech group
 #	War types
 #		Added war type Insertname Delenda Est. Applies only to JUD, makes it easier for defender to claim more stuff.
-#		Added war type for While The Enemies... Applies to only Historical Rivals, which are set by event if another country owns a Judean core
+#		Added war type for While The Enemies... Applies to only countries which have conquered provinces from judea.  Set for Byz & Lyddids in pregame.
 #	Ideas
 #		Added Judean Ideas for Judea, Cumania, Turkestan, Perm & Volga Bulgaria
 #	On Actions
-#		Added Judean event for peace aggrement
+#		Added Judean event for peace agreement
+#	Units
+#		Added units for Judean tech group.
+#	Graphics
+#		Fixed Rebel Flags
+#		Added Flags for some missing countries

@@ -48,6 +48,84 @@
 #
 # --------------------------------------------------------------
 
+recover_promised_land = {
+	type = take_core
+	attacker = {
+		badboy_factor = 0.50
+		prestige_factor = 1.25
+		peace_cost_factor = 0.50
+		allowed_provinces = {
+			is_core = ROOT
+		}
+		po_annex = yes
+		po_demand_provinces = yes
+		po_revoke_cores = yes
+		po_humiliate = yes
+		po_annul_treaties = yes
+		po_gold = yes
+		po_release_vassals = no
+		po_release_annexed = no
+		po_return_cores = no
+		po_change_religion = no
+		po_form_personal_union = no
+		po_become_vassal = no
+		po_concede_defeat = no
+		po_change_government = no
+		po_revoke_elector = no
+		po_trade_power = no
+		prov_desc = ALL_CORES
+	}
+	defender = {
+		badboy_factor = 0.10
+		prestige_factor = 2.0
+		peace_cost_factor = 0.50
+		allowed_provinces = {
+			is_core = FROM
+			is_claim = FROM
+		}
+		po_release_vassals = yes
+		po_release_annexed = yes
+		po_humiliate = yes
+		po_return_cores = yes
+		po_demand_provinces = yes
+		po_annex = yes
+		po_annul_treaties = yes
+		po_gold = yes
+		po_concede_defeat = no
+		po_revoke_cores = no
+		po_change_religion = no
+		po_form_personal_union = no
+		po_become_vassal = no
+		po_change_government = no
+		po_revoke_elector = no
+		po_trade_power = no
+		prov_desc = ALL_CORES
+	}
+	war_name = INSERTNAME_DELENDA_EST
+}
+
+die_die_die = {
+	type = superiority
+	attacker = {
+		badboy_factor = 1.25
+		prestige_factor = .75
+		peace_cost_factor = 1.25
+		po_become_vassal = no
+		po_release_vassals = yes
+		po_release_annexed = yes
+		po_concede_defeat = no
+		po_change_religion = no
+	}
+	defender = {
+		badboy_factor = 0.75
+		prestige_factor = 1.25
+		peace_cost_factor = 0.75
+		po_concede_defeat = no
+		po_change_religion = no
+	}
+	war_name = DIE_DIE_DIE_WAR
+}
+
 fallback_wargoal = {
 	type = superiority
 	
@@ -482,85 +560,6 @@ take_core = {
 	war_name = CORE_WAR_NAME
 }
 
-recover_promised_land = {
-	type = take_core
-	
-	attacker = {
-		badboy_factor = 0.50
-		prestige_factor = 1.25
-		peace_cost_factor = 0.50
-		allowed_provinces = {
-			is_core = ROOT
-		}
-		po_annex = yes
-		po_demand_provinces = yes
-		po_revoke_cores = yes
-		po_humiliate = yes
-		po_annul_treaties = yes
-		po_gold = yes
-		po_release_vassals = no
-		po_release_annexed = no
-		po_return_cores = no
-		po_change_religion = no
-		po_form_personal_union = no
-		po_become_vassal = no
-		po_concede_defeat = no
-		po_change_government = no
-		po_revoke_elector = no
-		po_trade_power = no
-		prov_desc = ALL_CORES
-	}
-	defender = {
-		badboy_factor = 0.10
-		prestige_factor = 2.0
-		peace_cost_factor = 0.50
-		allowed_provinces = {
-			is_core = FROM
-			is_claim = FROM
-		}
-		po_release_vassals = yes
-		po_release_annexed = yes
-		po_humiliate = yes
-		po_return_cores = yes
-		po_demand_provinces = yes
-		po_annex = yes
-		po_annul_treaties = yes
-		po_gold = yes
-		po_concede_defeat = no
-		po_revoke_cores = no
-		po_change_religion = no
-		po_form_personal_union = no
-		po_become_vassal = no
-		po_change_government = no
-		po_revoke_elector = no
-		po_trade_power = no
-		prov_desc = ALL_CORES
-	}
-	war_name = INSERTNAME_DELENDA_EST
-}
-
-die_die_die = {
-	type = superiority
-	attacker = {
-		badboy_factor = 1.25
-		prestige_factor = .75
-		peace_cost_factor = 1.25
-		po_become_vassal = no
-		po_release_vassals = yes
-		po_release_annexed = yes
-		po_concede_defeat = no
-		po_change_religion = no
-	}
-	defender = {
-		badboy_factor = 0.75
-		prestige_factor = 1.25
-		peace_cost_factor = 0.75
-		po_concede_defeat = no
-		po_change_religion = no
-	}
-	war_name = DIE_DIE_DIE_WAR
-}
-
 take_capital_claim = {
 	type = take_capital
 	
@@ -974,7 +973,6 @@ take_province_ban = {
 
 	po_release_vassals = yes
 	po_release_annexed = yes
-	po_return_cores = yes
 	po_return_cores = yes
 	po_demand_provinces = yes
 	

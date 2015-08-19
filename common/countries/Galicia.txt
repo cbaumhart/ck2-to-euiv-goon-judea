@@ -251,7 +251,7 @@ ship_names = {
 
 	"El Gran Grin" "El Retiro" Eneas Eolo Esperanza "Espíritu Santo" Extremadura
 
-	Furor Galicia "Gran Grifón" Halcón Hércules Isabela Júpiter
+	Furor "Gran Grifón" Halcón Hércules Isabela Júpiter
 
 	"La Concepción" "La Magdalena" "La Manuela" León Ligera "Lobo Marino"
 

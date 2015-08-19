@@ -1,0 +1,36 @@
+# Israel
+government = feudal_monarchy
+government_rank = 2
+mercantilism = 0.1
+technology_group = judean
+primary_culture = greek
+religion = jewish
+capital = 379
+1393.1.11 = {
+	monarch = {
+		name = "Gabriel"
+		dynasty = "Bulanid"
+		birth_date = 1393.1.11
+		death_date = 1457.8.10
+		adm = 3
+		dip = 6
+		mil = 4
+		leader = {	name = "Gabriel Bulanid"           	type = general	rank = 0	fire = 2	shock = 5	manuever = 3	siege = 2}
+	}
+}
+1439.3.19 = {
+	heir = {
+		name = "Porphyrios"
+		monarch_name = "Porphyrios"
+		dynasty = "Bulanid"
+		birth_date = 1439.3.19
+		death_date = 1559.4.20
+		adm = 2
+		dip = 5
+		mil = 2
+	}
+}
+1444.11.11 = {
+	add_treasury = 421
+	add_prestige = 3866
+}

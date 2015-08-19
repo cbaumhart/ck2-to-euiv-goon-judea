@@ -10,7 +10,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_country_flag = judea_event_1 }
+		NOT = { has_country_flag = insertname_delenda_est }
 		NOT = { is_subject_of = JUD }
 		any_owned_province = { is_core = JUD }
 	}
@@ -20,7 +20,7 @@ country_event = {
 	immediate = {
 		hidden_effect = {
 			FROM = {
-				set_country_flag = judea_event_1
+				set_country_flag = insertname_delenda_est
 			}
 		}
 	}
@@ -28,7 +28,7 @@ country_event = {
 	option = {
 		name = "judean_events.1.a"
 		ai_chance = {
-			factor = 0.95
+			factor = 95
 			modifier = {
 				factor = 10
 				is_rival = JUD			
@@ -39,7 +39,6 @@ country_event = {
 			}
 		}
 		remove_historical_friend = JUD
-		add_historical_rival = JUD
 		add_prestige = 10
 		add_yearly_manpower = 2
 		hidden_effect = {
@@ -50,24 +49,23 @@ country_event = {
 		}
 		JUD = {
 			remove_historical_friend = ROOT
-			add_historical_rival = ROOT
 		}
 	}
 	#Our pants are wet
 	option = {
 		name = "judean_events.1.b"
 		ai_chance = {
-			factor = 0.05
+			factor = 0.5
 			modifier = {
 				factor = 0
 				is_rival = JUD
 			}
 			modifier = {
-				factor = 1.5
+				factor = 15
 				war_exhaustion = 10
 			}
 			modifier = {
-				factor = 1.5
+				factor = 15
 				is_at_war = yes
 			}
 			modifier = {
@@ -90,12 +88,11 @@ country_event = {
 		}
 		reverse_add_opinion = {
 			who = JUD
-			modifier = 200
+			modifier = 500
 			years = 50
 		}
 		JUD = {
 			remove_historical_friend = ROOT
-			add_historical_rival = ROOT
 		}
 	}
 }
@@ -135,5 +132,32 @@ country_event = {
 	option = {
 		name = "judean_events.3.a"
 		add_prestige = -5
+	}
+}
+
+country_event = {
+	id = judean_events.4
+	title = "judean_events.Title4"
+	desc = "judean_events.Desc4"
+	Picture = LAND_MILITARY_eventPicture
+	is_triggered_only = yes
+	#Trigger is if it's Judea, if ruler isn't already general.
+	trigger = {
+		FROM = {
+			tag = JUD
+		}
+		is_monarch_leader = no
+	}
+	mean_time_to_happen = {
+		months = 3
+	}
+	immediate = {
+	
+	}
+	option = {
+		name = "judean_events.4.a"
+	}
+	option = {
+		name = "judean_events.4.b"
 	}
 }

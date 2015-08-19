@@ -328,7 +328,7 @@ country_event = {
 	is_triggered_only = yes
 	mean_time_to_happen = { days = 1}
 	trigger = {
-		NOT = { has_country_modifier = action_and_reaction }`
+		NOT = { has_country_modifier = action_and_reaction }
 	}
 	option = { #We must fight against these ideas
 		name = "flavor_itl.7.a"
@@ -399,8 +399,8 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		NOT = { has_country_flag = kill_judea }
-		NOT = { alliance_with = ROOT }
-		NOT = { is_subject_of = ROOT }
+		NOT = { alliance_with = JUD }
+		NOT = { is_subject_of = JUD }
 		is_neighbor_of = JUD
 	}
 #	mean_time_to_happen = { days = 1}

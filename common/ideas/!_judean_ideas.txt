@@ -27,11 +27,11 @@ judean_ideas = {
 		advisor_pool = 1
 	}
 	frontier_khaganate = {
-		diplomatic_relations = 1
+		diplomatic_upkeep  = 1
 		vassal_forcelimit_bonus = 0.33
 	}
 	all_roads_lead_home = {
-		accepted_culture_threshold = 0.5
+		accepted_culture_threshold = -0.25
 		global_ship_cost = 0.15
 	}
 	i_vote_neigh = {

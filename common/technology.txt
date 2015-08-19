@@ -78,6 +78,7 @@ groups = {
 		start_level = 3
 		cav_to_inf_ratio = 1
 		trade_company = yes
+		allow_westernize = no
 	}	
 }
 

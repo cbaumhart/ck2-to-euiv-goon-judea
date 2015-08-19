@@ -13,6 +13,27 @@
 # TRIGGERED - Triggered from within the code or by event effects
 # --------------------------------------------------------------
 
+#Insertname Delenda Est
+cb_delenda_est = {
+
+	prerequisites = {
+		core_claim = FROM
+		is_revolution_target = no
+		tag = JUD
+	}
+	war_goal = recover_promised_land
+}
+
+#While the Enemies of the Empire Draw Breath
+cb_die_die_die = {
+	prerequisites = {
+		tag = JUD
+		has_country_flag = insertname_delenda_est
+	}
+	war_goal = die_die_die
+}
+
+
 # Restoration of recently broken PU
 cb_restore_personal_union = {
 	
@@ -204,29 +225,6 @@ cb_core = {
 	}
 		
 	war_goal = take_core
-}
-
-#Insertname Delenda Est
-cb_delenda_est = {
-
-	prerequisites = {
-		core_claim = FROM
-		is_revolution_target = no
-		tag = JUD
-	}
-	war_goal = recover_promised_land
-}
-
-#While the Enemies of the Empire Draw Breath
-cb_die_die_die = {
-	prerequisites = {
-		tag = JUD
-		has_opinion_modifier = {
-			modifier = historical_rival 
-			who = FROM
-		}
-	}
-	war_goal = die_die_die
 }
 
 # Independence War
@@ -671,57 +669,58 @@ cb_overseas = {
 			technology_group = high_american
 			technology_group = judean
 		}
-		
-		IF = { # Declaring Country Capital in Europe, Target Asia or Africa
-			limit = { 
-				capital_scope = { continent = Europe }
-			}
-			FROM = { 
-				primitives = no
-				is_subject = no
-				capital_scope = {
-					OR = {
-						continent = asia
-						continent = africa
+		OR = { 
+			AND = {
+				limit = { 
+					capital_scope = { continent = Europe }
+				}
+				FROM = { 
+					primitives = no
+					is_subject = no
+					capital_scope = {
+						OR = {
+							continent = asia
+							continent = africa
+						}
 					}
-				}
-				OR = {
-					technology_group = indian
-					technology_group = sub_saharan
-					technology_group = chinese
-					technology_group = nomad_group
-				}
-			}
-		}
-		IF = { # Declaring Country Capital in North or South America, Target anywhere else
-			limit = {
-				capital_scope = { 
 					OR = {
-						continent = north_america 
-						continent = south_america 
+						technology_group = indian
+						technology_group = sub_saharan
+						technology_group = chinese
+						technology_group = nomad_group
 					}
 				}
 			}
-			FROM = { 
-				primitives = no
-				is_subject = no
-				capital_scope = {
-					OR = {
-						continent = europe
-						continent = asia
-						continent = africa
+			AND = { # Declaring Country Capital in North or South America, Target anywhere else
+				limit = {
+					capital_scope = { 
+						OR = {
+							continent = north_america 
+							continent = south_america 
+						}
 					}
 				}
-				OR = {
-					technology_group = judean
-					technology_group = western
-					technology_group = ottoman
-					technology_group = eastern
-					technology_group = muslim
-					technology_group = indian
-					technology_group = sub_saharan
-					technology_group = chinese
-					technology_group = nomad_group
+				FROM = { 
+					primitives = no
+					is_subject = no
+					capital_scope = {
+						OR = {
+							continent = europe
+							continent = asia
+							continent = africa
+						}
+					}
+					OR = {
+						technology_group = judean
+						technology_group = western
+						technology_group = ottoman
+						technology_group = eastern
+						technology_group = muslim
+						technology_group = indian
+						technology_group = sub_saharan
+						technology_group = chinese
+						technology_group = nomad_group
+					}
 				}
 			}
 		}
