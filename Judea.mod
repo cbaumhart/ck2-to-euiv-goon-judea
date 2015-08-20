@@ -120,6 +120,7 @@ replace_path = "gfx/flags/tengri_pagan_reformed_rebels.tga"
 replace_path = "gfx/flags/vajrayana_rebels.tga"
 replace_path = "gfx/flags/zoroastrian_rebels.tga"
 replace_path = "gfx/flags/PUN.tga"
+replace_path = "commmon/province_names/greek.txt"
 
 #Release Notes
 
@@ -133,6 +134,7 @@ replace_path = "gfx/flags/PUN.tga"
 #		Added Volga Bulgaria
 #		Added Cumania
 #		Added Turkestan
+#		Fixed tech groups for a lot of converted countries
 #	Decisions
 #		Added decision to release Crimea as vassal
 #		Added decision to release Perm as vassal

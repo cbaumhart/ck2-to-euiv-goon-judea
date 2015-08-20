@@ -1,4 +1,4 @@
-JOM = countries/Jomsvikings.txt
+﻿JOM = countries/Jomsvikings.txt
 HAH = countries/Hashshashin.txt
 ROM = countries/RomanEmpire.txt
 ISR = countries/Israel.txt
@@ -7,7 +7,7 @@ JUD = countries/Judea.txt #Old Z13
 CUM = countries/Cumania.txt
 TKM = countries/Turkestan.txt
 VBA = countries/VolgaBulgaria.txt
-VST = countries/Vestergøtland.txt #Old Z00
+VST = countries/Vestergotland.txt #Old Z00
 ISL = countries/Island.txt #Old Z01
 DEH = countries/Deheubarth.txt #Old Z02
 BTG = countries/Bretagne.txt #Old Z03

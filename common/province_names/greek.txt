@@ -1,0 +1,38 @@
+#Province names that have been customized.  ProvinceID = "new name"
+#Will change name of province that Judea owns
+
+#Hungary - Pretty Borders
+#Georgia - Grand Commonwealth of Incest - thanks Glitterhoof
+149 = "Philippopolos" #Eridne = Philippopolis
+150 = "Dikopolis" #? - Dikopolis 
+151 = "Yerushalayim Chad" #Constantinople - New Jerusalem
+164 = "Phil's Folly" #Naxos - Phil's Folly
+222 = "Fuck You Persia!"
+284 = "Manessah" 
+285 = "Theodosia"
+307 = "Rotten"
+340 = "Constantina"
+352 = "Justiniania"
+357 = "Darnis"
+358 = "Aleksandreia"
+360 = "Kaine"
+363 = "Tamiathis"
+396 = "Tylos"
+407 = "Kallinikos"
+410 = "Meletios" #Bagdad
+418 = "Amida"
+453 = "Sergios' Triumph"
+1231 = "Syene"
+1233 = "Megale"
+1753 = "Manar"
+1764 = "Meletios Park"
+1849 = "The Bank"
+2224 = "Pity Prize"
+2296 = "Jerusalem (North)"
+2750 = "Manaris"
+2313 = "Antiocheia"
+2319 = "Lytkopolis"
+2326 = "Petra Megale"
+2348 = "Chios"
+2343 = "Adrramyta"
+2447 = "Tamatarha"

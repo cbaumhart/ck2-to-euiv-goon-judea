@@ -401,7 +401,8 @@ country_event = {
 	trigger = {
 		NOT = { has_country_flag = kill_judea }
 		NOT = { alliance_with = JUD }
-		NOT = { is_subject_of = JUD }
+		#NOT = { is_subject_of = JUD }
+		NOT = { truce_with = JUD }
 		is_neighbor_of = JUD
 	}
 #	mean_time_to_happen = { days = 1}

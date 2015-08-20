@@ -7,7 +7,7 @@ judean_ideas = {
 	bonus = {
 		legitimacy = 1
 		devotion = 1
-		republican_tradition = .01
+		republican_tradition = 0.01
 	}
 	
 	trigger = {

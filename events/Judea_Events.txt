@@ -172,11 +172,9 @@ country_event = {
 		add_army_tradition = 10
 		add_ruler_modifier = { name = know_the_battlefield }
 	}
-	
-	
-	
 }
 
+#Hidden event to give IDE CB against Lyddid, Byz
 
 
 

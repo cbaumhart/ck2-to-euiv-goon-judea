@@ -79,14 +79,12 @@ ignoring_the_laws = {
 				}
 			}
 		}
-		modifier = { #Change this to something about being at war and having less gold than 500 - will preclude holy wars due to them not ticking
-			#factor = 6
-			#is_bankrupt = yes
+		modifier = { #Gold Decides War
 			factor = 0.2
 			NOT = { treasury = 500 }
 			is_at_war = yes
 		}
-		modifier = {#Add modifier ruler not leader (after fixing ruler event) but only if ruler is male as there's no way to make ruler leader if female outside of event
+		modifier = {#Know The Battlefield
 			factor = 0.2
 			is_monarch_leader = no
 			is_female = no
