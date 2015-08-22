@@ -88,6 +88,7 @@ ignoring_the_laws = {
 			factor = 0.2
 			is_monarch_leader = no
 			is_female = no
+			has_regency = no
 		}
 
 	}	

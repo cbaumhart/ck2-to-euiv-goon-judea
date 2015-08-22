@@ -176,7 +176,7 @@ country_event = {
 
 #Hidden event to give IDE CB against Lyddid, Byz
 
-
+#event for enemy country controlling Jerusalem to destroy temple
 
 
 

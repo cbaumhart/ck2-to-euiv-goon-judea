@@ -56,6 +56,15 @@ replace_path = "common/countries/Sind.txt"
 replace_path = "history/countries/SND - Sind.txt"
 replace_path = "common/countries/Punjab.txt"
 replace_path = "history/countries/PUN - Punjab.txt"
+replace_path = "common/countries/Ming.txt"
+replace_path = "history/countries/MNG - Ming.txt"
+replace_path = "common/countries/Malacca.txt"
+replace_path = "history/countries/MLC - Malacca.txt"
+replace_path = "common/countries/Japan.txt"
+replace_path = "history/countries/JAP - Japan.txt"
+replace_path = "common/countries/Haida.txt"
+replace_path = "history/countries/HDA - Haida.txt"
+
 replace_path = "history/diplomacy/Scandinavian_alliances.txt"
 replace_path = "history/diplomacy/AustriaHungaryBohemia_alliances.txt"
 replace_path = "history/diplomacy/Baltic_alliances.txt"
@@ -121,6 +130,8 @@ replace_path = "gfx/flags/vajrayana_rebels.tga"
 replace_path = "gfx/flags/zoroastrian_rebels.tga"
 replace_path = "gfx/flags/PUN.tga"
 replace_path = "commmon/province_names/greek.txt"
+replace_path = "common/religions/00_religion.txt"
+
 
 #Release Notes
 

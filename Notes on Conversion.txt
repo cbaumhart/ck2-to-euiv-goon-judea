@@ -2,8 +2,9 @@ To Do list:
 Fixes
 	2. Add trade good to Barnaul, Pegaya Orda
 General
-	1. Look at Upper Lorraine in CKII to see if it's an Aztek colony, alter country file if required.
-	
+	3. Make sure inti, nuhuatl, and maya religions can reform.
+	4. Add even that pops up on controlling Jerusalem (379) that allows controller to destroy temple, giving prestige, gold, and neg relations hit to Judea
+	5. Add great project for building of 4th temple if 3rd destroyed in event.
 
 	1. Create triggered modifier for owning Jerusalem
 	1a. have it take effect only after conversion
@@ -12,13 +13,11 @@ General
 	4. And France too
 	5. Fix Mayan traditions
 	6. Fix traditions of Choctaw, Navajo, Shoshone, Haida, Salish, Chinook, Blackfoot, Comanche, Kiowa, Assinboine, Cheyenne, Sioux, Pawnee, Osage, Miami, Fox, Ojibwe, Cree, Ottowa, Patowatomi, Suxquehhaneck, Pequot, Abenaki, Mikmaq, Tlapanec, Tuipiniquim, Potiguara, Tupinamba, Arawak, Mzab, Ajuuraan, Kaffa, Gujarat, Rashtrakutas, Kaivartas, Bihar, Kalinga Gangas, Nadia, Tripuna, Garhwal, Buryatia, Chavcheveny, Khodynt, Chukchi, Kamchadals, Ainu, Ireland, Gwynedd, Dehebeurth, Lithuania, Karelia, Kola, Germany, Anjou, Burgundy (kingdom), upper Lorraine, Portucale, Galacia, Cordoba, Murcia, Granada, 
-	7. Add Hawaiian nation, ideas
-	8. Add Maori nation, ideas
+	#7. Add Hawaiian nation, ideas
+	#8. Add Maori nation, ideas
 	9. Add minor religion rebels (Nestorian, Messalian)
-	11. Get customized province / region names, add to Judea.txt in common/province_names
 	12. ?Should trade be changed? maybe just st. lawrence heading to cheseapeake, cheseapeake to Caribbean?
 	13. revealed map - who knows what? should some "known" provinces be terra incognita to CK2?  Should Aztecs know all Europe? Fix aztec to know route from NA/SA to Europe.
-	14. Give Azores to Aztec
 	15. Add zealots to events - give things or gold upon dfensive holy war.
 Byzantium
 	1. Change Byz ideas from Carolingian to Roman
@@ -49,7 +48,6 @@ Lyddid
 Judea
 	1. Create national ideas for Judea
 	3. Create triggered modifier "Fuck Europe" for aggressor in war against country with capital in europe, +unrest, -Manpower recovery, -Morale
-	4. Create tech group for Judea at Western rates.
 	9. Add core for Venice: Venice 
 	10. Add Khazar as accepted culture
 	11. Add missions to for IDE nations where you get a claim on all provinces
@@ -59,46 +57,27 @@ Judea
 	15. Set Korasan and Qara Qoyunlu areas in persia to JUD owned
 Aztec
 	1. Add cores on rest of Scandanvia
-	2. Fix government
 	
-Religion - add triggered modifier for each, dont show triggered modifier unless all provinces are known to ROOT
-	Judiasm
-		Add Religious Site for Sinai (Ar Tur), Jerusalem (Jerusalem), Damascus(Glitterhoof), Hamadan(Hamadan)) & Dhofar (Salalah)
-	Shia
-		Add Religious Site for Mecca, Medina, Jerusalem, Damascus, Hillah (Nadjaf)
-	Catholic
-		Add religious Site for Jerusalem, Rome, Koln, Kent (Canterbury), Galacia (Santiago)
-	Hindu
-		Add religious Site for Navanagar (Dwarakadheesh), Bhilsa(Mahakaleshwar), Central Doab (Krishnajanmabhoomi), Varanasi (Varanasi), Lucknow (Ram Janmabhoomi)
-	Sunni
-		Add religious Site for Mecca, Medina, Jerusalem, Bagdad, Cordoba
-	Ibadi
-		Add religious Site for Mecca, Medina, Jerusalem, Kasdir (Bordj), Nizwa
-	Jain
-		Add religious Site for Mysore (Shravanabelagola), Girnar (Girnar), Gorwar(Bhillamala), Patan(Vadnagar), Damin(Rajrappa)
-	Tengri
-		Add religious Site for Ryn (Sasquin), Tyumen (Isilkul), Crimea (Aqmescit), Turkestan (Kyzylorda), Pest (Vac)
-	Miaphysite (Coptic)
-		Add religious Site for Alexandria, Jerusalem, Antioch, Aksum, Dongala (Ghazali)
-	Nestorian
-		Add religious Site for Bagdad, Alexandria, Teheran, Jerusalem, Antioch
-	Theraveda
-		Add religious Site for Varnasi (Sarnath), Damin (Gaya), Margalla (Oddiyana), Mahakoshal (Sanchi), Marathwada(Ellora)
-	Nahuatl
-		Add religious Site for Mexico (Tenochtitlan), Cholula (Cholula), Huastec (Teotihuacán), Teloloapan (Xochicalco), Cuetlaxtlan (Zempoala)
-	Confucian
-		Add religious Site for Xuzhou (Mount Taishan), Jinan (Qufu), Beijing, Nanjing, Suzhou (Shanghai)
-	Inti
-		Add religious Site for Cusco (Machu Picchu), Puno (Isla Del Sol), Jauja (Vitcos), Huancavelica (Choquequirao), Nazca (Nazca Lines)
-	Vajrayana
-		Add religious Site for Lhasa, Katmandu (Lumbina), Patna (Bhod Gaya), Bhutan (Bumthang Valley), Doaba (Rewalsar)
-	Shinto
-		Add religious Site for Owari (Ise), Izumo (Izumo Shrine), Kyoto (Heian Shrine), Musashi (Tsurugaoka Hachimangu), Kai (Mount Fuji)
-	Mayan
-		Add religious Site for Mani (Chichén Itzá), Campeche (Óoxmáal), Ecab (Muyil), Peten (Tikal), Guatemala (Chinkultic) 
-	Mahayana
-		Add religious Site for Katmandu (Lumbina), Patna (Bhod Gaya), Tirhut (Kusinara), Jaunpur (Sarnath), Central Doab (Sankassa)
-
+Religion - add triggered modifier for each, dont show triggered modifier unless all provinces are known to ROOT and control one
+	#Judiasm 365,379,382,1849,401 #Add Religious Site for Sinai (Ar Tur), Jerusalem (Jerusalem), Damascus(Glitterhoof), Hamadan(Hamadan)) & Dhofar (Salalah)
+	#Shia 385,384,379,382,409 #Add Religious Site for Mecca, Medina, Jerusalem, Damascus, Hillah (Nadjaf)
+	#Catholic 379,118,85,235,206 #Add religious Site for Jerusalem, Rome, Koln, Kent (Canterbury), Galacia (Santiago)
+	#Sunni 385,384,379,410,225 #Add religious Site for Mecca, Medina, Jerusalem, Bagdad, Cordoba
+	#Ibadi 385,384,379,2463,403 #Add religious Site for Mecca, Medina, Jerusalem, Kasdir (Bordj), Nizwa
+	#Miaphysite (Coptic) 358,379,2313,1227,1228 #Add religious Site for Alexandria, Jerusalem, Antioch, Aksum, Dongala (Ghazali)
+	#Nestorian 410,358,428,379,2313 #Add religious Site for Bagdad, Alexandria, Teheran, Jerusalem, Antioch
+	#Jain 533,515,2067,2053,2096 #Add religious Site for Mysore (Shravanabelagola), Girnar (Girnar), Gorwar(Bhillamala), Patan(Vadnagar), Damin(Rajrappa)
+	#Tengri 469,1075,284,456,153 #Add religious Site for Ryn (Sasquin), Tyumen (Isilkul), Crimea (Aqmescit), Turkestan (Kyzylorda), Pest (Vac)
+	#Hindu 2052,2057,524,2095,523 #Add religious Site for Navanagar (Dwarakadheesh), Bhilsa(Mahakaleshwar), Central Doab (Krishnajanmabhoomi), Varanasi (Varanasi), Lucknow (Ram Janmabhoomi)
+	#Theraveda 2095,2096,2077,550,545 #Add religious Site for Varnasi (Sarnath), Damin (Gaya), Margalla (Oddiyana), Mahakoshal (Sanchi), Marathwada(Ellora)
+	#Mahayana 557,558,2047,555,524 #Add religious Site for Katmandu (Lumbina), Patna (Bhod Gaya), Tirhut (Kusinara), Jaunpur (Sarnath), Central Doab (Sankassa)
+	#Vajrayana 677,558,565,557,2075 #Add religious Site for Lhasa, Katmandu (Lumbina), Patna (Bhod Gaya), Bhutan (Bumthang Valley), Doaba (Rewalsar)
+	#Confucian 2141,691,1816,1821,1822 #Add religious Site for Xuzhou (Mount Taishan), Jinan (Qufu), Beijing, Nanjing, Suzhou (Shanghai)
+	#Shinto 1030,1018,1020,1028,1029 #Add religious Site for 1030 Owari (Ise), 1018 Izumo (Izumo Shrine), 1020 Kyoto (Heian Shrine), 1028 Musashi (Tsurugaoka Hachimangu), 1029 Kai (Mount Fuji) 
+	#Nahuatl 852,2644,853,2645,2647 #Add religious Site for Mexico (Tenochtitlan), Cholula (Cholula), Huastec (Teotihuacán), Teloloapan (Xochicalco), Cuetlaxtlan (Zempoala)
+	#Inti 808,804,811,810,806 #Add religious Site for 808 Cusco (Machu Picchu), 804 Puno (Isla Del Sol), 811 Jauja (Vitcos), 810 Huancavelica (Choquequirao), 806 Nazca (Nazca Lines) 
+	#Mayan 488,2633,845,2652,842 #Add religious Site for Les Cayes, Mani (Chichén Itzá), Campeche (Óoxmáal), Ecab (Muyil), Peten (Tikal)
+		
 The Laws 
 	#NA = Not applicable, no ingame effect 
 	#MOD = put something into place in the mod to "enforce"/suggest compliance with law, but don't make too harsh to prevent railroading - change later to type of effect used, and comment out rest of line

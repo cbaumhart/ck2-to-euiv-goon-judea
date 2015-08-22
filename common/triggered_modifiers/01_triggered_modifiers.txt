@@ -1,0 +1,524 @@
+#Triggered modifier for Jewish Holy Sites
+holy_holy_holy_jewish = {
+	potential = {
+		OR = {
+			owns = 365
+			owns = 379
+			owns = 382
+			owns = 1849
+			owns = 401
+		}
+		AND = {
+			has_discovered = 365 #Sinai
+			has_discovered = 389 #Jerusalem
+			has_discovered = 382 #Damascus (Glitterhoof)
+			has_discovered = 1849 #Hama
+			has_discovered = 401 #Dhofar
+		}
+	}
+	trigger = {
+		AND = {
+			owns = 365
+			owns = 379
+			owns = 382
+			owns = 1849
+			owns = 401
+		}
+	}
+	missionaries = 1
+}
+#Triggered modifier for Shia Holy Sites
+holy_holy_holy_shia = {
+	potential = {
+		OR = {
+			owns = 385
+			owns = 384
+			owns = 379
+			owns = 382
+			owns = 409
+		}
+		AND = {
+			has_discovered = 385 #Mecca
+			has_discovered = 384 #Medina
+			has_discovered = 379 #Jerusalem
+			has_discovered = 382 #Damascus
+			has_discovered = 409 #Hillah
+		}
+	}
+	trigger = {
+		AND = {
+			owns = 385
+			owns = 384
+			owns = 379
+			owns = 382
+			owns = 409
+		}
+	}
+	land_morale = 0.05
+}
+#Triggered modifier for Catholic Holy Sites
+holy_holy_holy_catholic = {
+	potential = {
+		OR = {
+			owns = 379
+			owns = 118
+			owns = 85
+			owns = 235
+			owns = 206
+		}
+		AND = {
+			has_discovered = 379 #Jerusalem
+			has_discovered = 118 #Rome
+			has_discovered = 85 #Koln
+			has_discovered = 235 #Kent
+			has_discovered = 206 #Galicia
+		}
+	}
+	trigger = {
+		AND = {
+			owns = 379
+			owns = 118
+			owns = 85
+			owns = 235
+			owns = 206
+		}
+	}
+	tolerance_own = 0.5
+}
+#Triggered modifier for Sunni Holy Sites
+holy_holy_holy_sunni = {
+	potential = {
+		OR = {
+			owns = 385
+			owns = 384
+			owns = 379
+			owns = 410
+			owns = 225
+		}
+		AND = {
+			has_discovered = 385 #Mecca
+			has_discovered = 384 #Medina
+			has_discovered = 379 #Jerusalem
+			has_discovered = 410 #Bagdad
+			has_discovered = 225 #Cordoba
+		}
+	}
+	trigger = {
+		AND = {
+			owns = 385
+			owns = 384
+			owns = 379
+			owns = 410
+			owns = 225
+		}
+	}
+	heir_chance = 0.5
+}
+#Ibadi
+holy_holy_holy_ibadi = {
+	potential = {
+		OR = {
+			owns = 385
+			owns = 384
+			owns = 379
+			owns = 2463
+			owns = 403
+		}
+		AND = {
+			has_discovered = 385 #Mecca
+			has_discovered = 384 #Medina
+			has_discovered = 379 #Jerusalem
+			has_discovered = 2463 #Kasdir
+			has_discovered = 403 #Nizwa
+		}
+	}
+	trigger = {
+		AND = {
+			owns = 385
+			owns = 384
+			owns = 379
+			owns = 2463
+			owns = 403
+		}
+	}
+	navy_morale = 0.05
+}
+#Miaphysite (Coptic)
+holy_holy_holy_miaphysite = {
+	potential = {
+		OR = {
+			owns = 358
+			owns = 379
+			owns = 2313
+			owns = 1227
+			owns = 1228
+		}
+		AND = {
+			has_discovered = 358 #Alexandria
+			has_discovered = 379 #Jerusalem
+			has_discovered = 2313 #Antioch
+			has_discovered = 1227 #Aksum
+			has_discovered = 1228 #Dongala
+		}
+	}
+	trigger = {
+		AND = {
+			owns = 358
+			owns = 379
+			owns = 2313
+			owns = 1227
+			owns = 1228
+		}
+	}
+	defensiveness = 0.05
+}
+#Nestorian
+holy_holy_holy_nestorian = {
+	potential = {
+		OR = {
+			owns = 410
+			owns = 358
+			owns = 428
+			owns = 379
+			owns = 2313
+		}
+		AND = {
+			has_discovered = 410 #Bagdad
+			has_discovered = 358 #Alexandria
+			has_discovered = 428 #Teheran
+			has_discovered = 379 #Jerusalem
+			has_discovered = 2313 #Antioch
+		}
+	}
+	trigger = {
+		AND = {
+			owns = 410
+			owns = 358
+			owns = 428
+			owns = 379
+			owns = 2313
+		}
+	}
+	stability_cost_modifier = -0.05
+}
+#Jain
+holy_holy_holy_jain = {
+	potential = {
+		OR = {
+			owns = 533
+			owns = 515
+			owns = 2067
+			owns = 2053
+			owns = 2096
+		}
+		AND = {
+			has_discovered = 533 #Mysore
+			has_discovered = 515 #Girnar
+			has_discovered = 2067 #Gorwar
+			has_discovered = 2053 #Patan
+			has_discovered = 2096 #Damin
+		}
+	}
+	trigger = {
+		AND = {
+			owns = 533
+			owns = 515
+			owns = 2067
+			owns = 2053
+			owns = 2096
+		}
+	}
+	tolerance_heathen = -0.5
+}
+#Tengri
+holy_holy_holy_tengri = {
+	potential = {
+		OR = {
+			owns = 469
+			owns = 1075
+			owns = 284
+			owns = 456
+			owns = 153
+		}
+		AND = {
+			has_discovered = 469 #Ryn
+			has_discovered = 1075 #Tyumen
+			has_discovered = 284 #Crimea
+			has_discovered = 456 #Turkestan
+			has_discovered = 153 #Pest
+		}
+	}
+	trigger = {
+		AND = {
+			owns = 469
+			owns = 1075
+			owns = 284
+			owns = 456
+			owns = 153
+		}
+	}
+	global_unrest = -1
+}
+#Hindu
+holy_holy_holy_hindu = {
+	potential = {
+		OR = {
+			owns = 2052
+			owns = 2057
+			owns = 524
+			owns = 2095
+			owns = 523
+		}
+		AND = {
+			has_discovered = 2052 #Navaganar
+			has_discovered = 2057 #Bhilsa
+			has_discovered = 524 #Central Doab
+			has_discovered = 2095 #Varanasi
+			has_discovered = 523 #Lucknow
+		}
+	}
+	trigger = {
+		AND = {
+			owns = 2052
+			owns = 2057
+			owns = 524
+			owns = 2095
+			owns = 523
+		}
+	}
+	tolerance_heathen = 0.5
+}
+#Theraveda
+holy_holy_holy_theraveda = {
+	potential = {
+		OR = {
+			owns = 2095
+			owns = 2096
+			owns = 2077
+			owns = 550
+			owns = 545
+		}
+		AND = {
+			has_discovered = 2095 #Varanasi
+			has_discovered = 2096 #Damin
+			has_discovered = 2077 #Margalla
+			has_discovered = 550 #Mahakoshal
+			has_discovered = 545 #Marathwada
+		}
+	}
+	trigger = {
+		AND = {
+			owns = 2095
+			owns = 2096
+			owns = 2077
+			owns = 550
+			owns = 545
+		}
+	}
+	advisor_cost = -0.05
+}
+#Mahayana
+holy_holy_holy_mahayana = {
+	potential = {
+		OR = {
+			owns = 557
+			owns = 558
+			owns = 2047
+			owns = 555
+			owns = 524
+		}
+		AND = {
+			has_discovered = 557 #Katmandu
+			has_discovered = 558 #Patna
+			has_discovered = 2047 #Tirhut
+			has_discovered = 555 #Juanpur
+			has_discovered = 524 #Central Doab
+		}
+	}
+	trigger = {
+		AND = {
+			owns = 557
+			owns = 558
+			owns = 2047
+			owns = 555
+			owns = 524
+		}
+	}
+	tolerance_heretic = 0.5
+}
+#Vajrayana
+holy_holy_holy_vajrayana = {
+	potential = {
+		OR = {
+			owns = 677
+			owns = 558
+			owns = 565
+			owns = 557
+			owns = 2075
+		}
+		AND = {
+			has_discovered = 677 #Lhasa
+			has_discovered = 558 #Patna
+			has_discovered = 565 #Katmandu
+			has_discovered = 557 #Bhutan
+			has_discovered = 2075 #Doaba
+		}
+	}
+	trigger = {
+		AND = {
+			owns = 677
+			owns = 558
+			owns = 565
+			owns = 557
+			owns = 2075
+		}
+	}
+	prestige = 0.25
+}
+#Confucianism
+holy_holy_holy_confucianism = {
+	potential = {
+		OR = {
+			owns = 2141
+			owns = 691
+			owns = 1816
+			owns = 1821
+			owns = 1822
+		}
+		AND = {
+			has_discovered = 2141 #Xuzhou
+			has_discovered = 691 #Jinan
+			has_discovered = 1816 #Beijing
+			has_discovered = 1821 #Nanjing
+			has_discovered = 1822 #Suzhou
+		}
+	}
+	trigger = {
+		AND = {
+			owns = 2141
+			owns = 691
+			owns = 1816
+			owns = 1821
+			owns = 1822
+		}
+	}
+	legitimacy = 0.25
+	devotion = 0.25
+}
+#Shinto
+holy_holy_holy_shinto = {
+	potential = {
+		OR = {
+			owns = 1030
+			owns = 1018
+			owns = 1020
+			owns = 1028
+			owns = 1029
+		}
+		AND = {
+			has_discovered = 1030 #Owari
+			has_discovered = 1018 #Izumo
+			has_discovered = 1020 #Kyoto
+			has_discovered = 1028 #Musashi
+			has_discovered = 1029 #Kai
+		}
+	}
+	trigger = {
+		AND = {
+			owns = 1030
+			owns = 1018
+			owns = 1020
+			owns = 1028
+			owns = 1029
+		}
+	}
+	siege_ability = 0.05
+}
+#Nahuatl
+holy_holy_holy_nahuatl = {
+	potential = {
+		OR = {
+			owns = 852
+			owns = 2644
+			owns = 853
+			owns = 2645
+			owns = 2647
+		}
+		AND = {
+			has_discovered = 852 #Mexico
+			has_discovered = 2644 #Cholula
+			has_discovered = 853 #Huastec
+			has_discovered = 2645 #Teloloapan
+			has_discovered = 2647 #Cutlaxtlan
+		}
+	}
+	trigger = {
+		AND = {
+			owns = 852
+			owns = 2644
+			owns = 853
+			owns = 2645
+			owns = 2647
+		}
+	}
+	global_unrest = -0.5
+}
+
+#Inti
+holy_holy_holy_inti = {
+	potential = {
+		OR = {
+			owns = 808
+			owns = 804
+			owns = 811
+			owns = 810
+			owns = 806
+		}
+		AND = {
+			has_discovered = 808 #Cusco
+			has_discovered = 804 #Puno
+			has_discovered = 811 #Jauja
+			has_discovered = 810 #Huancavelica
+			has_discovered = 806 #Nazca
+		}
+	}
+	trigger = {
+		AND = {
+			owns = 808
+			owns = 804
+			owns = 811
+			owns = 810
+			owns = 806
+		}
+	}
+	global_autonomy = -0.025
+}
+#Maya
+holy_holy_holy_maya = {
+	potential = {
+		OR = {
+			owns = 488
+			owns = 2633
+			owns = 845
+			owns = 2652
+			owns = 842
+		}
+		AND = {
+			has_discovered = 488 #Les Cayes
+			has_discovered = 2633 #Mani
+			has_discovered = 845 #Campeche
+			has_discovered = 2952 #Ecab
+			has_discovered = 842 #peten
+		}
+	}
+	trigger = {
+		AND = {
+			owns = 488
+			owns = 2633
+			owns = 845
+			owns = 2652
+			owns = 842
+		}
+	}
+	advisor_cost = -0.05
+}

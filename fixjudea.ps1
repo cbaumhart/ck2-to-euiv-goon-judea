@@ -120,23 +120,30 @@ function fixprovinces {
 
 function getprovinces {
 	$provinceloc = "C:\Users\cbaumhart\Documents\GitHub\ck2-to-euiv-goon-judea\history\provinces"
+    #$provinceloc = "C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\history\provinces"
     $nameloc = "C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\localisation\prov_names_l_english.yml"
     $namecontent = Get-Content $nameloc
     $provcontent = Get-ChildItem $provinceloc -File
     $worlddata = @()
     $provcontent | foreach {
-        $provowner = $null
-        $discoveredby = @()
-        $addcore = @()
-        $provcontroller = $null
-        $culture = $null
-        $religion = $null
-        $citysize = $null
-        $basetax = $null
-        $baseproduction = $null
-        $basemanpower = $null
         $provnum = $null
         $provname = $null
+
+        $provowner = @()
+        $discoveredby = @()
+        $addcore = @()
+        $provcontroller = @()
+        $culture = @()
+        $religion = @()
+        $citysize = @()
+        $basetax = @()
+        $baseproduction = @()
+        $basemanpower = @()
+        $capital = @()
+        $addlocalautonomy = @()
+        $iscity = @()
+        $tradegoods = @()
+        
         $provdata = New-Object psobject
         $filecontent = get-content $PSItem.FullName
         #Get Province Number from file name
@@ -153,41 +160,138 @@ function getprovinces {
         $provnum = $PSItem.Name.Substring(0,$ItemNumbers)
         #Get Province Name from English Localisation file
         $namecontent | foreach {
-        if($_.tostring().substring(5,($provnum+":").Length) -eq ($provnum+":")){
-        
-            $provname = $_.ToString().TrimStart(" PROV"+$provnum+": ").TrimStart('"').trimEnd('"')
+            if($_.tostring().substring(5,($provnum+":").Length) -eq ($provnum+":")){
+                $provname = $_.ToString().TrimStart(" PROV"+$provnum+": ").TrimStart('"').trimEnd('"')
             } 
         }
         #Parse file, pulling important bits
-        $filecontent | Foreach { 
-        if($_.ToString() -match ("owner = ")){ $provowner = $_.ToString().Trim().TrimStart("owner ") -replace '= ','' }
-        if($_.ToString() -match ("controller = ")) { $provcontroller = $_.ToString().Trim().TrimStart("controller ") -replace '= ',''}
-        if($_.ToString() -match ("add_core = ")) { $addcore += $_.ToString().Trim().TrimStart("add_core ") -replace '= ',''}
-        if($_.ToString() -match ("culture = ")) { $culture = $_.ToString().Trim().TrimStart("culture ") -replace '= ',''}
-        if($_.ToString() -match ("religion = ")) { $religion = $_.ToString().Trim().TrimStart("religion ") -replace '= ',''}
-        if($_.ToString() -match ("citysize = ")) { $citysize = $_.ToString().Trim().TrimStart("citysize ") -replace '= ',''}
-        if($_.ToString() -match ("discovered_by = ")) { $discoveredby += $_.ToString().Trim().TrimStart("discovered_by ") -replace '= ','' }
-        $hre = "no"
-        if($_.ToString() -match ("base_tax = ")) { $basetax = $_.ToString().Trim().TrimStart("base_tax ") -replace '= ',''}
-        if($_.ToString() -match ("base_production = ")) { $baseproduction = $_.ToString().Trim().TrimStart("base_production ") -replace '= ',''}
-        if($_.ToString() -match ("base_manpower = ")) { $basemanpower = $_.ToString().Trim().TrimStart("base_manpower ") -replace '= ',''}
+        $filecontent | Foreach {
+            if(!($_.ToString().StartsWith(1))){
+                if($_.ToString() -match ("owner = ")){ 
+                    $provowner += $_.ToString().Trim().TrimStart("owner ") -replace '= ','' 
+                }
+                if($_.ToString() -match ("controller = ")) { 
+                    $provcontroller += $_.ToString().Trim().TrimStart("controller ") -replace '= ',''
+                }
+                if($_.ToString() -match ("add_core = ")) { 
+                    $addcore += $_.ToString().Trim().TrimStart("add_core ") -replace '= ',''
+                }
+                if($_.ToString() -match ("culture = ")) { 
+                    $culture += $_.ToString().Trim().TrimStart("culture ") -replace '= ',''
+                }
+                if($_.ToString() -match ("religion = ")) { 
+                    $religion += $_.ToString().Trim().TrimStart("religion ") -replace '= ',''
+                }
+                if($_.ToString() -match ("citysize = ")) { 
+                    $citysize += $_.ToString().Trim().TrimStart("citysize ") -replace '= ',''
+                }
+                if($_.ToString() -match ("discovered_by = ")) { 
+                    $discoveredby += $_.ToString().Trim().TrimStart("discovered_by ") -replace '= ','' 
+                }
+                $hre = "no"
+                if($_.ToString() -match ("base_tax = ")) { 
+                    $basetax += $_.ToString().Trim().TrimStart("base_tax ") -replace '= ',''
+                }
+                if($_.ToString() -match ("base_production = ")) { 
+                    $baseproduction += $_.ToString().Trim().TrimStart("base_production ") -replace '= ',''
+                }
+                if($_.ToString() -match ("base_manpower = ")) { 
+                    $basemanpower += $_.ToString().Trim().TrimStart("base_manpower ") -replace '= ',''
+                }
+                if($_.ToString() -match ("capital = ")) { 
+                    $capital += $_.ToString().Trim().TrimStart("capital ") -replace '= ',''
+                }
+                if($_.ToString() -match ("add_local_autonomy = ")) { 
+                    $addlocalautonomy += $_.ToString().Trim().TrimStart("add_local_autonomy ") -replace '= ',''
+                }
+                if($_.ToString() -match ("is_city = ")) { 
+                    $iscity += $_.ToString().Trim().TrimStart("is_city ") -replace '= ',''
+                }
+                if($_.ToString() -match ("trade_goods = ")) { 
+                    $tradegoods += $_.ToString().Trim().TrimStart("trade_goods ") -replace '= ',''
+                }
+                <#Regex cheatsheet
+                for a nation's tag  - [A-Z]{3}
+                to exclude year lines - \d{4}
+                
+                
+
+                #>
+
+            }
         }
         #add it all up to a sandwich
-        $provdata | add-member -MemberType Noteproperty -name Province_Number -Value ($provnum -join ',')
-        $provdata | add-member -MemberType Noteproperty -name Province_Name -Value ($provname -join ',')
-        $provdata | add-member -MemberType Noteproperty -name Owner -Value ($provowner -join ',')
-        $provdata | add-member -MemberType Noteproperty -name Controller -Value ($provcontroller -join ',')
+        $provdata | add-member -MemberType Noteproperty -name Province_Number -Value ($provnum)
+        $provdata | add-member -MemberType Noteproperty -name Province_Name -Value ($provname)
+        $provdata | add-member -MemberType Noteproperty -name Owner -Value ($provowner[0])
+        $provdata | add-member -MemberType Noteproperty -name Controller -Value ($provcontroller[0])
         $provdata | add-member -MemberType Noteproperty -name Add_Core -Value ($addcore -join ',')
-        $provdata | add-member -MemberType Noteproperty -name Culture -Value ($culture -join ',')
-        $provdata | add-member -MemberType Noteproperty -name Religion -Value ($religion -join ',')
-        $provdata | add-member -MemberType Noteproperty -name CitySize -Value ($citysize -join ',')
+        $provdata | add-member -MemberType Noteproperty -name Culture -Value ($culture[0])
+        $provdata | add-member -MemberType Noteproperty -name Religion -Value ($religion[0])
+        $provdata | add-member -MemberType Noteproperty -name CitySize -Value ($citysize[0])
         $provdata | add-member -MemberType Noteproperty -name Discovered_by -Value ($discoveredby -join ',')
-        $provdata | add-member -MemberType Noteproperty -name HRE -Value ($hre -join ',')
-        $provdata | add-member -MemberType Noteproperty -name Base_Tax -Value ($basetax -join ',')
-        $provdata | add-member -MemberType Noteproperty -name Base_Production -Value ($baseproduction -join ',')
-        $provdata | add-member -MemberType Noteproperty -name Base_Manpower -Value ($basemanpower -join ',')
+        $provdata | add-member -MemberType Noteproperty -name HRE -Value ($hre)
+        $provdata | add-member -MemberType Noteproperty -name Base_Tax -Value ($basetax[0])
+        $provdata | add-member -MemberType Noteproperty -name Base_Production -Value ($baseproduction[0])
+        $provdata | add-member -MemberType Noteproperty -name Base_Manpower -Value ($basemanpower[0])
+        $provdata | add-member -MemberType Noteproperty -name Capital -Value ($capital[0].TrimStart('"').trimEnd('"'))
+        $provdata | add-member -MemberType Noteproperty -name Add_Local_Autonomy -Value ($addlocalautonomy[0])
+        $provdata | add-member -MemberType Noteproperty -name Is_City -Value ($iscity[0])
+        $provdata | add-member -MemberType Noteproperty -name Trade_Goods -Value ($tradegoods[0])
         #Add it to everything
         $worlddata += $provdata
     }
     $worlddata | Export-Csv -Path 'C:\temp\euiv.txt' -Delimiter "`t" -Encoding BigEndianUnicode -NoTypeInformation 
+}
+
+function setprovinces{
+    $provinceloc = "C:\Users\cbaumhart\Documents\GitHub\ck2-to-euiv-goon-judea\history\provinces"
+    $seedfile = "C:\Users\cbaumhart\Documents\GitHub\ck2-to-euiv-goon-judea\provinces.txt"
+    $seed = Import-Csv -Path $seedfile -Delimiter "`t" -Encoding BigEndianUnicode
+    $seed | foreach {
+        $seedProvNum = $PSItem.Province_Number #
+        $seedProvName = $PSItem.Province_Name #
+        $seedOwner = $PSItem.Owner #
+        $seedController = $PSItem.Controller #
+        $seedAddCores = $PSItem.Add_Core #
+        $seedCulture = $PSItem.Culture #
+        $seedReligion = $PSItem.Religion #
+        $seedCitySize = $PSItem.CitySize #
+        $seedDiscoveredBys = $PSItem.Discovered_by #
+        $seedHRE = $PSItem.HRE #
+        $seedFort15th = $PSItem.fort_15th #
+        $seedBaseTax = $PSItem.Base_Tax #
+        $seedBaseProd = $PSItem.Base_Production #
+        $seedBaseMan = $PSItem.Base_Manpower #
+        $seedTradeGoods = $PSItem.trade_goods #
+        $seedIsCity = $PSItem.is_city #
+        $seedCapital = $PSItem.capital #
+        $seedLocalAut = $PSItem.add_local_autonomy
+        #process name to sanitize weird unicode characters
+        $seedProvNameSafe = ($seedProvName -replace "š","s" -replace "'","" -replace " ","" -replace "Ö","O" -replace "ö","o" -replace "ä","a" -replace "æ","ae" -replace "ø","o" -replace "ü","u" -replace "è","e" -replace "É","E" -replace "ú","u" -replace "á","a" -replace "é","e" -replace "í","i" -replace "ó","o" -replace "Î","I" -replace "Å","A" -replace "ó","o" -replace '"','' -replace "ñ","n" ).trim()
+        Write-Host "Creating file for"$seedProvNum $seedProvNameSafe
+        $seedProvinceFileName = [string]($seedProvNum+" - "+$seedProvNameSafe+"_conv.txt")
+        $seedProvinceFile = New-Item -ItemType File -Name $seedProvinceFileName -Path $provinceloc
+        #Start adding content
+        Add-Content -Value ("#" + $seedProvName) -Path $seedProvinceFile
+        Add-Content -Value ("owner = " + $seedOwner) -Path $seedProvinceFile
+        Add-Content -Value ("controller = " + $seedController) -Path $seedProvinceFile
+        Add-Content -Value ("culture = " + $seedCulture) -Path $seedProvinceFile
+        Add-Content -Value ("religion = " + $seedReligion) -Path $seedProvinceFile
+        Add-Content -Value ("hre = " + $seedHRE) -Path $seedProvinceFile
+        Add-Content -Value ("base_tax = " + $seedBaseTax) -Path $seedProvinceFile
+        Add-Content -Value ("base_production = " + $seedBaseProd) -Path $seedProvinceFile
+        Add-Content -Value ("base_manpower = " + $seedBaseMan) -Path $seedProvinceFile
+        Add-Content -Value ('capital = "' + $seedCapital + '"') -Path $seedProvinceFile
+        Add-Content -Value ("city_size = " + $seedCitySize) -Path $seedProvinceFile
+        Add-Content -Value ("is_city = " + $seedIsCity) -Path $seedProvinceFile
+        Add-Content -Value ("trade_goods = " + $seedTradeGoods) -Path $seedProvinceFile
+        Add-Content -Value ("add_local_autonomy = " + $seedLocalAut) -Path $seedProvinceFile
+        if($seedFort15th -eq 'yes'){Add-Content -Value ("fort_15th = " + $seedFort15th) -Path $seedProvinceFile}
+        $seedaddcore = $seedAddCores.Split(",")
+        $seedaddcore | foreach { Add-Content -Value ("add_core = " + $_) -Path $seedProvinceFile }
+        $seeddiscoveredby = $seedDiscoveredBys.split(",")
+        $seeddiscoveredby | foreach { Add-Content -Value ("discovered_by = " + $_) -Path $seedProvinceFile }
+    }
+
 }
