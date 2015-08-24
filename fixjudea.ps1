@@ -267,31 +267,48 @@ function setprovinces{
         $seedIsCity = $PSItem.is_city #
         $seedCapital = $PSItem.capital #
         $seedLocalAut = $PSItem.add_local_autonomy
+        $seedAddClaim = $PSItem.add_claim
+        if($PSItem.Native_Size -ne "N/A"){$seedNativeSize = $PSItem.Native_Size}
+        if($PSItem.Native_Ferocity -ne "N/A"){$seedNativeFerocity = $PSItem.Native_Ferocity}
+        if($PSItem.Native_Hostileness -ne "N/A"){$seedNativeHostile = $PSItem.Native_Hostileness}
         #process name to sanitize weird unicode characters
         $seedProvNameSafe = ($seedProvName -replace "š","s" -replace "'","" -replace " ","" -replace "Ö","O" -replace "ö","o" -replace "ä","a" -replace "æ","ae" -replace "ø","o" -replace "ü","u" -replace "è","e" -replace "É","E" -replace "ú","u" -replace "á","a" -replace "é","e" -replace "í","i" -replace "ó","o" -replace "Î","I" -replace "Å","A" -replace "ó","o" -replace '"','' -replace "ñ","n" ).trim()
         Write-Host "Creating file for"$seedProvNum $seedProvNameSafe
         $seedProvinceFileName = [string]($seedProvNum+" - "+$seedProvNameSafe+"_conv.txt")
         $seedProvinceFile = New-Item -ItemType File -Name $seedProvinceFileName -Path $provinceloc
         #Start adding content
-        Add-Content -Value ("#" + $seedProvName) -Path $seedProvinceFile
-        Add-Content -Value ("owner = " + $seedOwner) -Path $seedProvinceFile
-        Add-Content -Value ("controller = " + $seedController) -Path $seedProvinceFile
-        Add-Content -Value ("culture = " + $seedCulture) -Path $seedProvinceFile
-        Add-Content -Value ("religion = " + $seedReligion) -Path $seedProvinceFile
-        Add-Content -Value ("hre = " + $seedHRE) -Path $seedProvinceFile
-        Add-Content -Value ("base_tax = " + $seedBaseTax) -Path $seedProvinceFile
-        Add-Content -Value ("base_production = " + $seedBaseProd) -Path $seedProvinceFile
-        Add-Content -Value ("base_manpower = " + $seedBaseMan) -Path $seedProvinceFile
-        Add-Content -Value ('capital = "' + $seedCapital + '"') -Path $seedProvinceFile
-        Add-Content -Value ("city_size = " + $seedCitySize) -Path $seedProvinceFile
-        Add-Content -Value ("is_city = " + $seedIsCity) -Path $seedProvinceFile
-        Add-Content -Value ("trade_goods = " + $seedTradeGoods) -Path $seedProvinceFile
-        Add-Content -Value ("add_local_autonomy = " + $seedLocalAut) -Path $seedProvinceFile
-        if($seedFort15th -eq 'yes'){Add-Content -Value ("fort_15th = " + $seedFort15th) -Path $seedProvinceFile}
-        $seedaddcore = $seedAddCores.Split(",")
-        $seedaddcore | foreach { Add-Content -Value ("add_core = " + $_) -Path $seedProvinceFile }
-        $seeddiscoveredby = $seedDiscoveredBys.split(",")
-        $seeddiscoveredby | foreach { Add-Content -Value ("discovered_by = " + $_) -Path $seedProvinceFile }
+        Add-Content -Value ("#" + $seedProvName + " - generated from datasheet") -Path $seedProvinceFile
+        #Screen for inland sea, sea, or lake
+        IF(!(("Sea","Lake","Inland sea") -contains $_.Continent)){
+            if($seedOwner -ne ''){Add-Content -Value ("owner = " + $seedOwner) -Path $seedProvinceFile}
+            if($seedController -ne ''){Add-Content -Value ("controller = " + $seedController) -Path $seedProvinceFile}
+            if($seedCulture -ne ''){Add-Content -Value ("culture = " + $seedCulture) -Path $seedProvinceFile}
+            if($seedReligion -ne ''){Add-Content -Value ("religion = " + $seedReligion) -Path $seedProvinceFile}
+            if($seedHRE -ne ''){Add-Content -Value ("hre = " + $seedHRE) -Path $seedProvinceFile} #Gavin 
+            if($seedBaseTax -ge 1){Add-Content -Value ("base_tax = " + $seedBaseTax) -Path $seedProvinceFile}
+            if($seedBaseProd -ge 1){Add-Content -Value ("base_production = " + $seedBaseProd) -Path $seedProvinceFile}
+            if($seedBaseMan -ge 1){Add-Content -Value ("base_manpower = " + $seedBaseMan) -Path $seedProvinceFile}
+            if($seedCapital -ne ''){Add-Content -Value ('capital = "' + $seedCapital + '"') -Path $seedProvinceFile}
+            if($seedAddClaim -ne ''){Add-Content -Value ('add_claim = "' + $seedAddClaim + '"') -Path $seedProvinceFile}
+            #if($seedCitySize -ne $null){Add-Content -Value ("city_size = " + $seedCitySize) -Path $seedProvinceFile}
+            if($seediscity -ne ''){Add-Content -Value ("is_city = " + $seedIsCity) -Path $seedProvinceFile}
+            if($seedTradeGoods -ne ''){Add-Content -Value ("trade_goods = " + $seedTradeGoods) -Path $seedProvinceFile}
+            if($seedLocalAut -ne ''){Add-Content -Value ("add_local_autonomy = " + $seedLocalAut) -Path $seedProvinceFile}
+            if($seedFort15th -eq 'yes'){Add-Content -Value ("fort_15th = " + $seedFort15th) -Path $seedProvinceFile}
+            if($seedaddcores -ne ''){
+                $seedaddcore = $seedAddCores.Split(",")
+                $seedaddcore | foreach { Add-Content -Value ("add_core = " + $_) -Path $seedProvinceFile }
+            }
+            if($seedNativeSize -ne ''){Add-Content -Value ("native_size = " + $seedNativeSize) -Path $seedProvinceFile}
+            if($seedNativeFerocity -ne ''){Add-Content -Value ("native_ferocity = " + $seedNativeFerocity) -Path $seedProvinceFile}
+            if($seedNativeHostile -ne ''){Add-Content -Value ("native_hostileness = " + $seedNativeHostile) -Path $seedProvinceFile}
+        }
+
+        #discovery info
+        if($seedDiscoveredBys -ne ''){
+            $seeddiscoveredby = $seedDiscoveredBys.split(",")
+            $seeddiscoveredby | foreach { Add-Content -Value ("discovered_by = " + $_) -Path $seedProvinceFile }
+        }
     }
 
 }

@@ -4,6 +4,7 @@ government_rank = 3
 mercantilism = 0.1
 technology_group = judean
 primary_culture = greek
+add_accepted_culture = khazar
 religion = jewish
 capital = 379
 fixed_capital = 379

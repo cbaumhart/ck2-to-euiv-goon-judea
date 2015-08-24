@@ -5,19 +5,13 @@ General
 	3. Make sure inti, nuhuatl, and maya religions can reform.
 	4. Add even that pops up on controlling Jerusalem (379) that allows controller to destroy temple, giving prestige, gold, and neg relations hit to Judea
 	5. Add great project for building of 4th temple if 3rd destroyed in event.
-
-	1. Create triggered modifier for owning Jerusalem
-	1a. have it take effect only after conversion
 	2. Change countries in India to Indian tech group rather than Eastern
 	3. Change countries in Iberia to Western tech group
 	4. And France too
 	5. Fix Mayan traditions
 	6. Fix traditions of Choctaw, Navajo, Shoshone, Haida, Salish, Chinook, Blackfoot, Comanche, Kiowa, Assinboine, Cheyenne, Sioux, Pawnee, Osage, Miami, Fox, Ojibwe, Cree, Ottowa, Patowatomi, Suxquehhaneck, Pequot, Abenaki, Mikmaq, Tlapanec, Tuipiniquim, Potiguara, Tupinamba, Arawak, Mzab, Ajuuraan, Kaffa, Gujarat, Rashtrakutas, Kaivartas, Bihar, Kalinga Gangas, Nadia, Tripuna, Garhwal, Buryatia, Chavcheveny, Khodynt, Chukchi, Kamchadals, Ainu, Ireland, Gwynedd, Dehebeurth, Lithuania, Karelia, Kola, Germany, Anjou, Burgundy (kingdom), upper Lorraine, Portucale, Galacia, Cordoba, Murcia, Granada, 
-	#7. Add Hawaiian nation, ideas
-	#8. Add Maori nation, ideas
 	9. Add minor religion rebels (Nestorian, Messalian)
 	12. ?Should trade be changed? maybe just st. lawrence heading to cheseapeake, cheseapeake to Caribbean?
-	13. revealed map - who knows what? should some "known" provinces be terra incognita to CK2?  Should Aztecs know all Europe? Fix aztec to know route from NA/SA to Europe.
 	15. Add zealots to events - give things or gold upon dfensive holy war.
 Byzantium
 	1. Change Byz ideas from Carolingian to Roman
@@ -29,13 +23,7 @@ Byzantium
 	7. Add base tax, production and manpower to Lucania to equal about 10
 	8. Add base tax and manpower to Salento to equal about 10
 	9. Add base tax and manpower to Bari to equal about 10
-	10. Set ruler as good general (2/4/2/1)
-	11. Set at war with Judea
-	12. Set historical friend with Knights of Calatrava, 
-	13. Set historical enemies with Judea
 	14. Create triggered modifier for owning Constantinople
-	15. Add core for Benevento: Capitanata
-	16. Add historical enemy to JUD
 The Knights 
 	1. Change The Knight's ideas from French to Knight ideas
 Knights of Calatrava
@@ -44,19 +32,15 @@ Lyddid
 	1. Create national ideas for Lyddid's
 	2. Create triggered modifier
 	3. Change tech group from Eastern to Ottoman
-	4. add historical enemey to JUD
 Judea
-	1. Create national ideas for Judea
 	3. Create triggered modifier "Fuck Europe" for aggressor in war against country with capital in europe, +unrest, -Manpower recovery, -Morale
-	9. Add core for Venice: Venice 
-	10. Add Khazar as accepted culture
-	11. Add missions to for IDE nations where you get a claim on all provinces
-	z12. Add core for Fars: Bushehr
-	13. Reveal Terra Incognita from: the Persian Gulf and Arabian Sea and Red Sea
-	x14. Add disaster for ignoring certain laws (cuz i want us to turn into a theocracy)
-	15. Set Korasan and Qara Qoyunlu areas in persia to JUD owned
+	4. Add peasant revolt on load in Kabul
+Judean-Byzantine war
+	1. Set control to JUD in 122,1933,2985,1934,2984,123
+
+	5. add JUD claim to 122, 1933
 Aztec
-	1. Add cores on rest of Scandanvia
+	1. Add cores on rest of Scandinavia
 	
 Religion - add triggered modifier for each, dont show triggered modifier unless all provinces are known to ROOT and control one
 	#Judiasm 365,379,382,1849,401 #Add Religious Site for Sinai (Ar Tur), Jerusalem (Jerusalem), Damascus(Glitterhoof), Hamadan(Hamadan)) & Dhofar (Salalah)

@@ -6,13 +6,17 @@ technology_group = eastern
 primary_culture = greek
 religion = catholic
 capital = 2984
+historical_friend = KCA
+historical_enemy = JUD
 1430.10.1 = {
 	monarch = {
 		name = "Orestes"
 		dynasty = "Karling"
+		birth_date = 1430.10.1
 		adm = 5
 		dip = 5
 		mil = 4
+		leader = {	name = "Orestes Karling"	type = general	rank = 0	fire = 2	shock = 4	maneuver = 2	siege = 1}
 	}
 }
 1432.4.1 = {
@@ -21,7 +25,6 @@ capital = 2984
 		monarch_name = "Markia"
 		dynasty = "Karling"
 		birth_date = 1432.4.1
-		death_date = 1512.4.1
 		female = yes
 		adm = 1
 		dip = 6

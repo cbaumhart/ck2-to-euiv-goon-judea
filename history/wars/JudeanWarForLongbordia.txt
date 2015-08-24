@@ -1,0 +1,225 @@
+name = "Judean War for Longbordia"
+war_goal = {
+	type = superiority_crusade
+	casus_belli = cb_crusade
+	tag = JUD
+}
+#just pile on
+1451.10.10 = {
+	add_attacker = JUD
+	add_defender = BYZ
+	add_defender = PAP
+	add_defender = TEU
+	add_defender = KNI
+	add_defender = LIT
+	add_defender = BAV
+	add_defender = BGD
+}
+
+#+3.90 Battle of Acerno (JUD 38988(38914)-4642(0) BYZ) JUD win
+1451.12.5 = {
+	battle = {
+		name = "Acerno"
+		location = 2983
+		attacker = {
+			commander = "Despot Herakleios II of Anatolia"
+			infantry = 25000
+			cavalry = 14000
+			losses = 0
+			country = JUD
+		}
+		defender = {
+			infantry = 5000
+			losses = 100
+			country = BYZ
+		}
+	}
+}
+#+14.25 Battle of Avellino (JUD 36212(30669)-22064(5920) BYZ) JUD win
+1452.1.6 = {
+	battle = {
+		name = "Avellino"
+		location = 2985
+		attacker = {
+			commander = "Mayor Theophanes of Nablus"
+			infantry = 20000
+			cavalry = 12000
+			losses = 16 #percent
+			country = JUD
+		}
+		defender = {
+			infantry = 22000
+			losses = 73 #percent
+			country = BYZ
+		}
+		result = yes
+	}
+}
+#+0.30 Battle of Daugpilis (JUD 9394(9366)-412(0) LIT) JUD win
+1452.5.15 = {
+	battle = {
+		name = "Daugpilis"
+		location = 273
+		attacker = { 
+			infantry = 9394
+			losses = 1
+			country = JUD
+		}
+		defender = {
+			infantry = 412
+			losses = 100
+			country = LIT
+		}
+		result = yes
+	}
+}
+#+1.42 Battle of Aquino (JUD 14281(14262)-1118(0) BYZ) JUD win
+1452.2.15 = {
+	battle = {
+		name = "Aquino"
+		location = 121
+		attacker = {
+			infantry = 14281
+			losses = 0
+			country = JUD
+		}
+		defender = {
+			infantry = 1118
+			losses = 100
+			country = BYZ
+		}
+		result = yes
+	}
+}
+#+7.50 Battle of Avellino (JUD 14334(5766)-9089(3577) BYZ) JUD win
+1452.3.27 = {
+	battle = {
+		name = "Avellino"
+		location = 2985
+		attacker = {
+			infantry = 10000
+			cavalry = 4000
+			losses = 60
+			country = JUD
+		}
+		defender = {
+			infantry = 6000
+			cavalry = 3000
+			losses = 60
+			country = BYZ
+		}
+		result = yes
+	}
+}
+#+0.97 Battle of Herakleia (JUD 7659(7574)-1081(0) BYZ) JUD win
+1452.5.2 = {
+	battle = {
+		name = "Herakleia"
+		location = 326
+		attacker = {
+			infantry = 8000
+			losses = 1
+			country = JUD
+		}
+		defender = {
+			infantry = 1000
+			losses = 100
+			country = BYZ
+		}
+		result = yes
+	}
+}
+#-4.57 Battle of Kaunas (JUD 18794(5395)-17393(12745) LIT) LIT win
+1452.7.12 = {
+	battle = {
+		name = "Kaunas"
+		location = 770
+		attacker = {
+			infantry = 10000
+			cavalry = 8000
+			losses = 26
+			country = LIT
+		}
+		defender = {
+			infantry = 14000
+			cavalry = 5000
+			losses = 71
+			country = JUD
+		}
+		result = yes
+	}
+}
+#-0.45 Battle of Seiniai (JUD 5395(3875)-12745(12508) LIT) LIT win
+1452.7.20 = {
+	battle = {
+		name = "Seiniai"
+		location = 276
+		attacker = {
+			infantry = 7400
+			cavalry = 5920
+			losses = 1
+			country = LIT
+		}
+		defender = {
+			infantry = 4060
+			cavalry = 1450
+			losses = 28
+			country = JUD
+		}
+		result = yes
+	}
+}
+#+0.97 Battle of Amelia (JUD 3257(3139)-1434(633) BYZ) JUD win
+1452.9.4 = {
+	battle = {
+		name = "Amelia"
+		location = 2978
+		attacker = {
+			infantry = 3257
+			losses = 4
+			country = JUD
+		}
+		defender = {
+			infantry = 1434
+			losses = 55
+			country = BYZ
+		}
+		result = yes
+	}
+}
+#+0.37 Battle of Nursia (JUD 3139(3125)-633(146) BYZ) JUD win
+1452.9.20 = {
+	battle = {
+		name = "Nursia"
+		location = 2977
+		attacker = {
+			infantry = 3139
+			losses = 1
+			country = JUD
+		}
+		defender = {
+			infantry = 633
+			losses = 77
+			country = BYZ
+		}
+		result = yes
+	}
+}
+#Battle of Montevarchi (JUD 3125(3113)-144(0) BGD) JUD win
+1452.10.14 = {
+	battle = {
+		name = "Montevarchi"
+		location = 116
+		attacker = {
+			infantry = 3125
+			losses = 0
+			country = JUD
+		}
+		defender = {
+			infantry = 144
+			losses = 100
+			country = BGD
+		}
+		result = yes
+	}
+}

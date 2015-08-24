@@ -88,6 +88,8 @@ replace_path = "commmon/cb_types/00_cb_types.txt"
 replace_path = "commmon/wargoal_types/00_wargoal_types.txt"
 replace_path = "common/technologies/mil.txt"
 replace_path = "common/on_actions/00_on_actions.txt"
+replace_path = "gfx/interface/tech_group_strip.dds"
+replace_path = "interface/countrycourtview.gfx"
 replace_path = "gfx/flags/animism_rebels.tga"
 replace_path = "gfx/flags/anti_tax_rebels.tga"
 replace_path = "gfx/flags/buddhism_rebels.tga"
@@ -180,5 +182,7 @@ replace_path = "common/religions/00_religion.txt"
 #	Units
 #		Added units for Judean tech group.
 #	Graphics
-#		Fixed Rebel Flags
+#		Fixed Rebel Flags - Failed
 #		Added Flags for some missing countries
+#	Wars
+#		

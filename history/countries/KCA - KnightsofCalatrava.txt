@@ -6,6 +6,7 @@ technology_group = western
 primary_culture = castillian
 religion = catholic
 capital = 2755
+historical_friend = BYZ
 1393.6.25 = {
 	monarch = {
 		name = "Manrique"
