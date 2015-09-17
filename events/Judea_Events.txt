@@ -165,7 +165,7 @@ country_event = {
 		trigger = { is_monarch_leader = no }
 		add_prestige = -5
 	}
-	option = {
+	option = {#Am I a leader already? Cool.
 		name = "judean_events.4.c"
 		trigger = { is_monarch_leader = yes }
 		add_prestige = 10
@@ -175,8 +175,121 @@ country_event = {
 }
 
 #Hidden event to give IDE CB against Lyddid, Byz
+#Event for BYZ
+country_event = {
+	id = "judean_events.5"
+	title = "judean_events.Title5"
+	desc = "judean_events.Desc5"
+	picture = LAND_MILITARY_eventPicture
+	fire_only_once = yes
+	trigger = {
+		tag = BYZ
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	immediate = {
+		hidden_effect = {
+			ROOT = {
+				set_country_flag = insertname_delenda_est
+			}
+		}
+	}
+	option = {
+		name = "judean_events.5.a"
+		add_manpower = 1
+	}
+}
+
+#Event for LYD
+country_event = {
+	id = "judean_events.6"
+	title = "judean_events.Title6"
+	desc = "judean_events.Desc6"
+	picture = LAND_MILITARY_eventPicture
+	fire_only_once = yes
+	trigger = {
+		tag = LYD
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	immediate = {
+		hidden_effect = {
+			ROOT = {
+				set_country_flag = insertname_delenda_est
+			}
+		}
+	}
+	option = {
+		name = "judean_events.6.a"
+		add_manpower = 1
+	}
+}
 
 #event for enemy country controlling Jerusalem to destroy temple
+country_event = {
+	id = "judean_events.7"
+	title = "judean_events.Title7"
+	desc = "judean_events.Desc7"
+	picture = COUNTRY_COLLAPSE_eventPicture
+	trigger = {
+		AND = {
+			NOT = { tag = JUD }
+			controls = 379
+			379 = {
+				has_province_modifier = the_third_temple
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = { #Tear it to the foundations
+		ai_chance = { factor = 40 }
+		name = "judean_events.7.a"
+		379 = {
+			remove_province_modifier = the_third_temple
+		}
+		JUD = {
+			add_opinion = {
+				who = ROOT
+				modifier = destroyed_third_temple
+			}
+			hidden_effect = {
+				country_event = {
+					id = judean_events.8
+					days = 1
+				}
+			}
+		}
+		add_treasury = 500
+	}
+	option = { #Spare it, and reap the rewards of mercy
+		ai_chance = { factor = 60 }
+		name = "judean_events.7.b"
+		#Add opinion modifier (relations_decay_of_me = 0.50)and decreased AE (ae_impact = -0.25)
+		add_country_modifier = {
+			name = spared_the_temple
+			duration = 7300
+		}
+	}
+}
 
-
-
+#Event for JUD after temple destroyed
+country_event = {
+	id = "judean_events.8"
+	title = "judean_events.Title8"
+	desc = "judean_events.Desc8"
+	picture = COUNTRY_COLLAPSE_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = JUD
+	}
+	option = { #We have forsaken our duties to YWHW
+		name = "judean_events.8.a"
+		add_legitimacy = -25
+		add_devotion = -25
+		add_republican_tradition = -25
+	}
+}

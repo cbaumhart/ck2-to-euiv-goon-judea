@@ -19,3 +19,14 @@ know_the_battlefield = {
 	army_tradition_decay = -0.005
 	prestige = 0.25
 }
+
+the_third_temple = {
+	tolerance_own = 1
+	global_missionary_strength = 0.01
+	devotion = 0.5
+}
+
+spared_the_temple = {
+	ae_impact = -0.25
+	relations_decay_of_me = 0.50
+}

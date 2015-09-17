@@ -3,3 +3,8 @@ bought_judea_off = {
 	opinion = 200
 	yearly_decay = 8
 }
+
+destroyed_third_temple = {
+	opinion = -200
+	yearly_decay = 2
+}

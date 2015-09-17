@@ -17,7 +17,7 @@ war_goal = {
 }
 
 #+3.90 Battle of Acerno (JUD 38988(38914)-4642(0) BYZ) JUD win
-1451.12.5 = {
+1452.12.5 = {
 	battle = {
 		name = "Acerno"
 		location = 2983
@@ -36,7 +36,7 @@ war_goal = {
 	}
 }
 #+14.25 Battle of Avellino (JUD 36212(30669)-22064(5920) BYZ) JUD win
-1452.1.6 = {
+1451.1.6 = {
 	battle = {
 		name = "Avellino"
 		location = 2985

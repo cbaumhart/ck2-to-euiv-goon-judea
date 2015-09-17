@@ -29,8 +29,11 @@ ignoring_the_laws = {
 			any_province = { is_core = PRM } #This prevents this countdown if the cores expired
 			PRM = {
 				OR = {
-					exists = no
-					NOT = { vassal_of = ROOT }
+					exists = no #If there are cores, but it doesn't exist.
+					AND = {	#If it exists, and is not a vassal of Judea
+						exists = yes
+						NOT = { vassal_of = ROOT }
+					}
 				}
 			}
 		}
@@ -41,7 +44,10 @@ ignoring_the_laws = {
 			CUM = {
 				OR = {
 					exists = no
-					NOT = { vassal_of = ROOT }
+					AND = {
+						exists = yes
+						NOT = { vassal_of = ROOT }
+					}
 				}
 			}
 			
@@ -53,7 +59,10 @@ ignoring_the_laws = {
 			TKM = {
 				OR = {
 					exists = no
-					NOT  = { vassal_of = ROOT }
+					AND = {
+						exists = yes
+						NOT  = { vassal_of = ROOT }
+					}
 				}
 			}
 		}
@@ -64,7 +73,10 @@ ignoring_the_laws = {
 			VBA = {
 				OR = {
 					exists = no
-					NOT = { vassal_of = ROOT }
+					AND = {
+						exists = yes
+						NOT = { vassal_of = ROOT }
+					}
 				}
 			}
 		}
@@ -75,7 +87,10 @@ ignoring_the_laws = {
 			CRI = {
 				OR = {
 					exists = no
-					NOT = { vassal_of = ROOT }
+					AND = {
+						exists = yes
+						NOT = { vassal_of = ROOT }
+					}
 				}
 			}
 		}

@@ -4,6 +4,13 @@ user_dir = "Judea"
 disable_time_widget = yes
 disallow_random_new_world = yes
 supported_version = "1.13"
+tags = {
+	"Alternate History"
+	"Events"
+	"Missions and Decisions"
+	"New Nations"
+	"Technologies"
+}
 replace_path = "common/countries/Perm.txt"
 replace_path = "history/countries/PRM - Perm.txt"
 replace_path = "common/countries/Ireland.txt"
@@ -64,7 +71,6 @@ replace_path = "common/countries/Japan.txt"
 replace_path = "history/countries/JAP - Japan.txt"
 replace_path = "common/countries/Haida.txt"
 replace_path = "history/countries/HDA - Haida.txt"
-
 replace_path = "history/diplomacy/Scandinavian_alliances.txt"
 replace_path = "history/diplomacy/AustriaHungaryBohemia_alliances.txt"
 replace_path = "history/diplomacy/Baltic_alliances.txt"
@@ -133,7 +139,21 @@ replace_path = "gfx/flags/zoroastrian_rebels.tga"
 replace_path = "gfx/flags/PUN.tga"
 replace_path = "commmon/province_names/greek.txt"
 replace_path = "common/religions/00_religion.txt"
-
+replace_path = "common/bookmarks/a_new_world.txt"
+replace_path = "common/bookmarks/american_war_of_independence.txt"
+replace_path = "common/bookmarks/eighty_years_war.txt"
+replace_path = "common/bookmarks/GC_AFRICA.txt"
+replace_path = "common/bookmarks/GC_AMERICA.txt"
+replace_path = "common/bookmarks/GC_ASIA.txt"
+replace_path = "common/bookmarks/revolutionary_france.txt"
+replace_path = "common/bookmarks/rise_of_the_ottomans.txt"
+replace_path = "common/bookmarks/seven_years_war.txt"
+replace_path = "common/bookmarks/the_fall_of_byzantium.txt"
+replace_path = "common/bookmarks/the_french_revolution.txt"
+replace_path = "common/bookmarks/thirty_years_war.txt"
+replace_path = "common/bookmarks/war_of_leauge_of_cambria.txt"
+replace_path = "common/bookmarks/war_of_the_quadruple_alliance.txt"
+replace_path = "common/bookmarks/war_of_the_spanish_succession.txt"
 
 #Release Notes
 
@@ -158,10 +178,12 @@ replace_path = "common/religions/00_religion.txt"
 #		Added Ignoring The Laws
 #	Events	
 #		Added events for disaster Ignoring The Laws
-#		Added events for Judea and neighbors
+#		Added events for Judea and neighbours
+#		Added Third Temple events
 #	Event Modifiers
 #		Added Affirmed Tradition modifier
 #		Added Overturned Tradition modifier
+#		Added The Third Temple provincial modifier for Jerusalem
 #	Rebels
 #		Added ability for Jewish rebels to turn JUD into theocracy
 #	History / Provinces
@@ -185,4 +207,8 @@ replace_path = "common/religions/00_religion.txt"
 #		Fixed Rebel Flags - Failed
 #		Added Flags for some missing countries
 #	Wars
-#		
+#		Added war between Byz & Jud at start
+#	Triggered Modifiers
+#		Added modifiers for most of the world's religions for controlling their holy provinces. They won't show up until you own one of the needed provinces.
+#		Added modifier to give a country a colonist if there is an open province next to them
+#		Added modifier to make rebels less likely the first couple of years, so the large nations that exist don't blow up right away.

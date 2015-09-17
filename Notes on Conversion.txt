@@ -1,9 +1,27 @@
 To Do list:
 Fixes
-	2. Add trade good to Barnaul, Pegaya Orda
+	Set up Bhumpalid provinces as Punjab - should be theirs
+[eventmanager.cpp:154]: Event #4400004 is triggered only, but does not have a 1 base-factor in events/Judea_Events.txt
+[history.cpp:764]: Unknown history file in country database - history/countries/JOM - Jomsvikings.txt
+[history.cpp:779]: ROM - Roman Empire is missing a history file.
+[history.cpp:779]: TEM - Knights Templar is missing a history file.
+[country.cpp:5664]: ROM can not find an infantry sub-unit for its 'notechgroup' unit type.
+[country.cpp:5664]: TEM can not find an infantry sub-unit for its 'notechgroup' unit type.
+	Fix rebel flags!!!!
+	Fix Judean tech group discoveries
+	Fix Tech group discoveries:
+		Eastern
+		Western
+		Muslim
+		Chinese
+		Indian
+		sub_saharan
+		nomad_group
+		high_american	
+	Fix RAS localization
+	
 General
 	3. Make sure inti, nuhuatl, and maya religions can reform.
-	4. Add even that pops up on controlling Jerusalem (379) that allows controller to destroy temple, giving prestige, gold, and neg relations hit to Judea
 	5. Add great project for building of 4th temple if 3rd destroyed in event.
 	2. Change countries in India to Indian tech group rather than Eastern
 	3. Change countries in Iberia to Western tech group
@@ -14,15 +32,6 @@ General
 	12. ?Should trade be changed? maybe just st. lawrence heading to cheseapeake, cheseapeake to Caribbean?
 	15. Add zealots to events - give things or gold upon dfensive holy war.
 Byzantium
-	1. Change Byz ideas from Carolingian to Roman
-	2. Add base manpower to Crete to 5
-	3. Add base manpower and production to Corfu to 3
-	4. Add base tax, production and manpower to Calabria to equal about 10
-	5. Add base tax, production and manpower to Cosenza to equal about 12
-	6. Add base production to Salerno to 4
-	7. Add base tax, production and manpower to Lucania to equal about 10
-	8. Add base tax and manpower to Salento to equal about 10
-	9. Add base tax and manpower to Bari to equal about 10
 	14. Create triggered modifier for owning Constantinople
 The Knights 
 	1. Change The Knight's ideas from French to Knight ideas
@@ -30,37 +39,11 @@ Knights of Calatrava
 	1. Create ideas
 Lyddid
 	1. Create national ideas for Lyddid's
-	2. Create triggered modifier
-	3. Change tech group from Eastern to Ottoman
+	3. Change tech group from Muslim to Ottoman
 Judea
 	3. Create triggered modifier "Fuck Europe" for aggressor in war against country with capital in europe, +unrest, -Manpower recovery, -Morale
-	4. Add peasant revolt on load in Kabul
-Judean-Byzantine war
-	1. Set control to JUD in 122,1933,2985,1934,2984,123
-
-	5. add JUD claim to 122, 1933
 Aztec
 	1. Add cores on rest of Scandinavia
-	
-Religion - add triggered modifier for each, dont show triggered modifier unless all provinces are known to ROOT and control one
-	#Judiasm 365,379,382,1849,401 #Add Religious Site for Sinai (Ar Tur), Jerusalem (Jerusalem), Damascus(Glitterhoof), Hamadan(Hamadan)) & Dhofar (Salalah)
-	#Shia 385,384,379,382,409 #Add Religious Site for Mecca, Medina, Jerusalem, Damascus, Hillah (Nadjaf)
-	#Catholic 379,118,85,235,206 #Add religious Site for Jerusalem, Rome, Koln, Kent (Canterbury), Galacia (Santiago)
-	#Sunni 385,384,379,410,225 #Add religious Site for Mecca, Medina, Jerusalem, Bagdad, Cordoba
-	#Ibadi 385,384,379,2463,403 #Add religious Site for Mecca, Medina, Jerusalem, Kasdir (Bordj), Nizwa
-	#Miaphysite (Coptic) 358,379,2313,1227,1228 #Add religious Site for Alexandria, Jerusalem, Antioch, Aksum, Dongala (Ghazali)
-	#Nestorian 410,358,428,379,2313 #Add religious Site for Bagdad, Alexandria, Teheran, Jerusalem, Antioch
-	#Jain 533,515,2067,2053,2096 #Add religious Site for Mysore (Shravanabelagola), Girnar (Girnar), Gorwar(Bhillamala), Patan(Vadnagar), Damin(Rajrappa)
-	#Tengri 469,1075,284,456,153 #Add religious Site for Ryn (Sasquin), Tyumen (Isilkul), Crimea (Aqmescit), Turkestan (Kyzylorda), Pest (Vac)
-	#Hindu 2052,2057,524,2095,523 #Add religious Site for Navanagar (Dwarakadheesh), Bhilsa(Mahakaleshwar), Central Doab (Krishnajanmabhoomi), Varanasi (Varanasi), Lucknow (Ram Janmabhoomi)
-	#Theraveda 2095,2096,2077,550,545 #Add religious Site for Varnasi (Sarnath), Damin (Gaya), Margalla (Oddiyana), Mahakoshal (Sanchi), Marathwada(Ellora)
-	#Mahayana 557,558,2047,555,524 #Add religious Site for Katmandu (Lumbina), Patna (Bhod Gaya), Tirhut (Kusinara), Jaunpur (Sarnath), Central Doab (Sankassa)
-	#Vajrayana 677,558,565,557,2075 #Add religious Site for Lhasa, Katmandu (Lumbina), Patna (Bhod Gaya), Bhutan (Bumthang Valley), Doaba (Rewalsar)
-	#Confucian 2141,691,1816,1821,1822 #Add religious Site for Xuzhou (Mount Taishan), Jinan (Qufu), Beijing, Nanjing, Suzhou (Shanghai)
-	#Shinto 1030,1018,1020,1028,1029 #Add religious Site for 1030 Owari (Ise), 1018 Izumo (Izumo Shrine), 1020 Kyoto (Heian Shrine), 1028 Musashi (Tsurugaoka Hachimangu), 1029 Kai (Mount Fuji) 
-	#Nahuatl 852,2644,853,2645,2647 #Add religious Site for Mexico (Tenochtitlan), Cholula (Cholula), Huastec (Teotihuacán), Teloloapan (Xochicalco), Cuetlaxtlan (Zempoala)
-	#Inti 808,804,811,810,806 #Add religious Site for 808 Cusco (Machu Picchu), 804 Puno (Isla Del Sol), 811 Jauja (Vitcos), 810 Huancavelica (Choquequirao), 806 Nazca (Nazca Lines) 
-	#Mayan 488,2633,845,2652,842 #Add religious Site for Les Cayes, Mani (Chichén Itzá), Campeche (Óoxmáal), Ecab (Muyil), Peten (Tikal)
 		
 The Laws 
 	#NA = Not applicable, no ingame effect 

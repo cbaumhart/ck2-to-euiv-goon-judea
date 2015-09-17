@@ -7,7 +7,7 @@ primary_culture = greek
 religion = catholic
 capital = 2984
 historical_friend = KCA
-historical_enemy = JUD
+historical_rival = JUD
 1430.10.1 = {
 	monarch = {
 		name = "Orestes"
@@ -16,7 +16,7 @@ historical_enemy = JUD
 		adm = 5
 		dip = 5
 		mil = 4
-		leader = {	name = "Orestes Karling"	type = general	rank = 0	fire = 2	shock = 4	maneuver = 2	siege = 1}
+		leader = {	name = "Orestes Karling"	type = general	rank = 0	fire = 2	shock = 4	manuever = 2	siege = 1}
 	}
 }
 1432.4.1 = {

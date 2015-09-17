@@ -405,6 +405,17 @@ country_event = {
 		NOT = { truce_with = JUD }
 		is_neighbor_of = JUD
 	}
+	immediate = {
+		every_owned_province = {
+			every_neighbor_province = {
+				limit = {
+					owned_by = JUD
+					NOT = { is_core = ROOT }
+				}
+				add_claim = ROOT
+			}
+		}
+	}
 #	mean_time_to_happen = { days = 1}
 	option = { #They will pay for their hubris
 		name = "flavor_itl.9.a"
@@ -417,14 +428,6 @@ country_event = {
 		add_stability = 1
 		add_legitimacy = 20
 		set_country_flag = kill_judea
-		JUD = {
-			every_owned_province = {
-				limit = {
-					is_neighbor_of = ROOT
-				}
-				add_claim = ROOT
-			}
-		}
 	}
 	#option = { #They're big and scary
 	#	name = flavor_itl.9.b

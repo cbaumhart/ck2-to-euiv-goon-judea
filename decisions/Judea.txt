@@ -70,10 +70,10 @@ country_decisions = {
 				add_core = 305
 				add_core = 1962
 				add_core = 1963
-				add_core = 1071
 				add_core = 1080
 				add_core = 1077
 				add_core = 2427
+				add_core = 1078
 			}
 			remove_core = 1955
 			remove_core = 313
@@ -85,10 +85,10 @@ country_decisions = {
 			remove_core = 305
 			remove_core = 1962
 			remove_core = 1963
-			remove_core = 1071
 			remove_core = 1080
 			remove_core = 1077
 			remove_core = 2427
+			remove_core = 1078
 			release_vassal = PRM
 			create_march = PRM
 		}

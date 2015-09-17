@@ -1,78 +1,4 @@
 l_english:
- JUD: "Judea"
- JUD_ADJ: "Judeaic"
- CUM: "Cumania"
- CUM_ADJ: "Cumanian"
- TKM: "Turkestan"
- TKM_ADJ: "Turkmeni"
- VBA: "Volga Bulgaria"
- VBA_ADJ: "Volgan"
- VST: "Vestergøtland" #Old Z00
-﻿ VST_ADJ: "West Geatish" #Old Z00
- ISL: "Island" #Old Z01
-﻿ ISL_ADJ: "Icelandic" #Old Z01
- DEH: "Deheubarth" #Old Z02	
-﻿ DEH_ADJ: "Deheubarthian" #Old Z02
- BTG: "Bretagne" #Old Z03
-﻿ BTG_ADJ: "Breton" #Old Z03
- ORK: "Orkney" #Old Z04
-﻿ ORK_ADJ: "Orknian" #Old Z04
- GWY: "Gwynedd" #Old Z05
-﻿ GWY_ADJ: "Gwyneddian" #Old Z05
- ANJ: "Anjou" #Old Z06
-﻿ ANJ_ADJ: "Angevin" #Old Z06
-﻿ ULO: "Upper Lorraine" #Old Z07
-﻿ ULO_ADJ: "Upper Lorrainian" #Old Z07
-﻿ BGD: "Burgundy" #Old Z08
-﻿ BGD_ADJ: "Burgundian" #Old Z08
- KCA: "Knights of Calatrava" #Old Z09
-﻿ KCA_ADJ: "Calatrava" #Old Z09
- PTC: "Portucale" #Old Z10
-﻿ PTC_ADJ: "Portucalese" #Old Z10
- MUR: "Murcia" #Old Z11
-﻿ MUR_ADJ: "Murcian" #Old Z11
- CRD: "Cordoba" #Old Z12
-﻿ CRD_ADJ: "Cordoban" #Old Z12
-﻿ SAT: "Satakunta" #Old Z14
-﻿ SAT_ADJ: "Satakuntan" #Old Z14
-﻿ KLA: "Kola" #Old Z15
-﻿ KLA_ADJ: "Kolan" #Old Z15
- KRE: "Karelia" #Old Z16
-﻿ KRE_ADJ: "Karelian" #Old Z16
- LYD: "Lyddids" #Old Z17
-﻿ LYD_ADJ: "Lyddid" #Old Z17
- RAS: "Rashtrakutas" #Old Z18
-﻿ RAS_ADJ: "Rashtrakuta" #Old Z18
-﻿ KAL: "Kalinga Gangas" #Old Z19
-﻿ KAL_ADJ: "Kalinga Ganga" #Old Z19
-﻿ MLE: "Mlechchhas" #Old Z20
-﻿ MLE_ADJ: "Mlechchha" #Old Z20
- JAY: "Jayapalids" #Old Z21
-﻿ JAY_ADJ: "Jayapalid" #Old Z21
-﻿ TOM: "Tomaras" #Old Z22
-﻿ TOM_ADJ: "Tomara" #Old Z22
-﻿ KAI: "Kaivartas" #Old Z23
-﻿ KAI_ADJ: "Kaivarta" #Old Z23
- SEN: "Senajits" #Old Z24
-﻿ SEN_ADJ: "Senajit" #Old Z24
-﻿ NAD: "Nadia" #Old Z25
-﻿ NAD_ADJ: "Nadia"  #Old Z25
-﻿ PRI: "Prithipalids" #Old Z26
-﻿ PRI_ADJ: "Prithipalid" #Old Z26
- KUS: "Kusinagara" #Old Z27
-﻿ KUS_ADJ: "Kusinagaran" #Old Z27
- TRB: "Tirabhukti" #Old Z28
-﻿ TRB_ADJ: "Tirabhukti" #Old Z28
-﻿ BIH: "Bihar" #Old Z29
-﻿ BIH_ADJ: "Bihar" #Old Z29
-﻿ #PUN: "Punjab" #Old Z30
-﻿ #PUN_ADJ: "Punjab" #Old Z30
-﻿ BHM: "Bhumpalids" #Old Z31
-﻿ BHM_ADJ: "Bhumpalid" #Old Z31
-﻿ KOS: "Kosala" #Old Z32
-﻿ KOS_ADJ: "Kosala" #Old Z32
- KTC: "Kutch" #Old Z33
-﻿ KTC_ADJ: "Kutch" #Old Z33
  release_crimean_merchants_title: "Release Black Merchants"
  release_crimean_merchants_desc: "One of our oldest traditions is that of the Black Merchants. They've served for centuries enriching the coast of the Black Sea with their trade, but now suffer under our direct rule.  Shall we grant autonomy to these people?"
  release_permian_nation_title: "Release Perm"
@@ -129,98 +55,11 @@ l_english:
  flavor_itl.100.d: "Our nation has gone through a long period of hardship.  Now is the time of recovery."
  flavor_itl.100.a: "We honor those who came before us."
  flavor_itl.100.b: "We will forge new traditions."
- colonial_scandanavia: "Colonial Scandanavia"
- colonial_isles: "Colonial Isles"
- colonial_iberia: "Colonial Iberia" 
- colonial_italy: "Colonial Italy"
- colonial_low_countries: "Colonial Low Countries"
- colonial_germany: "Colonial Germany"
- colonial_balkans: "Colonial Balkans"
- colonial_anatolia: "Colonial Anatolia"
- colonial_baltics: "Colonial Baltics"
- colonial_gaul: "Colonial Gallia"
- colonial_ukraine: "Colonial Ruthenia"
- colonial_morocco: "Colonial Morocco"
- colonial_algeria: "Colonial Algeria"
- colonial_tripoli: "Colonial Tripoli"
- colonial_egypt: "Colonial Egypt"
- COLONIAL_REGION_NEW_CAPITAL_GetName: "New [Root.Capital.GetName]"
- COLONIAL_REGION_NEW_CAPITAL_GetName_ADJ: "New [Root.Capital.GetAdjective]"
- COLONIAL_SCANDANAVIA_Norden: "Norde"
- COLONIAL_SCANDANAVIA_Norden_ADJ: "Norden"
- COLONIAL_SCANDANAVIA_Root_Culture_GetName_Scandanavia: "[Root.GetAdjective] Scandanavia"
- COLONIAL_SCANDANAVIA_Root_Culture_GetName_Scandanavia_ADJ: "[Root.GetAdjective] Scandanavian"
- COLONIAL_ISLES_Britania: "Britania"
- COLONIAL_ISLES_Britania_ADJ: "Britanian"
- COLONIAL_ISLES_Avalon: "Avalon"
- COLONIAL_ISLES_Avalon_ADJ: "Avalonian"
- COLONIAL_Isles_Root_Culture_GetName_Britain: "[Root.GetAdjective] Britain"
- COLONIAL_Isles_Root_Culture_GetName_Britania_ADJ: "[Root.GetAdjective] British"
- COLONIAL_Iberia_Root_Culture_GetName_Iberia: "[Root.GetAdjective] Iberia"
- COLONIAL_Iberia_Root_Culture_GetName_Iberia_ADJ: "[Root.GetAdjective] Iberian"
- COLONIAL_Iberia_Root_Culture_GetName_Andalusia: "[Root.GetAdjective] Andalusia"
- COLONIAL_Iberia_Root_Culture_GetName_Andalusia_ADJ: "[Root.GetAdjective] Andalusian"
- COLONIAL_Italy_Root_Culture_GetName_Italy: "[Root.GetAdjective] Italy"
- COLONIAL_Italy_Root_Culture_GetName_Italy_ADJ: "[Root.GetAdjective] Italian"
- COLONIAL_Italy_Root_Culture_GetName_Sicily: "[Root.GetAdjective] Sicily"
- COLONIAL_Italy_Root_Culture_GetName_Sicily_ADJ: "[Root.GetAdjective] Sicilian"
- COLONIAL_Italy_Root_Culture_GetName_Lombardia: "[Root.GetAdjective] Lombardia"
- COLONIAL_Italy_Root_Culture_GetName_Lombardia_ADJ: "[Root.GetAdjective] Lombardian"
- COLONIAL_Netherlands_Root_Culture_GetName_Netherlands: "[Root.GetAdjective] Netherlands"
- COLONIAL_Netherlands_Root_Culture_GetName_Netherlands_ADJ: "[Root.GetAdjective] Dutch"
- COLONIAL_Netherlands_Root_Culture_GetName_Flanders: "[Root.GetAdjective] Flanders"
- COLONIAL_Netherlands_Root_Culture_GetName_Flanders_ADJ: "[Root.GetAdjective] Flemish"
- COLONIAL_Netherlands_Root_Culture_GetName_Belgium: "[Root.GetAdjective] Belgium"
- COLONIAL_Netherlands_Root_Culture_GetName_Belgium_ADJ: "[Root.GetAdjective] Belgian"
- COLONIAL_Germany_Root_Culture_GetName_Germania: "[Root.GetAdjective] Germania"
- COLONIAL_Germany_Root_Culture_GetName_Germania_ADJ: "[Root.GetAdjective] German"
- COLONIAL_Germany_Root_Culture_GetName_lotharingia: "[Root.GetAdjective] Lotharingia"
- COLONIAL_Germany_Root_Culture_GetName_lotharingia_ADJ: "[Root.GetAdjective] Lotharingian"
- COLONIAL_Germany_Root_Culture_GetName_deutsches: "[Root.GetAdjective] Deutchland"
- COLONIAL_Germany_Root_Culture_GetName_deutsches_ADJ: "[Root.GetAdjective] Deutchen"
- COLONIAL_Balkans_Root_Culture_GetName_Balkans: "[Root.GetAdjective] Balkans"
- COLONIAL_Balkans_Root_Culture_GetName_Balkans_ADJ: "[Root.GetAdjective] Balkan"
- COLONIAL_Balkans_Root_Culture_GetName_Slavia: "[Root.GetAdjective] Slavia"
- COLONIAL_Balkans_Root_Culture_GetName_Slavia_ADJ: "[Root.GetAdjective] Slavian"
- COLONIAL_Anatolia_Root_Culture_GetName_Anatolia: "[Root.GetAdjective] Anatolia"
- COLONIAL_Anatolia_Root_Culture_GetName_Anatolia_ADJ: "[Root.GetAdjective] Anatolian"
- COLONIAL_Anatolia_Root_Culture_GetName_Rum: "[Root.GetAdjective] Rum"
- COLONIAL_Anatolia_Root_Culture_GetName_Rum_ADJ: "[Root.GetAdjective] Ruman"
- COLONIAL_Anatolia_Root_Culture_GetName_Turkey: "[Root.GetAdjective] Turkey"
- COLONIAL_Anatolia_Root_Culture_GetName_Turkey_ADJ: "[Root.GetAdjective] Turkish"
- COLONIAL_Baltics_Root_Culture_GetName_Baltia: "[Root.GetAdjective] Baltia"
- COLONIAL_Baltics_Root_Culture_GetName_Baltia_ADJ: "[Root.GetAdjective] Baltic"
- COLONIAL_Baltics_Root_Culture_GetName_Prussia: "[Root.GetAdjective] Prussia"
- COLONIAL_Baltics_Root_Culture_GetName_Prussia_ADJ: "[Root.GetAdjective] Prussian"
- COLONIAL_Gaul_Root_Culture_GetName_Gaul: "[Root.GetAdjective] Gallia"
- COLONIAL_Gaul_Root_Culture_GetName_Gaul_ADJ: "[Root.GetAdjective] Gallican"
- COLONIAL_Gaul_Root_Culture_GetName_Francia: "[Root.GetAdjective] Francia"
- COLONIAL_Gaul_Root_Culture_GetName_Francia_ADJ: "[Root.GetAdjective] French"
- COLONIAL_Ukraine_Root_Culture_GetName_Ukraine: "[Root.GetAdjective] Ukraine"
- COLONIAL_Ukraine_Root_Culture_GetName_Ukraine_ADJ: "[Root.GetAdjective] Ukrainian"
- COLONIAL_Ukraine_Root_Culture_GetName_Ruthenia: "[Root.GetAdjective] Ruthenia"
- COLONIAL_Ukraine_Root_Culture_GetName_Ruthenia_ADJ: "[Root.GetAdjective] Ruthenian"
- COLONIAL_Morocco_Root_Culture_GetName_Maghreb: "[Root.GetAdjective] Maghreb"
- COLONIAL_Morocco_Root_Culture_GetName_Maghreb_ADJ: "[Root.GetAdjective] Maghrebian"
- COLONIAL_Morocco_Root_Culture_GetName_Morocco: "[Root.GetAdjective] Morocco"
- COLONIAL_Morocco_Root_Culture_GetName_Morocco_ADJ: "[Root.GetAdjective] Moroccan"
- COLONIAL_Algeria_Root_Culture_GetName_Algeria: "[Root.GetAdjective] Algeria"
- COLONIAL_Algeria_Root_Culture_GetName_Algeria_ADJ: "[Root.GetAdjective] Algerian"
- COLONIAL_Algeria_Root_Culture_GetName_Africa: "[Root.GetAdjective] Africa"
- COLONIAL_Algeria_Root_Culture_GetName_Africa_ADJ: "[Root.GetAdjective] African"
- COLONIAL_tripoli_Root_Culture_GetName_Tripoli: "[Root.GetAdjective] Tripoli"
- COLONIAL_tripoli_Root_Culture_GetName_Tripoli_ADJ: "[Root.GetAdjective] Tripolitanian"
- COLONIAL_tripoli_Root_Culture_GetName_Carthago: "[Root.GetAdjective] Carthage"
- COLONIAL_tripoli_Root_Culture_GetName_Carthago_ADJ: "[Root.GetAdjective] Carthaginian"
- COLONIAL_egypt_Root_Culture_GetName_Egypt: "[Root.GetAdjective] Egypt"
- COLONIAL_egypt_Root_Culture_GetName_Egypt_ADJ: "[Root.GetAdjective] Egyptian"
- COLONIAL_egypt_Root_Culture_GetName_Nile: "[Root.GetAdjective] Nile"
- COLONIAL_egypt_Root_Culture_GetName_Nile_ADJ: "[Root.GetAdjective] Nilean"
- cb_delenda_est: "$SECOND_NAME$ Delenda Est"
+ cb_delenda_est: "Insertname Delenda Est"
  cb_delenda_est_desc: "Recover Our Birthright"
  recover_promised_land: "Recover Our Birthright"
  INSERTNAME_DELENDA_EST: "$SECOND_NAME$ Must Be Destroyed"
- cb_die_die_die: "$ORDER$ War of $SECOND_NAME$'s Destruction"
+ cb_die_die_die: "War of Destruction"
  cb_die_die_die_desc: "Destroy the Enemies of Judea"
  die_die_die: "$ORDER$$FIRST$'s War of $SECOND$ Annihilation"
  DIE_DIE_DIE_WAR: "$ORDER$$FIRST$'s War of $SECOND$ Annihilation"
@@ -239,6 +78,25 @@ l_english:
  judean_events.4.a: "Where is my armor?"
  judean_events.4.b: "Tin soldiers are more my style."
  judean_events.4.c: "Shut up, squire, or I'll break my foot off in your ass. Now fetch me my favorite sword."
+ judean_events.Title5: "So about that death vow of theirs..."
+ judean_events.Desc5: "A Judean diplomat has arrived to tell us we will be destroyed."
+ judean_events.5.a: "Send him to the army, where he can learn true power."
+ judean_events.Title6: "So about that death vow of theirs..."
+ judean_events.Desc6: "A Judean diplomat has arrived to tell us we will be destroyed."
+ judean_events.6.a: "Send him to the army, where he can learn true power."
+ judean_events.Title7: "You stand before the Temple"
+ judean_events.Desc7: "The last defender has fled the holy city of $PROVINCENAME$, and the gates open up to our army.  All the glory and treasure of this ancient city lay before us, and the famous Temple awaits."
+ judean_events.7.a: "$MONARCHTITLE$ $MONARCH$, tear down these walls!"
+ judean_events.7.b: "We show mercy to the innocent and shall reap the rewards."
+ judean_events.Title8: "The Third Destruction"
+ judean_events.Desc8: "The messenger looks at $MONARCHTITLE$ $MONARCH$ with apprehension, his words hanging in the air. The great Temple destroye; our enemy triumphant.  The murmurs and wailing start in the far recesses of the chamber. Angry, accusing faces turn to our ruler.  How could this come about?"
+ judean_events.8.a: "We have been negligent in our duties to YWHW.  Now our suffering will not be heard."
+ the_third_temple: "The Third Temple"
+ desc_the_third_temple: "The First Temple, built by King Solomon, was destroyed by the invading Babylonians. The Second Temple, built under the auspices of Cyrus the Great of Persia, was razed by the Romas after a terrible siege. The Third Temple, built by the great Basileus Aryeh in 1121, shall stand for all eternity! From its position on Temple Mount, the magnificent building has become a dominant feature of Jerusalem, instantly recognizable from far away by travellers approaching the city. Truly, Solomon himself would have been moved to tears by the sight."
+ spared_the_temple: "Spared the Third Temple"
+ desc_spared_the_temple: "We did not destroy the Third Temple... this time."
+ destroyed_third_temple: "Destroyed the Third Temple"
+ desc_destroyed_third_temple: "We may have angered them a tiny bit.  Their weakness causes us no fear."
  judean_spearmen: "Jewish Spearmen"
  judean_spearmenDESCR: "Our focus on horse infantry has led to a lack of development of our foot infantry."
  judean_pikemen: "Jewish Pikemen"
@@ -326,3 +184,11 @@ l_english:
  desc_holy_holy_holy_inti: "We must control the holy places of Inti."
  holy_holy_holy_maya: "Own Maya holy places"
  desc_holy_holy_holy_maya: "We must control the holay places of the Mayans."
+ expand_or_die: "Expand or Die"
+ desc_expand_or_die: "We must expand to claim neighboring empty land before our enemies do."
+ judean: "Judean"
+ judean_desc: "With the Judean technology group, technology levels are standard cost (100%)."
+ know_the_battlefield: "Know the Battlefield"
+ desc_know_the_battlefield: "We shall lead our armies from the front, where glory awaits."
+ grace_period: "Grace Period"
+ desc_grace_period: "For some reason our rebels have calmed down for the time.  This will not last."

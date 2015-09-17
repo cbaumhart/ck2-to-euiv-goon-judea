@@ -1012,7 +1012,7 @@ tengri_pagan_reformed_rebels = {
 ######################################################################
 # Zunist Reformed rebels. Disgruntled fanatics.
 ######################################################################
-zoroastrian_rebels = {
+zunist_rebels = {
 
 	area = nation 					# Sticks to provinces of their nation
 	government = theocracy 			# Desires Theocracy
