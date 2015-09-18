@@ -280,6 +280,7 @@ function setprovinces{
         $seedestuary = $null
         #Get info from line
         $seedProvNum = $PSItem.Province_Number 
+        $seedParadoxName = $PSItem.Paradox_Name
         $seedProvName = $PSItem.Province_Name 
         if($PSItem.owner -ne ""){$seedOwner = $PSItem.Owner }
         if($PSItem.controller -ne ""){$seedController = $PSItem.Controller }
@@ -304,11 +305,19 @@ function setprovinces{
         if($PSItem.Native_Hostileness -ne "N/A"){$seedNativeHostile = $PSItem.Native_Hostileness} #
 
         #process name to sanitize weird unicode characters from file name so that Windows won't choke
-        $seedProvNameSafe = ($seedProvName -replace "š","s" -replace "'","" -replace " ","" -replace "Ö","O" -replace "ö","o" -replace "ä","a" -replace "æ","ae" -replace "ø","o" -replace "ü","u" -replace "è","e" -replace "É","E" -replace "ú","u" -replace "á","a" -replace "é","e" -replace "í","i" -replace "ó","o" -replace "Î","I" -replace "Å","A" -replace "ó","o" -replace '"','' -replace "ñ","n" -replace "ç","c" ).trim()
+        #$seedProvNameSafe = ($seedProvName -replace "š","s" -replace "'","" -replace " ","" -replace "Ö","O" -replace "ö","o" -replace "ä","a" -replace "æ","ae" -replace "ø","o" -replace "ü","u" -replace "è","e" -replace "É","E" -replace "ú","u" -replace "á","a" -replace "é","e" -replace "í","i" -replace "ó","o" -replace "Î","I" -replace "Å","A" -replace '"','' -replace "ñ","n" -replace "ç","c" ).trim()
         
         
-        Write-Host "Creating file for"$seedProvNum $seedProvNameSafe
-        $seedProvinceFileName = [string]($seedProvNum+" - "+$seedProvNameSafe+"_conv.txt")
+        
+        
+        IF($seedProvNum -le 34){ #No space by dashes for first 34 provinces
+            $seedProvinceFileName = [string]($seedProvNum+"-"+$seedParadoxName+".txt")#_conv.txt")
+        }
+        ELSE{
+            $seedProvinceFileName = [string]($seedProvNum+" - "+$seedParadoxName+".txt")#_conv.txt")
+        }
+        Write-Host "Creating file for" $seedProvinceFileName
+
         $seedProvinceFile = New-Item -ItemType File -Name $seedProvinceFileName -Path $provinceloc
         #Start adding content
         Add-Content -Value ("#" + $seedProvName + " - generated from datasheet") -Path $seedProvinceFile
@@ -376,6 +385,14 @@ function setprovinces{
             if(!($seedaddcore -contains $PSItem)){Add-Content -Value ("`tremove_core = " + $PSItem) -Path $seedProvinceFile}
         }
         Add-Content -value "}" -Path $seedProvinceFile
+        #Write controller stuff again so that it doesn't break like every single time.
+        Add-Content -value "1453.1.1 = {" -path $seedProvinceFile
+        Add-Content -value ("`towner = " + $seedOwner) -Path $seedProvinceFile
+        Add-Content -Value ("`tcontroller = " + $seedController) -Path $seedProvinceFile
+        Add-Content -Value ("`tculture = " + $seedCulture) -Path $seedProvinceFile
+        Add-Content -Value ("`treligion = " + $seedReligion) -Path $seedProvinceFile
+        Add-Content -Value "}"  -Path $seedProvinceFile
+        #Need a blank line at the end.
         Add-Content -Value "" -Path $seedProvinceFile
     }
 }

@@ -1,12 +1,5 @@
 To Do list:
 Fixes
-	Set up Bhumpalid provinces as Punjab - should be theirs
-[eventmanager.cpp:154]: Event #4400004 is triggered only, but does not have a 1 base-factor in events/Judea_Events.txt
-[history.cpp:764]: Unknown history file in country database - history/countries/JOM - Jomsvikings.txt
-[history.cpp:779]: ROM - Roman Empire is missing a history file.
-[history.cpp:779]: TEM - Knights Templar is missing a history file.
-[country.cpp:5664]: ROM can not find an infantry sub-unit for its 'notechgroup' unit type.
-[country.cpp:5664]: TEM can not find an infantry sub-unit for its 'notechgroup' unit type.
 	Fix rebel flags!!!!
 	Fix Judean tech group discoveries
 	Fix Tech group discoveries:
@@ -19,13 +12,12 @@ Fixes
 		nomad_group
 		high_american	
 	Fix RAS localization
+	Remove decisions from POL for union/PLC - why are these firing anyway?
+	
 	
 General
 	3. Make sure inti, nuhuatl, and maya religions can reform.
 	5. Add great project for building of 4th temple if 3rd destroyed in event.
-	2. Change countries in India to Indian tech group rather than Eastern
-	3. Change countries in Iberia to Western tech group
-	4. And France too
 	5. Fix Mayan traditions
 	6. Fix traditions of Choctaw, Navajo, Shoshone, Haida, Salish, Chinook, Blackfoot, Comanche, Kiowa, Assinboine, Cheyenne, Sioux, Pawnee, Osage, Miami, Fox, Ojibwe, Cree, Ottowa, Patowatomi, Suxquehhaneck, Pequot, Abenaki, Mikmaq, Tlapanec, Tuipiniquim, Potiguara, Tupinamba, Arawak, Mzab, Ajuuraan, Kaffa, Gujarat, Rashtrakutas, Kaivartas, Bihar, Kalinga Gangas, Nadia, Tripuna, Garhwal, Buryatia, Chavcheveny, Khodynt, Chukchi, Kamchadals, Ainu, Ireland, Gwynedd, Dehebeurth, Lithuania, Karelia, Kola, Germany, Anjou, Burgundy (kingdom), upper Lorraine, Portucale, Galacia, Cordoba, Murcia, Granada, 
 	9. Add minor religion rebels (Nestorian, Messalian)

@@ -148,6 +148,16 @@ country_event = {
 	}
 	mean_time_to_happen = {
 		months = 3
+	}	
+	immediate = {
+		hidden_effect = {
+			JUD = {
+				country_event = {
+					id = judean_events.9
+					days = 1
+				}
+			}
+		}
 	}
 	#immediate = { #Reset progress on Ignoring the Laws so one person can't totally fuck another intentionally with a hot potato.
 	#}
@@ -291,5 +301,27 @@ country_event = {
 		add_legitimacy = -25
 		add_devotion = -25
 		add_republican_tradition = -25
+	}
+}
+
+#Hidden event on new ruler to give grace period for ITL
+country_event = {
+	id = "judean_events.9"
+	title = "judean_events.Title9"
+	desc = "judean_events.Desc9"
+	picture = COURT_eventPicture
+	is_triggered_only = yes
+	trigger = {
+		tag = JUD
+	}
+	immediate = {
+		add_ruler_modifier = {
+			name = dont_haze_me_bro
+			duration = 730
+		}
+	}
+	option = {
+		name = "judean_events.9.a"
+		
 	}
 }

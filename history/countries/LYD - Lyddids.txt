@@ -2,7 +2,7 @@
 government = feudal_monarchy
 government_rank = 3
 mercantilism = 0.1
-technology_group = muslim
+technology_group = ottoman
 primary_culture = al_misr_arabic
 religion = shiite
 capital = 1128

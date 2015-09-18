@@ -2,7 +2,7 @@
 government = feudal_monarchy
 government_rank = 2
 mercantilism = 0.1
-technology_group = muslim
+technology_group = eastern
 primary_culture = czech
 religion = catholic
 capital = 266

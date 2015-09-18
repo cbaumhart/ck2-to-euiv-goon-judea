@@ -2,7 +2,7 @@
 government = absolute_monarchy
 government_rank = 2
 mercantilism = 0.1
-technology_group = eastern
+technology_group = western
 primary_culture = cosmopolitan_french
 religion = catholic
 capital = 227

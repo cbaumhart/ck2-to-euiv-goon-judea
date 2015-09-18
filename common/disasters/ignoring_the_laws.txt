@@ -23,6 +23,10 @@ ignoring_the_laws = {
 	}
 	
 	progress = {
+		modifier = {#Don't play hot potato to screw a new ruler. Should give -progress the first two years of rule.
+			factor = -0.5
+			has_ruler_modifier = dont_haze_me_bro
+		}
 		modifier = { #Frontier Khaganate
 			#Perm PRM
 			factor = 0.2
