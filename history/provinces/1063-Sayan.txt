@@ -1,4 +1,5 @@
 #Sayan - generated from datasheet
+discovered_by = judean
 base_tax = 1
 base_production = 1
 base_manpower = 1
@@ -607,11 +608,5 @@ native_hostileness = 3
 	remove_core = ZIM
 	remove_core = ZUN
 	remove_core = ZZZ
-}
-1453.1.1 = {
-	owner = 
-	controller = 
-	culture = 
-	religion = 
 }
 

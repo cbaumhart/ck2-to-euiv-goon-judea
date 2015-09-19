@@ -1,3 +1,9 @@
+#####################################################
+# Disaster: Ignoring The Laws						#
+# Written by: Sloshmonger							#
+# All Rights Reserved								#
+#####################################################
+
 ignoring_the_laws = {
 	potential = {
 		tag = JUD #Former Z13
@@ -138,7 +144,7 @@ ignoring_the_laws = {
 					CRI = {
 						exists = yes
 						vassal_of = ROOT
-						government = merchant_republic	#Goverment form of merchant republic
+						#government = merchant_republic	#Goverment form of merchant republic
 					}
 				}
 				government = theocracy
@@ -164,7 +170,7 @@ ignoring_the_laws = {
 			100 = ignoring_the_laws.3
 			100 = ignoring_the_laws.4
 			100 = ignoring_the_laws.5
-			100 = ignoring_the_laws.6
+			20 = ignoring_the_laws.6
 			100 = ignoring_the_laws.7
 			100 = ignoring_the_laws.8
 		}

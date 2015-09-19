@@ -1,4 +1,5 @@
-﻿function fixjudea {
+﻿<#
+function fixjudea {
     $oldtag = " = Z13" #the tag from the converted game
     $newtag = " = JUD #Former Z13" #make sure this is unique
     #location of mod
@@ -216,7 +217,7 @@ function getprovinces {
                 
                 
 
-                #>
+                
 
             }
         }
@@ -243,7 +244,7 @@ function getprovinces {
     }
     $worlddata | Export-Csv -Path 'C:\temp\euiv.txt' -Delimiter "`t" -Encoding BigEndianUnicode -NoTypeInformation 
 }
-
+#>
 function setprovinces{
     $provinceloc = "C:\Users\cbaumhart\Documents\GitHub\ck2-to-euiv-goon-judea\history\provinces"
     $seedfile = "C:\Users\cbaumhart\Documents\GitHub\ck2-to-euiv-goon-judea\provinces 2.txt"
@@ -303,13 +304,9 @@ function setprovinces{
         if($PSItem.Native_Size -ne "N/A"){$seedNativeSize = $PSItem.Native_Size} #
         if($PSItem.Native_Ferocity -ne "N/A"){$seedNativeFerocity = $PSItem.Native_Ferocity} #
         if($PSItem.Native_Hostileness -ne "N/A"){$seedNativeHostile = $PSItem.Native_Hostileness} #
-
         #process name to sanitize weird unicode characters from file name so that Windows won't choke
         #$seedProvNameSafe = ($seedProvName -replace "š","s" -replace "'","" -replace " ","" -replace "Ö","O" -replace "ö","o" -replace "ä","a" -replace "æ","ae" -replace "ø","o" -replace "ü","u" -replace "è","e" -replace "É","E" -replace "ú","u" -replace "á","a" -replace "é","e" -replace "í","i" -replace "ó","o" -replace "Î","I" -replace "Å","A" -replace '"','' -replace "ñ","n" -replace "ç","c" ).trim()
-        
-        
-        
-        
+
         IF($seedProvNum -le 34){ #No space by dashes for first 34 provinces
             $seedProvinceFileName = [string]($seedProvNum+"-"+$seedParadoxName+".txt")#_conv.txt")
         }
@@ -318,7 +315,7 @@ function setprovinces{
         }
         Write-Host "Creating file for" $seedProvinceFileName
 
-        $seedProvinceFile = New-Item -ItemType File -Name $seedProvinceFileName -Path $provinceloc
+        $seedProvinceFile = New-Item -ItemType File -Name $seedProvinceFileName -Path $provinceloc -Force
         #Start adding content
         Add-Content -Value ("#" + $seedProvName + " - generated from datasheet") -Path $seedProvinceFile
 
@@ -386,13 +383,38 @@ function setprovinces{
         }
         Add-Content -value "}" -Path $seedProvinceFile
         #Write controller stuff again so that it doesn't break like every single time.
-        Add-Content -value "1453.1.1 = {" -path $seedProvinceFile
-        Add-Content -value ("`towner = " + $seedOwner) -Path $seedProvinceFile
-        Add-Content -Value ("`tcontroller = " + $seedController) -Path $seedProvinceFile
-        Add-Content -Value ("`tculture = " + $seedCulture) -Path $seedProvinceFile
-        Add-Content -Value ("`treligion = " + $seedReligion) -Path $seedProvinceFile
-        Add-Content -Value "}"  -Path $seedProvinceFile
+        if($seedOwner -ne $null){
+            Add-Content -value "1453.1.1 = {" -path $seedProvinceFile
+            Add-Content -value ("`towner = " + $seedOwner) -Path $seedProvinceFile
+            Add-Content -Value ("`tcontroller = " + $seedController) -Path $seedProvinceFile
+            Add-Content -Value ("`tculture = " + $seedCulture) -Path $seedProvinceFile
+            Add-Content -Value ("`treligion = " + $seedReligion) -Path $seedProvinceFile
+            Add-Content -Value "}"  -Path $seedProvinceFile
+        }
         #Need a blank line at the end.
         Add-Content -Value "" -Path $seedProvinceFile
     }
+}
+
+function deploymod{
+    $strGit = 'C:\Users\cbaumhart\Documents\GitHub\ck2-to-euiv-goon-judea\'
+    $strMod = 'C:\Users\cbaumhart\Documents\Paradox Interactive\Europa Universalis IV\mod'
+    $gitlocation = resolve-path -path $strGit
+    $modlocation = resolve-path -path $strmod
+    $modfileslocation = join-path -path $strMod -childPath 'Judea'
+    #First, remove files in mod folder
+    get-childitem -Path $modfileslocation -Recurse | foreach { Remove-Item $_.FullName -Force -Recurse }
+    #then, copy .mod file
+    $dotmodfile = get-item -Path (Join-Path -Path $gitlocation -childPath 'Judea.mod')
+    Copy-Item $dotmodfile.FullName -destination $modlocation -force
+    #then, copy mod files and folders
+    Get-Item -path (join-path -path $gitlocation -childpath 'common') | foreach { copy-item $_.FullName -destination $modfileslocation -Recurse }
+    Get-Item -path (join-path -path $gitlocation -childpath 'decisions')  | foreach { copy-item $_.FullName -destination $modfileslocation -Recurse }
+    Get-Item -path (join-path -path $gitlocation -childpath 'events')  | foreach { copy-item $_.FullName -destination $modfileslocation -Recurse }
+    get-item -path (join-path -path $gitlocation -childpath 'gfx')  | foreach { copy-item $_.FullName -destination $modfileslocation -Recurse }
+    Get-Item -path (join-path -path $gitlocation -childpath 'history')  | foreach { copy-item $_.FullName -destination $modfileslocation -Recurse }
+    get-item -path (join-path -path $gitlocation -childpath 'interface')  | foreach { copy-item $_.FullName -destination $modfileslocation -Recurse }
+    get-item -path (join-path -path $gitlocation -childpath 'localisation')  | foreach { copy-item $_.FullName -destination $modfileslocation -Recurse }
+    get-item -path (join-path -path $gitlocation -childpath 'map')  | foreach { copy-item $_.FullName -destination $modfileslocation -Recurse }
+
 }

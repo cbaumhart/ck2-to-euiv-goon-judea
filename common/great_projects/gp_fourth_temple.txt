@@ -1,0 +1,12 @@
+fourth_temple = { #The Fourth Temple | fill with bs like the 3rd temple.
+	#ambient_object = #Nothing yet, you graphical philistine
+	province = 379
+	is_canal = no
+	time = 240
+	modifier = {
+		local_missionary_strength = 0.1
+		fort_level = 1
+		local_defensiveness = 0.2
+		local_tax_modifier = 0.25
+	}
+}

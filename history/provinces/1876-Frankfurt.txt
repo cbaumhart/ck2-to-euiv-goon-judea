@@ -8,6 +8,7 @@ religion = catholic
 is_city = yes
 discovered_by = eastern
 discovered_by = western
+discovered_by = judean
 base_tax = 7
 base_production = 8
 base_manpower = 7

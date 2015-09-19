@@ -2,6 +2,7 @@
 owner = NPL
 controller = NPL
 add_core = GUG
+add_core = NPL
 culture = tibetan
 religion = vajrayana
 is_city = yes
@@ -418,7 +419,6 @@ trade_goods = wool
 	remove_core = NOL
 	remove_core = NOR
 	remove_core = NOV
-	remove_core = NPL
 	remove_core = NRM
 	remove_core = NSA
 	remove_core = NUB

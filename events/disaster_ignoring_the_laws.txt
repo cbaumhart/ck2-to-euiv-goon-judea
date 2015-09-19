@@ -1,9 +1,14 @@
-#Events for disaster Ignoring the Laws
-#Written by sloshmonger
-#I've broken the game and everyone is rebelling
 namespace = ignoring_the_laws
+#####################################################
+# Disaster Events: Ignoring The Laws				#
+# Written by: Sloshmonger							#
+# All Rights Reserved								#
+#####################################################
 
-country_event = {
+
+
+
+country_event = { #Start the fun
 	id = ignoring_the_laws.1
 	title = "flavor_itl.1.t"
 	desc = "flavor_itl.1.d"
@@ -66,7 +71,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { #Heretics rise up
 	id = ignoring_the_laws.2
 	title = "flavor_itl.2.t"
 	desc = "flavor_itl.2.d"
@@ -161,7 +166,7 @@ country_event = {
 	}
 }
 
-country_event = { 
+country_event = { #More Jewish rebels
 	id = ignoring_the_laws.3
 	title = "flavor_itl.3.t"
 	desc = "flavor_itl.3.d"
@@ -204,7 +209,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { #nationalists rise up
 	id = ignoring_the_laws.4
 	title = "flavor_itl.4.t"
 	desc = "flavor_itl.4.d"
@@ -213,6 +218,11 @@ country_event = {
 	mean_time_to_happen = { days = 1}
 	trigger = {
 		not = { has_country_modifier = disorder }
+		NOT = {
+			all_owned_province = {
+				has_owner_accepted_culture = yes
+			}
+		}
 	}
 	option = { #Traitors. Let us show them the error in their way.
 		name = "flavor_itl.4.a"
@@ -256,13 +266,22 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { #Reactionaries
 	id = ignoring_the_laws.5
 	title = "flavor_itl.5.t"
 	desc = "flavor_itl.5.d"
 	picture = ANGRY_MOB_eventPicture
 	is_triggered_only = yes
 	mean_time_to_happen = { days = 1}
+	trigger = {
+		any_owned_province = {
+			OR = {
+				has_province_modifier = religious_violence
+				has_province_modifier = forced_conversion
+			}
+			NOT = { units_in_province = 1 }
+		}
+	}
 	option = { #The poor bastards have their hearts in the right place. Too bad they must die.
 		name = "flavor_itl.5.a"
 		random_owned_province = {
@@ -294,7 +313,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { #Fuck you, Judea. No, really, you're fucked. 1.5% chance every month, so 42% at 3 years, 66% at 6 years. Don't dawdle.
 	id = ignoring_the_laws.6
 	title = "flavor_itl.6.t"
 	desc = "flavor_itl.6.d"
@@ -312,15 +331,17 @@ country_event = {
 		name = "flavor_itl.6.a"
 		add_prestige = -5
 		hidden_effect = {
-			country_event = {
-				id = ignoring_the_laws.9 #This doesn't work in 0.1
-				days = 2
+			every_neighbor_country = {
+				country_event = {
+					id = ignoring_the_laws.9 
+					days = 1
+				}
 			}
 		}
 	}
 }
 
-country_event = {
+country_event = { #peasants are revolting.  Ok, sure they don't look good, but what are they doing?
 	id = ignoring_the_laws.7
 	title = "flavor_itl.7.t"
 	desc = "flavor_itl.7.d"
@@ -362,7 +383,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { #Noble rebels
 	id = ignoring_the_laws.8
 	title = "flavor_itl.8.t"
 	desc = "flavor_itl.8.d"
@@ -392,7 +413,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { #Event for neighbors to gangbang Judea.
 	id = ignoring_the_laws.9
 	title = "flavor_itl.9.t"
 	desc = "flavor_itl.9.d"
@@ -411,6 +432,7 @@ country_event = {
 				limit = {
 					owned_by = JUD
 					NOT = { is_core = ROOT }
+					NOT = { is_claim = ROOT }
 				}
 				add_claim = ROOT
 			}
@@ -419,7 +441,7 @@ country_event = {
 #	mean_time_to_happen = { days = 1}
 	option = { #They will pay for their hubris
 		name = "flavor_itl.9.a"
-		ai_chance = { factor = 75 }
+		ai_chance = { factor = 65 }
 		declare_war_with_cb = {
 			who = JUD
 			casus_belli = cb_conquest
@@ -429,15 +451,15 @@ country_event = {
 		add_legitimacy = 20
 		set_country_flag = kill_judea
 	}
-	#option = { #They're big and scary
-	#	name = flavor_itl.9.b
-	#	ai_chance = { factor = 25 }
-	#	add_prestige = -25
-	#	add_stability = -1
-	#}
+	option = { #They're big and scary
+		name = flavor_itl.9.b
+		ai_chance = { factor = 35 }
+		add_prestige = -25
+		add_stability = -1
+	}
 }
 
-country_event = {
+country_event = { #End this crap.
 	id = ignoring_the_laws.100
 	title = "flavor_itl.100.t"
 	desc = "flavor_itl.100.d"

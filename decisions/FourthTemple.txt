@@ -1,0 +1,60 @@
+country_decisions = {
+	construct_fourth_temple = {
+		major = yes
+		potential = {
+			379 = {
+				has_province_flag = third_temple_destroyed_nice_job_asshole
+			}
+			religion = jewish
+			OR = {
+				ai = no
+				AND = {
+					treasury = 25000
+					owns_or_vassal_of = 379
+				}
+			}
+			has_discovered = 379
+			adm_tech = 20
+		}
+		allow = {
+			owns_or_vassal_of = 379
+			is_subject = no
+			adm_tech = 26
+			treasury = 25000
+		}
+		effect = {
+			add_treasury = -25000
+			379 = { #Jerusalem
+				add_great_project = fourth_temple
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	cancel_fourth_temple = {
+		major = yes
+		potential = {
+			ai = no
+			owns_or_vassal_of = 379
+			is_subject = no
+			379 = {
+				has_construction = big_temple
+			}
+		}
+		allow = {
+			379 = {
+				has_construction = big_temple
+			}
+		}
+		effect = {
+			379 = {
+				cancel_construction = big_temple
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+}

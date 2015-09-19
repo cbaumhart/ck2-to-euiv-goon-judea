@@ -6,6 +6,7 @@ culture = uyghur
 religion = tengri_pagan_reformed 
 is_city = yes
 discovered_by = nomad_group
+discovered_by = judean
 base_tax = 2
 base_production = 3
 base_manpower = 4

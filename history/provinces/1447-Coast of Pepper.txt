@@ -1,6 +1,7 @@
 #Coast of Pepper - generated from datasheet
 discovered_by = indian
 discovered_by = sub_saharan
+discovered_by = judean
 fort_15th = no
 1453.1.1 = {
 	remove_core = AAC
@@ -601,11 +602,5 @@ fort_15th = no
 	remove_core = ZIM
 	remove_core = ZUN
 	remove_core = ZZZ
-}
-1453.1.1 = {
-	owner = 
-	controller = 
-	culture = 
-	religion = 
 }
 

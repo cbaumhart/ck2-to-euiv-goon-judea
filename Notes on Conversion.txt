@@ -1,25 +1,93 @@
+#FIXES
 To Do list:
-Fixes
-	Fix rebel flags!!!!
-	Fix Judean tech group discoveries
-	Fix Tech group discoveries:
-		Eastern
-		Western
-		Muslim
-		Chinese
-		Indian
-		sub_saharan
-		nomad_group
-		high_american	
+	Test Cases:
+
+
+Fixes to be done
+	Trade Routes:
+	
+		
+	Events:
+	
+	Fix rebel flags!!!! #Last resort, spawn each rebel in game and note which flag is used.  Then switch flag files around so the correct picture shows up even if it's the wrong name.  At least the wrong flags have been consistent session to session
 	Fix RAS localization
-	Remove decisions from POL for union/PLC - why are these firing anyway?
+	Fix traditions of 
+		Maya
+		Choctaw, 
+		Navajo, 
+		Shoshone, 
+		Haida, 
+		Salish, 
+		Chinook, 
+		Blackfoot, 
+		Comanche, 
+		Kiowa, 
+		Assinboine, 
+		Cheyenne, 
+		Sioux, 
+		Pawnee, 
+		Osage, 
+		Miami, 
+		Fox, 
+		Ojibwe, 
+		Cree, 
+		Ottowa, 
+		Patowatomi, 
+		Suxquehhaneck, 
+		Pequot, 
+		Abenaki, 
+		Mikmaq, 
+		Tlapanec, 
+		Tuipiniquim, 
+		Potiguara, 
+		Tupinamba, 
+		Arawak, 
+		Mzab, 
+		Ajuuraan, 
+		Kaffa, 
+		Gujarat, 
+		Rashtrakutas, 
+		Kaivartas, 
+		Bihar, 
+		Kalinga Gangas
+		Nadia
+		Tripuna
+		Garhwal, 
+		Buryatia, 
+		Chavcheveny, 
+		Khodynt, 
+		Chukchi, 
+		Kamchadals, 
+		Ainu, 
+		Ireland, 
+		Gwynedd, 
+		Dehebeurth, 
+		Lithuania, 
+		Karelia, 
+		Kola, 
+		Germany, 
+		Anjou, 
+		Burgundy (kingdom), 
+		upper Lorraine, 
+		Portucale, 
+		Galacia, 
+		Cordoba, 
+		Murcia, 
+		Granada, 
 	
+From the logs: 
+
+#IDEAS
 	
+Fourth Temple
+	#Looks like great projects are not totally mod-able.  WHile you can create new great projects and new events, you still need to be able to access the assets. Additionally, calling the project events seems to be hidden 
+	Create decisions to start and cancel
+	Create events
+	Create Great_project item
+	Set ambient object in correct place
+	create visual object for temple -- will need help on that
 General
 	3. Make sure inti, nuhuatl, and maya religions can reform.
-	5. Add great project for building of 4th temple if 3rd destroyed in event.
-	5. Fix Mayan traditions
-	6. Fix traditions of Choctaw, Navajo, Shoshone, Haida, Salish, Chinook, Blackfoot, Comanche, Kiowa, Assinboine, Cheyenne, Sioux, Pawnee, Osage, Miami, Fox, Ojibwe, Cree, Ottowa, Patowatomi, Suxquehhaneck, Pequot, Abenaki, Mikmaq, Tlapanec, Tuipiniquim, Potiguara, Tupinamba, Arawak, Mzab, Ajuuraan, Kaffa, Gujarat, Rashtrakutas, Kaivartas, Bihar, Kalinga Gangas, Nadia, Tripuna, Garhwal, Buryatia, Chavcheveny, Khodynt, Chukchi, Kamchadals, Ainu, Ireland, Gwynedd, Dehebeurth, Lithuania, Karelia, Kola, Germany, Anjou, Burgundy (kingdom), upper Lorraine, Portucale, Galacia, Cordoba, Murcia, Granada, 
 	9. Add minor religion rebels (Nestorian, Messalian)
 	12. ?Should trade be changed? maybe just st. lawrence heading to cheseapeake, cheseapeake to Caribbean?
 	15. Add zealots to events - give things or gold upon dfensive holy war.

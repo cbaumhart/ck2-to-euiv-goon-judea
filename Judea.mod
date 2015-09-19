@@ -11,6 +11,7 @@ tags = {
 	"New Nations"
 	"Technologies"
 }
+replace_path = "commmon/tradenodes/00_tradenodes.txt"
 replace_path = "common/countries/Perm.txt"
 replace_path = "history/countries/PRM - Perm.txt"
 replace_path = "common/countries/Ireland.txt"
@@ -69,6 +70,7 @@ replace_path = "common/countries/Malacca.txt"
 replace_path = "history/countries/MLC - Malacca.txt"
 replace_path = "common/countries/Japan.txt"
 replace_path = "history/countries/JAP - Japan.txt"
+replace_path = "history/countries/NPL - Nepal.txt"
 replace_path = "common/countries/Haida.txt"
 replace_path = "history/countries/HDA - Haida.txt"
 replace_path = "history/diplomacy/Scandinavian_alliances.txt"
@@ -108,6 +110,7 @@ replace_path = "gfx/flags/heretic_rebels.tga"
 replace_path = "gfx/flags/hinduism_rebels.tga"
 replace_path = "gfx/flags/ibadi_rebels.tga"
 replace_path = "gfx/flags/ikko_ikki_rebels.tga"
+replace_path = "gfx/flags/inti_rebels.tga"
 replace_path = "gfx/flags/jewish_rebels.tga"
 replace_path = "gfx/flags/lollard_rebels.tga"
 replace_path = "gfx/flags/mahayana_rebels.tga"
@@ -153,6 +156,7 @@ replace_path = "common/bookmarks/thirty_years_war.txt"
 replace_path = "common/bookmarks/war_of_leauge_of_cambria.txt"
 replace_path = "common/bookmarks/war_of_the_quadruple_alliance.txt"
 replace_path = "common/bookmarks/war_of_the_spanish_succession.txt"
+replace_path = "map/ambient_objects.txt"
 
 #Release Notes
 
@@ -195,7 +199,7 @@ replace_path = "common/bookmarks/war_of_the_spanish_succession.txt"
 #		Added Judean tech group
 #	War types
 #		Added war type Insertname Delenda Est. Applies only to JUD, makes it easier for defender to claim more stuff.
-#		Added war type for While The Enemies... Applies to only countries which have conquered provinces from judea.  Set for Byz & Lyddids in pregame.
+#		Added war type for While The Enemies... Applies to only countries which have conquered provinces from Judea.  Set for Byz & Lyddids in pregame.
 #	Ideas
 #		Added Judean Ideas for Judea, Cumania, Turkestan, Perm & Volga Bulgaria
 #	On Actions

@@ -1,4 +1,11 @@
 namespace = judean_events
+#####################################################
+# Country Events: Judean Events						#
+# Written by: Sloshmonger							#
+# All Rights Reserved								#
+#####################################################
+
+
 
 #Event that gives historical rival to any country owning a Judean core
 country_event = {
@@ -273,6 +280,8 @@ country_event = {
 				}
 			}
 		}
+		remove_building = temple
+		remove_building = cathedral
 		add_treasury = 500
 	}
 	option = { #Spare it, and reap the rewards of mercy
@@ -295,6 +304,11 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		tag = JUD
+	}
+	immediate = {
+		379 = {
+			set_province_flag = third_temple_destroyed_nice_job_asshole
+		}
 	}
 	option = { #We have forsaken our duties to YWHW
 		name = "judean_events.8.a"

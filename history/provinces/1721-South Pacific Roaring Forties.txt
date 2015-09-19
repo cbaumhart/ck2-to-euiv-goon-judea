@@ -600,10 +600,4 @@ fort_15th = no
 	remove_core = ZUN
 	remove_core = ZZZ
 }
-1453.1.1 = {
-	owner = 
-	controller = 
-	culture = 
-	religion = 
-}
 

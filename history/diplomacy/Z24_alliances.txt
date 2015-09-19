@@ -1,0 +1,24 @@
+vassal = {
+	first = SEN
+	second = NAD
+	start_date = 1444.11.11
+	end_date = 1900.1.1
+}
+vassal = {
+	first = SEN
+	second = PRI
+	start_date = 1444.11.11
+	end_date = 1900.1.1
+}
+vassal = {
+	first = SEN
+	second = KUS
+	start_date = 1444.11.11
+	end_date = 1900.1.1
+}
+vassal = {
+	first = SEN
+	second = TRB
+	start_date = 1444.11.11
+	end_date = 1900.1.1
+}

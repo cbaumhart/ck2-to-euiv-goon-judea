@@ -6,6 +6,7 @@ culture = oirats
 religion = sunni
 is_city = yes
 discovered_by = nomad_group
+discovered_by = judean
 base_tax = 1
 base_production = 1
 base_manpower = 2

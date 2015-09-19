@@ -1,0 +1,36 @@
+namespace = temple_events
+
+#Wall Collapse
+province_event = {
+	id = temple_events.1
+	title = "temple_events.1.title" #Wall collapses at Fourth Temple site
+	desc = "temple_events.1.desc" #Whether it was poor materials or poor methods, the outcome is the same. A large section of wall has collapsed at the site of the Fourth Temple, killing and wounding dozens and potentially setting the project back months.
+	picture = PLAGUE_eventPicture
+	trigger = {
+		has_construction = big_temple
+	}
+	mean_time_to_happen = {
+		months = 300
+	}
+	option = { #Send in more men, and apologize for any bodies we step over.
+		name = "temple_events.1.a"
+		ai_chance = {factor = 25}
+		owner = {
+			add_manpower = -2000
+			add_adm_power = -100
+		}
+	}
+	option = {#We must work to prevent these types of incidents in the future.
+		name = "temple_events.1.b"
+		ai_chance = { factor = 75 }
+		add_construction_progress = -0.05 #Extend project by 5%
+	}
+}
+#Lack of construction materials
+#Workers complain of lack of support
+#Planners forgot to take into account the Sabbath
+#Good engineers help out
+#War impedes construction
+#sabotage from religious minority
+#Good volunteers pitch in
+#construction finished yay
