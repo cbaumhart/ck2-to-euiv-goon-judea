@@ -1,19 +1,19 @@
 groups = {
 	western = {
 		modifier = 0
-		start_level = 3
+		start_level = 4
 		cav_to_inf_ratio = 0.5
 		trade_company = yes
 	}
 	eastern = {
 		modifier = 0.20
-		start_level = 3
+		start_level = 4
 		cav_to_inf_ratio = 0.6
 		trade_company = yes
 	}
 	ottoman = {
 		modifier = 0.25
-		start_level = 3
+		start_level = 4
 		cav_to_inf_ratio = 0.5
 	}
 	muslim = {
@@ -23,13 +23,13 @@ groups = {
 	}
 	indian = {
 		modifier = 0.5
-		start_level = 2
+		start_level = 3
 		cav_to_inf_ratio = 0.5
 		power = -1
 	}
 	chinese = {
 		modifier = 0.5
-		start_level = 2
+		start_level = 3
 		cav_to_inf_ratio = 0.5
 		power = -2
 	}
@@ -41,41 +41,41 @@ groups = {
 	}
 	sub_saharan = {
 		modifier = 1.0
-		start_level = 1
+		start_level = 2
 		cav_to_inf_ratio = 0.5
 		power = -3
 	}
 	north_american = {
 		modifier = 2.5
-		start_level = 1
+		start_level = 2
 		cav_to_inf_ratio = 0.5
 	}
 	mesoamerican = {
 		modifier = 1.5
-		start_level = 1
+		start_level = 2
 		cav_to_inf_ratio = 0.5
 		power = -2
 	}
 	south_american = {
 		modifier = 1.5
-		start_level = 1
+		start_level = 2
 		cav_to_inf_ratio = 0.5
 		power = -2
 	}
 	andean = {
 		modifier = 1.5
-		start_level = 1
+		start_level = 2
 		cav_to_inf_ratio = 0.5
 	}
 	high_american = {
 		modifier = 0
-		start_level = 3
+		start_level = 4
 		cav_to_inf_ratio = 0.5
 		trade_company = yes
 	}
 	judean = {
 		modifier = 0
-		start_level = 3
+		start_level = 4
 		cav_to_inf_ratio = 1
 		trade_company = yes
 		#allow_westernize = no
