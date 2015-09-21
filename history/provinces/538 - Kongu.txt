@@ -1,7 +1,7 @@
 #Kongu - generated from datasheet
-owner = RAS #Former Z18
-controller = RAS #Former Z18
-add_core = RAS #Former Z18
+owner = RSH #Former Z18
+controller = RSH #Former Z18
+add_core = RSH #Former Z18
 culture = tamil
 religion = hinduism
 is_city = yes
@@ -619,8 +619,8 @@ add_local_autonomy = 0
 	remove_core = ZZZ
 }
 1453.1.1 = {
-	owner = RAS #Former Z18
-	controller = RAS #Former Z18
+	owner = RSH #Former Z18
+	controller = RSH #Former Z18
 	culture = tamil
 	religion = hinduism
 }

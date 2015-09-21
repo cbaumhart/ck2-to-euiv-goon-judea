@@ -29,8 +29,8 @@ l_english:
  KCA_ADJ: "Calatrava" #Old Z09
  PTC: "Portucale" #Old Z10
  PTC_ADJ: "Portucalese" #Old Z10
- MUR: "Murcia" #Old Z11
- MUR_ADJ: "Murcian" #Old Z11
+ MRC: "Murcia" #Old Z11
+ MRC_ADJ: "Murcian" #Old Z11
  CRD: "Cordoba" #Old Z12
  CRD_ADJ: "Cordoban" #Old Z12
  SAT: "Satakunta" #Old Z14
@@ -41,8 +41,8 @@ l_english:
  KRE_ADJ: "Karelian" #Old Z16
  LYD: "Lyddids" #Old Z17
  LYD_ADJ: "Lyddid" #Old Z17
- RAS: "Rashtrakutas" #Old Z18
- RAS_ADJ: "Rashtrakuta" #Old Z18
+ RSH: "Rashtrakutas" #Old Z18
+ RSH_ADJ: "Rashtrakuta" #Old Z18
  KAL: "Kalinga Gangas" #Old Z19
  KAL_ADJ: "Kalinga Ganga" #Old Z19
  MLE: "Mlechchhas" #Old Z20

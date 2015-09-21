@@ -11,7 +11,8 @@ tags = {
 	"New Nations"
 	"Technologies"
 }
-replace_path = "commmon/tradenodes/00_tradenodes.txt"
+#replace_path = "commmon/tradenodes/00_tradenodes.txt"
+replace_path = "event/CanalEvents.txt"
 replace_path = "common/countries/Perm.txt"
 replace_path = "history/countries/PRM - Perm.txt"
 replace_path = "common/countries/Ireland.txt"
@@ -157,61 +158,3 @@ replace_path = "common/bookmarks/war_of_leauge_of_cambria.txt"
 replace_path = "common/bookmarks/war_of_the_quadruple_alliance.txt"
 replace_path = "common/bookmarks/war_of_the_spanish_succession.txt"
 replace_path = "map/ambient_objects.txt"
-
-#Release Notes
-
-#Release 0.1
-#	Bookmarks
-#		Added bookmark for 1453 1 1 with Judea as only interesting nation
-#	Countries
-#		Added Perm
-#		Added Crimea
-#		Changed Crimea to default to Merchant Republic
-#		Added Volga Bulgaria
-#		Added Cumania
-#		Added Turkestan
-#		Fixed tech groups for a lot of converted countries
-#	Decisions
-#		Added decision to release Crimea as vassal
-#		Added decision to release Perm as vassal
-#		Added decision to release Volga Bulgaria as vassal
-#		Added decision to release Cumania as vassal
-#		Added decision to release Turkestan as vassal
-#	Disasters
-#		Added Ignoring The Laws
-#	Events	
-#		Added events for disaster Ignoring The Laws
-#		Added events for Judea and neighbours
-#		Added Third Temple events
-#	Event Modifiers
-#		Added Affirmed Tradition modifier
-#		Added Overturned Tradition modifier
-#		Added The Third Temple provincial modifier for Jerusalem
-#	Rebels
-#		Added ability for Jewish rebels to turn JUD into theocracy
-#	History / Provinces
-#		Rebalanced base tax, production and manpower globally - generally more manpower, similar tax/production
-#		Added colonial regions for Europe
-#	Defines
-#		Changed some stuff. Don't remember what.
-#	Technology
-#		Added Trade Companies for High American, Eastern, Judean & Western technology
-#		Added Judean tech group
-#	War types
-#		Added war type Insertname Delenda Est. Applies only to JUD, makes it easier for defender to claim more stuff.
-#		Added war type for While The Enemies... Applies to only countries which have conquered provinces from Judea.  Set for Byz & Lyddids in pregame.
-#	Ideas
-#		Added Judean Ideas for Judea, Cumania, Turkestan, Perm & Volga Bulgaria
-#	On Actions
-#		Added Judean event for peace agreement
-#	Units
-#		Added units for Judean tech group.
-#	Graphics
-#		Fixed Rebel Flags - Failed
-#		Added Flags for some missing countries
-#	Wars
-#		Added war between Byz & Jud at start
-#	Triggered Modifiers
-#		Added modifiers for most of the world's religions for controlling their holy provinces. They won't show up until you own one of the needed provinces.
-#		Added modifier to give a country a colonist if there is an open province next to them
-#		Added modifier to make rebels less likely the first couple of years, so the large nations that exist don't blow up right away.

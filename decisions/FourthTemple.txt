@@ -39,17 +39,17 @@ country_decisions = {
 			owns_or_vassal_of = 379
 			is_subject = no
 			379 = {
-				has_construction = big_temple
+				has_construction = canal
 			}
 		}
 		allow = {
 			379 = {
-				has_construction = big_temple
+				has_construction = canal
 			}
 		}
 		effect = {
 			379 = {
-				cancel_construction = big_temple
+				cancel_construction = canal
 			}
 		}
 		ai_will_do = {

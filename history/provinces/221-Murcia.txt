@@ -1,7 +1,7 @@
 #Murcia - generated from datasheet
-owner = MUR #Former Z11
-controller = MUR #Former Z11
-add_core = MUR #Former Z11
+owner = MRC #Former Z11
+controller = MRC #Former Z11
+add_core = MRC #Former Z11
 culture = cosmopolitan_french
 religion = catholic
 is_city = yes
@@ -621,8 +621,8 @@ add_local_autonomy = 0
 	remove_core = ZZZ
 }
 1453.1.1 = {
-	owner = MUR #Former Z11
-	controller = MUR #Former Z11
+	owner = MRC #Former Z11
+	controller = MRC #Former Z11
 	culture = cosmopolitan_french
 	religion = catholic
 }

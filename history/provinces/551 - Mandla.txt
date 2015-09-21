@@ -2,7 +2,7 @@
 owner = KAL #Former Z19
 controller = KAL #Former Z19
 add_core = KAL #Former Z19
-add_core = RAS #Former Z18
+add_core = RSH #Former Z18
 culture = avadhi
 religion = hinduism
 is_city = yes

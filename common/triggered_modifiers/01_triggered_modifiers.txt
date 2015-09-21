@@ -526,18 +526,13 @@ holy_holy_holy_maya = {
 #Expand or die
 expand_or_die = {
 	potential = {
-		any_empty_neighbor_province = {
-			has_discovered = ROOT
+		any_owned_province = {
+			has_empty_adjacent_province = yes
 		}
 	}
 	trigger = {
-		OR = {
-			any_empty_neighbor_province = {
-				is_empty = yes
-			}
-			any_neighbor_province = {
-				is_empty = yes
-			}
+		any_owned_province = {
+			has_empty_adjacent_province = yes
 		}
 	}
 	colonists = 1

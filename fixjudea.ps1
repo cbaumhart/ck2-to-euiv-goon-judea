@@ -416,5 +416,5 @@ function deploymod{
     get-item -path (join-path -path $gitlocation -childpath 'interface')  | foreach { copy-item $_.FullName -destination $modfileslocation -Recurse }
     get-item -path (join-path -path $gitlocation -childpath 'localisation')  | foreach { copy-item $_.FullName -destination $modfileslocation -Recurse }
     get-item -path (join-path -path $gitlocation -childpath 'map')  | foreach { copy-item $_.FullName -destination $modfileslocation -Recurse }
-
+    write-host ("Deploy completed at "+ (Get-Date))
 }
