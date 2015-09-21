@@ -1,7 +1,8 @@
 #FIXES
 To Do list:
 	Test Cases:
-
+		Check traditions in each nation, report those in wrong groups (including tag)	
+			
 
 Fixes to be done
 
@@ -65,39 +66,37 @@ Fixes to be done
 		#x50	animism_rebels		48	
 		
 	Fix traditions of 
-		Maya
-		Choctaw, 
-		Navajo, 
-		Shoshone, 
-		Haida, 
-		Salish, 
-		Chinook, 
-		Blackfoot, 
-		Comanche, 
-		Kiowa, 
-		Assinboine, 
-		Cheyenne, 
-		Sioux, 
-		Pawnee, 
-		Osage, 
-		Miami, 
-		Fox, 
-		Ojibwe, 
-		Cree, 
-		Ottowa, 
-		Patowatomi, 
-		Suxquehhaneck, 
-		Pequot, 
-		Abenaki, 
-		Mikmaq, 
-		Tlapanec, 
-		Tuipiniquim, 
-		Potiguara, 
-		Tupinamba, 
-		Arawak, 
+		#Maya
+		#Choctaw, 
+		#Navajo, 
+		#Shoshone, 
+		#Haida, 
+		#Salish, 
+		#Chinook, 
+		#Blackfoot, 
+		#Comanche, 
+		#Kiowa, 
+		#Assinboine, 
+		#Cheyenne, 
+		#Sioux, 
+		#Pawnee, 
+		#Osage, 
+		#Miami, 
+		#Fox, 
+		#Ojibwe, 
+		#Cree, 
+		#Ottowa, 
+		#Patowatomi, 
+		#Suxquehhaneck, 
+		#Pequot, 
+		#Abenaki, 
+		#Mikmaq, 
+		#Tlapanec, 
+		#Tuipiniquim, 
+		#Potiguara, 
+		#Tupinamba, 
+		#Arawak, 
 		Mzab, 
-		Ajuuraan, 
-		Kaffa, 
 		Gujarat, 
 		Rashtrakutas, 
 		Kaivartas, 

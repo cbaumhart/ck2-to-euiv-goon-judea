@@ -532,6 +532,7 @@ expand_or_die = {
 	}
 	trigger = {
 		any_owned_province = {
+			is_subject = no
 			has_empty_adjacent_province = yes
 		}
 	}

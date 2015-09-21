@@ -1,0 +1,138 @@
+# Order here is the priority for taking them, if trigger is true.
+	JAP = {
+		always = yes
+	}
+
+	MNG = {
+		always = yes
+	}
+
+	LYD = {
+		always = yes
+	}
+
+	POL = {
+		always = yes
+	}
+
+	INC = {
+		always = yes
+	}
+
+	AZT = {
+		always = yes
+	}
+
+	MAL = {
+		always = yes
+	}
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CAS = {
+	NOT = { 
+		exists = SPA 
+		is_year = 1700
+	}
+}
+
+SPA = {
+	NOT = { 
+		exists = CAS
+		is_year = 1700
+	}
+}
+
+TUR = {
+	NOT = { 
+		is_year = 1700
+	}
+}
+
+RUS = {
+	always = yes
+}
+
+MOS = {
+	NOT = { 
+		exists = RUS
+	}
+}
+
+GBR = {
+	always = yes
+}
+
+ENG = {
+	NOT = { 
+		exists = GBR
+	}
+}
+
+FRA = {
+	always = yes
+}
+
+HAB = {
+	always = yes
+}
+
+PRU = {
+	is_year = 1700
+}
+
+NED = {
+	always = yes
+}
+
+POR = {
+	NOT = { 
+		is_year = 1700
+	}
+}
+POL = {
+	NOT = {
+		exists = PLC
+	}
+}
+
+BRA = {
+	always = yes
+}
+SWE = {
+	NOT = { 
+		is_year = 1700
+	}
+}
+
+PLC = {
+	NOT = { 
+		is_year = 1700
+	}
+}
