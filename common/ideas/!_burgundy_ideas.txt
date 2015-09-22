@@ -1,0 +1,37 @@
+BUR_Ideas = {
+	start = {
+		merc_maintenance_modifier = -0.25
+		diplomatic_upkeep = 1
+	}
+	
+	bonus = {
+		trade_steering = 0.10
+	}
+	
+	trigger = {
+		tag = BUR
+	}
+	free = yes
+	
+	golden_fleece = {
+		prestige = 1
+	}
+	compagnies_ordonnance = {
+		mercenary_cost = -0.20
+	}
+	bur_estates_general = {
+		possible_mercenaries = 1.0
+	}
+	reform_of_feudal_army = {
+		discipline = 0.05
+	}
+	integrated_towns = {
+		trade_efficiency = 0.10
+	}
+	freedom_of_worship = {
+		tolerance_heretic = 2
+	}
+	bur_regimental_system = {
+		global_manpower_modifier = 0.25
+	}
+}

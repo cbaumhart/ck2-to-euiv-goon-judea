@@ -1,0 +1,38 @@
+lyddid_ideas = {
+	start = {
+		land_attrition = -0.10
+		manpower_recover_speed = 0.20
+	}
+	bonus = {
+		tolerance_heathen = 2
+	}
+	trigger = {
+		tag = LYD
+	}
+	free = yes
+	keeper_of_the_desert_oases = { #1
+		trade_steering = 0.20
+	}
+	stand_against_the_infidel_sons_of_abraham = { #2
+		land_morale = 0.15
+	}
+	last_bastion_of_islam = { #3
+		fort_maintenance_modifier = -0.20
+		defensiveness = 0.25		
+	}
+	trusted_and_beloved = { #4
+		diplomatic_reputation = 2
+	}
+	empire_of_sand = { #5
+		global_tax_modifier = 0.25
+	}
+	unafraid_2 = { #6
+		tolerance_own = 2
+		stability_cost_modifier = -0.20
+	}
+	first_in_discovery = {#7
+		idea_cost = =-0.15
+	}
+}
+
+

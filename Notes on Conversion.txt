@@ -2,7 +2,17 @@
 To Do list:
 	Test Cases:
 		Check traditions in each nation, report those in wrong groups (including tag)	
-			
+			Europe: 
+			Fix	Ireland IRE - Scottish! traditions
+			Fix	The Knights KNI - French Traditions
+			Fix	Germany GER - Mesoamerican Traditions
+			Fix	Upper Loraine ULO - Mesoamerican Traditions
+			Fix	Burgundy BUR - French Traditions
+			Africa:
+			#Create	Lyddid LYD - National Traditions
+			Asia:
+			Create	Rashtrakutas RSH - National Traditions
+				
 
 Fixes to be done
 
@@ -64,68 +74,6 @@ Fixes to be done
 		#x48	buddhism_rebels		43
 		#x49	anti_tax_rebels		46
 		#x50	animism_rebels		48	
-		
-	Fix traditions of 
-		#Maya
-		#Choctaw, 
-		#Navajo, 
-		#Shoshone, 
-		#Haida, 
-		#Salish, 
-		#Chinook, 
-		#Blackfoot, 
-		#Comanche, 
-		#Kiowa, 
-		#Assinboine, 
-		#Cheyenne, 
-		#Sioux, 
-		#Pawnee, 
-		#Osage, 
-		#Miami, 
-		#Fox, 
-		#Ojibwe, 
-		#Cree, 
-		#Ottowa, 
-		#Patowatomi, 
-		#Suxquehhaneck, 
-		#Pequot, 
-		#Abenaki, 
-		#Mikmaq, 
-		#Tlapanec, 
-		#Tuipiniquim, 
-		#Potiguara, 
-		#Tupinamba, 
-		#Arawak, 
-		Mzab, 
-		Gujarat, 
-		Rashtrakutas, 
-		Kaivartas, 
-		Bihar, 
-		Kalinga Gangas
-		Nadia
-		Tripuna
-		Garhwal, 
-		Buryatia, 
-		Chavcheveny, 
-		Khodynt, 
-		Chukchi, 
-		Kamchadals, 
-		Ainu, 
-		Ireland, 
-		Gwynedd, 
-		Dehebeurth, 
-		Lithuania, 
-		Karelia, 
-		Kola, 
-		Germany, 
-		Anjou, 
-		Burgundy (kingdom), 
-		upper Lorraine, 
-		Portucale, 
-		Galacia, 
-		Cordoba, 
-		Murcia, 
-		Granada, 
 	
 From the logs: 
 
