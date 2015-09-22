@@ -15,7 +15,6 @@ german_ideas = {
 		}
 	}
 	free = yes        #will be added at load.
-	
 	zunft = {
 		production_efficiency = 0.10
 	}

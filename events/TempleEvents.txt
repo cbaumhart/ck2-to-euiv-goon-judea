@@ -11,6 +11,18 @@ province_event = {
 	}
 	mean_time_to_happen = {
 		months = 300
+		modifier = {
+			factor = 0.0
+			has_great_project = kiel_canal			
+		}
+		modifier = {
+			factor = 0.0
+			has_great_project = suez_canal 
+		}
+		modifier = {
+			factor = 0.0
+			has_great_project = panama_canal 
+		}
 	}
 	option = { #Send in more men, and apologize for any bodies we step over.
 		name = "temple_events.1.a"

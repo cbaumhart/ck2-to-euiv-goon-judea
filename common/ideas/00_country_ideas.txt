@@ -775,6 +775,7 @@ SCO_Ideas = {
 	
 	trigger = {
 		tag = SCO
+		NOT = { tag = IRE }
 	}
 	free = yes
 	

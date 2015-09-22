@@ -953,6 +953,7 @@ mesoamerican_ideas = {
 			culture_group = otomanguean
 			culture_group = central_american
 		}
+		NOT = { tag = GER }
 	}
 	
 	free = yes		#will be added at load.

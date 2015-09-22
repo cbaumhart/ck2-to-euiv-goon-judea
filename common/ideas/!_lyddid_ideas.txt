@@ -1,7 +1,7 @@
 lyddid_ideas = {
 	start = {
 		land_attrition = -0.10
-		manpower_recover_speed = 0.20
+		manpower_recovery_speed = 0.20
 	}
 	bonus = {
 		tolerance_heathen = 2
@@ -31,7 +31,7 @@ lyddid_ideas = {
 		stability_cost_modifier = -0.20
 	}
 	first_in_discovery = {#7
-		idea_cost = =-0.15
+		idea_cost = -0.15
 	}
 }
 

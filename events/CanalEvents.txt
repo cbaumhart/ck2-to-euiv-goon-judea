@@ -19,7 +19,7 @@ province_event = {
 		months = 300
 		modifier = {
 			factor = 0.0
-			has_great_project = 
+			has_great_project = fourth_temple 
 		}
 		modifier = {
 			factor = 3
@@ -59,6 +59,10 @@ province_event = {
 	mean_time_to_happen = {
 		months = 300
 		modifier = {
+			factor = 0.0
+			has_great_project = fourth_temple 
+		}
+		modifier = {
 			factor = 3
 			has_great_project = kiel_canal
 		}
@@ -95,6 +99,10 @@ province_event = {
 	
 	mean_time_to_happen = {
 		months = 300
+		modifier = {
+			factor = 0.0
+			has_great_project = fourth_temple 
+		}
 		modifier = {
 			factor = 3
 			has_great_project = kiel_canal
@@ -133,6 +141,10 @@ province_event = {
 	mean_time_to_happen = {
 		months = 300
 		modifier = {
+			factor = 0.0
+			has_great_project = fourth_temple 
+		}
+		modifier = {
 			factor = 3
 			has_great_project = kiel_canal
 		}
@@ -169,6 +181,10 @@ province_event = {
 	
 	mean_time_to_happen = {
 		months = 300
+		modifier = {
+			factor = 0.0
+			has_great_project = fourth_temple 
+		}
 		modifier = {
 			factor = 3
 			has_great_project = kiel_canal
@@ -207,6 +223,10 @@ province_event = {
 	mean_time_to_happen = {
 		months = 300
 		modifier = {
+			factor = 0.0
+			has_great_project = fourth_temple 
+		}
+		modifier = {
 			factor = 3
 			has_great_project = kiel_canal
 		}
@@ -243,6 +263,10 @@ province_event = {
 	
 	mean_time_to_happen = {
 		months = 300
+		modifier = {
+			factor = 0.0
+			has_great_project = fourth_temple 
+		}
 		modifier = {
 			factor = 3
 			has_great_project = kiel_canal
@@ -283,6 +307,10 @@ province_event = {
 	
 	mean_time_to_happen = {
 		months = 300
+		modifier = {
+			factor = 0.0
+			has_great_project = fourth_temple 
+		}
 		modifier = {
 			factor = 3
 			has_great_project = kiel_canal
@@ -327,6 +355,10 @@ province_event = {
 	
 	mean_time_to_happen = {
 		months = 300
+		modifier = {
+			factor = 0.0
+			has_great_project = fourth_temple 
+		}
 		modifier = {
 			factor = 3
 			has_great_project = kiel_canal
@@ -385,6 +417,10 @@ province_event = {
 	mean_time_to_happen = {
 		months = 300
 		modifier = {
+			factor = 0.0
+			has_great_project = fourth_temple 
+		}
+		modifier = {
 			factor = 3
 			has_great_project = kiel_canal
 		}
@@ -427,6 +463,10 @@ province_event = {
 	mean_time_to_happen = {
 		months = 300
 		modifier = {
+			factor = 0.0
+			has_great_project = fourth_temple 
+		}
+		modifier = {
 			factor = 3
 			has_great_project = kiel_canal
 		}
@@ -461,6 +501,10 @@ province_event = {
 	mean_time_to_happen = {
 		months = 300
 		modifier = {
+			factor = 0.0
+			has_great_project = fourth_temple 
+		}
+		modifier = {
 			factor = 3
 			has_great_project = kiel_canal
 		}
@@ -489,6 +533,10 @@ province_event = {
 	
 	mean_time_to_happen = {
 		months = 300
+		modifier = {
+			factor = 0.0
+			has_great_project = fourth_temple 
+		}
 		modifier = {
 			factor = 3
 			has_great_project = kiel_canal
@@ -530,6 +578,10 @@ province_event = {
 	
 	mean_time_to_happen = {
 		months = 300
+		modifier = {
+			factor = 0.0
+			has_great_project = fourth_temple 
+		}
 		modifier = {
 			factor = 3
 			has_great_project = kiel_canal
@@ -575,6 +627,10 @@ province_event = {
 	mean_time_to_happen = {
 		months = 300
 		modifier = {
+			factor = 0.0
+			has_great_project = fourth_temple 
+		}
+		modifier = {
 			factor = 3
 			has_great_project = kiel_canal
 		}
@@ -612,6 +668,10 @@ province_event = {
 	
 	mean_time_to_happen = {
 		months = 300
+		modifier = {
+			factor = 0.0
+			has_great_project = fourth_temple 
+		}
 		modifier = {
 			factor = 3
 			has_great_project = kiel_canal
@@ -653,6 +713,10 @@ province_event = {
 	
 	mean_time_to_happen = {
 		months = 300
+		modifier = {
+			factor = 0.0
+			has_great_project = fourth_temple 
+		}
 		modifier = {
 			factor = 3
 			has_great_project = kiel_canal
@@ -696,6 +760,10 @@ province_event = {
 	
 	mean_time_to_happen = {
 		months = 300
+		modifier = {
+			factor = 0.0
+			has_great_project = fourth_temple 
+		}
 		modifier = {
 			factor = 3
 			has_great_project = kiel_canal

@@ -4,14 +4,7 @@ To Do list:
 		Check traditions in each nation, report those in wrong groups (including tag)	
 			Europe: 
 			Fix	Ireland IRE - Scottish! traditions
-			Fix	The Knights KNI - French Traditions
 			Fix	Germany GER - Mesoamerican Traditions
-			Fix	Upper Loraine ULO - Mesoamerican Traditions
-			Fix	Burgundy BUR - French Traditions
-			Africa:
-			#Create	Lyddid LYD - National Traditions
-			Asia:
-			Create	Rashtrakutas RSH - National Traditions
 				
 
 Fixes to be done
