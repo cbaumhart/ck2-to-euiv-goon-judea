@@ -357,20 +357,28 @@ country_event = {
 		}
 		NOT = { religion = catholic }
 	}
-	opinion = {
-		ai_chance = 100
-		name = "judean_events.10.a"
+	option = {
+		name = "judean_events.10.a"		
 		change_religion = catholic
-		hidden_effect = { 
-			every_core_province = { 
-				limit = {
-					religion = nahuatl
-				}
-				random = {
-					chance = 80
-					change_religion = catholic
-					}
+		random_core_province = { change_religion = catholic }
+		random_core_province = { change_religion = catholic }
+		random_core_province = { change_religion = catholic }
+		random_core_province = { change_religion = catholic }
+		random_core_province = { change_religion = catholic }
+		random_core_province = { change_religion = catholic }
+		random_core_province = { change_religion = catholic }
+		random_core_province = { change_religion = catholic }
+		random_core_province = { change_religion = catholic }
+		random_core_province = { change_religion = catholic }
+		every_subject_country = {
+			limit = { 
+				religion = nahuatl
 			}
+			change_religion = catholic
+			random_core_province = { change_religion = catholic }
+			random_core_province = { change_religion = catholic }
+			random_core_province = { change_religion = catholic }
 		}
+		
 	}
 }

@@ -1,72 +1,16 @@
 #FIXES
 To Do list:
 	Test Cases:
-		Check traditions in each nation, report those in wrong groups (including tag)	
-			Europe: 
-			Fix	Ireland IRE - Scottish! traditions
-			Fix	Germany GER - Mesoamerican Traditions
+		Aztec - check if event 10 works
 				
 
 Fixes to be done
 
 	Judea
 		
-		
 	Events:
 	
 	Fix rebel flags!!!! #Last resort, spawn each rebel in game and note which flag is used.  Then switch flag files around so the correct picture shows up even if it's the wrong name.  At least the wrong flags have been consistent session to session
-		
-		#x1	zoroastrian_rebels		1
-		#x2	zikri_rebels		50  
-		#x3	yazidi_rebels		2
-		#x4	waldensian_rebels		3
-		#x5	vajrayana_rebels		5
-		#x6	tengri_pagan_reformed_rebels		49
-		#x7	sunni_rebels		6	
-		#x8	sikh_rebels			7
-		9	shinto_rebels		? (No number)
-		#x10	shiite_rebels		9
-		99	shamanism_zealots	
-		11	ronin_rebels		#
-		#x12	revolutionary_rebels	11	
-		13	religious_rebels		# (Whatever is religion in province)
-		#x14	reformed_rebels		12
-		#15	reactionary_rebels		14
-		#x16	protestant_rebels		15
-		#x17	pretender_rebels		16
-		#x18	polish_noble_rebels		17
-		19	patriot_rebels		# May be deprecated
-		#x20	particularist_rebels	18	
-		#x21	orthodox_rebels		20
-		22	norse_rebels		(Can't force religion in province to such)
-		#x23	norse_pagan_reformed_rebels				21
-		#x24	noble_rebels		23
-		#x25	nestorian_rebels		4
-		#x26	nationalist_rebels		24
-		#x27	nahuatl_rebels		26
-		#x28	monophysite_rebels		25
-		#x29	messalian_rebels		28
-		#x30	maya_rebels			27
-		#x31	mahayana_rebels		30
-		32	lollard_rebels		(37)
-		#x33	jewish_rebels		29
-		#x34	jain_rebels			34
-		#x35	inti_rebels			33
-		36	ikko_ikki_rebels		33 (Show up with inti flag)
-		#x37	ibadi_rebels		35
-		#x38	hinduism_rebels		36
-		#39	heretic_rebels		37
-		#x40	fraticelli_rebels		40
-		#x41	druze_rebels		41
-		#x42	coptic_rebels		38
-		#x43	confucianism_rebels		39
-		44	colonial_rebels		#
-		45	colonial_patriot_rebels		#
-		#x46	catholic_rebels		42
-		#x47	cathar_rebels		47
-		#x48	buddhism_rebels		43
-		#x49	anti_tax_rebels		46
-		#x50	animism_rebels		48	
 	
 From the logs: 
 
@@ -102,7 +46,7 @@ The Laws
 	#NA = Not applicable, no ingame effect 
 	#MOD = put something into place in the mod to "enforce"/suggest compliance with law, but don't make too harsh to prevent railroading - change later to type of effect used, and comment out rest of line
 	#DECISION = created as Decision
-	#EVENT = created as Event or modified in way to use existing event system
+	#EVENT = created as Event or modqwified in way to use existing event system
 	NA #The Flow of Time - No savescumming (as is)
 	NA #Story Telling - Interesting story over optimised play
 	MOD Honoring your ancestors - rename something - Can do with province_names/Judea.txt
@@ -124,3 +68,5 @@ The Laws
 	MOD Fuck Europe - all threats come from not europe, wars of expansion directed to Asia and Africa - if not crusade target, look at something like unlawful terretory from HRE?
 	IDEA #Wider and wider still - Realm yo bequeath must be larger than realm you inherit - triggered modifier on unowned cores?
 	EVENT Know the battlefield - future leaders must be generals#Create event that will set ruler as general.  Event with negative tradition makes female ruler?
+	5 Is right in - To prevent power becoming too centralised, there must be EXACTLY five Vassals under the Empire's benevelont rulership. Rulers may have a different number for at most ONE year or resign in shame and disgrace.
+	Suffer not their ways! - All cultures save Khazar, Askhenazi, Greek and Alan must be assimilated before diplomacy points can be spent on anything except treaties, even in emergencies. Rulers must always choose to receive diplomacy points from events if there is anyone left to assimilate. Of course, any non-Jews must also be immediately converted to Judaism to bring more fuel in for the fire. If knowing how to mod, the ruler most also make the primary culture of Judea/the nation he is playing Khazar, Alan or Ashkenazi. 
