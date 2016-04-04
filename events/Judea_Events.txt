@@ -339,3 +339,38 @@ country_event = {
 		
 	}
 }
+
+#Event to switch Aztecs to Catholic like they did in CK2 (that I missed)
+country_event = {
+	id = "judean_events.10"
+	title = "judean_events.Title10"
+	desc = "judean_events.Desc10"
+	picture = ST_PETERS_CHURCH_eventPicture
+	fire_only_once = yes
+	is_triggered_only = no
+	mean_time_to_happen = { 
+		months = 1 
+	}
+	trigger = {
+		OR = {
+			TAG = AZT
+		}
+		NOT = { religion = catholic }
+	}
+	opinion = {
+		ai_chance = 100
+		name = "judean_events.10.a"
+		change_religion = catholic
+		hidden_effect = { 
+			every_core_province = { 
+				limit = {
+					religion = nahuatl
+				}
+				random = {
+					chance = 80
+					change_religion = catholic
+					}
+			}
+		}
+	}
+}
