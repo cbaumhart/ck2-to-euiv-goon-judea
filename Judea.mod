@@ -3,7 +3,7 @@ path = "mod/Judea"
 user_dir = "Judea"
 disable_time_widget = yes
 disallow_random_new_world = yes
-supported_version = "1.13"
+supported_version = "1.14"
 tags = {
 	"Alternate History"
 	"Events"

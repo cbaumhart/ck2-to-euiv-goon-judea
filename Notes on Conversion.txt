@@ -1,7 +1,7 @@
 #FIXES
 To Do list:
 	Test Cases:
-		Aztec - check if event 10 works
+	
 				
 
 Fixes to be done
@@ -9,8 +9,6 @@ Fixes to be done
 	Judea
 		
 	Events:
-	
-	Fix rebel flags!!!! #Last resort, spawn each rebel in game and note which flag is used.  Then switch flag files around so the correct picture shows up even if it's the wrong name.  At least the wrong flags have been consistent session to session
 	
 From the logs: 
 
